@@ -31,7 +31,7 @@ describe('the cards of the app', () => {
 
 describe('the words of a card', () => {
   it('are read with the steps in the order of their numbers', () => {
-    expect(cardText(words({ '2': 'B', '1': 'A' }), 'sample-card')).toEqual({ title: 'T', steps: ['A', 'B'], works: 'W', reliability: 'R', mistakes: 'M' });
+    expect(cardText(words({ '2': 'B', '1': 'A' }), 'sample-card')).toEqual({ title: 'T', steps: [{ text: 'A', items: [] }, { text: 'B', items: [] }], works: 'W', reliability: 'R', mistakes: 'M' });
   });
 
   it('are refused without "when it works", "how reliable" or "where people go wrong"', () => {
@@ -40,6 +40,13 @@ describe('the words of a card', () => {
       delete (dictionary.cards['sample-card'] as Record<string, unknown>)[part];
       expect(typeof cardText(dictionary, 'sample-card'), part).toBe('string');
     }
+  });
+
+  it('read the points under a step in the order of their numbers', () => {
+    const dictionary = words({ '1': { text: 'Call', items: { '2': 'b', '1': 'a' } } } as unknown as Record<string, string>);
+    expect((cardText(dictionary, 'sample-card') as { steps: unknown }).steps).toEqual([{ text: 'Call', items: ['a', 'b'] }]);
+    expect(cardText(words({ '1': { text: 'Call', items: {} } } as unknown as Record<string, string>), 'sample-card')).toMatch(/no points/);
+    expect(cardText(words({ '1': { text: 'Call', items: { '2': 'b' } } } as unknown as Record<string, string>), 'sample-card')).toMatch(/point 1/);
   });
 
   it('are refused with no steps, a gap in the steps, an empty step or a part nobody knows', () => {
@@ -63,6 +70,12 @@ describe('the check of cards', () => {
     expect(cardProblems([{ ...card, source: 'none' }], sources, { en: words({ '1': 'A' }) }).join()).toMatch(/unknown source/);
     expect(cardProblems([card], sources, { en: words({ '1': 'A' }), hu: {} }).join()).toMatch(/\(hu\): no texts/);
     expect(cardProblems([card], sources, { en: words({ '1': 'A' }), uk: words({ '1': 'A', '2': 'B' }) }).join()).toMatch(/different numbers of steps/);
+    const pointed = (n: number) => words({ '1': { text: 'A', items: Object.fromEntries(Array.from({ length: n }, (_, i) => [String(i + 1), 'x'])) } } as unknown as Record<string, string>);
+    expect(cardProblems([card], sources, { en: pointed(2), uk: pointed(3) }).join()).toMatch(/steps or points/);
+  });
+
+  it('finds a note nobody knows', () => {
+    expect(cardProblems([{ ...card, notes: ['other'] } as unknown as Card], sources, { en: words({ '1': 'A' }) }).join()).toMatch(/unknown note other/);
   });
 
   it('finds texts of a card that does not exist', () => {
@@ -78,6 +91,11 @@ describe('the notes over a card', () => {
   it('a card in another language than its source says it is a translation', () => {
     expect(cardNotices({ ...card, section: 'firstAid', source: 'sample-uk' }, source('uk'), 'hu')).toEqual(['notDoctor', 'emergency', 'translation']);
     expect(cardNotices(card, source('en'), 'en')).toEqual([]);
+  });
+
+  it('calling for help: the emergency numbers, and the card\'s own notes last', () => {
+    expect(cardNotices({ ...card, section: 'help', notes: ['usNumber'] }, source('en'), 'en')).toEqual(['emergency', 'usNumber']);
+    expect(cardNotices({ ...card, section: 'help', notes: ['usNumber'] }, source('en'), 'uk')).toEqual(['emergency', 'translation', 'usNumber']);
   });
 
   it('a card after a U.S. Army manual says so, in every language', () => {

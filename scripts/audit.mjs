@@ -191,6 +191,7 @@ try {
         if (shotsAt && scheme === 'light' && screen.name === 'phone-390') await page.screenshot({ path: join(shotsAt, `${screen.name}-${lang}-menu.png`) });
         await windowCross(page, `${where}, menu`);
 
+        const sectionNames = Object.fromEntries(await page.locator('.section[data-section]').evaluateAll((all) => all.map((el) => [el.getAttribute('data-section'), el.textContent])));
         const sections = page.locator('.section[data-section]');
         const count = await sections.count();
         for (let i = 0; i < count; i++) {
@@ -211,6 +212,8 @@ try {
             const card = page.locator('dialog[open]').last();
             if ((await card.locator('.steps li').count()) < 1) note(at, 'no steps');
             if ((await card.locator('.source a').count()) < 2) note(at, 'no source or licence');
+            const section = await page.evaluate(() => document.querySelector('dialog[open]')?.querySelector('h2')?.textContent ?? '');
+            if (['help', 'firstAid'].some((s) => section === sectionNames[s]) && !(await card.locator('.sos .call').count())) note(at, 'no emergency numbers over the card');
             if (id === 'sample-first-aid') {
               if (!(await card.locator('.note--strong').count())) note(at, 'no "not a substitute for a doctor"');
               if (!(await card.locator('.sos .call').count())) note(at, 'no emergency numbers over a first-aid card');
@@ -228,7 +231,7 @@ try {
     }
   }
 
-  // The app's own build: no sample card, every section says it is being prepared.
+  // The app's own build: no sample card anywhere.
   {
     const where = 'own build';
     const context = await browser.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: 'block' });
@@ -237,7 +240,7 @@ try {
     await page.waitForSelector('.section');
     for (let i = 0; i < (await page.locator('.section[data-section]').count()); i++) {
       await page.locator('.section[data-section]').nth(i).click();
-      if (await page.locator('dialog[open] [data-card]').count()) note(where, `section ${i + 1} has cards`);
+      if (await page.locator('dialog[open] [data-card^="sample-"]').count()) note(where, `section ${i + 1} shows the sample card`);
       await page.keyboard.press('Escape');
     }
     if ((await page.content()).includes('SAMPLE-ONLY')) note(where, 'the sample got into the build');

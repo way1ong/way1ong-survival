@@ -4,7 +4,7 @@ import { cardNotices, cardText, EXTRA_WORDS, type Card, type CardText } from '..
 import { sourceById } from '../core/sources.ts';
 import { dialogCross } from './dialog-cross.ts';
 import { h } from './dom.ts';
-import { dict, fmt, langName, type Dict } from './i18n.ts';
+import { dict, fmt, type Dict } from './i18n.ts';
 import { dateOf } from './names.ts';
 
 const link = (url: string, text: string) => h('a', { href: url, rel: 'noopener' }, text);
@@ -33,11 +33,16 @@ export function createCardDialog(): {
       const notes = h('div', { class: 'notes' });
       for (const notice of cardNotices(card, source, lang)) {
         if (notice === 'emergency') notes.append(emergency());
-        else if (notice === 'translation') notes.append(h('p', { class: 'note' }, fmt(d.notices.translation, { language: langName(source.lang) })));
+        // The language of the source by its name in the app's language: "англійська", "angol", "English".
+        else if (notice === 'translation') notes.append(h('p', { class: 'note' }, fmt(d.notices.translation, { language: new Intl.DisplayNames([lang], { type: 'language' }).of(source.lang) ?? source.lang })));
         else notes.append(h('p', { class: notice === 'notDoctor' ? 'note note--strong' : 'note' }, d.notices[notice]));
       }
       const steps = h('ol', { class: 'steps' });
-      for (const step of words.steps) steps.append(h('li', {}, step));
+      for (const step of words.steps) {
+        const points = step.items.length ? h('ul', { class: 'points' }) : null;
+        for (const item of step.items) points?.append(h('li', {}, item));
+        steps.append(h('li', {}, step.text, points));
+      }
       const part = (title: string, text: string) => [h('h3', {}, title), h('p', {}, text)];
       const close = h('button', { class: 'btn', type: 'button' }, d.actions.close);
       close.addEventListener('click', () => el.close());

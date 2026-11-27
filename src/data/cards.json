@@ -1,3 +1,30 @@
 {
-  "cards": []
+  "cards": [
+    {
+      "id": "eu-112",
+      "section": "help",
+      "source": "ec-112"
+    },
+    {
+      "id": "lost",
+      "section": "help",
+      "source": "nps-emergency-plan-pdf",
+      "notes": [
+        "usNumber"
+      ]
+    },
+    {
+      "id": "signals",
+      "section": "help",
+      "source": "nps-emergency-plan-pdf"
+    },
+    {
+      "id": "group-member-lost",
+      "section": "help",
+      "source": "nps-emergency-plan",
+      "notes": [
+        "usNumber"
+      ]
+    }
+  ]
 }

@@ -59,6 +59,40 @@
       "series": null
     },
     {
+      "id": "nps-emergency-plan-pdf",
+      "title": "NPS Outdoor Emergency Plan",
+      "publisher": "National Park Service, U.S. Department of the Interior",
+      "url": "https://www.nps.gov/subjects/healthandsafety/upload/NPS-Outdoor-Emergency-Plan-508c.pdf",
+      "lang": "en",
+      "version": "PDF of 21 June 2023 (the date of the file; the PDF prints none)",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "us-government-work",
+        "url": "https://www.nps.gov/aboutus/disclaimer.htm",
+        "quote": "Thus, material created by the National Park Service and presented on this website, unless otherwise indicated, is generally considered in the public domain. It may be distributed or copied as permitted by applicable law."
+      },
+      "attribution": "No claim to original U.S. Government works.",
+      "note": null,
+      "series": null
+    },
+    {
+      "id": "nps-emergency-plan",
+      "title": "Outdoor Emergency Plan",
+      "publisher": "National Park Service, U.S. Department of the Interior",
+      "url": "https://www.nps.gov/articles/gtgemergencyplan.htm",
+      "lang": "en",
+      "version": "Last updated: June 21, 2023",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "us-government-work",
+        "url": "https://www.nps.gov/aboutus/disclaimer.htm",
+        "quote": "Thus, material created by the National Park Service and presented on this website, unless otherwise indicated, is generally considered in the public domain. It may be distributed or copied as permitted by applicable law."
+      },
+      "attribution": "No claim to original U.S. Government works.",
+      "note": null,
+      "series": null
+    },
+    {
       "id": "govuk-albania",
       "title": "Getting help - Albania travel advice",
       "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",

@@ -57,7 +57,8 @@
   "notices": {
     "notDoctor": "This is not a substitute for a doctor.",
     "translation": "Translation. Original language: {language}.",
-    "usArmy": "Based on a U.S. Army manual."
+    "usArmy": "Based on a U.S. Army manual.",
+    "usNumber": "The source gives the U.S. emergency number (911); here the numbers of your country stand in its place."
   },
   "emergency": {
     "title": "Emergency help",
@@ -92,5 +93,79 @@
     "us-government-work": "a work of the U.S. Government — not protected by copyright in the U.S.",
     "ogl-3.0": "Open Government Licence v3.0",
     "cc-by-4.0": "CC BY 4.0"
+  },
+  "cards": {
+    "eu-112": {
+      "title": "112 — the European emergency number",
+      "steps": {
+        "1": "You can call 112 from fixed and mobile phones to contact any emergency service: an ambulance, the fire brigade or the police.",
+        "2": "A specially trained operator will answer. The operator will either deal with the request directly or transfer the call to the most appropriate emergency service.",
+        "3": "Operators in many countries can answer not only in their national language, but also in English or French.",
+        "4": "If you do not know where you are, the operator will identify where you are physically located and pass it to the emergency authorities, so that they can help immediately."
+      },
+      "works": "112 is available everywhere in the EU, free of charge. It is also used in some countries outside the EU, such as Switzerland and South Africa, and according to the European Commission it is available worldwide on GSM mobile networks.",
+      "reliability": "112 works alongside the existing national emergency numbers. Denmark, Estonia, Finland, Malta, the Netherlands, Portugal, Romania and Sweden have opted for 112 as their only national emergency number.",
+      "mistakes": "112 operators respond only to real emergencies: they do not give traffic and weather reports, general information or answers to queries. Hoax calls to 112 waste the operators’ time and money, can be dangerous and are a criminal offence in most countries."
+    },
+    "lost": {
+      "title": "If you get lost",
+      "steps": {
+        "1": "Stop and breathe: take a moment to calmly assess your situation.",
+        "2": "Find your location: use your map, compass, handheld GPS or visible landmarks.",
+        "3": "Retrace your steps: if it is safe to do so, go back the way you came to get back on your planned route.",
+        "4": {
+          "text": "If you cannot retrace your steps, call the emergency number and tell them:",
+          "items": {
+            "1": "the GPS coordinates from your phone, if available;",
+            "2": "the name of the trail or area where you started;",
+            "3": "your last known location before you became lost;",
+            "4": "what you see around you, including visible landmarks;",
+            "5": "the types and colours of the clothes you are wearing;",
+            "6": "the equipment you are carrying;",
+            "7": "any medical conditions you have."
+          }
+        },
+        "5": "Stay put: if you change location, it will be difficult for rescuers to find you.",
+        "6": "If you have no phone or no reception: find a place that protects you from sun, rain or snow; check and conserve what you have with you; keep warm by putting on any extra clothes you have; signal for help (see “Signals for rescuers”); wait patiently and conserve your energy."
+      },
+      "works": "Retrace your steps only if it is safe to do so. If you have called for help and are waiting for rescue, the later steps help you check your resources and save your energy.",
+      "reliability": "Help can take hours or days, depending on your location, the weather and the resources available.",
+      "mistakes": "Moving on: move only if there is an immediate threat to your life. Do not build a fire if the fire risk is high or it is wildfire season: it could cause a wildfire and put you and others at great risk."
+    },
+    "signals": {
+      "title": "Signals for rescuers",
+      "steps": {
+        "1": "Whistle: blow it three times, take a break, and blow three times again. It saves the energy that yelling would take.",
+        "2": "Flashlight: flash the SOS pattern — three times quickly, three times slowly, three times quickly.",
+        "3": "Mirror: flash it to alert planes and helicopters flying in the area.",
+        "4": "Make yourself visible: lay out the shelter you carry, or use rocks to make a shape that can be seen from aircraft."
+      },
+      "works": "When you cannot call for help because you have no phone or no reception, signals help search and rescue find you. Bright clothes make you easier to see during a search.",
+      "reliability": "A mirror does not run out of battery. A flashlight drains its batteries, so use it wisely.",
+      "mistakes": "Yelling instead of using a whistle: yelling uses up your energy."
+    },
+    "group-member-lost": {
+      "title": "If someone in your group gets lost",
+      "steps": {
+        "1": "Stop the activity and gather the group together.",
+        "2": "Go to the last known place: retrace your steps as a group to where the person was last seen, and wait there for as long as it is safe to do so.",
+        "3": {
+          "text": "If you have phone service, call the emergency number and tell them:",
+          "items": {
+            "1": "the GPS coordinates of the place where the person was last seen, if available;",
+            "2": "the name of the trail or area where you started;",
+            "3": "what is around that place, including visible landmarks;",
+            "4": "the types and colours of the clothes the person is wearing;",
+            "5": "the equipment the person is carrying;",
+            "6": "any medical conditions the person has;",
+            "7": "the meeting place your group agreed on."
+          }
+        },
+        "4": "If you cannot call, turn the group around and go to the nearest ranger station or visitor centre for help."
+      },
+      "works": "Before the trip, the U.S. National Park Service advises a group to agree on a meeting place, take a picture of the group to show what everyone is wearing, and stay together.",
+      "reliability": "Search and rescue can take hours or days, depending on the weather and on the people and means available.",
+      "mistakes": "Going to look for the person off the trail or on your own: other members of the group could get lost too."
+    }
   }
 }

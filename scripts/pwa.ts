@@ -19,6 +19,11 @@ export interface AppInfo {
 
 /** The mark of the sample card's data (src/data/extra-sample.json): it must never reach the app's own build. */
 export const SAMPLE_MARK = 'SAMPLE-ONLY-NOT-FOR-RELEASE';
+/**
+ * The mark the owner's personal guide carries in its own data (decision of 27.11; a closed repository of its own):
+ * it must never reach the public app, whatever else is built.
+ */
+export const PRIVATE_MARK = 'PRIVATE-ONLY-NOT-FOR-PUBLIC';
 
 /** What the worker's storage is called: this prefix and the version. Nothing else on the address may begin so. */
 export const STORE_PREFIX = 'way1ong-survival-';
@@ -74,11 +79,10 @@ export function appPlugin(root: string, app: AppInfo): Plugin {
     writeBundle(options, bundle) {
       const out = options.dir;
       if (!out) throw new Error('No output folder');
-      if (!app.sample) {
-        for (const [file, chunk] of Object.entries(bundle)) {
-          const code = chunk.type === 'chunk' ? chunk.code : String(chunk.source);
-          if (code.includes(SAMPLE_MARK)) throw new Error(`${file}: the sample card got into the app's own build`);
-        }
+      for (const [file, chunk] of Object.entries(bundle)) {
+        const code = chunk.type === 'chunk' ? chunk.code : String(chunk.source);
+        if (!app.sample && code.includes(SAMPLE_MARK)) throw new Error(`${file}: the sample card got into the app's own build`);
+        if (code.includes(PRIVATE_MARK)) throw new Error(`${file}: the personal guide got into the public app`);
       }
       mkdirSync(join(out, 'icons'), { recursive: true });
       const icons = readdirSync(join(root, 'src', 'icons'));

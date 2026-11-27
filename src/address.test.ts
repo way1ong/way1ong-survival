@@ -2,7 +2,7 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { expect, it } from 'vitest';
-import { appManifest, STORE_PREFIX } from '../scripts/pwa.ts';
+import { appManifest, PRIVATE_MARK, SAMPLE_MARK, STORE_PREFIX } from '../scripts/pwa.ts';
 import { SURVIVAL } from './config.ts';
 
 it('lives at the address Cloudflare is told to serve, and nowhere else', () => {
@@ -30,4 +30,12 @@ it('is an app of its own for the browser: started from its folder, with icons, s
 it('keeps the pages unchanged on the way: Cloudflare may add nothing', () => {
   const headers = readFileSync(fileURLToPath(new URL('../public/_headers', import.meta.url)), 'utf8');
   expect(headers).toMatch(/no-transform/);
+});
+
+it('the public data carries neither the sample\'s mark nor the personal guide\'s', () => {
+  for (const file of ['src/data/cards.json', 'src/data/sources.json', 'src/data/extra-none.json', 'src/i18n/en.json', 'src/i18n/hu.json', 'src/i18n/uk.json']) {
+    const text = readFileSync(fileURLToPath(new URL(`../${file}`, import.meta.url)), 'utf8');
+    expect(text.includes(SAMPLE_MARK), file).toBe(false);
+    expect(text.includes(PRIVATE_MARK), file).toBe(false);
+  }
 });

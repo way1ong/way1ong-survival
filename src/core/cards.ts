@@ -12,7 +12,13 @@ export interface Card {
   section: SectionId;
   /** The id of its source (src/data/sources.json). */
   source: string;
+  /** Notes of its own over the card: where its words differ from the source (CARD_NOTES). */
+  notes?: CardNote[];
 }
+
+/** "usNumber": the source gives the U.S. emergency number (911); the card refers to the numbers of the person's country. */
+export const CARD_NOTES = ['usNumber'] as const;
+export type CardNote = (typeof CARD_NOTES)[number];
 
 export const CARDS: readonly Card[] = [...(file.cards as Card[]), ...(extra.cards as Card[])];
 
@@ -26,10 +32,16 @@ export function cardsOf(section: SectionId): Card[] {
   return CARDS.filter((card) => card.section === section);
 }
 
+/** One step of a card: its words, and the points under it, if it has any (what to tell the dispatcher…). */
+export interface CardStep {
+  text: string;
+  items: string[];
+}
+
 /** The words of a card in one language. */
 export interface CardText {
   title: string;
-  steps: string[];
+  steps: CardStep[];
   works: string;
   reliability: string;
   mistakes: string;
@@ -39,21 +51,44 @@ type Tree = { [key: string]: unknown };
 const isTree = (value: unknown): value is Tree => typeof value === 'object' && value !== null && !Array.isArray(value);
 const text = (value: unknown) => (typeof value === 'string' && value.trim() ? value : null);
 
+/** Texts keyed "1", "2", … with no gap, in the order of the numbers; a string — what is wrong. */
+function numbered(tree: Tree, what: string): string[] | string {
+  const list: string[] = [];
+  for (let n = 1; n <= Object.keys(tree).length; n++) {
+    const one = text(tree[String(n)]);
+    if (!one) return `${what} ${n} is missing or empty`;
+    list.push(one);
+  }
+  return list;
+}
+
 /**
  * The words of card `id` in a dictionary, or why they cannot be read. The steps are keyed "1", "2", … with no
- * gap, so their order is the order of the numbers.
+ * gap, so their order is the order of the numbers. A step is a text, or { text, items } where items are keyed
+ * the same way.
  */
 export function cardText(dictionary: unknown, id: string): CardText | string {
   const cards = isTree(dictionary) ? dictionary.cards : undefined;
   const own = isTree(cards) ? cards[id] : undefined;
   if (!isTree(own)) return 'no texts';
   const steps = isTree(own.steps) ? own.steps : {};
-  const keys = Object.keys(steps);
-  const list: string[] = [];
-  for (let n = 1; n <= keys.length; n++) {
-    const step = text(steps[String(n)]);
-    if (!step) return `step ${n} is missing or empty`;
-    list.push(step);
+  const list: CardStep[] = [];
+  for (let n = 1; n <= Object.keys(steps).length; n++) {
+    const step = steps[String(n)];
+    if (isTree(step)) {
+      const words = text(step.text);
+      const items = isTree(step.items) ? numbered(step.items, `step ${n}, point`) : [];
+      if (!words) return `step ${n} is missing or empty`;
+      if (typeof items === 'string') return items;
+      if (!items.length) return `step ${n} has no points`;
+      const extra = Object.keys(step).filter((key) => key !== 'text' && key !== 'items');
+      if (extra.length) return `step ${n}: unknown parts: ${extra.join(', ')}`;
+      list.push({ text: words, items });
+      continue;
+    }
+    const words = text(step);
+    if (!words) return `step ${n} is missing or empty`;
+    list.push({ text: words, items: [] });
   }
   if (!list.length) return 'no steps';
   const title = text(own.title);
@@ -82,13 +117,14 @@ export function cardProblems(cards: readonly Card[], sources: readonly Source[],
     seen.add(card.id);
     if (!isSection(card.section)) out.push(`${at}: unknown section ${card.section}`);
     if (!sources.some((s) => s.id === card.source)) out.push(`${at}: unknown source ${card.source}`);
-    const counts = new Set<number>();
+    for (const note of card.notes ?? []) if (!(CARD_NOTES as readonly string[]).includes(note)) out.push(`${at}: unknown note ${note}`);
+    const shapes = new Set<string>();
     for (const [lang, dictionary] of Object.entries(dictionaries)) {
       const words = cardText(dictionary, card.id);
       if (typeof words === 'string') out.push(`${at} (${lang}): ${words}`);
-      else counts.add(words.steps.length);
+      else shapes.add(words.steps.map((step) => step.items.length).join(','));
     }
-    if (counts.size > 1) out.push(`${at}: the languages have different numbers of steps`);
+    if (shapes.size > 1) out.push(`${at}: the languages have different numbers of steps or points`);
   }
   // Texts of cards that do not exist would never be shown, nor checked.
   for (const [lang, dictionary] of Object.entries(dictionaries)) {
@@ -98,17 +134,19 @@ export function cardProblems(cards: readonly Card[], sources: readonly Source[],
   return out;
 }
 
-export type NoticeKey = 'notDoctor' | 'emergency' | 'translation' | 'usArmy';
+export type NoticeKey = 'notDoctor' | 'emergency' | 'translation' | 'usArmy' | CardNote;
 
 /**
- * The notes a card shows above its words, in this order: first aid — "not a substitute for a doctor" and the
- * emergency numbers of the person's country; a card in another language than its source — "translation"; a
- * source that asks for a note of its own — that note.
+ * The notes a card shows above its words, in this order: first aid — "not a substitute for a doctor"; first aid
+ * and calling for help — the emergency numbers of the person's country; a card in another language than its
+ * source — "translation"; a source that asks for a note of its own — that note; then the card's own notes.
  */
 export function cardNotices(card: Card, source: Source, lang: string): NoticeKey[] {
   const out: NoticeKey[] = [];
-  if (card.section === 'firstAid') out.push('notDoctor', 'emergency');
+  if (card.section === 'firstAid') out.push('notDoctor');
+  if (card.section === 'firstAid' || card.section === 'help') out.push('emergency');
   if (source.lang !== lang) out.push('translation');
   if (source.note === 'usArmy') out.push('usArmy');
+  out.push(...(card.notes ?? []));
   return out;
 }
