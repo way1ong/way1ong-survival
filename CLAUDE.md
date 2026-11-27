@@ -43,11 +43,25 @@
 - Хостинг — Cloudflare Workers зі статичними файлами, адреса `survival.way1ong.eu`; деплой — злиття в `main`, збирає Workers Builds; вручну `wrangler deploy` не запускати. Після злиття дивитись саме збірку `main` у Cloudflare.
 
 ## Структура
-Каркасу ще немає (етап 1). Поки що:
 ```
-docs/SPEC.md          опис програми й першої версії
-docs/DECISIONS.md     рішення з датами
-docs/STATUS.md        етапи й стан
-docs/SOURCES.md       джерела, які використано, з ліцензіями
-docs/research/        розвідка джерел (етап 0): звіт SOURCES.md і збережені сторінки pages-*.tgz
+src/config.ts          налаштування самої програми: назва, адреса, де зберігається мова (порад тут немає)
+src/core/              логіка без DOM: sections.ts (розділи в погодженому порядку); поруч тести
+src/ui/                екран: app.ts (заголовок, повідомлення про нову версію, розділи), menu-dialog.ts (мова, встановлення, «Про програму»), section-dialog.ts (вікно розділу), dialog-cross.ts (хрестик угорі вікна), offline.ts (служ. скрипт і «Оновити»), install.ts, i18n.ts, dom.ts
+src/i18n/              словники uk/hu/en.json; i18n.test.ts їх звіряє
+src/styles/            tokens.css (кольори: світла й темна тема за системою), app.css
+src/icons/             іконки — малює scripts/make-icons.mjs; руками не правити
+scripts/pwa.ts, sw-template.js  збірка: маніфест, іконки й службовий скрипт (встановлення, без інтернету)
+scripts/make-icons.mjs, icon-art.mjs  іконка (намет перед горою) з кольорів tokens.css (Playwright)
+scripts/audit.mjs      збірка в браузері: розкладка, цілі дотику, назви кнопок, хрестик вікон, клавіатура, великий текст, контраст, без інтернету
+scripts/check-update.mjs  відкрита програма каже про нову версію, «Оновити» перемикає, хрестик відкладає
+scripts/check-live.mjs  сторінка на справжній адресі байт у байт як у збірці (після викладки)
+public/_headers        `no-transform`: Cloudflare не змінює наші сторінки дорогою
+wrangler.jsonc         Cloudflare Workers: віддає dist/ (ім'я воркера = ім'я в панелі) — docs/cloudflare.md
+docs/                  опис, рішення, стан, джерела; docs/research/ — розвідка (звіт SOURCES.md і збережені сторінки pages-*.tgz)
 ```
+
+## Команди
+- `npm run dev` — локальний перегляд.
+- `npm run verify` — типи, тести, збірка в `dist/`. Зміни екрана — ще й `npm run audit` (`-- --shots <тека>` — знімки) і `npm run check:update`.
+- `npm run check:live` — після збірки й викладки: сторінка на справжній адресі байт у байт така, як у `dist/`.
+- `node scripts/make-icons.mjs` — намалювати іконки знову (після зміни кольорів).

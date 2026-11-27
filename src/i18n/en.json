@@ -1,0 +1,46 @@
+{
+  "app": {
+    "name": "way1ong Survival",
+    "tagline": "How not to get lost in the forests and mountains of Europe. Every piece of advice comes from an official source, named under the advice."
+  },
+  "actions": {
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "update": {
+    "ready": "A new version of the app is out.",
+    "apply": "Update"
+  },
+  "sections": {
+    "title": "Sections",
+    "help": "Calling for help",
+    "firstAid": "First aid",
+    "dangers": "What is dangerous and what is not",
+    "water": "Water",
+    "fire": "Fire",
+    "shelter": "Shelter",
+    "orientation": "Where am I, which way to go",
+    "tools": "Makeshift tools"
+  },
+  "section": {
+    "soon": "This section is being prepared. The advice will appear here once each piece has been checked against its official source."
+  },
+  "menu": {
+    "title": "Menu",
+    "language": "Language"
+  },
+  "install": {
+    "title": "On your phone or computer",
+    "text": "The program can be installed like an app: it gets its own icon and opens without internet.",
+    "button": "Install the program",
+    "ios": "On iPhone and iPad: tap “Share”, then “Add to Home Screen”. The program gets its own icon and opens without internet."
+  },
+  "about": {
+    "title": "About",
+    "text": "A free program by way1ong: no ads, no tracking, no account. It sends nothing over the network; the chosen language is kept only on this device.",
+    "rule": "Every piece of advice comes only from an official source that allows such use. Under each piece of advice: its source, when the method works, how reliable it is and where people go wrong.",
+    "sources": "Sources",
+    "noSources": "The sources will appear here together with the first advice.",
+    "madeBy": "Made by way1ong"
+  }
+}

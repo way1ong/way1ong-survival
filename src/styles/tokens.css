@@ -1,0 +1,40 @@
+/* Every colour of the screen lives here (C). Light by default, dark when the system is dark: the app is read
+   by day and at night. Text on the accent is --on-accent; contrast is checked by npm run audit. */
+:root {
+  color-scheme: light;
+  --font: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  --bg: #f4f1e8;
+  --surface: #ffffff;
+  --text: #1d2420;
+  --muted: #4a544d;
+  --line: #7d877f;
+  --accent: #2f6b3f;
+  --on-accent: #ffffff;
+  --bar: #2f6b3f;
+  --on-bar: #ffffff;
+  --focus: #b8460b;
+  --backdrop: rgb(0 0 0 / 0.5);
+  --shadow: 0 6px 18px rgb(0 0 0 / 0.25);
+
+  /* Only in the app's icon (scripts/icon-art.mjs). */
+  --sun: #f2c14e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #121713;
+    --surface: #1c231e;
+    --text: #eef2ec;
+    --muted: #b8c2ba;
+    --line: #6b776e;
+    --accent: #8fd19e;
+    --on-accent: #0f1a12;
+    --bar: #1c2a20;
+    --on-bar: #eef2ec;
+    --focus: #ffb36b;
+    --backdrop: rgb(0 0 0 / 0.65);
+    --shadow: 0 6px 18px rgb(0 0 0 / 0.6);
+  }
+}

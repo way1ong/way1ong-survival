@@ -1,0 +1,28 @@
+{
+  "name": "way1ong-survival",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A free, ad-free survival guide by way1ong — advice from official sources only, no tracking, works offline.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p tsconfig.node.json",
+    "build": "vite build",
+    "verify": "npm run typecheck && npm run test && npm run build",
+    "preview": "vite preview",
+    "audit": "node scripts/audit.mjs",
+    "check:live": "node scripts/check-live.mjs",
+    "check:update": "node scripts/check-update.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "6.0.3",
+    "vite": "8.3.8",
+    "vitest": "5.1.1",
+    "wrangler": "4.166.0"
+  }
+}

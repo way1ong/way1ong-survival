@@ -1,0 +1,46 @@
+{
+  "app": {
+    "name": "way1ong Survival",
+    "tagline": "Hogyan ne vesszen el Európa erdeiben és hegyeiben. Minden tanács kizárólag hivatalos forrásból származik, amelyet a tanács alatt megnevezünk."
+  },
+  "actions": {
+    "menu": "Menü",
+    "close": "Bezárás"
+  },
+  "update": {
+    "ready": "Megjelent az alkalmazás új verziója.",
+    "apply": "Frissítés"
+  },
+  "sections": {
+    "title": "Fejezetek",
+    "help": "Segélyhívás",
+    "firstAid": "Elsősegély",
+    "dangers": "Mi veszélyes, és mi nem",
+    "water": "Víz",
+    "fire": "Tűz",
+    "shelter": "Menedék",
+    "orientation": "Hol vagyok, merre menjek",
+    "tools": "Rögtönzött eszközök"
+  },
+  "section": {
+    "soon": "A fejezet készül. A tanácsok akkor jelennek meg itt, amikor mindegyiket egyeztettük a hivatalos forrással."
+  },
+  "menu": {
+    "title": "Menü",
+    "language": "Nyelv"
+  },
+  "install": {
+    "title": "Telefonra vagy számítógépre",
+    "text": "A program alkalmazásként telepíthető: saját ikont kap, és internet nélkül is megnyílik.",
+    "button": "A program telepítése",
+    "ios": "iPhone-on és iPaden: koppintson a „Megosztás”, majd a „Főképernyőhöz adás” lehetőségre. A program saját ikont kap, és internet nélkül is megnyílik."
+  },
+  "about": {
+    "title": "Névjegy",
+    "text": "A way1ong ingyenes programja: reklám, követés és fiók nélkül. Semmit nem küld a hálózatra; a választott nyelvet csak ezen az eszközön tárolja.",
+    "rule": "Minden tanács kizárólag olyan hivatalos forrásból származik, amely ezt a felhasználást megengedi. Minden tanács alatt ott a forrása, valamint az, hogy a módszer mikor működik, mennyire megbízható, és hol szoktak hibázni.",
+    "sources": "Források",
+    "noSources": "A források az első tanácsokkal együtt jelennek meg itt.",
+    "madeBy": "Készítette: way1ong"
+  }
+}
