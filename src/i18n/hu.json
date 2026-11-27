@@ -177,7 +177,7 @@
           "items": {
             "1": "hagyja abban a helyzetben, amelyben találta, ha semmi sem fenyegeti;",
             "2": "derítse ki, mi történt;",
-            "3": "hívjon sürgősségi orvosi segítséget, és kövesse a diszpécser utasításait;",
+            "3": "hívja a mentőket, és kövesse a mentésirányító utasításait;",
             "4": "szükség esetén segítse kényelmes helyzetbe;",
             "5": "figyelje a felnőttet, amíg a mentők meg nem érkeznek."
           }
@@ -187,11 +187,11 @@
           "items": {
             "1": "kérjen segítséget a közelben lévőktől. Ha több szemtanú is van, egy konkrét személyhez forduljon;",
             "2": "ha a felnőtt hason fekszik, fordítsa a hátára, és tegye szabaddá a légutait. Ha az állapota sérüléssel függ össze, például magasból esett le, tételezze fel, hogy a nyaki gerince sérült. Ilyenkor a lehető legjobban korlátozza a nyak mozgását;",
-            "3": "tegye szabaddá a légutakat, és a „hallom, látom, érzem” módszerrel állapítsa meg, lélegzik-e. A légzést legfeljebb 10 másodpercig vizsgálja. Ha kétséges, hogy van-e légzés, vagy a légzés nem normális, tekintse úgy, hogy nincs légzés."
+            "3": "tegye szabaddá a légutakat, és a „látom, hallom, érzem” módszerrel állapítsa meg, lélegzik-e. A légzést legfeljebb 10 másodpercig vizsgálja. Ha kétséges, hogy van-e légzés, vagy a légzés nem normális, tekintse úgy, hogy nincs légzés."
           }
         },
-        "5": "Ha a felnőtt normálisan lélegzik, de nincs eszméleténél, fektesse stabil oldalfekvésbe, hívjon sürgősségi orvosi segítséget, és 3–5 percenként ellenőrizze a légzését, amíg a mentők meg nem érkeznek. Ha sérülés gyanúja áll fenn, kerülje az oldalfekvésbe fordítást, és a légutakat az alsó állkapocs előretolásával tartsa szabadon a mentők érkezéséig.",
-        "6": "Ha nincs légzés: hívjon sürgősségi orvosi segítséget, és kövesse a diszpécser utasításait. Ha más szemtanúk is vannak, mondja meg nekik, hogy hívjanak sürgősségi orvosi segítséget, Ön pedig azonnal lépjen tovább a következő lépésre. Ha a telefonján van kihangosítás, egyszerre hívja a mentőket és végezze a szív-tüdő újraélesztést.",
+        "5": "Ha a felnőtt normálisan lélegzik, de nincs eszméleténél, fektesse stabil oldalfekvő helyzetbe, hívja a mentőket, és 3–5 percenként ellenőrizze a légzését, amíg a mentők meg nem érkeznek. Ha sérülés gyanúja áll fenn, kerülje a stabil oldalfekvő helyzetbe fordítást, és a légutakat az alsó állkapocs előretolásával tartsa szabadon a mentők érkezéséig.",
+        "6": "Ha nincs légzés: hívja a mentőket, és kövesse a mentésirányító utasításait. Ha más szemtanúk is vannak, mondja meg nekik, hogy hívják a mentőket, Ön pedig azonnal lépjen tovább a következő lépésre. Ha a telefonján van kihangosítás, egyszerre hívja a mentőket és végezze a szív-tüdő újraélesztést.",
         "7": {
           "text": "Kezdje meg a szív-tüdő újraélesztést:",
           "items": {
@@ -206,7 +206,7 @@
       },
       "works": "A „hirtelen keringésmegállás” olyan nem erőszakos halál, amely váratlanul, az akut tünetek kezdetétől számított 6 órán belül következett be. Felnőttnek a 18 évesnél idősebb, vagy külsőre felnőttnek látszó személy számít. Ez az eljárás arra az esetre szól, amikor nincs kéznél automata külső defibrillátor; arra az esetre, amikor van, a rendelet külön eljárást ír elő.",
       "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
-      "mistakes": "Kétkedni abban, hogy lélegzik-e: „Ha kétséges, hogy van-e légzés, vagy a légzés nem normális, tekintse úgy, hogy nincs légzés.” Megszakítani a kompressziót: „Felnőttnél a mellkaskompressziót ne szakítsa meg 10 másodpercnél hosszabb időre.” Oldalra fordítani sérülés gyanújakor: „Ha sérülés gyanúja áll fenn, kerülje az oldalfekvésbe fordítást.”"
+      "mistakes": "Kétkedni abban, hogy lélegzik-e: „Ha kétséges, hogy van-e légzés, vagy a légzés nem normális, tekintse úgy, hogy nincs légzés.” Megszakítani a kompressziót: „Felnőttnél a mellkaskompressziót ne szakítsa meg 10 másodpercnél hosszabb időre.” Oldalra fordítani sérülés gyanújakor: „Ha sérülés gyanúja áll fenn, kerülje a stabil oldalfekvő helyzetbe fordítást.”"
     },
     "cpr-child": {
       "title": "Hirtelen keringésmegállás gyermeknél",
@@ -218,7 +218,7 @@
           "items": {
             "1": "hagyja abban a helyzetben, amelyben találta, ha semmi sem fenyegeti;",
             "2": "derítse ki, mi történt;",
-            "3": "hívjon sürgősségi orvosi segítséget, és kövesse a diszpécser utasításait;",
+            "3": "hívja a mentőket, és kövesse a mentésirányító utasításait;",
             "4": "szükség esetén segítse kényelmes helyzetbe;",
             "5": "figyelje a gyermeket, amíg a mentők meg nem érkeznek."
           }
@@ -226,16 +226,16 @@
         "4": {
           "text": "Ha a gyermek nem reagál:",
           "items": {
-            "1": "kérjen segítséget a közelben lévőktől. Ha több szemtanú is van, egy konkrét személyhez forduljon. Ez a másik személy hív sürgősségi orvosi segítséget, és elhozza az automata külső defibrillátort, ha van elérhető;",
+            "1": "kérjen segítséget a közelben lévőktől. Ha több szemtanú is van, egy konkrét személyhez forduljon. Ez a másik személy hívja a mentőket, és elhozza az automata külső defibrillátort, ha van elérhető;",
             "2": "ha a gyermek hason fekszik, fordítsa a hátára, és tegye szabaddá a légutait, előbb azonban nézzen bele a szájába, hogy nincs-e benne látható idegen tárgy. Ha az állapota sérüléssel függ össze, például magasból esett le, tételezze fel, hogy a nyaki gerince sérült, és a lehető legjobban korlátozza a nyak mozgását;",
-            "3": "tegye szabaddá a légutakat, és a „hallom, látom, érzem” módszerrel állapítsa meg, lélegzik-e. A légzést legfeljebb 10 másodpercig vizsgálja. Ha kétséges, hogy van-e légzés, vagy a légzés nem normális, tekintse úgy, hogy nincs légzés."
+            "3": "tegye szabaddá a légutakat, és a „látom, hallom, érzem” módszerrel állapítsa meg, lélegzik-e. A légzést legfeljebb 10 másodpercig vizsgálja. Ha kétséges, hogy van-e légzés, vagy a légzés nem normális, tekintse úgy, hogy nincs légzés."
           }
         },
         "5": {
           "text": "Ha a gyermek normálisan lélegzik, de nincs eszméleténél:",
           "items": {
             "1": "fordítsa stabil helyzetbe;",
-            "2": "hívjon sürgősségi orvosi segítséget, és kövesse a diszpécser utasításait;",
+            "2": "hívja a mentőket, és kövesse a mentésirányító utasításait;",
             "3": "figyelje a gyermeket, amíg a mentők meg nem érkeznek."
           }
         },
@@ -243,12 +243,12 @@
           "text": "Ha nincs légzés:",
           "items": {
             "1": "adjon öt befúvást. Közben figyelje, hatásosak-e;",
-            "2": "kérje meg a többi szemtanút, hogy hívjanak sürgősségi orvosi segítséget, és kövessék a diszpécser utasításait. Ha egyedül nyújt elsősegélyt, az öt befúvás után hívjon sürgősségi orvosi segítséget;",
+            "2": "kérje meg a többi szemtanút, hogy hívják a mentőket, és kövessék a mentésirányító utasításait. Ha egyedül nyújt elsősegélyt, az öt befúvás után hívja a mentőket;",
             "3": "ha az öt befúvás alatt a gyermeknél megjelennek az élet egyértelmű jelei, tegye azt, amit az 5. lépés ír."
           }
         },
         "7": {
-          "text": "Ha az öt befúvás után a gyermeknél nincsenek életjelek, és Ön egyedül nyújt elsősegélyt: hívjon sürgősségi orvosi segítséget, kapcsolja a telefont kihangosításra, és azonnal kezdje meg a szív-tüdő újraélesztést:",
+          "text": "Ha az öt befúvás után a gyermeknél nincsenek életjelek, és Ön egyedül nyújt elsősegélyt: hívja a mentőket, kapcsolja a telefont kihangosításra, és azonnal kezdje meg a szív-tüdő újraélesztést:",
           "items": {
             "1": "nyomja meg 15-ször a mellkast a mellkas elülső-hátsó átmérőjének harmadáig, percenként 100 (legfeljebb 120) nyomás ütemében;",
             "2": "adjon 2 befúvást. A két befúvás legfeljebb 5 másodpercig tartson;",
@@ -286,24 +286,24 @@
           "text": "Ha a légút részlegesen elzáródott:",
           "items": {
             "1": "biztassa a sérültet, hogy köhögjön tovább;",
-            "2": "ha a köhögés sikeres volt, és a légút szabaddá vált, vizsgálja meg a sérültet, hívjon sürgősségi orvosi segítséget, és kövesse a diszpécser utasításait."
+            "2": "ha a köhögés sikeres volt, és a légút szabaddá vált, vizsgálja meg a sérültet, hívja a mentőket, és kövesse a mentésirányító utasításait."
           }
         },
         "2": {
           "text": "Ha a légút teljesen elzáródott:",
           "items": {
             "1": "nyugtassa meg a sérültet, és magyarázza el, mit fog tenni;",
-            "2": "adjon legfeljebb öt csúsztatott ütést a hátára;",
-            "3": "ha öt hátütés után sem szabad a légút, végezzen legfeljebb öt hasi lökést;",
-            "4": "ha a légút még mindig nem szabad, felváltva ismételje a legfeljebb öt hátütést és a legfeljebb öt hasi lökést;",
-            "5": "ha a légút szabaddá vált, vizsgálja meg a sérültet, hívjon sürgősségi orvosi segítséget, és kövesse a diszpécser utasításait."
+            "2": "adjon legfeljebb öt csúsztatott hátba ütést;",
+            "3": "ha öt hátba ütés után sem szabad a légút, végezzen legfeljebb öt hasi lökést (Heimlich-féle műfogás);",
+            "4": "ha a légút még mindig nem szabad, felváltva ismételje a legfeljebb öt hátba ütést és a legfeljebb öt hasi lökést;",
+            "5": "ha a légút szabaddá vált, vizsgálja meg a sérültet, hívja a mentőket, és kövesse a mentésirányító utasításait."
           }
         },
         "3": {
           "text": "Ha a sérült elveszíti az eszméletét:",
           "items": {
             "1": "fektesse vízszintes helyzetbe;",
-            "2": "hívjon sürgősségi orvosi segítséget;",
+            "2": "hívja a mentőket;",
             "3": "felnőttnél: 30 nyomás a mellkas közepére legalább 5 cm (legfeljebb 6 cm) mélyen, percenként 100 (legfeljebb 120) nyomás ütemében; 2 befúvás szelepes zsebmaszkkal, lélegeztetőmaszkkal vagy hasonlóval. Védőeszköz hiányában a befúvás elhagyható, és csak mellkaskompressziót végezhet. A két befúvás legfeljebb 5 másodpercig tartson;",
             "4": "gyermeknél: nézzen bele a szájába, nincs-e benne idegen test. Ha jól látja, fordítsa a gyermek fejét oldalra, és ujjával távolítsa el a szájából; ha öt befúvás után a gyermeknél nincsenek látható életjelek, nyomja meg 15-ször a mellkast a mellkas elülső-hátsó átmérőjének harmadáig, percenként 100 (legfeljebb 120) nyomás ütemében;",
             "5": "minden befúvás előtt nézzen bele a szájába, nincs-e benne idegen test. Ha jól látja, fordítsa a fejet oldalra, és ujjával távolítsa el a szájából."
@@ -325,7 +325,7 @@
           "items": {
             "1": "nyomja a sebet a kezével, amilyen erősen csak tudja;",
             "2": "helyezzen fel nyomókötést, és ellenőrizze, hatásos-e;",
-            "3": "ha a vérzés elállt: nyugtassa meg a sérültet; hívjon sürgősségi orvosi segítséget, és kövesse a diszpécser utasításait;",
+            "3": "ha a vérzés elállt: nyugtassa meg a sérültet; hívja a mentőket, és kövesse a mentésirányító utasításait;",
             "4": "ha a vérzés nem állt el, helyezzen fel érszorítót: a tovább szorítható érszorítót 5–7 cm-rel a seb fölé kell felhelyezni; érszorítót nem szabad közvetlenül a könyök- vagy a térdízületre tenni;",
             "5": "az érszorító felhelyezése után ellenőrizze, hatásos-e: ha a vérzés elállt, írja fel a felhelyezés pontos idejét magára az érszorítóra vagy más jól látható helyre. Ha nem tudja felírni az időt, mondja el az egészségügyi dolgozóknak, és győződjön meg róla, hogy rögzítették az egészségügyi dokumentációban; ha van hozzá gyakorlata, tapintsa ki a pulzust a végtagon az érszorító alatt, és ha van pulzus, szorítsa tovább az érszorítót és/vagy helyezzen fel még egy érszorítót az alábbiak szerint; ha a vérzés nem állt el, szorítsa tovább az érszorítót és/vagy helyezzen fel még egy érszorítót az első fölé. Ha a második érszorító nem hatásos, vagy nem lehet felhelyezni, a mentők érkezéséig nyomja a sebet közvetlenül a kezével, vagy tamponálja a sebet."
           }
@@ -359,7 +359,7 @@
       "steps": {
         "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
         "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
-        "3": "Hívjon sürgősségi orvosi segítséget, és kövesse a diszpécser utasításait.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
         "4": "Ha lehet, derítse ki és szüntesse meg a sokk okát.",
         "5": {
           "text": "Fektesse a sérültet sokkfektetésbe:",
@@ -371,8 +371,8 @@
         },
         "6": "Takarja be a sérültet mentőfóliával vagy takaróval.",
         "7": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
-        "8": "Ha a sérült állapota a mentők érkezése előtt romlik, hívjon ismét sürgősségi orvosi segítséget.",
-        "9": "Ha lehet, gyűjtsön a sérülttől minél több információt a sérülés körülményeiről és módjáról. Minden információt adjon át a mentőknek vagy a mentésirányítás diszpécserének.",
+        "8": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "9": "Ha lehet, gyűjtsön a sérülttől minél több információt a sérülés körülményeiről és módjáról. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
         "10": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
       },
       "works": "A sokk jelei: sápadt, hideg és nyirkos bőr; általános gyengeség; nyugtalanság, ingerlékenység; szájszárazság, szomjúság; szapora vagy lassú légzés; tudatzavar, ájulás. A sokk oka lehet: súlyos külső vérzés; belső vérzés; különféle sérülések; anafilaxia; szívroham stb.",
@@ -384,11 +384,11 @@
       "steps": {
         "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély sem Önre, sem a körülállókra, sem a sérültre; csak ha nincs, lépjen tovább a következő lépésre.",
         "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
-        "3": "Hívjon sürgősségi orvosi segítséget, és kövesse a diszpécser utasításait.",
-        "4": "Adjon be epinefrint autoinjektorral, ha az elsősegélyt nyújtó személy erre képzést kapott, és az epinefrin-autoinjektor az elsősegélycsomag része.",
-        "5": "Ha az epinefrin beadása után öt perccel a sérült állapota nem változott vagy romlott, adja be a következő adag epinefrint autoinjektorral.",
-        "6": "Ha a sérült állapota a mentők érkezése előtt romlik, hívjon ismét sürgősségi orvosi segítséget.",
-        "7": "Ha lehet, gyűjtsön a sérülttől vagy a körülállóktól minél több információt arról, hogyan alakult ki az anafilaxia. Minden információt adjon át a mentőknek vagy a mentésirányítás diszpécserének.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": "Adjon be adrenalint (epinefrint) autoinjektorral, ha az elsősegélyt nyújtó személy erre képzést kapott, és az adrenalin-autoinjektor az elsősegélycsomag része.",
+        "5": "Ha az adrenalin beadása után öt perccel a sérült állapota nem változott vagy romlott, adja be a következő adag adrenalint autoinjektorral.",
+        "6": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "7": "Ha lehet, gyűjtsön a sérülttől vagy a körülállóktól minél több információt arról, hogyan alakult ki az anafilaxia. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
         "8": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
       },
       "works": "Az „anafilaxia” allergén okozta sürgős állapot – bármilyen úton jutott is az allergén a szervezetbe –, amely az egész szervezetre kiterjedő változásokat okoz. Az anafilaxiát az alábbi jelek együttese jelzi: bőr- és/vagy nyálkahártya-tünetek – csalánkiütés, viszketés, a nyelv vagy az ajkak duzzanata; légzészavar – szapora, felületes légzés, levegőhiány érzése, sípoló vagy hörgő légzés; a gyomor és a belek tünetei – hányás, hasfájás, hasmenés; nyugtalanság, a sokk jelei, eszméletvesztés.",
@@ -400,12 +400,12 @@
       "steps": {
         "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
         "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
-        "3": "Hívjon sürgősségi orvosi segítséget, és kövesse a diszpécser utasításait.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
         "4": "Segítse a sérültet a számára legkényelmesebb helyzetbe. Ajánlott a fejét 15–30 fokkal megemelni.",
         "5": "Ne adjon a sérültnek enni és inni.",
         "6": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
-        "7": "Ha a sérült állapota a mentők érkezése előtt romlik, hívjon ismét sürgősségi orvosi segítséget.",
-        "8": "Ha lehet, tudjon meg a sérülttől minél többet arról, pontosan mikor kezdődött a betegség, és milyen körülmények függhetnek ezzel össze. Minden információt adjon át a mentőknek vagy a diszpécsernek.",
+        "7": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "8": "Ha lehet, tudjon meg a sérülttől minél többet arról, pontosan mikor kezdődött a betegség, és milyen körülmények függhetnek ezzel össze. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
         "9": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
       },
       "works": "Az akut stroke jelei: az arckifejezés hirtelen megváltozása, az arc aszimmetriája; hirtelen gyengeség és/vagy zsibbadás az egyik oldali karban vagy lábban; hirtelen beszédzavar, illetve egyszerű utasítások vagy kérdések megértésének zavara; hirtelen látásromlás az egyik vagy mindkét szemen; hirtelen járászavar; szédülés, az egyensúly vagy a koordináció elvesztése; kifejezett fejfájás látható ok nélkül.",
@@ -417,14 +417,14 @@
       "steps": {
         "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
         "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
-        "3": "Hívjon sürgősségi orvosi segítséget, és kövesse a diszpécser utasításait.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
         "4": "Segítse a sérültet a számára legkényelmesebb helyzetbe.",
         "5": "Lazítsa meg a szorító ruhadarabokat.",
         "6": "Gondoskodjon friss levegőről abban a helyiségben, ahol a sérült van.",
-        "7": "Ha lehetséges, adjon a sérültnek szétrágásra egy 162–325 mg-os acetilszalicilsav-tablettát (függetlenül attól, milyen más gyógyszert szed), ha nem allergiás rá.",
+        "7": "Ha lehetséges, adjon a sérültnek szétrágásra egy 162–325 mg-os acetilszalicilsav- (aszpirin-) tablettát (függetlenül attól, milyen más gyógyszert szed), ha nem allergiás rá.",
         "8": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
-        "9": "Ha a sérült állapota a mentők érkezése előtt romlik, hívjon ismét sürgősségi orvosi segítséget.",
-        "10": "Ha lehet, tudjon meg a sérülttől minél többet arról, pontosan mikor kezdődött a betegség, és milyen körülmények függhetnek ezzel össze. Minden információt adjon át a mentőknek vagy a mentésirányítás diszpécserének.",
+        "9": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "10": "Ha lehet, tudjon meg a sérülttől minél többet arról, pontosan mikor kezdődött a betegség, és milyen körülmények függhetnek ezzel össze. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
         "11": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt hirtelen keringésmegállásakor követendő eljárásra."
       },
       "works": "Az akut szívinfarktus jelei: kellemetlen érzés a mellkas közepén; szorító, húzó fájdalom a szegycsont mögött; tompa fájdalom a mellkasban, amely a bal karba, a nyakba, az alsó állkapocsba sugárzik; ok nélküli félelemérzet; hirtelen nehézlégzés; hideg verejték, hányinger, szédülés.",

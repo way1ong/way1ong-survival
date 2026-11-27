@@ -93,6 +93,23 @@
       "series": null
     },
     {
+      "id": "orvhet-2026-erc-review",
+      "title": "Az Európai Újraélesztési Tanács (ERC) 2025. évi elsősegélynyújtási és felnőtt alapszintű újraélesztési gyakorlati irányelveinek összefoglalója és hazai adaptációs szempontjai",
+      "publisher": "Betlehem J., Bánfai-Csonka H., Kovács E., Bánfai B. — Orvosi Hetilap 2026, 167(33): 1294–1308",
+      "url": "https://doi.org/10.1556/650.2026.33623",
+      "lang": "hu",
+      "version": "Orv Hetil. 2026, 167(33): 1294–1308",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "cc-by-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "quote": "A cikk a Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/) feltételei szerint publikált Open Access közlemény"
+      },
+      "attribution": "© Szerző(k), CC BY 4.0. Used only to check the Hungarian medical terms of the first-aid cards; the advice follows order No 441 of the Ministry of Health of Ukraine.",
+      "note": null,
+      "series": null
+    },
+    {
       "id": "govuk-albania",
       "title": "Getting help - Albania travel advice",
       "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
