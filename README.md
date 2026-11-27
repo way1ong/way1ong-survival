@@ -1,1 +1,7 @@
 # way1ong-survival
+
+A free, ad-free survival guide by way1ong: where am I and which way to go, water, fire, shelter, calling for help, what is dangerous and what is not, first aid, makeshift tools. Every piece of advice comes from an official source with a licence that allows reuse. No tracking, no account; it can be installed and works without internet. Languages: Ukrainian, Hungarian, English. Address: `survival.way1ong.eu`.
+
+- Rules for work in this repository — `CLAUDE.md`.
+- What the app is — `docs/SPEC.md`; what is done and what is next — `docs/STATUS.md`; decisions — `docs/DECISIONS.md`.
+- Sources and licences — `docs/SOURCES.md`, `docs/research/`.
