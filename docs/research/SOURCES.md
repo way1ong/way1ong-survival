@@ -75,3 +75,16 @@
 - Закон України про систему екстреної допомоги за номером 112 (zakon.rada.gov.ua) — для картки 112 українською.
 - Гірський сигнал лиха: придатного джерела не знайдено (ICAR і гірські рятувальники Англії й Уельсу — лише некомерційне).
 - IFRC, ДСНС, British Red Cross, CDC відмовили автоматичним запитам (403) — не обходили.
+
+## Третій прохід: перша допомога англійською й угорською (27.11.2026)
+
+Питання Дмитра: чому англійською й угорською — переклад наказу МОЗ, а не власні джерела. Сторінки — `pages-2026-11-27-c.tgz`.
+
+| Джерело | Що каже власна сторінка (дослівно) | Вердикт |
+|---|---|---|
+| Огляд настанов ERC 2025 з першої допомоги й базової реанімації дорослих з угорськими поправками: Betlehem J., Bánfai-Csonka H., Kovács E., Bánfai B. (Magyar Resuscitatiós Társaság; Betlehem J. — ще й Magyar Vöröskereszt), Orvosi Hetilap 2026, 167(33): 1294–1308, doi 10.1556/650.2026.33623; PDF у сховищі real.mtak.hu/246229 | у самому PDF: «A cikk a Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/) feltételei szerint publikált Open Access közlemény»; але й: «az összefoglalónak nem célja a hivatkozott irányelvek szó szerinti fordítása és közlése, mint ahogy az egyes kórképekre vonatkozó teljes ellátási elvek részletekbe menő ismertetése sem» | ліцензія **так**; але це науковий огляд, а не офіційна настанова, і сам каже, що не дає повного опису допомоги при кожному стані |
+| Настанови European Resuscitation Council 2025 (First Aid, Executive Summary), журнал Resuscitation | у PubMed Central їх немає (пошук 27.11); ліцензію на сторінці журналу не прочитано; книжка ERC для всіх — «All rights reserved» (перший прохід) | **?** — не брати |
+| Закон Угорщини про авторське право, 1999. évi LXXVI., 1. § (4), njt.jog.gov.hu | «Nem tartoznak e törvény védelme alá a jogszabályok, közjogi szervezetszabályozó eszközök, a bírósági vagy hatósági határozatok, a hatósági vagy más hivatalos közlemények és ügyiratok, valamint más hasonló rendelkezések.» | угорські закони й офіційні акти брати можна — але угорського акта з кроками першої допомоги для всіх не знайдено: 5/2006. EüM — про службу порятунку, 58/2024. BM — тактична медицина поліції |
+| NHS, загальні сторінки першої допомоги (`/tests-and-treatments/first-aid/`, `…/cpr/`, `…/recovery-position/`) | переадресовують на St John Ambulance (sja.org.uk) — сайт благодійної організації; адреса з середовища недоступна, ліцензію не прочитано | **?**; на NHS лишилися окремі стани (переохолодження, відмороження, тепловий удар, укуси змій…) і «How to resuscitate a child» |
+
+Висновок: повного офіційного джерела першої допомоги з придатною ліцензією ні англійською, ні угорською не знайдено; угорською є відкритий науковий огляд, що сам себе не вважає повним описом допомоги. Рішення — за Дмитром.
