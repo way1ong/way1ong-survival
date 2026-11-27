@@ -41,6 +41,37 @@
 3. **Гірський сигнал лиха** (ICAR, гірські рятувальники Англії й Уельсу) — лише некомерційне. Потрібне інше джерело, або теми не буде.
 4. **Вода, вогонь, укриття, орієнтування, саморобні засоби** — у першому проході не знайшлося жодного придатного джерела. Кандидати на другий прохід: армійський посібник США з виживання FM 21-76 і його наступник (державні документи США; умову поширення треба прочитати в самому документі), Служба національних парків США, Лісова служба США, CDC (знезараження води), Met Office і GOV.UK (OGL). Можливо, ці розділи доведеться будувати на американських державних джерелах — тоді чесно сказати, що це посібники США.
 
-## Відкрите: другий прохід
+## Другий прохід (27.11.2026)
 
-Адреси, яких бракує в мережі середовища: `voroskereszt.hu`, `archive.org` і `armypubs.army.mil` (FM 21-76), `www.nps.gov`, `www.fs.usda.gov`, `www.metoffice.gov.uk`, `www.gov.uk`, `digital-strategy.ec.europa.eu` (112), сторінка журналу настанов ERC (щоб прочитати ліцензію самих настанов 2025 року). Повторити: ECDC (429 — забагато запитів), njt.hu.
+| Джерело | Що каже власна сторінка (дослівно) | Вердикт |
+|---|---|---|
+| **ATP 3-50.21 «Survival»**, армія США, 2018 — у переліку Army Publishing Directorate «ACTIVE», дата 09/18/2018; armypubs.army.mil (сторінка PUB_ID=1005316 і PDF) | на обкладинці й титулі: «DISTRIBUTION RESTRICTION: Approved for public release; distribution is unlimited.» Позначок чужих авторських прав (copyright, courtesy, reprinted) у тексті не знайдено. Документ уряду США; що такі документи не охороняються авторським правом у США, сказано на сторінці NPS нижче | **так** (англійською) — за умови, що в картці чесно сказано: «посібник армії США» |
+| National Park Service (США), nps.gov/aboutus/disclaimer.htm | «material created by the National Park Service and presented on this website, unless otherwise indicated, is generally considered in the public domain» … для комерційного вжитку — примітка «No claim to original U.S. Government works» | **так** (англійською) |
+| Єврокомісія, сторінка «112 — the EU's emergency phone number», digital-strategy.ec.europa.eu/en/policies/112 і **угорською** …/hu/policies/112 | правова сторінка того ж сайту: «content owned by the EU on this website is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence» | **так** (англійською й угорською); українською сторінки немає |
+| GOV.UK | «Crown copyright protection and is published under the Open Government Licence» | **так** |
+| Met Office | «Website terms of use contain licence provisions under the terms of the UK Open Government Licence … v3.0» | **так** (крім даних за окремими ліцензіями) |
+| Magyar Vöröskereszt, voroskereszt.hu | «© 2026 Magyar Vöröskereszt - Minden jog fenntartva!» | **ні** |
+| Лісова служба США, fs.usda.gov | сторінку правил за вгаданою адресою не знайдено (404) | **?** |
+
+### Що дає ATP 3-50.21
+
+Розділи (зміст посібника): 2 — Survival medicine; 3 — Water (Water Sources and Indicators); 5 — Fire (Building a Fire, Fire Starting Techniques); 6 — Shelter and Clothing (Construction Methods); 7 — Movement and Navigation (Decision to Stay or Move, Water Crossings, **Determine Cardinal Direction**, Navigation Methods); 8 — Survival Equipment (Cordage and Lashing); додаток A — вузли й мотузки.
+
+Не беремо за правилами обережності: розділ 4 Food у частинах про рослини («Plants», «Most common global plants to procure») — це «їстівне чи ні»; «Poisonous Plants» — лише як попередження, без розпізнавання; «Killing Devices», «Field-Expedient Weapons», «Butchering Mammals» — поза задумом програми. Посібник написано для військових; де порада стосується лише бою чи ухилення від противника — не беремо.
+
+### Покриття після двох проходів
+
+| Розділ | Українською | Англійською | Угорською |
+|---|---|---|---|
+| Сигнал про допомогу і 112 | **немає** (можливо, закон України про систему 112 на zakon.rada.gov.ua — не прочитано) | Єврокомісія | Єврокомісія |
+| Гірський сигнал лиха | **немає** | **немає** | **немає** |
+| Перша допомога | наказ МОЗ № 441 | NHS; ATP 3-50.21 розд. 2 | переклад |
+| Що небезпечне | наказ МОЗ (блискавка, холод, спека) | NHS, ECDC, NWS, ATP | переклад |
+| Вода, вогонь, укриття, сторони світу, мотузки й вузли | переклад | ATP 3-50.21, NPS | переклад |
+
+## Відкрите
+
+- ECDC: сторінку про захист від кліщів не прочитано (429 — забагато запитів); повторити пізніше.
+- Закон України про систему екстреної допомоги за номером 112 (zakon.rada.gov.ua) — для картки 112 українською.
+- Гірський сигнал лиха: придатного джерела не знайдено (ICAR і гірські рятувальники Англії й Уельсу — лише некомерційне).
+- IFRC, ДСНС, British Red Cross, CDC відмовили автоматичним запитам (403) — не обходили.
