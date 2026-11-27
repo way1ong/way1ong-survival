@@ -65,6 +65,46 @@
       "id": "heart-attack",
       "section": "firstAid",
       "source": "moz-441"
+    },
+    {
+      "id": "fracture",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "head-injury",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "spine",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "burns",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "hypothermia",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "heatstroke",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "electric-lightning",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "drowning",
+      "section": "firstAid",
+      "source": "moz-441"
     }
   ]
 }

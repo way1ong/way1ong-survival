@@ -430,6 +430,273 @@
       "works": "Az akut szívinfarktus jelei: kellemetlen érzés a mellkas közepén; szorító, húzó fájdalom a szegycsont mögött; tompa fájdalom a mellkasban, amely a bal karba, a nyakba, az alsó állkapocsba sugárzik; ok nélküli félelemérzet; hirtelen nehézlégzés; hideg verejték, hányinger, szédülés.",
       "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
       "mistakes": "A rendelet ezt külön nem nevezi meg."
+    },
+    "fracture": {
+      "title": "Végtagtörés gyanúja",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély sem Önre, sem a körülállókra, sem a sérültre; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": {
+          "text": "Ha a sérültnél nyílt törés jelei láthatók:",
+          "items": {
+            "1": "vágja fel a ruhát, és nézze meg a sebet;",
+            "2": "ha a seb vérzik, járjon el a súlyos külső vérzésnél követendő eljárás szerint;",
+            "3": "tegyen steril, tiszta kötést a sebre;",
+            "4": "segítse a sérültet kényelmes helyzetbe (abba, amelyik a legkevésbé fáj);",
+            "5": "rögzítse (tegye mozdulatlanná) a sérült végtagot szabványos eszközzel (sínnel) vagy rögtönzött eszközökkel: rögzítést csak megfelelő képzés után végezzen; a rögzítés előtt és után tapintsa ki a pulzust a végtag távoli részén."
+          }
+        },
+        "5": {
+          "text": "Ha a sérültnél zárt törés jelei láthatók:",
+          "items": {
+            "1": "segítse a sérültet kényelmes helyzetbe (abba, amelyik a legkevésbé fáj);",
+            "2": "rögzítse (tegye mozdulatlanná) a sérült végtagot szabványos eszközzel (sínnel) vagy rögtönzött eszközökkel: rögzítést csak megfelelő képzés után végezzen; a rögzítés előtt és után tapintsa ki a pulzust a végtag távoli részén."
+          }
+        },
+        "6": "Takarja be a sérültet mentőfóliával vagy takaróval.",
+        "7": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "8": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "9": "Ha lehet, gyűjtsön a sérülttől minél több információt a sérülés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "10": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A nyílt végtagtörés jelei: seb a törés helyén; vérzés a sebből; fájdalom a seb körül; a sérült végtag működési zavara; a végtag természetellenes helyzete; kóros mozgathatóság a végtagban; krepitáció (jellegzetes ropogás) a törés helyén; csontdarabok a sebben. A zárt végtagtörés jelei: a végtag természetellenes helyzete; fájdalom a seb vagy a deformitás körül; kóros mozgathatóság a végtagban; krepitáció (ropogás) a törés helyén; vérömleny a törés helyén (a végtag megduzzad); a sérült végtag működési zavara.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések. A végtagot „csak megfelelő képzés után” szabad rögzíteni.",
+      "mistakes": "A rendelet ezt külön nem nevezi meg."
+    },
+    "head-injury": {
+      "title": "Fejsérülés gyanúja",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": {
+          "text": "Korlátozza a sérült nyaki gerincének mozgását:",
+          "items": {
+            "1": "kézzel rögzítse a fejet a test tengelyében;",
+            "2": "ha a fej tengelybe hozása fájdalmat okoz a sérültnek, rögzítse a fejet abban a helyzetben, amelyben van."
+          }
+        },
+        "5": {
+          "text": "Nyakrögzítő gallérral csak az alábbi feltételekkel rögzítse a nyaki gerincet:",
+          "items": {
+            "1": "erre egyértelmű javallat van;",
+            "2": "megfelelő képzést kapott;",
+            "3": "egészségügyi dolgozók részvételével és felügyeletével;",
+            "4": "a nyaki gerinc csak nyakrögzítő gallérral történő rögzítése nem korlátozza teljesen a gerinc mozgását."
+          }
+        },
+        "6": "Ha a sérültet el kell vinni a helyszínről, használjon hordozódeszkát és/vagy kanalas hordágyat.",
+        "7": {
+          "text": "Ha a fején sebek vannak:",
+          "items": {
+            "1": "tegyen rá gézkötést, és rögzítse túlzott nyomás nélkül;",
+            "2": "ne tapogassa a sebet;",
+            "3": "ne nyomja a sebet;",
+            "4": "ne használjon fertőtlenítőszert a sebek ellátásakor;",
+            "5": "ne próbálja kitapogatni vagy helyre tenni a csontdarabokat."
+          }
+        },
+        "8": "A sérültet bármilyen mozgatáskor a gerinc lehető legkisebb mozgásával mozgassa.",
+        "9": "Takarja be a sérültet mentőfóliával vagy takaróval.",
+        "10": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "11": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "12": "Ha lehet, gyűjtsön a sérülttől minél több információt a sérülés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "13": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A fejsérülés jelei: sebek, zúzódások a fejen és az arcon; zavartság vagy eszméletvesztés, emlékezetkieséssel vagy anélkül; erős fájdalom vagy nyomásérzés a fejben, a nyakban; bizsergés vagy érzéskiesés a kéz- és lábujjakban; a végtagok mozgásképtelensége; a fej deformitása; görcsök; kóros légzés; látászavar; hányinger és/vagy hányás; tartós fejfájás; vér és/vagy átlátszó folyadék szivárgása az orrból és/vagy a fülből. Fejsérülésre kell gondolni: magasból esés; vízbe ugrás; a törzset ért erős ütés; közúti baleset; villámcsapás; áramütés; robbanásos sérülés után.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések. „A nyaki gerinc csak nyakrögzítő gallérral történő rögzítése nem korlátozza teljesen a gerinc mozgását.”",
+      "mistakes": "„Ne tapogassa a sebet; ne nyomja a sebet; ne használjon fertőtlenítőszert a sebek ellátásakor; ne próbálja kitapogatni vagy helyre tenni a csontdarabokat.”"
+    },
+    "spine": {
+      "title": "Gerincsérülés gyanúja",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": {
+          "text": "Korlátozza a sérült nyaki gerincének mozgását:",
+          "items": {
+            "1": "kézzel rögzítse a fejet a test tengelyében;",
+            "2": "ha a fej tengelybe hozása fájdalmat okoz a sérültnek, rögzítse a fejet abban a helyzetben, amelyben van."
+          }
+        },
+        "5": "Ha a sérültet el kell vinni a helyszínről, használjon hordozódeszkát és/vagy kanalas hordágyat.",
+        "6": "A sérültet bármilyen mozgatáskor a gerinc lehető legkisebb mozgásával mozgassa.",
+        "7": "Ha a sérültnek lőtt sebe van a gerinc területén, és nincsenek gerincvelő-sérülésre utaló jelek, a gerinc további rögzítésére nincs szükség.",
+        "8": "Takarja be a sérültet mentőfóliával vagy takaróval.",
+        "9": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "10": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentésirányítót.",
+        "11": "Ha lehet, gyűjtsön a sérülttől minél több információt a sérülés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "12": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A gerincsérülés jelei: erős fájdalom vagy nyomásérzés a fejben, a nyakban vagy a hátban; bizsergés vagy érzéskiesés a kéz- és lábujjakban; a végtagok mozgásképtelensége; érzéskiesés a test egyes részein; deformitás a gerinc területén; zúzódások, sebek a gerinc területén. Gerincsérülésre kell gondolni: magasból esés; vízbe ugrás; a törzset ért erős ütés; közúti baleset; villámcsapás; áramütés; robbanásos sérülés után.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "A rendelet ezt külön nem nevezi meg."
+    },
+    "burns": {
+      "title": "Hő okozta égési sérülés",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély sem Önre, sem a körülállókra, sem a sérültre; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Szüntesse meg a magas hőmérséklet hatását a sérültre; ha kell, vegye le a parázsló ruhát.",
+        "3": "Vegye le az ékszereket az égett területről.",
+        "4": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "5": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "6": "Hűtse az égett területet legalább 20 percig szobahőmérsékletű vízzel öblítve, ha az égés felnőttnél nem haladja meg a testfelület 20%-át, gyermeknél a 10%-át.",
+        "7": "Hűtés után tegyen az égésre tiszta, steril, száraz gézkötést. A kötés ne nyomja a lágy részeket.",
+        "8": "Ha hólyagok vannak, ne sértse fel őket. Ha a hólyagok véletlenül felszakadnak, tegyen rájuk kötést a fent leírtak szerint.",
+        "9": "Ha az égés felnőttnél a testfelület 20%-ánál, gyermeknél a 10%-ánál nagyobb, takarja be a sérültet mentőfóliával vagy takaróval.",
+        "10": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "11": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentésirányítót.",
+        "12": "Ha lehet, gyűjtsön a sérülttől vagy a körülállóktól minél több információt a sérülés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "13": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A „hő okozta égési sérülés” magas hőmérséklet okozta sürgős állapot, amely a bőr és a lágy részek károsodásával jár. Az elsősegélynél vegye figyelembe a károsodás fokát: I. fok (bőrpír) – kipirosodott bőr, duzzanat és fájdalom; II. fok (hólyagképződés) – erős fájdalom, élénk bőrpír, a felhám leválása, folyadékkal telt hólyagok; III. fok – a bőr teljes vastagságának károsodása kemény pörkkel, amely alatt sérült szövetek vannak; IV. fok (elszenesedés) – a bőr teljes vastagságának károsodása az izmok, inak, csontok sérülésével.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "„Ha hólyagok vannak, ne sértse fel őket”; „a kötés ne nyomja a lágy részeket”."
+    },
+    "hypothermia": {
+      "title": "Kihűlés és fagyási sérülés",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély sem Önre, sem a körülállókra, sem a sérültre; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Szüntesse meg a hideg hatását a sérültre.",
+        "3": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "4": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "5": {
+          "text": "Ha a sérültnél általános kihűlés jelei láthatók:",
+          "items": {
+            "1": "szüntesse meg a kedvezőtlen környezeti hatásokat, vigye a sérültet meleg helyiségbe;",
+            "2": "vegye le a sérültről a hideg, nedves ruhát;",
+            "3": "ha a sérült eszméleténél van, adjon neki meleg, alkoholmentes italt."
+          }
+        },
+        "6": {
+          "text": "Ha a sérültnél fagyási sérülés jelei láthatók:",
+          "items": {
+            "1": "szüntesse meg a kedvezőtlen környezeti hatásokat, vigye a sérültet meleg helyiségbe;",
+            "2": "óvatosan, erőltetés nélkül vegye le a sérültről a hideg, nedves ruhát és lábbelit;",
+            "3": "tegyen az érintett testrészekre tiszta, steril, száraz gézkötést, a szövetek további nyomása nélkül;",
+            "4": "szükség esetén rögzítse az érintett végtagokat;",
+            "5": "ha a sérült eszméleténél van, adjon neki meleg, alkoholmentes italt;",
+            "6": "ne masszírozza és ne dörzsölje az érintett területeket, ne tegyen rájuk hőforrást;",
+            "7": "ne sértse fel a fagyott területen lévő hólyagokat."
+          }
+        },
+        "7": "Takarja be a sérültet mentőfóliával vagy takaróval.",
+        "8": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "9": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentésirányítót.",
+        "10": "Ha lehet, gyűjtsön a sérülttől vagy a körülállóktól minél több információt a sérülés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "11": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra.",
+        "12": "A szív-tüdő újraélesztés közben ajánlott a sérültet melegíteni, ha lehetséges."
+      },
+      "works": "A kihűlés és/vagy a fagyási sérülés kockázati tényezői: alacsony hőmérséklet széllel, nedvességgel együtt; szoros vagy nedves lábbeli, ruha; a sérült mozdulatlansága; a sérült más betegsége (vérveszteség stb.); alkoholos, kábítószeres vagy egyéb bódult állapot; kiszáradás és elégtelen táplálkozás. Az általános kihűlés jelei: 35 °C alatti testhőmérséklet; reszketés; lassú légzés; sápadt, hideg bőr; zavartság. A fagyási sérülésnek négy foka van: I. fok – a bőr sápadt, kissé duzzadt, az érzékelés csökkent vagy teljesen hiányzik; II. fok – a fagyott területen átlátszó vagy fehér folyadékkal telt hólyagok képződnek; III. fok – a bőr elhal: sötétvörös vagy sötétbarna folyadékkal telt hólyagok jelennek meg; az elhalt terület körül gyulladásos szegély alakul ki (demarkációs vonal); jellemző a mérgezés kialakulása – izzadás, jelentős rosszullét, apátia; IV. fok – fekete folyadékkal telt hólyagok jelennek meg. A sérültnél a sokk jelei láthatók.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "„Ne masszírozza és ne dörzsölje az érintett területeket, ne tegyen rájuk hőforrást”; „ne sértse fel a fagyott területen lévő hólyagokat”."
+    },
+    "heatstroke": {
+      "title": "Hőguta",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély sem Önre, sem a körülállókra, sem a sérültre; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": "Szüntesse meg a hő hatását a sérültre, vigye hűvös helyiségbe.",
+        "5": {
+          "text": "Mérje meg a maghőmérsékletet:",
+          "items": {
+            "1": "a testhőmérsékletet csak speciális hőmérővel mérje;",
+            "2": "a testhőmérsékletet csak megfelelő képzés után mérje."
+          }
+        },
+        "6": {
+          "text": "Hűtse a sérültet a rendelkezésre álló módon:",
+          "items": {
+            "1": "ha a mért maghőmérséklet 40 °C fölött van, merítse a sérültet teljesen 18–26 °C-os hideg vízbe;",
+            "2": "a teljes bemerítést addig folytassa, amíg a sérült maghőmérséklete 39 °C alá nem csökken;",
+            "3": "bemerítés közben tartsa a sérült fejét a víz fölött;",
+            "4": "ha a teljes bemerítés hideg vízbe nem lehetséges, alkalmazza: hidegcsomagokat a sérült teste körül; a sérült testének ventilátorral való hűtését, vagy előtte nedves kendőket a testére."
+          }
+        },
+        "7": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "8": "Ha a sérült eszméleténél marad, itasson vele sok folyadékot.",
+        "9": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "10": "Ha lehet, gyűjtsön a sérülttől vagy a körülállóktól minél több információt arról, hogyan alakult ki a hőguta. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "11": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A „hőguta” a környezet magas hőmérséklete okozta sürgős állapot, amely az egész szervezet működését megzavarja. A hőguta jelei: magas testhőmérséklet, néha 41 °C-ig; vörös, forró, száraz bőr; ingerlékenység, eszméletvesztés; szapora, felületes légzés.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések. A maghőmérsékletet „csak speciális hőmérővel” és „csak megfelelő képzés után” szabad mérni.",
+      "mistakes": "A rendelet ezt külön nem nevezi meg."
+    },
+    "electric-lightning": {
+      "title": "Áramütés vagy villámcsapás",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély sem Önre, sem a körülállókra, sem a sérültre; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Ha a sérült eszméleténél van, nyugtassa meg, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": {
+          "text": "Villámcsapás esetén:",
+          "items": {
+            "1": "a sérültet biztonságosan meg lehet érinteni, és el lehet látni;",
+            "2": "ha a sérült eszméleténél van, lássa el a sérüléseinek megfelelően."
+          }
+        },
+        "5": {
+          "text": "Áramütés esetén:",
+          "items": {
+            "1": "ha a sérült eszméletlen, győződjön meg róla, hogy az áram már nem hat rá;",
+            "2": "az áram hatásának megszüntetésére irányuló minden lépést csak megfelelő képzés után végezzen, vagy hívja a segélyhívó rendszer egységes 112-es számát;",
+            "3": "ha az áram már nem hat a sérültre, lássa el a sérüléseinek megfelelően."
+          }
+        },
+        "6": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "7": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "8": "Ha lehet, gyűjtsön a sérülttől vagy a körülállóktól minél több információt a sérülés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "9": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "Az „áramütés vagy villámcsapás” az elektromos áram vagy a villám hatása okozta sürgős állapot.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések. Az áram hatásának megszüntetésére irányuló lépéseket „csak megfelelő képzés után” szabad végezni.",
+      "mistakes": "A rendelet ezt külön nem nevezi meg."
+    },
+    "drowning": {
+      "title": "Vízbe fulladás",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Állapítsa meg, eszméleténél van-e: óvatosan rázza meg a vállát, és szóljon hozzá hangosan, például: „Jól van? Segítségre van szüksége?”",
+        "3": "Kérjen segítséget a közelben lévőktől. Ha több szemtanú is van, egy konkrét személyhez forduljon.",
+        "4": "Tegye szabaddá a légutakat. Ha a vízbe fulladás fejesugrás vagy sérülés miatt történt, tételezze fel, hogy a nyaki gerince sérült.",
+        "5": "Tegye szabaddá a légutakat, és a „látom, hallom, érzem” módszerrel állapítsa meg, lélegzik-e. A légzést legfeljebb 10 másodpercig vizsgálja. Ha kétséges, hogy van-e légzés, vagy a légzés nem normális, tekintse úgy, hogy nincs légzés.",
+        "6": {
+          "text": "Ha nincs légzés:",
+          "items": {
+            "1": "adjon öt befúvást szelepes zsebmaszkkal, lélegeztetőmaszkkal vagy hasonlóval. Minden befúvás egy másodpercig tartson, akkora légmennyiséggel, hogy a mellkas láthatóan megemelkedjen; ha nincs védőeszköz, az öt befúvás elhagyható, és azonnal a következő lépésekre térhet át;",
+            "2": "hívja a mentőket, és kövesse a mentésirányító utasításait. Ha más szemtanúk is vannak, mondja meg nekik, hogy hívják a mentőket, és hozzanak automata külső defibrillátort, Ön pedig azonnal lépjen tovább a következő lépésre. Ha a telefonján van kihangosítás, egyszerre hívja a mentőket és végezze a szív-tüdő újraélesztést. Ha egyedül van, és nem tudja, hogy automata külső defibrillátor van a közvetlen közelben, ne hagyja magára a sérültet, hogy defibrillátort keressen;",
+            "3": "ha az öt befúvás után sem jelennek meg életjelek, azonnal: nyomja meg 30-szor a mellkast legalább 5 cm (legfeljebb 6 cm) mélyen, percenként 100 (legfeljebb 120) nyomás ütemében (gyermeknél a mellkaskompresszió és a befúvás aránya 15 : 2); adjon 2 befúvást szelepes zsebmaszkkal, lélegeztetőmaszkkal vagy hasonlóval. Védőeszköz hiányában a befúvás elhagyható, és csak mellkaskompressziót végezhet. A két befúvás legfeljebb 5 másodpercig tartson; a két befúvás után folytassa a mellkaskompressziót az itt leírtak szerint; felnőttnél a mellkaskompressziót ne szakítsa meg 10 másodpercnél hosszabb időre;",
+            "4": "a mellkaskompressziót végző személyt 2 percenként váltsák. Ha a kompressziót végző kimerül, a váltásra 2 percnél előbb kerüljön sor."
+          }
+        },
+        "7": {
+          "text": "Amint automata külső defibrillátor van a helyszínen, azonnal:",
+          "items": {
+            "1": "kapcsolja be, és pontosan kövesse a hangutasításait;",
+            "2": "az elektródák felragasztása előtt teljesen szárítsa meg a mellkas bőrét;",
+            "3": "ha többen segítenek, a defibrillátor bekapcsolása és az elektródák felragasztása a mellkaskompresszióval egyidejűleg történjen;",
+            "4": "ha defibrillálásra van szükség, ügyeljen arra, hogy senki ne érjen a sérülthöz;",
+            "5": "a defibrillálás után azonnal folytassa a mellkaskompressziót;",
+            "6": "defibrilláláskor ügyeljen arra, hogy a sérült ne feküdjön nedves felületen."
+          }
+        },
+        "8": {
+          "text": "A szív-tüdő újraélesztést a mentők érkezése előtt csak akkor hagyja abba:",
+          "items": {
+            "1": "ha a felnőttnél az élet egyértelmű jelei jelennek meg: visszatér az önálló légzés, a koordinált mozgás;",
+            "2": "ha az újraélesztő és/vagy a sérült életét veszély fenyegeti;",
+            "3": "ha az újraélesztés súlyos fizikai kimerültség miatt nem folytatható."
+          }
+        },
+        "9": "Ha a mentők érkezése előtt az élet egyértelmű jelei jelennek meg, az automata külső defibrillátor elektródáit hagyja a sérült mellkasán."
+      },
+      "works": "A „vízbe fulladás” a sérült keringésmegállása, amelyet a légutak teljes folyadékba merülése okoz.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "Kétkedni abban, hogy lélegzik-e: „Ha kétséges, hogy van-e légzés, vagy a légzés nem normális, tekintse úgy, hogy nincs légzés.” Magára hagyni a sérültet, hogy defibrillátort keressen: „Ha egyedül van, és nem tudja, hogy automata külső defibrillátor van a közvetlen közelben, ne hagyja magára a sérültet.” Megszakítani a kompressziót: „Felnőttnél a mellkaskompressziót ne szakítsa meg 10 másodpercnél hosszabb időre.”"
     }
   }
 }

@@ -430,6 +430,273 @@
       "works": "Signs of an acute heart attack: discomfort in the centre of the chest; squeezing, pulling pain behind the breastbone; aching pain in the chest that spreads to the left arm, the neck, the lower jaw; fear without a reason; sudden shortness of breath; cold sweat, nausea, dizziness.",
       "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
       "mistakes": "The order does not name them separately."
+    },
+    "fracture": {
+      "title": "Suspected broken limb",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger to yourself, the people around or the person; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": {
+          "text": "If the person has signs of an open fracture:",
+          "items": {
+            "1": "cut the clothes open and look at the wound;",
+            "2": "if the wound is bleeding, act according to the procedure for massive external bleeding;",
+            "3": "put a sterile, clean dressing on the wound;",
+            "4": "help the person into a comfortable position (the one that hurts least);",
+            "5": "immobilise (keep still) the injured limb with standard equipment (splints) or improvised means: immobilise only if you have had the training for it; check the pulse in the far part of the limb before and after immobilising."
+          }
+        },
+        "5": {
+          "text": "If the person has signs of a closed fracture:",
+          "items": {
+            "1": "help the person into a comfortable position (the one that hurts least);",
+            "2": "immobilise (keep still) the injured limb with standard equipment (splints) or improvised means: immobilise only if you have had the training for it; check the pulse in the far part of the limb before and after immobilising."
+          }
+        },
+        "6": "Cover the person with a thermal blanket or a blanket.",
+        "7": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "8": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "9": "If you can, gather as much information as possible from the person about how the injury happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher.",
+        "10": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "Signs of an open fracture of a limb: a wound at the place of the fracture; bleeding from the wound; pain around the wound; the injured limb does not work properly; the limb lies in an unnatural position; the limb moves where it should not; crepitus (a peculiar crunching) at the place of the fracture; pieces of bone in the wound. Signs of a closed fracture of a limb: the limb lies in an unnatural position; pain around the wound or the deformity of the limb; the limb moves where it should not; crepitus (crunching) at the place of the fracture; a haematoma at the place of the fracture (the limb swells); the injured limb does not work properly.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are. A limb may be immobilised “only if you have had the training for it”.",
+      "mistakes": "The order does not name them separately."
+    },
+    "head-injury": {
+      "title": "Suspected head injury",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": {
+          "text": "Limit movements of the person’s neck (cervical spine):",
+          "items": {
+            "1": "hold the head still by hand in line with the body;",
+            "2": "if moving the head into line causes the person pain, hold the head still in the position it is in."
+          }
+        },
+        "5": {
+          "text": "Fix the neck with a cervical collar only on these conditions:",
+          "items": {
+            "1": "there are clear reasons to;",
+            "2": "you have had the training for it;",
+            "3": "medical staff take part and supervise;",
+            "4": "fixing the neck with a cervical collar alone does not fully limit movements of the spine."
+          }
+        },
+        "6": "If the person has to be moved from the scene, use a transport board and/or a scoop stretcher.",
+        "7": {
+          "text": "If there are wounds on the head:",
+          "items": {
+            "1": "put on a gauze dressing and fix it without pressing too hard;",
+            "2": "do not feel (palpate) the wound;",
+            "3": "do not press into the wound;",
+            "4": "do not use antiseptics when treating the wounds;",
+            "5": "do not try to feel or set pieces of bone."
+          }
+        },
+        "8": "Move the person, if at all, with as little movement of the spine as possible.",
+        "9": "Cover the person with a thermal blanket or a blanket.",
+        "10": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "11": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "12": "If you can, gather as much information as possible from the person about how the injury happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher.",
+        "13": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "Signs of a head injury: wounds, bruises on the head and face; confusion or loss of consciousness, with or without loss of memory; severe pain or a feeling of pressure in the head or neck; tingling or loss of feeling in the fingers and toes; loss of movement in the limbs; deformity of the head; seizures; abnormal breathing; problems with sight; nausea and/or vomiting; a persistent headache; blood and/or clear fluid coming from the nose and/or ears. Suspect a head injury after: a fall from a height; a jump into water; a hard blow to the body; a road accident; a lightning strike; an electric shock; a blast injury.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are. “Fixing the neck with a cervical collar alone does not fully limit movements of the spine.”",
+      "mistakes": "“Do not feel (palpate) the wound; do not press into the wound; do not use antiseptics when treating the wounds; do not try to feel or set pieces of bone.”"
+    },
+    "spine": {
+      "title": "Suspected spinal injury",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": {
+          "text": "Limit movements of the person’s neck (cervical spine):",
+          "items": {
+            "1": "hold the head still by hand in line with the body;",
+            "2": "if moving the head into line causes the person pain, hold the head still in the position it is in."
+          }
+        },
+        "5": "If the person has to be moved from the scene, use a transport board and/or a scoop stretcher.",
+        "6": "Move the person, if at all, with as little movement of the spine as possible.",
+        "7": "If the person has a gunshot wound in the area of the spine and no signs of damage to the spinal cord, no extra fixing of the spine is needed.",
+        "8": "Cover the person with a thermal blanket or a blanket.",
+        "9": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "10": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call the emergency medical dispatcher again.",
+        "11": "If you can, gather as much information as possible from the person about how the injury happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher.",
+        "12": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "Signs of a spinal injury: severe pain or a feeling of pressure in the head, neck or back; tingling or loss of feeling in the fingers and toes; loss of movement in the limbs; loss of feeling in parts of the body; deformity in the area of the spine; bruises, wounds in the area of the spine. Suspect a spinal injury after: a fall from a height; a jump into water; a hard blow to the body; a road accident; a lightning strike; an electric shock; a blast injury.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "The order does not name them separately."
+    },
+    "burns": {
+      "title": "Burns from heat",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger to yourself, the people around or the person; only when there is none, go on to the next step.",
+        "2": "Stop the heat acting on the person; if needed, take off smouldering clothes.",
+        "3": "Take off any jewellery on the burnt area.",
+        "4": "Calm the person and explain what you are going to do.",
+        "5": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "6": "Cool the burn by rinsing it for at least 20 minutes with water at room temperature, if the burn covers no more than 20% of the body in adults or 10% in children.",
+        "7": "After cooling, put a clean, sterile, dry gauze dressing on the burn. The dressing must not press on the soft tissues.",
+        "8": "Do not break any blisters. If blisters break by accident, put on dressings as described above.",
+        "9": "If the burns cover more than 20% of the body in adults or 10% in children, cover the person with a thermal blanket or a blanket.",
+        "10": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "11": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call the emergency medical dispatcher again.",
+        "12": "If you can, gather as much information as possible from the person or the people around about how the injury happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher of the emergency medical service.",
+        "13": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "A “thermal burn” is an emergency caused by high temperatures that damages the skin and soft tissues. When giving first aid, take into account how deep the damage is: 1st degree (erythema) — red skin, swelling and pain; 2nd degree (blisters) — severe pain with deep redness, the top layer of skin peeling off and blisters filled with fluid; 3rd degree — damage through the whole thickness of the skin with a hard scab over the damaged tissue; 4th degree (charring) — damage through the whole thickness of the skin with damage to muscles, tendons, bones.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "“Do not break any blisters”; “the dressing must not press on the soft tissues”."
+    },
+    "hypothermia": {
+      "title": "Hypothermia and frostbite",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger to yourself, the people around or the person; only when there is none, go on to the next step.",
+        "2": "Stop the cold acting on the person.",
+        "3": "Calm the person and explain what you are going to do.",
+        "4": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "5": {
+          "text": "If the person has signs of general hypothermia:",
+          "items": {
+            "1": "remove the harmful effects of the surroundings and move the person into a warm room;",
+            "2": "take off the person’s cold, wet clothes;",
+            "3": "if the person is conscious, give them warm drinks without alcohol."
+          }
+        },
+        "6": {
+          "text": "If the person has signs of frostbite:",
+          "items": {
+            "1": "remove the harmful effects of the surroundings and move the person into a warm room;",
+            "2": "carefully, without force, take off the person’s cold, wet clothes and shoes;",
+            "3": "put clean, sterile, dry gauze dressings on the affected parts of the body, without pressing on the tissues;",
+            "4": "if needed, keep the affected limbs still;",
+            "5": "if the person is conscious, give them warm drinks without alcohol;",
+            "6": "do not massage or rub the affected areas, do not put sources of heat on them;",
+            "7": "do not break any blisters on the frostbitten area."
+          }
+        },
+        "7": "Cover the person with a thermal blanket or a blanket.",
+        "8": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "9": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call the emergency medical dispatcher again.",
+        "10": "If you can, gather as much information as possible from the person or the people around about how the injury happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher of the emergency medical service.",
+        "11": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child.",
+        "12": "While doing cardiopulmonary resuscitation, it is recommended to warm the person, if possible."
+      },
+      "works": "Risk factors for hypothermia and/or frostbite: low temperatures together with wind or dampness; tight or wet shoes or clothes; the person not moving; another condition of the person (blood loss and the like); being drunk, on drugs or otherwise intoxicated; lack of water and too little food. Signs of general hypothermia: body temperature below 35 °C; shivering; slow breathing; pale, cold skin; confusion. Frostbite has four degrees: 1st — the skin is pale, a little swollen, feeling is reduced or gone; 2nd — blisters with clear or white fluid form on the frostbitten area; 3rd — the skin dies: blisters with dark red or dark brown fluid appear; a line of inflammation forms around the dead area; the person typically becomes poisoned by it — sweating, feeling much worse, apathy; 4th — blisters with black fluid appear. The person shows signs of shock.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "“Do not massage or rub the affected areas, do not put sources of heat on them”; “do not break any blisters on the frostbitten area”."
+    },
+    "heatstroke": {
+      "title": "Heatstroke",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger to yourself, the people around or the person; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do next.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": "Stop the heat acting on the person and move them into a cool room.",
+        "5": {
+          "text": "Measure the core body temperature:",
+          "items": {
+            "1": "measure the body temperature only with special thermometers;",
+            "2": "measure the body temperature only if you have had the training for it."
+          }
+        },
+        "6": {
+          "text": "Use whatever method of cooling the person is available:",
+          "items": {
+            "1": "if the measured core body temperature is over 40 °C, put the person fully into cold water of 18–26 °C;",
+            "2": "keep the person fully in the water until their core body temperature is below 39 °C;",
+            "3": "while the person is in the water, keep their head above water;",
+            "4": "if putting the person fully into cold water is not possible, use: cold packs placed around the person’s body; fans blowing air over the person’s body, or wet cloths put on the body first."
+          }
+        },
+        "7": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "8": "If the person stays conscious, give them plenty to drink.",
+        "9": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "10": "If you can, gather as much information as possible from the person or the people around about how the heatstroke happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher.",
+        "11": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "“Heatstroke” is an emergency caused by high temperatures around the person that upsets the whole body. Signs of heatstroke: a high body temperature, sometimes up to 41 °C; red, hot, dry skin; irritability, loss of consciousness; fast, shallow breathing.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are. The core body temperature should be measured only “with special thermometers” and only “if you have had the training for it”.",
+      "mistakes": "The order does not name them separately."
+    },
+    "electric-lightning": {
+      "title": "Electric shock or lightning strike",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger to yourself, the people around or the person; only when there is none, go on to the next step.",
+        "2": "If the person is conscious, calm them and explain what you are going to do next.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": {
+          "text": "If the person was struck by lightning:",
+          "items": {
+            "1": "it is safe to touch the person and give them the help they need;",
+            "2": "if the person is conscious, give them first aid for the injuries they have."
+          }
+        },
+        "5": {
+          "text": "If the person had an electric shock:",
+          "items": {
+            "1": "if the person is unconscious, make sure the electric current is no longer acting on them;",
+            "2": "do anything to stop the current only if you have had the training for it, or call the single number of the emergency system, 112;",
+            "3": "once the current is no longer acting on the person, give them first aid for the injuries they have."
+          }
+        },
+        "6": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "7": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "8": "If you can, gather as much information as possible from the person or the people around about how the injury happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher of the emergency medical service.",
+        "9": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "An “electric shock or lightning strike” is an emergency caused by electric current or lightning.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are. Anything to stop the current should be done only “if you have had the training for it”.",
+      "mistakes": "The order does not name them separately."
+    },
+    "drowning": {
+      "title": "Drowning",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger; only when there is none, go on to the next step.",
+        "2": "Check whether the person is conscious: gently shake them by the shoulder and speak to them loudly, for example: “Are you all right? Do you need help?”",
+        "3": "Call out to people nearby for help. If there are several bystanders, speak to one particular person.",
+        "4": "Open the airway. If the drowning happened after a dive or an injury, assume the person has an injury of the neck (cervical spine).",
+        "5": "Open the airway and check for breathing with the “listen, look, feel” method. Check for breathing for up to 10 seconds. If you are in doubt whether there is breathing, or it is not normal, assume there is no breathing.",
+        "6": {
+          "text": "If there is no breathing:",
+          "items": {
+            "1": "give five rescue breaths using a pocket mask with a valve, a breathing mask or the like. Each breath should last one second, with enough air to make the chest visibly rise; if there are no barrier devices, you may skip the 5 rescue breaths and go straight to the next steps;",
+            "2": "call emergency medical help and follow the instructions of the dispatcher. If there are other bystanders, tell them to call emergency medical help and bring an automated external defibrillator, and go on to the next step at once. If your phone has a loudspeaker, call emergency medical help and do cardiopulmonary resuscitation at the same time. If you are the only rescuer and do not know that an automated external defibrillator is very close by, do not leave the person to look for one;",
+            "3": "if there are no signs of life after five rescue breaths, at once: do 30 chest compressions at least 5 cm deep (no more than 6 cm), at a rate of 100 compressions (no more than 120) a minute (for children, chest compressions and rescue breaths in a ratio of 15 : 2); give 2 breaths using a pocket mask with a valve, a breathing mask or the like. Without protective equipment you may skip the rescue breaths and do chest compressions only. The two rescue breaths should take no more than 5 seconds; after the two breaths, go on with chest compressions as described here; do not interrupt chest compressions on an adult for more than 10 seconds;",
+            "4": "change the person doing chest compressions every 2 minutes. If the person doing the compressions becomes exhausted, change earlier than after 2 minutes."
+          }
+        },
+        "7": {
+          "text": "As soon as an automated external defibrillator is at hand, at once:",
+          "items": {
+            "1": "switch it on and follow its spoken instructions exactly;",
+            "2": "dry the skin of the chest completely before sticking on the pads;",
+            "3": "if several people are helping, switch on the defibrillator and stick the pads on the adult’s chest while chest compressions go on;",
+            "4": "if a shock is needed, make sure nobody touches the adult;",
+            "5": "after the shock, start chest compressions again at once;",
+            "6": "when giving a shock, make sure the person is not lying on a wet surface."
+          }
+        },
+        "8": {
+          "text": "Stop cardiopulmonary resuscitation before the emergency (ambulance) team arrives only:",
+          "items": {
+            "1": "if the adult shows clear signs of life: breathing on their own, coordinated movement;",
+            "2": "if there is a threat to the life of the rescuer and/or the person;",
+            "3": "if it cannot be continued because of severe physical exhaustion."
+          }
+        },
+        "9": "If clear signs of life appear before the emergency (ambulance) team arrives, leave the pads of the automated external defibrillator on the person’s chest."
+      },
+      "works": "“Drowning” is cardiac arrest caused by the person’s airway being fully under liquid.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "Doubting whether the person is breathing: “If you are in doubt whether there is breathing, or it is not normal, assume there is no breathing.” Leaving the person to look for a defibrillator: “If you are the only rescuer and do not know that an automated external defibrillator is very close by, do not leave the person to look for one.” Pausing compressions: “Do not interrupt chest compressions on an adult for more than 10 seconds.”"
     }
   }
 }
