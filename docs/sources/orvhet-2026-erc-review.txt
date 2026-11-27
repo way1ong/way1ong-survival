@@ -1,0 +1,1296 @@
+https://doi.org/10.1556/650.2026.33623
+(PDF from https://real.mtak.hu/246229/1/650-article-p1294.pdf, read 2026-11-27; text by pdftotext)
+
+ÖSSZEFOGLALÓ KÖZLEMÉNY
+
+Ö S S Z EFOGLA LÓ K ÖZLEM ÉN Y
+
+Az Európai Újraélesztési Tanács (ERC)
+2025. évi elsősegélynyújtási és felnőtt
+alapszintű újraélesztési gyakorlati
+irányelveinek összefoglalója
+és hazai adaptációs szempontjai
+Betlehem József dr.1, 2, 3 ■ Bánfai-Csonka Henrietta dr.1
+Kovács Enikő dr.2, 4, 5 ■ Bánfai Bálint dr.1, 2
+1
+
+Pécsi Tudományegyetem, Egészségtudományi Kar, Sürgősségi,
+Egészségpedagógiai és Ápolástudományi Intézet, Pécs
+2
+Magyar Resuscitatiós Társaság, Budapest
+3
+Magyar Vöröskereszt, Budapest
+4
+Semmelweis Egyetem, Általános Orvostudományi Kar,
+Aneszteziológiai és Intenzív Terápiás Tanszék, Budapest
+5
+Semmelweis Egyetem, Általános Orvostudományi Kar,
+Városmajori Szív- és Érgyógyászati Klinika, Budapest
+
+Az elsősegélynyújtás tudományos igényű megközelítése az utóbbi évtizedekben vált meghatározóvá az orvosi szakirodalomban. Ez a folyamat paradigmaváltást jelent: az azonnali ellátást már nem csupán altruista „jó szamaritánusi”
+cselekedetként, hanem szigorú bizonyítékokon alapuló orvostudományi igényességű területként értelmezzük. Mivel
+a különféle vészhelyzetek túlélési esélyei globálisan még mindig jelentős szórást mutatnak, elengedhetetlenné vált egy
+tudományosan megalapozott keretrendszer kialakítása mind a laikusok, mind az egészségügyi szakemberek számára.
+A jelen összefoglaló közlemény célja az Európai Újraélesztési Tanács (ERC) 2025. évi legújabb elsősegélynyújtási és
+kórházon kívüli felnőtt alapszintű újraélesztési (BLS) irányelveinek bemutatása és elemzése. Kiemelt figyelmet fordítunk a laikus segélynyújtók első lépései és a sürgősségi betegellátó rendszerek szakmai protokolljai összehangolásának
+fontosságára. Az irányelvek a Nemzetközi Újraélesztési Összekötő Bizottság (ILCOR) 2025. évi legújabb kezelési
+ajánlásait tartalmazó, tudományos konszenzuson alapuló ajánlásokon (CoSTR) alapulnak. Az ERC-munkacsoport
+kiterjedt szakirodalmi elemzést végzett az adatbázisokban elérhető szisztematikus áttekintések és átfogó elemzések
+felhasználásával. A javaslatok kidolgozása során a tudományos bizonyítékokon alapuló szakmai döntéseket tartalmazó
+(Evidence to Decision) táblázatok és a narratív szakértői vélemények biztosították, hogy minden ajánlás mögött magas szintű tudományos bizonyíték álljon. Az irányelvek bizonyítékalapja és bizonyítékszintje témánként eltérő; egyes
+területeken szakértői konszenzuson alapuló gyakorlati állásfoglalások is szerepelnek. Kéziratunk narratív összefoglalásra és a hazai adaptációs lehetőségekre fókuszál, míg a szisztematikus evidenciák szintézise az ERC/ILCOR módszertan része volt. Az új ajánlások az egységes, ABCDE-vizsgálati sémán alapuló elsődleges megközelítést szorgalmazzák minden kritikus állapotnál, legyen szó belgyógyászati kórképekről, traumás sérülésekről vagy környezeti
+veszélyhelyzetekről. Meghatározó elem a kórházon kívüli keringésmegállások túlélési arányának javítása, amely a
+technológiai innovációk és a laikusoktatás népszerűsítésének integrálásával valósítható meg. Az egységesített szakmai
+ajánlások és a gyakorlatorientált oktatás a hatékony sürgősségi ellátás sarokkövei. Az ellátási lánc hatékonyságának
+növeléséhez elengedhetetlen a laikus elsősegélynyújtás és a sürgősségi szakemberek által végzett beavatkozás közötti
+összehangolt működés biztosítása, amelyet a legfrissebb nemzetközi tudományos konszenzus támaszt alá.
+Orv Hetil. 2026, 167(33): 1294–1308.
+Kulcsszavak: elsősegélynyújtás, alapszintű újraélesztés, kórházon kívüli keringésmegállás, automata külső defibrillátor, mentésirányítás, laikus újraélesztés
+
+DOI: 10.1556/650.2026.33623 ■ © Szerző(k)
+
+1294
+
+2026 ■ 167. évfolyam, 33. szám ■ 1294–1308.
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+Ö S S ZEFOGLA LÓ K ÖZLEM ÉN Y
+
+A review of the European Resuscitation Council (ERC) 2025 first aid and adult
+basic life support practical guidelines: implications for Hungarian practice
+The scientific approach to first aid has gained significant prominence in medical literature over recent decades. This
+process represents a paradigm shift: immediate care is no longer viewed merely as an altruistic “Good Samaritan” act,
+but as a discipline demanding the rigour of evidence-based medicine. Since global survival rates for various emergencies continue to show significant variance, it has become essential to establish a scientifically grounded framework for
+both laypeople and healthcare professionals. This review aims to present and analyze the latest 2025 European
+­Resuscitation Council (ERC) guidelines for first aid and adult out-of-hospital basic life support (BLS). Particular
+emphasis is placed on the importance of aligning the initial steps taken by lay rescuers with the professional protocols
+of emergency medical service systems. These guidelines are based on the 2025 International Consensus on Science
+with Treatment Recommendations (CoSTR) developed by the International Liaison Committee on Resuscitation
+­(ILCOR). The ERC writing group conducted extensive literature synthesis, utilising published systematic reviews
+and scoping analyses. During the development of these recommendations, “Evidence to Decision” tables and narrative expert opinions ensured that each guideline is underpinned by high-level scientific evidence. The evidence base
+and level of evidence for the guidelines vary by topic; in certain areas, good practice statements based on expert
+consensus are also included. Our manuscript focuses on a narrative summary and the possibilities for domestic adaptation, while the systematic synthesis of evidence was part of the ERC/ILCOR methodology. The updated recommendations advocate for a unified primary approach based on the ABCDE assessment framework for all critical
+conditions, including internal medicine pathologies, traumatic injuries, and environmental emergencies. A defining
+element is the improvement of survival rates for out-of-hospital cardiac arrest, which can be achieved through the
+integration of technological innovations and the promotion of bystander education. Standardized professional protocols and practice-oriented education are the cornerstones of effective emergency care. To enhance the efficiency of
+the chain of survival, it is vital to ensure a seamless transition between lay first aid and interventions performed by
+emergency professionals, as supported by the latest international scientific consensus.
+Keywords: first aid, basic life support, out-of-hospital cardiac arrest, automated external defibrillator, dispatcher-­
+assisted cardiopulmonary resuscitation, lay resuscitation
+Betlehem J, Bánfai-Csonka H, Kovács E, Bánfai B. [A review of the European Resuscitation Council (ERC) 2025
+first aid and adult basic life support practical guidelines: implications for Hungarian practice]. Orv Hetil. 2026;
+167(33): 1294–1308.
+(Beérkezett: 2026. április 26.; elfogadva: 2026. május 23.)
+
+Rövidítések
+ABCDE = (airway, breathing, circulation, disability, exposure)
+sürgősségi vizsgálati módszer (légút, légzés, keringés, neurológia, egész test/eset); ACVPU = AVPU + C (confusion – zavart); AED = (automated external defibrillator) automata külső
+defibrillátor; AVPU = A (alert – éber), V (verbálisan stimulálható = hangingerre reagál [somnolens]), P (pain) fájdalomingerre reagál [soporosus]), U (unresponsive) eszméletlen (kóma);
+BE-FAST = (Balance, Eyes, Face, Arm, Speech, Time) egyensúly, szem/látás, arc, kar, beszéd, idő; BLS = (basic life support) alapszintű újraélesztés; CoSTR = (Consensus on Science
+with Treatment Recommendations) kezelési ajánlásokon alapuló tudományos konszenzus; CPSS = (Cincinnati Prehospital
+Stroke Scale) Cincinnati prehospitális stroke-skála; COVID–19
+= (coronavirus disease 2019) koronavírus-betegség 2019;
+CPR = szív-tüdő újraélesztés (cardiopulmonalis resuscitatio);
+ERC = (European Resuscitation Council) Európai Újraélesz­
+tési Tanács; ESC = (European Society of Cardiology) Európai
+Kardiológiai Társaság; ILCOR = (International Liaison Committee on Resuscitation) Nemzetközi Újraélesztési Összekötő
+Bizottság; LAPSS = (Los Angeles Prehospital Stroke Screen)
+Los Angeles prehospitális stroke-skála; LSFA = (life supporting
+first aid) életmentő elsősegélynyújtás; MASS = (Melbourne
+Ambulance Stroke Screen); PAD = (public access defibrillator)
+nyilvános elérhetőségű defibrillátor
+ORVOSI HETILAP
+
+Az Európai Újraélesztési Tanács (ERC) 2025-ben számos szakmai irányelvvel együtt átdolgozta és koncepcionálisan megújította az elsősegélynyújtásra és a kórházon
+kívüli felnőtt alapszintű újraélesztésre (BLS) vonatkozó
+szakmai irányelveit. Jóllehet a kórházon kívüli felnőtt
+alapszintű újraélesztéssel kapcsolatos legújabb szakmai
+konszenzus közreadása mindig is az ERC tevékenységének sarokköve volt, az elsősegélynyújtás tudományosan
+megalapozott fogalomrendszerének bevezetése 2015
+után került a fókuszba önálló irányelvként. Az elsősegély
+tudományos bázisának fejlődése, a könnyen elérhető digitális forrásokban való szakszerű tájékozódás igénye
+sürgetővé tette az elsősegélynyújtás korszerű, egységes
+szemléletének kialakítását. Az elsősegélynyújtás tárgykörének áttekintése és önálló gyakorlati irányelvként való
+megjelenése segít nemzetközi és hazai szinten is egységes irányba terelni az elsősegélynyújtás társadalmasításával foglalkozó különböző szervezetek tevékenységét és
+programjait [1, 2].
+A jelen összefoglaló célja, hogy hangsúlyozza az ERC
+tudományos konszenzus alapján megalkotott, majd közreadott, a nemzetközi elsősegélynyújtásra és a kórházon
+kívüli felnőtt alapszintű újraélesztésre vonatkozó irányel-
+
+1295
+
+2026 ■ 167. évfolyam, 33. szám
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+Ö S S Z EFOGLA LÓ K ÖZLEM ÉN Y
+
+veinek lényeges elemeit, kiemelje indoklással a fontosabb
+változásokat, valamint megvilágítsa a hazai gyakorlati
+adaptációs lehetőségeket. Egyértelmű cél az is, hogy elősegítse a széles értelemben vett hazai egységes segítségnyújtási szemlélet kialakítását, megfelelő és tudományos
+bizonyítékokon alapuló fogózkodókat adjon szakmai
+programok tematikájának meghatározásához, valamint
+segítse a különböző felkészültségű szakemberek munkáját a hiteles szakmai tartalom közvetítésében. Ugyanakkor az összefoglalónak nem célja a hivatkozott irányelvek
+szó szerinti fordítása és közlése, mint ahogy az egyes
+kórképekre vonatkozó teljes ellátási elvek részletekbe
+menő ismertetése sem. A Magyar Resuscitatiós Társaság
+azon fő törekvései is tükröződnek a jelen összefoglalóban, hogy a hazai újraélesztés fejlődésének előmozdítását felvállaló szakmai közösséget erősítse, egységes, hatékony tudományos bizonyítékokon alapuló szemléletre és
+gyakorlatra ösztönözze. Az összefoglalóban az elsősegélynyújtást és a kórházon kívüli felnőtt alapszintű újraélesztést együtt tárgyaljuk, ezzel is kifejezve azt a szakmai igényt, hogy a keringésmegállások észlelése és
+ellátása nagyobb hangsúlyt kell hogy kapjon európai
+szinten is.
+A kézirat elkészítéséhez felhasználtuk a Nemzetközi
+Újraélesztési Összekötő Bizottság (ILCOR) által 2025ben megalkotott és közreadott, az elsősegélynyújtásra és
+a kórházon kívüli felnőtt alapszintű újraélesztésre vonatkozó legújabb kezelési ajánlásokat tartalmazó, tudományos konszenzuson (CoSTR) alapuló irányelveket. Az
+irányelvek kidolgozásakor az ERC Elsősegélynyújtási
+Munkacsoportja felhasznált publikált szakirodalmi szisztematikus áttekintéseket és átfogó elemzéseket a CoSTRajánlásokkal együtt. Az irányelvek hazai implementációjához a magyar szakmai ajánlásokat, protokollokat és
+gyakorlatot is figyelembe vettük a releváns témáknál. Ez
+nem szisztematikus szakirodalmi áttekintést tükröz, tekintve a hazai magyar nyelvű adatbázisok szűkösségét,
+hanem elsősorban az adott témánál a mérvadó és hivatkozható szakmai ajánlásokat, szakirodalmi közléseket.
+A közlemény nem tartalmaz humán vagy állatkísérletet,
+illetve azonosítható betegadatot, így etikai bizottsági engedély beszerzése nem volt szükséges.
+
+Az elsősegélynyújtás korszerű definíciója
+(viselkedés és cselekedet)
+Az elsősegélynyújtás alapvetően olyan emberi viselkedés,
+amelyet bárki, bármilyen sürgős helyzetben felvállalhat,
+ideértve az önmentést is. Az elsősegélynyújtás folyamata
+magában foglalja a helyzet felismerését, az állapot felmérését, az ellátási prioritások meghatározását, a segítségnyújtó (saját korlátain belüli) kompetenciájának megfelelően végzett ellátást és a további segítséghívást. Az
+elsősegély tulajdonképpen a túlélési lánc első elemeként
+is felfogható az életveszélyes és olyan veszélyeztető állapotokban, amelyeknél a segítségnyújtás csökkenti a szívleálláshoz vezető okok progressziójának kockázatát [1].
+2026 ■ 167. évfolyam, 33. szám
+
+A korábbi elsősegélynyújtási irányelvhez képest a mostani a tudományos bizonyítékok tükrében a szívmegállás
+témáját helyezi a középpontba, szorosan idekapcsolva a
+BLS-t is. Ez a szemlélet eredményezi azt is, hogy a 2025.
+évi, elsősegélynyújtásról szóló szakmai irányelv tematikája is jelentősen változott a korábbiakhoz képest. A tematika változása mellett fontos hangsúlyozni, hogy a digitalizáció adta beavatkozást támogató szélesebb lehetőségek
+következtében az elsősegélyt nyújtó személyek szerepei
+között is szükséges különbséget tenni a laikus és a képzett elsősegélynyújtó között. Az utóbbi időben egyre
+több ország célja a képzett elsősegélynyújtók hálózatba
+szervezése az infokommunikációs technológia segítségével, az elsősegélynyújtás és különösen az újraélesztés
+­hatékonyságának erősítésére [3]. Továbbá a COVID–
+19-pandémia újraélesztési szakmai irányelvekre gyakorolt
+restriktív hatásainak kivezetése is megtörtént, erősítve a
+minél szélesebb körű segítségnyújtási társadalmi szemléletet [4].
+
+Az elsősegélynyújtás tematikája
+Hosszú idő telt el azóta, hogy Peter Safar és Asmund
+Laerdal az 1960-as években megalkotta és bevezette az
+életmentő elsősegélynyújtás (life supporting first aid –
+LSFA) fogalmát. Ezek az alapvető beavatkozások azonban a mai napig részei maradtak az elsősegélynyújtási
+tematikáknak (mentőhívás, átjárható légútbiztosítás, befúvásos lélegeztetés, mellkaskompresszió, külső vérzés
+csillapítása, eszméletlen beteg pozicionálása) [5, 6]. Az
+ERC a legújabb tudományos szakirodalomra támaszkodva 4 csoportban összesen 24 területet javasol konszenzussal az elsősegélynyújtás szakmai irányelv részévé
+tenni, ami a világ legtöbb országában megvalósítható
+cselekvéseket indukálhat. Az új témákat a főbb csoportok alapján vesszük sorra [1].
+
+Általános alapelvek az elsősegélynyújtásban
+Az elsősegélynyújtási irányelv kitér a beavatkozások lehetséges gyakorlati alkalmazására és a különböző környezeti sajátosságok figyelembevételének lehetőségeire
+is. Ez magában foglalja az elsősegélynyújtó személyével,
+az elsősegélykurzusokkal, az egységes elsősegély-felszereléssel szembeni elvárásokat. Ezek alapján az elsősegélynyújtó személy legyen képes a helyzet biztonságosságának felmérésére, a helyi segélyvonal hívására, valamint
+azoknak az eszközöknek és gyógyszereknek az alkalmazására, amelyeknél gyakorlattal bír. Az elsősegélykurzusokkal szembeni elvárás, hogy minél szélesebb közönség
+számára legyenek elérhetők, és népszerűsítsék az első­
+segélynyújtást. Továbbá a kurzus tartalma a helyi közösségek igényeihez kell hogy igazodjon, figyelemmel a
+­szerényebb anyagi háttérrel, alacsonyabb iskolai végzettséggel rendelkező közösségekre is. A képzési tartalom
+egyik nagyon fontos eleme az oktatási módszerek helyes
+kiválasztása, amivel az elsősegélynyújtók (laikus segítők,
+
+1296
+
+ORVOSI HETILAP
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+Ö S S ZEFOGLA LÓ K ÖZLEM ÉN Y
+
+szemtanúk és képzett elsősegélynyújtók) félelmét csökkenteni, szorongásukat oldani lehet mind az ellátás során, mind azt követően. A mostani elsősegélynyújtási
+gyakorlati irányelv kiemeli azt is, hogy az elsősegély-felszerelést az élet számos területén elérhetővé kell tenni
+(munkahelyek, szabadidőközpontok, középületetek,
+otthonok). Szerencsére hazánkban régóta a gépjárművek kötelező felszerelése az elsősegélynyújtó készlet [7].
+A nyilvános elsősegélydobozoknak meg kell felelniük a
+helyi jogszabályi előírásoknak, egyértelmű jelzéssel kell
+ellátni és könnyen hozzáférhető helyeken kell elhelyezni
+őket, és a használatot követően gondoskodni kell folyamatos pótlásukról.
+A leglényegesebb változás az elsősegélynyújtás szakmai irányelvében a beteg, sérült vagy sokkos állapotú
+személy strukturált, elsősegélynyújtó által végzett állapotfelmérése (ABCDE-vizsgálat). Ez ebben a formában
+korábban csak az emelt szintű ellátás tematikájában és
+gyakorlatában jelent meg, amelyet Európában egységesen 2005 óta vezettek be, és a sürgősségi ellátók rendszerszinten jelenleg is alkalmaznak [8]. Ez az egységesítés a sürgősségi betegvizsgálat logikai menetéből
+1. táblázat
+
+kiindulva lehetővé teszi a laikusok számára is, hogy jobban értsék a teljes ellátás menetét, és képesek legyenek
+holisztikusan gondolkodni a segítségnyújtásról. Ez a
+megközelítés nem mond ellent a BLS során alkalmazott
+és tanult irányelvnek, sokkal inkább az elsősegélynyújtó
+tevékenységét helyezi egy szélesebb szabályozott kontextusba. Ez a betegvizsgálati algoritmus az elsősegélynyújtók tevékenységét is tágítja olyan beavatkozási lehetőségekkel és eszközökkel, amelyek eddig nem képezték
+az írott képzési tematika részét, de a technológia vagy
+eszköz széles körben elterjedt.
+Az ABCDE-vizsgálati sémában a fő hangsúly a biztonság szem előtt tartásán túl a reakcióképesség (eszmélet)
+gyors megítélésén van, amelyet ezzel párhuzamosan az
+életveszélyes külső vérzés jeleinek keresése vagy a keringésleállás tényének felismerése kell, hogy kövessen. Az
+egyértelmű erős külső vérzés jelenléte azonnali cselekvést is követel, a vérzésre alkalmazott direkt nyomással és
+nyomókötéssel (esetleg hemosztatikus kötéssel) vagy
+’tourniqet’ (érszorító) kontrollált alkalmazásával. Az átjárható légút megítélése (A) során szükséges figyelni
+arra, hogy a bajbajutott esetleg magasból esett-e, vagy
+
+Az elsősegélynyújtók ABCDE-betegvizsgálati eszköze az ERC 2025. évi elsősegélynyújtási gyakorlati szakmai irányelve alapján adaptálva
+
+Biztonság (Safety)
+
+Vizsgálat (Assess)
+
+Lehetséges azonnali beavatkozás (felnőtt esetén)
+
+Biztonságos megközelíteni a személyt?
+(Forgalom? Vegyi anyagok? Erőszakos személyek?)
+
+Csak akkor közelítsen, ha a helyszín biztonságos.
+
+Reakciókészség (Responsiveness) Óvatosan kezdeményezzen kontaktust a beteggel.
+Kérdezze hangosan: „Jól van?”
+
+Ha nincs válasz, készüljön fel a segélyhívásra és
+az ABCDE-re.
+
+Életveszélyes vérzés (c)
+
+Van-e életveszélyes vérzésre utaló jel?
+
+Állítsa el a vérzést közvetlen nyomással,
+gézpólyával, vérzéscsillapító kötszerrel vagy
+érszorítóval (ha járatos benne).
+
+A – Légutak (Airway)
+
+Átjárhatók a légutak?
+Magasból esett, vagy súlyos trauma érte?
+(Gondoljon a nyaki gerinc sérülésére!)
+
+Alkalmazza a fej hátraszegését és az áll kiemelését.
+Ne mozgassa a beteget, kivéve, ha veszélyben van.
+Alkalmazza a nyaki gerinc mozgásának kézi
+korlátozását.
+
+B – Légzés (Breathing)
+
+Lélegzik a beteg? „Látom, hallom, érzem”
+(max. 10 mp). Figyeljen zihálásra/stridorra.
+Van szájüregi duzzanat? Fullad és nem tud köhögni?
+Kérdezze: „Félrenyelt?” Hypoxia jelei (cyanosis)?
+Mérjen szaturációt pulzoximéterrel.
+
+Ha eszméletlen, és nem lélegzik normálisan:
+hívjon mentőt, és kezdje meg az újraélesztést (CPR).
+Anafilaxia gyanúja esetén használja a beteg auto­
+injektorát.
+Fuldoklás: 5 hátba ütés, 5 hasi lökés. Oxigénadás
+esetén (ha elérhető) a cél a 94–98%-os szaturációs
+érték.
+
+C – Keringés (Circulation)
+
+Mellkasi fájdalma van-e a betegnek (mellkas, nyak,
+kar)? Nyomásérzés a mellkasban?
+Sokk jelei: • Nagyon gyors/lassú pulzus? • Sápadt,
+hideg, nyirkos bőr? • Szédülés vagy zavartság?
+
+Helyezze kényelembe. Kardiális mellkasi fájdalom:
+250 mg szétrágható aszpirin.
+Sokk: passzív lábemelés (átmenetileg).
+Folyamatos figyelem: az állapotromlásra
+vagy eszméletvesztésre (szívleállás).
+
+D – Neurológia (Disability)
+
+Éberségi szint (ACVPU): A – alert (éber),
+C – confusion (zavart), V – verbal (hangra reagál),
+P – pain (fájdalomra reagál), U – unresponsive
+(nem reagál). Stroke-felmérés.
+
+Agyrázkódás: a fizikai aktivitás tilos.
+Hypoglykaemia: 15–20 g glükóz/szőlőcukor
+szájon át.
+
+E – Egész test/eset (Exposure)
+
+Külső sérülések keresése (fej, nyak, törzs, végtagok).
+Maghőmérséklet mérése (ha lehetséges).
+
+Hypothermia megelőzése: nedves ruha levétele,
+betakarás. Hyperthermia: aktív hűtés.
+Amputátum: hűtött tartályban szállítsa
+a beteggel együtt a kórházba.
+
+CPR = szív-tüdő újraélesztés (cardiopulmonalis resuscitatio); ERC = Európai Újraélesztési Tanács
+ORVOSI HETILAP
+
+1297
+
+2026 ■ 167. évfolyam, 33. szám
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+Ö S S Z EFOGLA LÓ K ÖZLEM ÉN Y
+
+súlyos sérülést szenvedhetett-e, különös tekintettel a
+nyaki gerincsérülés lehetőségére. A légzés vizsgálatakor
+(B) továbbra is az eddig tanult, 10 másodpercig tartó
+hármas érzékelést (látom, hallom, érzem) kell alkalmazni
+a megfelelően reklinált koponya mellett. Ugyanakkor a
+légzési hangok megítélésére a jelenlegi irányelv sokkal
+nagyobb hangsúlyt fordít annak érdekében, hogy a segítségnyújtót ne vezesse félre az agonalis/terminalis légzés,
+és haladéktalanul kezdje meg az újraélesztést keringésmegállás esetén. Ezen túl figyelni kell a fulladás és a légúti duzzanat jeleire (zihálás, stridor, köhögés), továbbá a
+hypoxia megjelenésére is. A keringés ellenőrzése (C) során a fő hangsúly a laikus segítségnyújtók orientálásában
+a mellkasi fájdalomra helyeződik. A sokk tüneteinek keresése is a feladatuk közé tartozik, ami a pulzus (szapora,
+gyors), a bőr (sápadt, hideg, verejtékes) és az eszmélet
+(szédülés, zavartság) megítélésére terjed ki. Az alsó végtagok passzív felemelése (30–60°) nem traumás esetekben is eredményezhet átmeneti javulást a szívfrekvenciában, az artériás középnyomásban, a szívindexben [9].
+Ugyanakkor ennek általános használatát még nem javasolják egységesen. A bajbajutott neurológiai állapotának
+(D) megítélésekor a laikus segítőt az eszmélet (reakcióképesség) szintjének felmérése vezérli a leginkább. Itt a
+korábban már erre a célra alkalmazott AVPU-skála bővítésére került sor (ACVPU). Az új elem ebben a skálában
+a „C”, vagyis a beteg éber, de zavart, dezorientált, vagy
+nem a megszokott módon viselkedik. Az ABCDE-betegvizsgálat befejező lépése a teljes test szisztematikus
+átvizsgálása (E), elsősorban külső sérülések után kutatva.
+Itt fontos kitérni a testhőmérséklet mérésére is (1. táblázat).
+Az új irányelvek szemlélete a laikusoktól a keringésleállás felismerését, a segítséghívást és az újraélesztés azonnali megkezdését várja el a leghangsúlyosabban, ezért a
+kórházon kívüli keringésmegállás tárgyalása is az általános alapelvek közé került azokkal a fő üzenetekkel, hogy
+a felismerést követően nyugodtan hagyatkozzanak a
+mentésirányítók utasításaira; ha bizonytalanok, ne aggódjanak az esetlegesen az újraélesztés során okozott
+sérülések lehetősége miatt; és addig végezzék az újraélesztést, amíg a mentők megérkeznek, átveszik az ellátást, és utasítást adnak annak befejezésére. Ugyancsak az
+általános teendők részét képezi a stabil oldalra fordítás az
+eszméletlenség (éberségi szint) csökkenése esetén. Itt
+azonban az elsősegélynyújtótól elvárja az irányelv, hogy
+CPR-indikáció, agonalis légzés vagy trauma esetén se tegye a sérültet/beteget stabil oldalfekvő helyzetbe, és felhívja a figyelmet a folyamatos megfigyelés jelentőségére,
+ezért folyamatosan ellenőrizni kell a légutak átjárhatóságát, a légzést és az eszméleti állapotot. Amennyiben ezek
+a kritikus életjelek romlanak, a sérültet vissza kell fektetni
+a hátára (hanyatt fekvő helyzetbe), és szükség esetén
+meg kell kezdeni az újraélesztést. Ismert traumás sérülés
+esetén a beteget hanyatt fekvő helyzetben kell tartani és
+szükség esetén így biztosítani az átjárható légutat. Új
+eszközös vizsgálati lehetőségként kiemeli az irányelv a
+2026 ■ 167. évfolyam, 33. szám
+
+légzési nehézségek esetén a vér oxigénszaturációjának és
+a pulzusnak a mérését. A pulzoximéter már laikusok számára is könnyen elérhető eszköz, és alkalmas az állapotfelmérésre, az oxigén adásának lehetősége azonban csak
+a tárgyi feltételek megléte esetén értelmezhető képzett
+elsősegélynyújtó számára. Itt az irányelv egyértelmű utasítást ad a hypoxia állapot- és paraméterfüggő kezelésére.
+Tudatosítani kell azonban, hogy a pulzoximéter értékei
+pontatlanok vagy leolvashatatlanok lehetnek sokkos állapotban vagy alacsony perfúzió esetén, megnövekedett
+körömvastagságnál vagy körömlakk használatakor, alacsony akkumulátorszintnél, mozgás vagy vibráció hatására, valamint szélsőséges hőmérsékleti viszonyok között
+[10].
+
+Egyes belgyógyászati jellegű
+veszélyhelyzetek elsősegélye
+Az általános elsősegélynyújtási alapelveken túl meghatározták azokat a belgyógyászati jellegű állapotokat, amelyek a modern társadalmakban gyakran fordulnak elő,
+és rendelkeznek olyan tudományos bizonyítottsággal,
+amely alapján javasolható és elvárható a beavatkozás laikus, valamint képzett elsősegélynyújtóktól. Az irányelv
+sorrendjétől eltérően az esetek európai előfordulási gyakorisága alapján emeljük ki a lényegesebb egészségkárosodásokat.
+
+Mellkasi fájdalom
+A mellkasi fájdalom az akut coronaria szindróma (szívroham) egyik legmeghatározóbb tünete, amely szinte minden elsősegély tárgyú képzés tananyagában szerepel. A
+haláloki statisztikákban a keringési rendszer betegségei
+(amelyek fő tünetei közé tartozik a mellkasi fájdalom)
+vezető helyen állnak, a halálozások közel 49%-áért voltak
+felelősek a Központi Statisztikai Hivatal adatai alapján
+hazánkban 2023-ban [11]. A fájdalmat gyakran mellkasi
+nyomásként írják le, amely kisugározhat a nyakba, az alsó
+állkapocsba vagy a bal karba, de jelentkezhet kisugárzás
+nélkül is. Az Európai Kardiológiai Társaság (ESC) adatai
+szerint a nők negyede a klasszikus tünetek helyett állkapocsfájdalomról, hányingerről vagy légszomjról számol
+be, ami késleltetheti a diagnózist és a kezelést. A diabeteses betegeknél a fájdalom az epigastrialis régióban is jelentkezhet, vagy légszomj formájában nyilvánulhat meg
+[12]. Az elsősegélynyújtótól az első észlelésen, a gyors
+állapotfelmérésen, a mentőhíváson és a megfelelő nyugalmi helyzet kialakításán túl a szíveredetűnek tűnő
+mellkasi fájdalom esetén elvárható, hogy bátorítsa és segítse a beteget aszpirintabletta mielőbbi bevételében (lehetőleg szétrágva), amíg a kórházba szállításra várnak
+(kivéve ismert aszpirinallergia esetén, illetve ha a beteg
+rendszeresen szedi vagy már bevette az aznapi adagot).
+Ezt az álláspontot olyan korábbi vizsgálati adatok támasztják alá, amelyek szerint jobb volt azon betegek ki-
+
+1298
+
+ORVOSI HETILAP
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+Ö S S ZEFOGLA LÓ K ÖZLEM ÉN Y
+
+menetele, akik a korai prehospitális fázisban kaptak aszpirint az intrahospitális adagoláshoz képest. Ez a dózis
+hazánkban 250 mg-os aszpirintablettát jelent a mentőgyakorlatban. Továbbá ismert angina pectorisos beteg
+esetén az elsősegélynyújtó segítse a beteget saját nitro­
+glicerin spray-jének alkalmazásában az orvosi utasítás szerint, ami általában 1-2 puffot jelent a nyelv alá adással, és
+maradjon a beteggel a szakszerű segítség megérkezéséig.
+
+Stroke
+A stroke globális betegségterhe jelentős és folyamatosan
+növekszik a trendelemző nemzetközi adatok (1990–
+2021) alapján [13]. Hazánkban a 2025-ben megjelent és
+az elmúlt három évtizedet áttekintő adatok tükrében
+– a 2010 és 2023 közötti időszakot külön is vizsgálva –
+az évente előforduló új agyérkatasztrófák száma közel
+50 000, és az érintettek életkora egyre fiatalabb (18–49
+év), ami különös figyelmet érdemel az elsősegély szempontjából [14, 15]. Az elsősegélynyújtók számára a legfontosabb, hogy minél előbb felismerjék a fenyegető állapotot. Ebben kulcsszerepet játszanak a stroke-felmérő
+skálák a felismerési idő lerövidítése és a mielőbbi segélyhívás érdekében. Az elsősegélynyújtók számára több
+megfelelő stroke-skála is rendelkezésre áll, mint például
+a BE-FAST (Balance, Eyes, Face, Arm, Speech, Time –
+egyensúly, szem/látás, arc, kar, beszéd, idő), a FAST
+(Face, Arm, Speech, Time – arc, kar, beszéd, idő) vagy a
+CPSS (Cincinnati Prehospital Stroke Scale – Cincinnati
+prehospitális stroke-skála) [16–18], továbbá a MASS
+(Melbourne Ambulance Stroke Screen) vagy a LAPSS
+(Los Angeles Prehospital Stroke Screen) [19, 20]. Hazánkban a Magyar Stroke Társaság ajánlása alapján a
+FAST-skála 2007-ben került bevezetésre a lakosságnak
+szóló kampányok során. A jelenlegi szakirodalmi adatok
+alapján egyik skála használata sem mutat jobb eredményt, így a legfontosabb, hogy valamelyik alkalmazásra
+és népszerűsítésre kerüljön az adott országban, ezzel növelve a stroke-felismerés specificitását. A vércukorszint
+mérése a későbbi ellátás szempontjából informatív lehet.
+A hypoxia jeleinek (kék ajkak és szapora légzés) kialakulása esetén az oxigén alkalmazása akkor indokolt, ha a
+képzett elsősegélynyújtó rendelkezik a használatához
+szükséges képzettséggel, és a tárgyi feltételek rendelkezésre állnak.
+
+Hypoglykaemia
+A magyar lakosság kb. 10%-a szenved cukorbetegségben
+egy 2023-ban megjelent tanulmány szerint [21]. A
+hypoglykaemia a leggyakrabban inzulint vagy egyéb vércukorszint-csökkentő készítményeket használó, diabeteses egyéneknél fordul elő, előfordulhat azonban cukorbetegségben nem szenvedő személyeknél is tartós
+éhezés, túlzott alkoholfogyasztás vagy kritikus állapotú
+betegség következtében [22]. A hypoglykaemia tünetei
+a verejtékezéstől, a remegéstől és a szívdobogásérzéstől a
+ORVOSI HETILAP
+
+zavartságig, a görcsrohamokig és az eszméletlenségig
+terjedhetnek [23]. A hypoglykaema gyanúja merül fel
+olyan cukorbeteg vagy krónikus alultápláltságban szenvedő személynél, akinél hirtelen tudatzavar vagy viselkedésváltozás lép fel. Amennyiben lehetséges, meg kell
+mérni a kapilláris vércukorszintet vércukormérővel. Alacsony (4,0 mmol/l alatti) érték esetén meg kell kezdeni
+az ellátást, majd a kezelést követően ismételten ellenőrizni kell a vércukorszintet [22]. Az ILCOR 2017. évi
+szisztematikus áttekintése bizonyítékokkal támasztotta
+alá, hogy amennyiben a hypoglykaemiás személy kooperábilis és biztonságosan tud nyelni, ösztönözni kell gyorsan felszívódó szénhidrát fogyasztására (15–20 g), mint
+például glükóz- vagy dextróztabletta, gyümölcslé vagy
+hagyományos (nem diétás) üdítőital (szénhidráttartalmától függően 150–200 ml), esetleg 4–5 kockacukor.
+Ha elérhető, a glükózgél is jó szolgálatot tehet. A vércukorszintet a cukorbevitel után 15 perccel újra ellenőrizni
+kell, és amennyiben a hypoglykaemia továbbra is fennáll,
+további 15 g szénhidrátot kell adni. Ha a tünetek javulnak, a személynek egy teljes értékű étkezést kell fogyasztania a hypoglykaemia kiújulásának megelőzésére. Eszméletlen személynek azonban tilos orálisan cukrot adni a
+légútelzáródás és az aspiráció veszélye miatt. Eszméleténél lévő és nyelni képes gyermekeknél megfontolandó a
+sublingualis fél teáskanál (2,5 g) cukor adása, amennyiben nem működnek együtt a szájon át történő glükóztabletta-bevitellel [24]. A képzett elsősegélynyújtók alkalmazhatnak glükagoninjekciót (GlucaGen Hypokit)
+vagy orrsprayt (Baqsimi) (csak 4 év feletti gyermeknél!),
+amennyiben az rendelkezésre áll, és az elsősegélynyújtó
+ismeri a beadását. Kimutatták, hogy a glükagon korai beadása súlyos hypoglykaemia esetén segíti a felépülést, és
+csökkenti a tartós hypoglykaemia okozta szövődmények
+kockázatát. Egyes tanulmányok szerint az iskolapedagógusok glükagon beadására történő felkészítése jelentősen javította a reagálási időt és a kimenetelt [25, 26].
+
+Asztma
+A krónikus légzőszervi megbetegedések hazánkban is
+gyakoriak. Az asztmások száma meghaladja a 300 000
+főt hazánkban a 2024. évi adatok alapján [27]. Ezért az
+asztmával összefüggő légzési nehézségek visszatérő okai
+az elsősegélynyújtásnak, különösen a magas pollenkoncentrációjú időszakokban vagy a téli szmog idején. A
+mostani irányelv arra az esetre korlátozódik, amikor egy
+asztmás beteg légzési nehézséggel küzd. Itt a javaslat
+arra tér ki, hogy az elsősegélynyújtónak segítenie kell a
+nehezen légző beteget a saját rohamoldó inhalátorának
+(hörgőtágítók) használatában, lehetőleg – amennyiben
+rendelkezésre áll – belégzési segédeszköz (spacer) alkalmazásával [28]. Természetesen itt is szükséges a további
+általános intézkedés, amely a beteg megnyugtatására,
+megfelelő testhelyzetben történő pozicionálására és
+szükség esetén mentőhívásra is kiterjed.
+
+1299
+
+2026 ■ 167. évfolyam, 33. szám
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+Ö S S Z EFOGLA LÓ K ÖZLEM ÉN Y
+
+Felnőttkori légúti idegen test
+(félrenyelés/fulladás)
+A fulladás továbbra is kiemelt területe az elsősegélynyújtásnak. A korábbi irányelvekhez képest a tünetek elsődleges megítélésében és az elsősegélynyújtói beavatko­
+zásokban nem hozott lényeges változást az új irányelv.
+A légúti elzáródás gyanúját fel kell vetni, ha a személy
+hirtelen képtelenné válik a beszédre vagy a köhögésre,
+különösen akkor, ha ez evés közben történik. A gyakorlatban elsősorban időskorban (neurológiai betegségek,
+például Parkinson-kór vagy stroke utáni nyelészavar miatt) és alkoholos befolyásoltság alatt találkozhatunk ezzel a helyzettel. Az ellátás fő elveiben is a reakcióképesség nyomon követése szerepel [29]. Az állapot
+súlyosságának előrehaladtával, ha a személy képtelen köhögni, vagy a köhögés hatástalanná válik, legfeljebb 5
+háti ütést kell alkalmazni, míg ennek eredménytelensége
+esetén legfeljebb 5 hasi lökés jön szóba Heimlich-féle
+műfogással. Ezeket a műveleteket szükséges tovább folytatni akkor, ha a légúti akadály nem oldódik meg, vagy a
+személy eszméletlenné nem válik. Eszméletlenség esetén
+a segélyvonal hívása indokolt, és ezt követően meg kell
+kezdeni az újraélesztést (mellkaskompressziókat) [30].
+Az irányelv nem javasolja a légúti idegen test eltávolításának megkísérlését a szájból vagy a légutakból, kivéve, ha
+nagyon egyértelmű az elzáródás oka [31]. Ha a légúti
+elzáródás szerencsésen megoldódott, akkor is indokolt
+az érintett személyt további orvosi vizsgálatra küldeni a
+későbbi szövődmények kizárására.
+
+Öngyilkossági kísérletek
+Évente körülbelül 720 000 ember hal meg öngyilkosság
+következtében világszerte az Egészségügyi Világszervezet (WHO) 2024-ben kiadott publikációja szerint [32].
+Magyarországon bár az elmúlt évtizedekben drasztikus
+javulás történt, az országos ráta uniós szinten még mindig magas, és az utóbbi években (különösen a COVID–
+19-pandémia után) a korábbi javuló tendencia megtorpanni látszik (évente kb. 40 000 kísérlet történik) [33].
+Az öngyilkossági gondolatok hátterében gyakran egy
+stresszes életesemény hatása vagy az azt követő mentális
+sokk állhat [34]. Az öngyilkosság figyelmeztető jelei
+közé tartozik az öngyilkossággal vagy önártalommal való
+fenyegetőzés, az öngyilkosság tervezése (hogyan, hol és
+mikor), valamint a halállal vagy öngyilkossággal kapcsolatos kommunikáció (szóban vagy írásban) [35]. Az elsősegélynyújtótól elvárható, hogy ha felismeri, hogy valaki
+mentális krízist él át, öngyilkossági gondolatokat vagy
+konkrét terveket fogalmaz meg, akkor ne hagyja magára
+a személyt. A szakértők öt alapelvet javasolnak a mentális
+egészséggel kapcsolatos krízishelyzetben történő segítségnyújtáshoz: a nyugalom megteremtése, a biztonság-
+
+2026 ■ 167. évfolyam, 33. szám
+
+érzet kialakítása, az egyéni és közösségi támogatás ér­
+zésének elősegítése, a kapcsolódási lehetőség megteremtése, valamint a remény felélesztése [36]. Mindazonáltal
+alapvető fontosságú a szaksegítség bevonása bármilyen
+mentális probléma vagy öngyilkossági kockázat alapos
+felmérésére.
+
+Gyógyszermérgezés
+A gyógyszermérgezések egyik formája az opioid-túl­
+adagolás, amely az USA-ban szinte járványos méreteket
+öltött az utóbbi évtizedekben, ezért bekerült az első­
+segélynyújtási irányelvbe. A túladagolás központi idegrendszeri depressziót (aluszékonyságot, válaszképtelenséget) és légzésdepressziót okoz, amely kezelés nélkül
+légzésleálláshoz, keringésleálláshoz és halálhoz vezethet.
+A helyzet epidemiológiai súlyossága miatt antidotum
+adását is kiterjesztették a képzett elsősegélynyújtók kö­
+rében. Magyarországon az eddigiekben sem oktatták az
+elsősegélynyújtás keretei között – a gyógyszermérgezés
+aspecifikus terápiáján túlmenően – az antidotumok alkalmazását, mivel ezek nem érhetők el még képzett elsősegélynyújtók számára sem. Így ennek részletesebb tárgyalása a hazai viszonyok között jelenleg nem indokolt.
+
+Anafilaxia
+Hazánkban is sokszor került fókuszba az utóbbi években
+– különösen gyermekek esetében – az anafilaxiás állapot
+kezelése elsősegélynyújtás keretei között. Egy 2016-ban
+közölt tanulmány alapján Európában az anafilaxiás esetek 25%-a – főleg alimentáris allergének miatt – gyermekeknél fordul elő [37]. Az anafilaxia felismerésében elsősorban a következő vezető tünetek keresését javasolja az
+irányelv: légúti tünetek: stridor (belégzési sípolás, amelyet a felső légutak duzzanata okozhat), zihálás/fulladás
+(amelyet az alsó légutak elzáródása okozhat) vagy légzési nehézségek; kipirulás, csalánkiütés, hideg vagy nyirkos
+bőr, illetve ájulásérzés; hasi fájdalom, hányás vagy hasmenés. Miután a folyamat rapid lefolyást is mutathat, a
+mentőhíváson és a beteg megfelelő pozicionálásán (sokk
+tünetei esetén megemelt alsó végtag) túl az im. alkalmazható, adrenalint tartalmazó öninjektor használatát
+javasolják önbeadással vagy képzett személy segítségével
+(családtag, barát, tanár). Hazánkban autoinjektor formájában EpiPen Junior (0,15 mg adrenalin) és EpiPen (0,3
+mg adrenalin) áll rendelkezésre, nasalis kiszerelés nem
+érhető el. Felnőtt esetében, ha a tünetek 5 percen túl is
+fennállnak, szükség lehet egy második adagra is.
+(A gyógyszerdózis 0,15 mg 1 és 5 év közötti gyermekek
+számára, 0,3 mg 30 kg testtömeg felett.) Az 1. táblázatban az anafilaxiaellátásban szereplő 0,5 mg adrenalin felnőttdózis olyan, szakellátásban használható adag, amely
+ampullás kiszerelésből fecskendővel adagolható.
+
+1300
+
+ORVOSI HETILAP
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+Ö S S ZEFOGLA LÓ K ÖZLEM ÉN Y
+
+Egyes baleseti történések elsősegélye
+Életveszélyes vérzés csillapítása
+A csillapíthatatlannak tűnő vérzés a traumás halálozások
+egyik potenciálisan helyszíni körülmények között megelőzhető oka [38]. Több mint száz éve is a legcélravezetőbb megoldásnak tartották az erős vérzés csökkentése
+érdekében a közvetlenül a vérző sérülésre gyakorolt nyomást. Ennek optimális kivitelezését szolgálja, ha a kötszert közvetlenül a sebbe helyezik, és erre direkt nyomást fejtenek ki. A vérzés kontrollálása után lehet erre
+nyomókötést helyezni és körkörös pólyamenetekkel rögzíteni. Az irányelv szerint, ha elérhető hemosztatikus
+kötszer, akkor az is alkalmazható. Ez Magyarországon az
+elsősegélynyújtó felszerelésnek jelenleg nem része, és
+nem is oktatják az alkalmazását, így ez egyelőre a szak­
+ellátók kezében maradhat. Csak életveszélyes végtagi
+vérzés esetén – amelyet a közvetlen manuális nyomás
+nem csillapít eléggé – van indikációja az érszorító (tourniquet) felhelyezésének a megfelelő szabályok betartásával (időkontroll, megfelelő szélességű érszorító és erősség). A túl hosszú időn keresztül fent hagyott vagy
+szakszerűtlen érszorító következményeire hívják fel a figyelmet a legutóbb az ukrán harctéren szerzett tapasztalatok is [39]!
+
+Agyrázkódás
+A fejsérülésekhez kötődően az agyrázkódás a leggyakoribb jelenség (70–90%) egy hazai 2018-as tanulmány
+szerint [40]. Az agyrázkódás (amelyet gyakran enyhe
+traumás agysérülésnek neveznek) felnőtteknél és gyermekeknél egyaránt gyakori fejsérülést követően. A fejsérülések felismerése rendkívül fontos, mert az elsődleges
+sérülés figyelmen kívül hagyása, esetleg elbagatellizálása
+másodlagos agysérüléshez és rosszabb kimenetelhez vezethet. Az agyrázkódást nehéz felismerni a tünetek és a
+jelek összetettsége, valamint megjelenésük időbeli változékonysága miatt (amely az azonnalitól a késleltetettig
+terjedhet). Emellett az agyrázkódásnak – a meghatározására irányuló kiterjedt kutatások ellenére – nincs egységesen elfogadott definíciója. Olyan tünetek, mint a gondolkodási és emlékezeti nehézségek, fizikai tünetek
+(fejfájás, látászavar, szédülés, hányinger vagy hányás,
+görcsrohamok, fény- vagy zajérzékenység), érzelmi változások vagy magatartásbeli módosulások (fokozott aluszékonyság, a normálaktivitás csökkenése, válaszképtelenség, zavartság) mind agyrázkódásra utalhatnak [41].
+Az elsősegélynyújtók számára próbáltak elsődleges értékelő eszközöket is fejleszteni, de jelenleg nincs olyan,
+amely egyszerűen és biztonságosan alkalmazható lenne.
+Ezért agyrázkódást kell feltételezni a következő tünetek
+esetén: a sérültnek gondolkodási vagy emlékezeti nehéz­
+ségei vannak, fizikai tüneteket mutat (fejfájás, látászavar,
+szédülés, hányinger vagy hányás, görcsrohamok, fényvagy zajérzékenység), illetve érzelmi vagy magatartásbeli
+ORVOSI HETILAP
+
+változások (fokozott aluszékonyság, a szokásos aktivitás
+visszaesése, válaszképtelenség, zavartság) jelentkeznek
+nála. Általánosságban javasolható, hogy a sérültet nyugalomba kell helyezni és állapotától függően gondoskodni
+kell további egészségügyi ellátásról.
+
+A nyaki gerinc mozgásának korlátozása
+Az irányelv e pontjánál fontos kiemelni azt a változást,
+hogy nem a rögzítés és az immobilizáció elérése a legfontosabb cél, hanem a nyaki gerinc mozgásának korlátozása a felesleges mozgás kiiktatásával [42]. Nyaki gerincsérülést kell feltételezni olyan személynél, aki
+magasból esett vagy ugrott (vízbe), munkagép vagy nehéz tárgy alá szorult, közúti közlekedési baleset vagy
+sportbaleset részese volt. Ha a sérült éber, tiszta tudatú
+és együttműködő, akkor törekedni kell a nyak mozgatásának minimalizálására, és meg kell kérni arra, hogy saját
+maga tartsa meg a nyakát egy kényelmes, stabil helyzetben. Sohasem szabad együttműködésre kényszeríteni
+nem kooperáló sérültet egy adott testhelyzet kialakításában, mivel ez súlyosbíthatja magát a sérülést. Ha hanyatt
+fekvő, válaszképtelen sérültet találunk, akkor a nyaki
+­gerinc stabilizálását a feje mögé térdelve, a fej rögzíté­
+sével (head squeeze) vagy trapézizomfogással (trapezius
+­squeeze) érhetjük el. Ha a légútbiztosítás is szükségessé
+válik, akkor az állkiemeléses (jaw-thrust) technika alkalmazandó. Ha a sérült válaszképtelen, és hason fekszik,
+akkor a légutak átjárhatóságát kell ellenőrizni és a nyakát
+stabil helyzetben tartani. Amennyiben légútbiztosításra
+van szükség, akkor egy másik segélynyújtóval összehangoltan egyszerre kell hátára fordítani a sérültet úgy, hogy
+közben a nyakat a testtel egy vonalban és a lehető legstabilabban tartják. Ezután kell alkalmazni a fej rögzítését
+vagy a trapézizomfogást. A nyakrögzítő eszközök használatát az új irányelvek nem ajánlják elsősegélynyújtás
+keretei között azok bizonyított kockázatai miatt [43].
+A speciális képzettséggel rendelkező elsősegélynyújtók
+(például hegyimentők, vízimentők) mérlegelhetik a gerincmozgás korlátozásának szelektív alkalmazását a meglévő protokolljaik alapján.
+
+Mellkassérülések
+Az irányelv csak a nyílt mellkasi sérülésekkel foglalkozik,
+jóllehet a zárt mellkasi sérülések (bordatörések) gyakrabban fordulnak elő. Az irányelv szerint a nyílt mellkasi sebet szabadon kell hagyni, hogy az akadálytalanul közlekedhessen a külső környezettel, így kötés alkalmazását
+sem javasolja. Ugyanakkor már léteznek olyan „szelepes”
+kötések (vented chest seal), amelyek biztosítják a levegő
+szabad kiáramlását kilégzéskor. Ezt csak megfelelő képzettséggel és felszereléssel rendelkező képzett elsősegélynyújtók számára ajánlják. Az ellátás során azonban
+itt is szempont a sérült általános állapotának megítélése
+és a megfelelő, félig ülő helyzet (kényelmes) pozíció biztosítása.
+
+1301
+
+2026 ■ 167. évfolyam, 33. szám
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+Ö S S Z EFOGLA LÓ K ÖZLEM ÉN Y
+
+Balesetben amputálódott testrész megfelelő
+kezelése
+Magyarországon leginkább a munkabalesetek számából
+lehet következtetni arra, hogy kb. 300–550 főnél fordul
+elő ilyen helyzet . Az elsősegély szempontjából a vérzés
+mielőbbi szakszerű ellátására és az amputált testrész lehető leggyorsabb megkeresésére kell törekedni. Az amputátum hűvösen tartása és steril kötszerbe vagy tiszta
+fiziológiás sóoldattal vagy vízzel megnedvesített ruhába
+való tekerése a legfőbb teendő. A becsomagolt testrészt
+tiszta, vízhatlan műanyag zacskóba, majd ezt egy másik,
+jeget vagy jeges vizet tartalmazó tasakba kell tenni a személyes adatok és az időpont rögzítésével együtt. A testrész fagyási lehetőségét el kell kerülni. Gondoskodni kell
+arról, hogy a sérülttel együtt kerüljön a kórházba az amputátum annak érdekében, hogy az esetleges replantáció
+elvégezhető legyen.
+
+A környezeti veszélyek elsősegélye
+Az éghajlatváltozás és a szélsőséges időjárási események
+gyakoribbá válása miatt kiemelt figyelmet fordítanak a
+környezeti vészhelyforrásokra és a belőlük adódó egészségi problémákra, amelyek azonnali beavatkozást igényelnek. Ebbe a csoportba sorolja az irányelv a hőártalmakból származó extrém helyzeteket, mint a kihűlés és a
+hőguta. Idetartozik a vízbe fulladás és a kígyómarás is.
+
+Vízbe fulladás
+A vízbe fulladás olyan folyamat, amelynek során a folyadékba merülés vagy alámerülés következtében légzészavar alakul ki [44]. A világszerte évente bekövetkező
+300 000, vízbe fulladásos haláleset közel egynegyedét az
+öt év alatti gyermekek teszik ki [45]. Hazánkban a 2023ban a balatoni vízimentők által közölt vízi balesetek számából lehet következtetést levonni arra, hogy álló- és
+folyóvizeink veszélyforrást jelentenek, és ennek következtében évente kb. 200 esettel találkoznak a szakemberek, akik közül sokan vesztik életüket is (120–150 fő)
+[46]. A statisztikák alapján a vízi balesetek hátterében a
+leggyakrabban a következő tényezők állnak: alkoholos
+befolyásoltság, hirtelen felhevült testtel hideg vízbe merülés, az úszástudás hiánya, folyóknál a váratlan örvények
+és a sodrás, bányatavaknál a hirtelen mélyülő meder és a
+drasztikus hőmérséklet-különbség. Az első észlelő szerepe természetesen itt is fontos, de a körültekintő eljárás
+legalább akkora jelentőséggel bír. Ezért a biztonság fokozott szem előtt tartásával hangsúlyozza az irányelv,
+hogy aki nem rendelkezik vízimentői képzettséggel, ne
+tegye kockára saját életét. A szárazföldön maradva szükséges, hogy így is segíteni próbáljon az elsősegélynyújtó.
+Azon túl, hogy mielőbb segítséget kell hívni, az elsősegélynyújtónak lehetőség szerint meg kell próbálnia valamilyen úszóeszközzel (mentőöv, mentőrúd vagy egyéb
+felszerelés) elérni a bajbajutottat [47]. A szárazföldön,
+2026 ■ 167. évfolyam, 33. szám
+
+amennyiben a kimentett személy válaszképtelen, és nem
+lélegzik, a légzés pótlására 5 befúvással szükséges kezdeni az újraélesztést. Ha elérhető automata külső defibrillátor (AED), a mellkas szárazra törlése után felhelyezhetők
+az elektródok, és a készülékre lehet hagyatkozni a további lépéseket illetően. A vízimentők elérhetősége esetén
+ők magas szintű szakmai felkészültséggel és aktuális protokolljaik mentén végzik az ellátást.
+
+Baleseti kihűlés
+A kihűlés – amely a maghőmérséklet nem szándékos,
+35 °C alá süllyedését jelenti – jelentős kockázatokkal jár,
+beleértve a keringésmegállást is. Az elsősegélynyújtók
+döntő szerepet játszanak a hypothermia megelőzésében
+és kezdeti ellátásában. A legfontosabb beavatkozások a
+kihűlés elleni helyszíni védelem, a gyors kórházba szállítás és a visszamelegítés. Tudományos adat áll rendelkezésre arra, hogy az olyan elsősegélynyújtói beavatkozások, mint a nedves ruhák eltávolítása, a test megszárítása,
+az izotermikus (mentő)takarók és melegítőpárnák használata külön-külön is növelte a maghőmérsékletet traumás sérültek esetén [48]. Az elsősegélynyújtói teendők
+­között szerepel a lehűlt személy száraz takaróval vagy
+­ruhával való betakarása a hőveszteség minimalizálására.
+A külső környezeti viszonyok további hűtő hatásainak
+mérsékléséhez a személyt szélvédett helyre kell vinni,
+vagy amennyire lehet, körbe kell paravánozni. A talajhő
+ellen a bajbajutott alá szigetelőanyagokat, például takarókat vagy matracokat kell helyezni.
+
+Hőguta és fizikai megterhelés okozta túlhevülés
+A hőguta súlyos, hőséggel összefüggő betegség, amely
+akkor következik be, amikor a szervezet hőháztartást szabályozó rendszere túlterheltté válik vagy leáll [49]. Ez
+súlyos szervkárosodáshoz, keringésmegálláshoz és halálhoz vezethet. A nem fizikai megterhelés okozta ­hőguta
+jellemzően hosszan tartó napsugárzás hatására alakul ki,
+és gyakran hőhullámok idején fordul elő. Ugyanakkor
+előfordulhat meleg időszakokban olyan személyeknél is,
+akiknek károsodott a hőszabályozásuk, például időseknél
+vagy gyermekeknél. A fizikai megterhelés okozta túlhevülés hasonló tünetekkel jelentkezik, de megerőltető
+testmozgáshoz kapcsolódik. Ez a jelenség az utóbbi
+években hazánkban is megfigyelhető a vele járó következményekkel együtt, amiről egy 2024-ben megjelent
+közlemény számol be [50]. Magas környezeti hőmérséklet esetén joggal lehet feltételezni a hőguta gyanúját, ha
+olyan tünetek jelennek meg a betegnél, mint a megemelkedett maghőmérséklet (>40 °C), zavartság, izgatottság,
+dezorientáció, görcsrohamok vagy válaszképtelenség.
+Bár a 40 °C feletti maghőmérséklet fontos lelet hőguta
+gyanújakor, annak mérése az elsősegélynyújtás során
+problémás, mivel speciális, végbélbe helyezhető hőmérőt
+igényel. A dobhártyán, a szájban és a bőrön mért testhőmérsékletek pontatlanok ilyen esetben, ugyanakkor ha
+
+1302
+
+ORVOSI HETILAP
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+Ö S S ZEFOGLA LÓ K ÖZLEM ÉN Y
+
+ezen eszközök valamelyike magas értéket mutat, az alátámaszthatja a hyperthermia és a hőguta klinikai gyanúját
+[51]. A hőguta és a terheléses túlhevülés kezelése az
+azonnali, gyors hűtés. Kimutatták, hogy hőguta esetén a
+percenkénti 0,15 °C-os hűtési sebesség növeli a szövődménymentes túlélést [52]. A legelső lépés a helyzet kezelésében a passzív hűtés megkezdése. A bajbajutottat mielőbb hűvösebb, árnyékos helyre kell vinni és a fölösleges
+ruházatot eltávolítani róla. 40 °C-ot meghaladó maghőmérséklet esetén azonban az aktív hűtés is szükséges.
+A vízbe merítés gyorsabb hűtést biztosított minden más
+aktív hűtési formánál, a jég és a hideg víz azonban nem
+mindig áll rendelkezésre. Az alternatív hűtési módszerek
+közé tartozik a jégcsomagok felhelyezése a hónaljra, a lágyékra és a nyakra, zuhany alkalmazása, jeges lepedők
+vagy törölközők használata, illetve a vízpermetezés ventilátorral, de ezek kevésbé hatékonyak, mint a vízbe merítés. Az egész test (nyaktól lefelé történő) 1–6 °C közötti
+vízzel történő hűtését addig kell végezni, amíg a maghőmérséklet 39 °C alá nem süllyed [53]. Amennyiben a
+maghőmérséklet mérése nem kivitelezhető, az amerikai
+elsősegélynyújtási irányelvek a hűtés legfeljebb 15 percig
+tartó folytatását javasolják, vagy addig, amíg a neuroló­
+giai tünetek meg nem szűnnek, attól függően, melyik
+következik be előbb [54]. Az elsősegélynyújtás során
+improvizációra is szükség lehet az aktív hűtés biztosítá­
+sához, például szabadtéri medence használata. A hűtést a
+kórházba szállítás során is lehetőleg valamelyik módszerrel folytatni kell, azonban a szállítást megelőző hűtés
+mindig a legfontosabb feladat.
+
+Kígyómarás
+Európában és hazánkban is ritkák a kígyómarás okozta
+sérülések, az ERC elősegélynyújtási irányelvének készítői
+mégis fontosnak tartották felvenni a legfontosabb témák
+közé. Európában évente körülbelül 8000 esetet jelentenek, amelyeknek 15%-a minősül súlyosnak a 2008 és
+2018 között megjelent publikációk alapján [55–57].
+A legtöbb eset a Vipera nembe tartozó viperákkal kapcsolatos, mint például a keresztes vipera (Vipera berus),
+az áspisvipera (Vipera aspis) és a homoki vipera (Vipera
+ammodytes). Ugyanakkor számos ritka és veszélyes kígyót tartanak háziállatként is. A marások gyakran lokális
+tüneteket okoznak, beleértve a fájdalmat, a duzzanatot
+és a véraláfutást, míg a súlyos esetek szisztémás szövődményekhez, például coagulopathiához, ritka esetekben
+pedig szervelégtelenséghez vezethetnek [58]. A kígyó­
+marás elsősegélynyújtásánál a mentők értesítése és a sérült nyugalomba helyezése mellett a tudományos bizonyítékok a mozgás minimalizálását, az érintett végtag
+immobilizációját hangsúlyozzák, mivel ez lassíthatja a
+méreg szétterjedését [59]. El kell távolítani a szoros ruházatot, a gyűrűket vagy órákat az érintett végtagról. Kerülni kell az olyan hatástalan vagy káros beavatkozásokat,
+mint az érszorítók használata, a seb bemetszése vagy a
+méreg kiszívása. A hatékony ellátáshoz továbbra is döntő
+ORVOSI HETILAP
+
+fontosságú az azonnali orvosi segítségkérés. Ellentétben
+a mérgessiklófélék (Elapidae) marásával, amelyeknél
+duzzanattal nem járó neurotoxikus méreg jellemző – és
+amelyeknél előnyös lehet a nyomókötéssel történő rögzítés –, viperamarás esetén egyszerű, kompresszió nélküli végtagrögzítés szükséges [60].
+
+A kórházon kívüli felnőtt alapszintű
+újraélesztés
+Az elsősegélynyújtás gyakorlati irányelve mellett 2025ben megújult a felnőtt alapszintű újraélesztés szakmai
+irányelve is [2]. Fontos kiemelni, hogy az újraélesztés
+egyre szélesebb körű társadalmi terjesztésével és a digitalizáció (applikációk) térnyerésével már nemcsak a jelen­
+lévőkkel számolhatunk keringésmegállás esetén, hanem
+képzett elősegélynyújtókkal is, akiket például egy applikáció irányít a helyszínre. Ennek a két segítői szerepnek
+a megkülönböztetésére vezették be a laikus (bystander)
+és a képzett elsősegélynyújtó (first responder) fogalmát.
+Rajtuk kívül beszélhetünk még egészségügyi képzettséggel rendelkező szakemberekről (health care personnel),
+akik szintén segítőként jelenhetnek meg egy újraélesz­
+tésben. Ennek, mint látni fogjuk, a tőlük keringésmegállásban elvárható tevékenységek tekintetében lesz jelentősége. A BLS definíciója a túlélési lánc megkezdését, a
+korai, kiváló minőségű mellkaskompressziókat, a hatékony l­élegeztetést és az AED korai használatát foglalja
+magában. A leegyszerűsített összefoglaló három életmentési lépést takar a könnyebb megjegyezhetőség érdekében: 1. helyzetértékelés: biztonságosan megközelít­
+hető-e és eszméleténél van-e a bajbajutott; 2. mentő­
+hívás: a 112-es telefonszám hívása és légzésvizsgálat
+(hármas érzékeléssel); 3. újraélesztés és AED: reagálás és
+légzés hiányában (hörgő és agonalis légzés esetén is)
+mellkaskompresszió és lélegeztetés, valamint az AED elérhetősége esetén annak bevonása az ellátásba. Kulcsüzenetként hangsúlyozni kell a korai segítséghívás és a mentésirányító támogatói szerepét a keringésmegállás hatékony kezelése érdekében. Ez utóbbi szerep fontosságára
+nemcsak külföldön, hanem hazánkban is már számos
+pozitív példa rámutat [61]. A mellkaskompressziók és a
+lélegeztetés megkezdése prioritást kell hogy élvezzen;
+bizonytalanság esetén a megkezdett mellkaskompresszió
+sokkal biztonságosabb, mint a várakozás (1. ábra).
+A kórházon kívüli felnőtt alapszintű újraélesztés 2021.
+évi irányelvéhez képest változott, hogy minden eszméletlen személy esetén mentőt kell hívni. A segélynyújtóknak a hívás előtt már nem kell vizsgálniuk a légzést, elég
+ezt a hívás kezdeményezését követően, akár a mentésirányítóval együtt és az ő instrukciói mentén elvégezni.
+Szükség esetén a diszpécser segítséget nyújt a kóros légzés felismerésében. Sportolók nagyobb fizikai terhelésre
+bekövetkező szívmegállását követően észlelték, hogy
+csaknem normális vagy ziháló légzési minta jelentkezhet.
+Ez megtévesztő lehet, ezért erre érdemes figyelni. Az
+ERC 2025. évi BLS-irányelve részletesen tárgyalja a
+
+1303
+
+2026 ■ 167. évfolyam, 33. szám
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+Ö S S Z EFOGLA LÓ K ÖZLEM ÉN Y
+
+1. ábra
+
+Életmentés 3 lépésben az ERC 2025. évi alapszintű felnőtt újraélesztési gyakorlati szakmai irányelve nyomán
+AED = automata külső defibrillátor; CPR = szív-tüdő újraélesztés (cardiopulmonalis resuscitatio); ERC = Európai Újraélesztési Tanács
+
+diszpécser szerepét, aki kritikus fontosságú a szívmeg­
+állás korai felismerésében és az újraélesztés megkezdésében. Egyre több tudományos bizonyíték utal arra,
+hogy egy szívmegállást elszenvedő személy megtalálása
+és az újraélesztési kísérlet sok laikus segítő számára potenciálisan traumatikus élmény, amit a mostani irányelv
+már külön szempontként kezel, és javasolja a pszichés
+támogatást. Szintén bővült a bizonyítékok köre az elhízott betegek szívmegállásának kezelésével és kimenetelével kapcsolatban. Az elhízott betegeknél is a standard
+30 : 2 arányú újraélesztést javasolják.
+A BLS általános algoritmusa alapjaiban és fő lépéseiben nem változott, ugyanakkor kisebb módosulások láthatók az elvárt cselekvésekben a segítségnyújtó képzettségének függvényében. Ezek alapján a reakcióképtelenség
+2. táblázat
+
+megállapítását, a mentőhívást (segítséghívás) és a légzés
+ellenőrzését követően meg kell kezdeni az újraélesztést,
+ha a bajbajutottnak nincs vagy abnormális a légzése. Ha
+a jelen lévő szemtanú nem képzett az újraélesztésben,
+akkor elég, ha csak mellkaskompressziót végez, míg a
+képzettséggel rendelkező elsősegélynyújtóknak a 30
+mellkaskompresszió és 2 befúvás szekvenciát kell alkalmazniuk. Gyermek sérültek/betegek esetén mindig 5
+befúvással kell továbbra is kezdeni, ha azonban az elsősegélynyújtó járatlan a gyermekellátásban, akkor 30 : 2 arányú mellkaskompresszióval és lélegeztetéssel folytassa,
+míg képzett elsősegélynyújtótól elvárható a 15 : 2 arány.
+A legújabb ajánlás a biztonságos BLS kivitelezése érdekében részletes, lépésekre bontott és sematikusan rajzokkal is ábrázolt technikai leírást is tartalmaz (2. táblázat).
+
+A biztonságos BLS-kivitelezés technikai leírása az ERC 2025. évi alapszintű felnőtt újraélesztési gyakorlati szakmai irányelve nyomán
+
+Lépés/Művelet
+
+Technikai leírás
+
+BIZTONSÁG
+
+• Győződjön meg arról, hogy Ön, a bajbajutott és a laikusok biztonságban vannak.
+
+REAKCIÓKÉSZSÉG
+Ellenőrizze a bajbajutott eszméletét
+
+• Rázza meg óvatosan a bajbajutottat a vállainál és hangosan kérdezze: jól van?
+
+MENTŐK HÍVÁSA
+
+• Ha a bajbajutott nem reagál, kérjen meg egy segítőt a mentők hívására, vagy hívjon
+Ön mentőt.
+• Maradjon a bajbajutott mellett, ha lehet.
+• Használja a telefon kihangosító funkcióját, hogy a mentésirányítóval való konzultáció
+közben megkezdhesse az újraélesztést (CPR).
+
+LÉGUTAK
+Tegye szabaddá a légutakat
+
+• Ha nem reagál a bajbajutott, fordítsa a hátára.
+• Helyezze az egyik kezét a bajbajutott homlokára, ujjhegyeit pedig az állcsúcs alá,
+majd óvatosan hajtsa hátra a fejet, az áll megemelésével szabaddá téve a légutakat.
+
+LÉGZÉS
+Nézze, hallgassa és érezze a beteg
+légzését
+
+• Nézze, hallgassa és érezze a beteg légzését 10 másodpercig.
+• Az a bajbajutott, aki alig lélegzik, vagy csak ritkán, lassan és horkoló módon kapkod
+levegő után, nem lélegzik normálisan.
+
+2026 ■ 167. évfolyam, 33. szám
+
+1304
+
+ORVOSI HETILAP
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+Ö S S ZEFOGLA LÓ K ÖZLEM ÉN Y
+2. táblázat folyt.
+
+Lépés/Művelet
+
+Technikai leírás
+
+AED hozatása
+Küldjön valakit AED-ért
+
+• Küldjön valakit, hogy keressen és hozzon egy AED-t, ha elérhető.
+• Ha egyedül van, csak abban az esetben induljon AED-ért, ha 1 percen belül be tudja
+szerezni, más esetben azonnal kezdjen újraélesztést (CPR).
+
+KERINGÉS
+Kezdjen mellkaskompressziót
+
+• Térdeljen a bajbajutott mellé.
+• Helyezze egyik tenyerét (alsó része) a bajbajutott mellkasának közepére
+(ez a szegycsont alsó fele).
+• Helyezze a másik tenyérét a másik kezére, és kulcsolja össze az ujjait.
+• Tartsa a karjait nyújtva, helyezkedjen függőlegesen a bajbajutott mellkasa fölé,
+és nyomja le a szegycsontot legalább 5 cm (de legfeljebb 6 cm) mélyen.
+• Minden nyomás után engedje fel teljesen a mellkast anélkül, hogy a kezei és a mellkas
+közötti érintkezés megszűnne.
+• Ismételje a műveletet percenként 100–120-as ütemben.
+
+CSAK MELLKASKOMPRESSZIÓS ÚJRAÉLESZTÉS
+
+• Ha járatlan a befúvásos lélegeztetésben vagy nem képes azt kivitelezni, alkalmazhat
+kizárólag mellkaskompressziókat is az újraélesztés során, folyamatosan percenként
+100–120-as ütemben.
+
+MELLKASKOMPRESSZIÓK
+KIEGÉSZÍTÉSE LÉLEGEZTETÉSSEL
+
+• Ha rendelkezik a lélegeztetéshez szükséges jártassággal, 30 mellkaskompresszió után
+a fej hátraszegésével és az áll megemelésével ismét biztosítson átjárható légutat.
+• A homlokon lévő kezének hüvelyk- és mutatóujjával szorítsa össze az orr puha részét.
+• Engedje kinyílni a bajbajutott száját, de az állát tartsa megemelve.
+• Vegyen normális lélegzetet, és illessze ajkait szorosan a bajbajutott szája köré, ügyelve
+a légmentes zárásra.
+• Fújja be a levegőt egyenletesen, miközben figyeli a mellkas emelkedését.
+• A befúvás tartson körülbelül 1 másodpercig, ahogy a normális légzésnél. Ez minősül
+hatásos befúvásnak.
+• A fej és az áll helyzetének megtartása mellett vegye el a száját a sérültétől, és figyelje
+a mellkas süllyedését, ahogy a levegő kiáramlik.
+• Vegyen ismét normális lélegzetet, és fújjon be még egyszer, hogy összesen két
+befúvást végezzen.
+• A lélegeztetés miatt ne szakítsa meg a kompressziókat 10 másodpercnél hosszabb
+időre, még akkor sem, ha az egyik vagy mindkét befúvás sikertelen volt.
+• Ezután késlekedés nélkül helyezze vissza a kezeit a szegycsont megfelelő pontjára,
+és végezzen további 30 mellkaskompressziót.
+• Folytassa a mellkasi nyomásokat és a lélegeztetést 30 : 2 arányban.
+
+HA AZ AED MEGÉRKEZIK
+Kapcsolja be a készüléket, és
+csatlakoztassa az elektródákat
+
+• Amint az AED megérkezik, kapcsolja be és helyezze fel az elektródákat a beteg
+ruhátlan mellkasára.
+• Ha van másik segítő is a helyszínen, akkor az újraélesztést folytatni szükséges
+a mellkasi elektródák felhelyezése alatt is.
+
+Kövesse a hangutasításokat és a
+vizuális jelzéseket
+
+• Kövesse az AED által adott szóbeli utasításokat és képi jelzéseket.
+• Ha a készülék sokkot javasol, győződjön meg arról, hogy sem Ön, sem bárki más
+nem ér a bajbajutotthoz.
+• Nyomja meg a sokk gombot az utasításnak megfelelően, majd ezt követően azonnal
+folytassa az újraélesztést (CPR) az AED útmutatása szerint.
+
+HA A SOKK NEM INDOKOLT
+Folytassa az újraélesztést (CPR)
+
+• Ha a sokk leadása nem indokolt, azonnal folytassa az újraélesztést (CPR) az AED
+útmutatása szerint.
+
+HA NINCS AED a helyszínen
+Folytassa az újraélesztést (CPR)
+
+• Ha nem áll rendelkezésre AED, vagy amíg a készülék megérkezésére vár, folytassa
+az újraélesztést.
+• Ne szakítsa meg a folyamatot, amíg:
+– egészségügyi szakember nem utasítja erre;
+– vagy a sérült egyértelműen magához nem tér (mozogni kezd, kinyitja a szemét
+és normálisan lélegzik);
+– vagy Ön teljesen ki nem merül.
+• Ritka, hogy az újraélesztés önmagában újraindítja a szívet, ezért amíg nem biztos
+abban, hogy a sérült egyértelmű életjeleket mutat, folytassa az újraélesztést.
+• A visszatérés életjelei: a sérült ébredezik, mozog, kinyitja a szemét, és normálisan
+lélegzik.
+
+AED = automata külső defibrillátor; BLS = alapszintű újraélesztés; CPR = szív-tüdő újraélesztés (cardiopulmonalis resuscitatio); ERC = Európai
+Újraélesztési Tanács
+ORVOSI HETILAP
+
+1305
+
+2026 ■ 167. évfolyam, 33. szám
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+Ö S S Z EFOGLA LÓ K ÖZLEM ÉN Y
+
+Az irányelv a BLS alapvető lépéseinek elemzésére is
+kitér, megfelelő bizonyítékokat szolgáltatva az egyes aspektusok leírására. Ezek alapján a keringésleállás felismerése és a sürgősségi ellátórendszer riasztása az első lépések között szerepel a modern technológia adta
+lehetőségekkel együtt. A mentésirányító diszpécserek
+szerepe azonban jelentősen felértékelődött, hiszen a
+standardizált protokollokon túl ők azok, akik támogatni
+képesek a laikus és képzett, gyermek és felnőtt elsősegélynyújtót mind szakmailag, mind lelkileg egy komoly
+kihívás megoldásában. A BLS során a jó minőségű mellkaskompressziók és lélegeztetés kivitelezésére is töre­
+kedni kell, továbbá fel kell mérni, hogy milyen további
+segítségek – például AED, applikációk által riasztott önkéntesek, mobiltelefonok kamerái, térfigyelő kamerák
+stb. – állnak rendelkezésre az újraélesztési folyamat támogatására. A biztonságra való törekvésről sem szabad
+megfeledkezni egy percig sem, hiszen a sürgősségi helyzetek folyamatosan veszélyt jelentenek az ott tartózkodókra.
+
+Következtetés
+Az Európai Újraélesztési Tanács (ERC) 2025. évi irányelvei jelentős szakmai fejlődési állomást jelentenek az
+­elsősegélynyújtás és az alapszintű újraélesztés (BLS) történetében. A korábbi szemlélettel szakítva, az elsősegélynyújtást már nem izolált gyakorlati cselekvéssorozatként,
+hanem a sürgősségi ellátási lánc szerves, tudományosan
+megalapozott első elemeként definiálják. Az irányelv
+egyik legfontosabb nóvuma az elsősegélynyújtó személyének és szerepének pontosítása. A 2025-ös szemlélet
+szerint az elsősegélynyújtó továbbra is bárki lehet, aki
+felismeri a vészhelyzetet, és hajlandó cselekedni, legyen
+az laikus szemtanú, képzett önkéntes elsősegélynyújtó
+vagy szolgálaton kívüli egészségügyi dolgozó. Az irányelv szakít a „mindentudó” elsősegélynyújtó képével.
+Alapvető elvárásként a saját kompetenciahatárok felismerését, a helyszíni biztonság szavatolását, a strukturált
+­állapotfelmérést (ABCDE) és a mentőhívást rögzíti. Kiemelendő, hogy az irányelv hangsúlyozza az „önsegély”
+(self-first aid) fogalmát is, valamint a segélynyújtó pszichés támogatását, elismerve, hogy a beavatkozás súlyos
+mentális terhet jelenthet. Az irányelv másik fontos üzenete a strukturált állapotfelmérés, az ABCDE-vizsgálati
+séma bevezetése a laikus és képzett elsősegélynyújtók
+oktatásába. Ez a módszertani egységesítés hidat képez a
+laikus segítségnyújtó és a professzionális sürgősségi ellátórendszer között. A közös szakmai nyelv és vizsgálati
+logika használata lehetővé teszi, hogy a mentésirányító
+és a helyszínen tartózkodó segélynyújtó hatékonyabban
+kommunikáljon, ezáltal lerövidüljön a kritikus beavatkozásokig eltelő idő. Az új gyakorlati szakmai irányelvek
+hazai oktatási programokba való integrálása elengedhetetlen ahhoz, hogy a segélynyújtók ne csupán izolált
+technikákat (például újraélesztés, nyomókötés készítése,
+
+2026 ■ 167. évfolyam, 33. szám
+
+kötözés), hanem holisztikus betegvizsgálatot tanuljanak,
+amely képessé teszi őket a prioritások helyes felállítására.
+A 2025-ös ajánlások egyértelműen kijelölik az utat a digitális megoldások és a technológia felé. A mobil diszpécserrendszerek, a közösségi alapú újraélesztési applikációk (hazánkban a SzívCity) és a nyilvános elérhetőségű
+defibrillátorok (PAD-ok) hálózatának fejlesztése nem
+csupán opció, hanem a túlélési esélyek javításának alapvető eszköze [62]. A következtetések rávilágítanak arra,
+hogy a technológia önmagában nem elegendő, szükség
+van a társadalmi segítői hajlandóság növelésére is. Az oktatás fókuszába a technikai készségek mellé a „segítői
+szorongás” oldását és a pszichológiai felkészítést is be
+kell emelni. A „hagyományos”, népbetegségszámba
+menő, keringési rendszerhez kötött akut megbetegedések (akut coronaria szindróma, stroke) mellett az éghajlatváltozás okozta egészségi kockázatok – mint a hő­
+guta – szakszerű felismerése és ellátása hangsúlyosabbá
+vált. A hazai adaptáció során kiemelt fontosságú, hogy a
+Magyar Resuscitatiós Társaság iránymutatásai alapján és
+a hazai szakmai közösség támogatásával a szakmai konszenzusok a különböző elsősegélyképzést végzők által
+használt harmonizált tananyagok formájában öltsenek
+testet (például Magyar Vöröskereszt, egyetemek, közoktatás), elkerülve az ellentmondásos információk terjedését. Az új ismeretek és gyakorlatok közvetítésében oktatásmódszertani megújulásra van szükség. A statikus
+előadások helyett a szituációs gyakorlatokra, a készségfejlesztésre és a digitális eszközök (például virtuálisvalóság-technológia vagy visszajelzést adó bábuk) használatára kell helyezni a hangsúlyt.
+A kórházon kívüli keringésmegállások és egyéb vészhelyzetek túlélési mutatóinak javítása nem csupán egészségügyi, hanem össztársadalmi feladat. Az ERC 2025.
+évi irányelvei az eddigi legelőrehaladottabb tudományos
+alapot biztosítják ehhez a munkához, még akkor is, ha a
+jelen gyakorlati szakmai irányelvek alacsony vagy közepes bizonyosságú evidencián, illetve szakértői konszenzuson alapulnak az adott tématerülettől függően. A bizonyítékokon alapuló orvoslás eszköztárának beemelése
+az elsősegélynyújtásba komoly előrelépést jelent abban,
+hogy a helyszínen tartózkodó laikus vagy képzett segítő
+beavatkozása valódi esélyt adjon a betegnek a felépülésre. A hazai szakmai és civil szervezetek felelőssége, hogy
+ezeket az elveket ne csak befogadják, hanem aktívan népszerűsítsék és átültessék a gyakorlatba, hiszen a túlélési
+lánc legfontosabb eleme továbbra is az elsőként helyszínre érkező, cselekvő ember.
+
+Anyagi támogatás: A tanulmány megírása és az ahhoz
+kapcsolódó munka nem részesült anyagi támogatásban.
+Szerzői munkamegosztás: B. J.: Az összefoglaló kidolgozása, szakirodalmi másodelemzés, a kézirat szövegezése.
+B.-Cs. H.: A szakirodalom másodelemzése, a kézirat
+
+1306
+
+ORVOSI HETILAP
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+Ö S S ZEFOGLA LÓ K ÖZLEM ÉN Y
+
+szövegezése. K. E. és B. B.: A kézirat korrekciója és szakmai véleményezése. A közlemény végleges változatát valamennyi szerző elolvasta és jóváhagyta.
+Érdekeltségek: A szerzőknek nincsenek érdekeltségeik a
+megjelent közlemény tárgyát illetően.
+
+Irodalom
+[1] Zideman DA, De Buck ED, Singletary EM, et al. European Resuscitation Council Guidelines for Resuscitation 2015 Section 9.
+First aid. Resuscitation 2015; 95: 278–287.
+[2] Smyth MA, van Goor S, Hansen CM, et al. European Resuscitation Council Guidelines 2025 Adult Basic Life Support. Resuscitation 2025; 215(Suppl 1): 110771.
+[3] Semeraro F, Schnaubelt S, Olasveengen TM, et al. European Resuscitation Council Guidelines 2025 System Saving Lives. Resuscitation 2025; 215(Suppl 1): 110821.
+[4] Betlehem J, Bánfai-Csonka H, Musch J, et al. Changes of first aid
+attitude during the COVID–19 pandemic. [Az elsősegélynyújtási
+attitűd változása a COVID–19-járvány idején.] Orv Hetil 2021;
+162: 571–578. [Hungarian]
+[5] Safar P, Bircher NG. Cardiopulmonary cerebral resuscitation. An
+introduction to resuscitation medicine. Guidelines by the World
+Federation of Societies of Anaesthesiologists (WFSA). 3rd ed.
+Saunders, London, 1988.
+[6] Laerdal A, Eikeland H. Emergency first aid in road accidents.
+First aid manual. Laerdal Medical, Stavanger, 1981.
+[7] Decree No. 6/1990. (IV. 12.) of the Ministry of Transport,
+Communications and Construction on the technical conditions
+for the registration and operation of road vehicles. [6/1990. (IV.
+12.) KöHÉM rendelet a közúti járművek forgalomba helyezésének és forgalomban tartásának műszaki feltételeiről.] Available
+from: https://net.jogtar.hu/jogszabaly?docid=99000006.koh
+[accessed: May 8, 2026]. [Hungarian]
+[8] Bruinink LJ, Linders M, de Boode WP, et al. The ABCDE approach in critically ill patients: a scoping review of assessment
+tools, adherence and reported outcomes. Resusc Plus 2024; 20:
+100763.
+[9] Toppen W, Aquije Montoya E, Ong S, et al. Passive leg raise:
+feasibility and safety of the maneuver in patients with undifferentiated shock. J Intensive Care Med 2020; 35: 1123–1128.
+[10] Silverston P, Ferrari M, Quaresima V. Pulse oximetry in primary
+care: factors affecting accuracy and interpretation. Br J Gen
+Pract. 2022; 72: 132–133.
+[11] Hungarian Central Statistical Office. Deaths by cause (2023).
+[Központi Statisztikai Hivatal. Halálozások okok szerint (2023).]
+KSH, Budapest, 2024. [Hungarian]
+[12] Byrne RA, Rossello X, Coughlan JJ, et al. 2023 ESC Guidelines
+for the management of acute coronary syndromes: developed by
+the task force on the management of acute coronary syndromes
+of the European Society of Cardiology (ESC). Eur Heart J.
+2023; 44: 3720–3826.
+[13] Martinez R, Muñoz-Venturelli P, Ordunez P, et al. Risk and impact of stroke across 38 countries and territories of the Americas
+from 1990 to 2021: a population-based trends analysis from the
+Global Burden of Disease Study 2021. Lancet Reg Health Am.
+2025; 43: 101017.
+[14] Szakács Z, GBD 2021 Stroke Collaborators, Central and Eastern
+Europe Stroke Research Group. Ischaemic stroke incidence
+trends in Central and Eastern Europe: a 30-year analysis based
+on the Global Burden of Disease Study. Lancet Reg Health Eur.
+2025; 41: 100912.
+[15] Csákvári T, Verzár Zs, Bálint Cs, et al. Trends of ischaemic and
+haemorrhagic stroke hospitalizations in Hungary between 2010
+and 2023: a nationwide, retrospective analysis of real-world data.
+BMC Health Serv Res. 2026; 26: 19.
+ORVOSI HETILAP
+
+[16] Aroor S, Singh R, Goldstein LB. BE-FAST (Balance, Eyes, Face,
+Arm, Speech, Time): reducing the proportion of strokes missed
+using the FAST mnemonic. Stroke 2017; 48: 479–481.
+[17] Harbison J, Hossain O, Jenkinson D, et al. Diagnostic accuracy
+of stroke referrals from primary care, emergency room physicians, and ambulance staff using the face arm speech test. Stroke
+2003; 34: 71–76.
+[18] Kothari RU, Pancioli A, Liu T, et al. Cincinnati prehospital
+stroke scale: reproducibility and validity. Ann Emerg Med. 1999;
+33: 373–378.
+[19] Bray JE, Martin J, Cooper G, et al. An interventional study to
+improve paramedic diagnosis of stroke. Prehosp Emerg Care
+2005; 9: 297–302.
+[20] Kidwell CS, Starkman S, Eckstein M, et al. Identifying stroke in
+the field. Prospective validation of the Los Angeles Prehospital
+Stroke Screen (LAPSS). Stroke 2000; 31: 71–76.
+[21] Ulambayar B, Ghanem AS, Kovács N, et al. Cardiovascular disease and risk factors in adults with diabetes mellitus in Hungary:
+a population-based study. Front Endocrinol. 2023; 14: 1263365.
+[22] McCall AL, Lieb DC, Gianchandani R, et al. Management of
+individuals with diabetes at high risk for hypoglycemia: an endocrine society clinical practice guideline. J Clin Endocrinol Metab.
+2023; 108: 529–562.
+[23] Seaquist ER, Anderson J, Childs B, et al. Hypoglycemia and diabetes: a report of a workgroup of the American Diabetes Association and the Endocrine Society. Diabetes Care 2013; 36:
+1384–1395.
+[24] De Buck E, Borra V, Carlson JN, et al. First aid glucose administration routes for symptomatic hypoglycaemia. Cochrane Database Syst Rev. 2019; 4: CD013283.
+[25] Iqbal A, Heller SR. The role of structured education in the management of hypoglycaemia. Diabetologia 2018; 61: 751–760.
+[26] Bassi M, Scalas M, Spacco G, et al. Management of Type 1 Diabetes in a school setting: effectiveness of an online training program for school staff. Front Public Health 2024; 11: 1228975.
+[27] Csoma Zs. Asthma. [Asztma.] Korányi Bulletin 2025; 1: 17–24.
+[Hungarian]
+[28] Djärv T, Douma MJ, Carlson JN, et al. First Aid: 2025 International Liaison Committee on Resuscitation Consensus on Science with Treatment Recommendations. Resuscitation 2025;
+215(Suppl 2): 110815.
+[29] Dunne CL, Cirone J, Blanchard IE, et al. Evaluation of basic life
+support interventions for foreign body airway obstructions: a
+population-based cohort study. Resuscitation 2024; 201:
+110258.
+[30] Langhelle A, Sunde K, Wik L, et al. Airway pressure with chest
+compressions versus Heimlich manoeuvre in recently dead adults
+with complete airway obstruction. Resuscitation 2000; 44: 105–
+108.
+[31] Olasveengen TM, Mancini ME, Perkins GD, et al. Adult basic
+life support: 2020 international consensus on cardiopulmonary
+resuscitation and emergency cardiovascular care science with
+treatment recommendations. Circulation 2020; 142 (16 Suppl
+1): S41–S91.
+[32] World Health Organization. Suicide. WHO, Geneva, 2024.
+Available from: https://www.who.int/news-room/fact-sheets/
+detail/suicide [accessed: May 8, 2026].
+[33] Hungarian Central Statistical Office. Deaths by common causes
+of death (1990–). [Központi Statisztikai Hivatal. Halálozások a
+gyakoribb halálokok szerint (1990–).] KSH, Budapest, 2024.
+[Hungarian]
+[34] Howarth EJ, O’Connor DB, Panagioti M, et al. Are stressful life
+events prospectively associated with increased suicidal ideation
+and behaviour? A systematic review and meta-analysis. J Affect
+Disord. 2020; 266: 731–742.
+[35] Stroobants S, Dockx K, Scheers H, et al. Providing first aid to
+people experiencing mental health problems: development of
+
+1307
+
+2026 ■ 167. évfolyam, 33. szám
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+Ö S S Z EFOGLA LÓ K ÖZLEM ÉN Y
+evidence-based guidance materials for laypeople. Int J First Aid
+Educ. 2023; 6: 37–60.
+[36] Inter-Agency Standing Committee. IASC guidelines on mental
+health and psychosocial support in emergency settings. IASC,
+New York, NY, 2007.
+[37] Grabenhenrich LB, Dölle S, Moneret-Vautrin A, et al. Anaphylaxis in children and adolescents: the European Anaphylaxis Registry. J Allergy Clin Immunol. 2016; 137: 1128–1137. e1.
+[38] Kalkwarf KJ, Drake SA, Yang Y, et al. Bleeding to death in a big
+city: an analysis of all trauma deaths from hemorrhage in a metropolitan area during 1 year. J Trauma Acute Care Surg. 2020;
+89: 716–722.
+[39] Butler F, Holcomb JB, Dorlac W, et al. Who needs a tourniquet?
+And who does not? Lessons learned from a review of tourniquet
+use in the Russo-Ukrainian war. J Trauma Acute Care Surg.
+2024; 97(2S Suppl 1): S45–S54.
+[40] Vokó Z, Pál H, Gács G. Epidemiology of cerebrovascular diseases and traumatic brain injuries in Hungary. [Az agyérbetegségek és a koponyasérülések epidemiológiája Magyarországon.]
+Ideggyógy Szle. 2018; 71: 159–166. [Hungarian]
+[41] Patricios JS, Schneider KJ, Dvorak J, et al. Consensus statement
+on concussion in sport: the 6th International Conference on
+Concussion in Sport–Amsterdam, October 2022. Br J Sports
+Med. 2023; 57: 695–711.
+[42] International Liaison Committee on Resuscitation (ILCOR).
+Spinal motion restriction Task Force Synthesis of a Scopig
+­Review. ILCOR, Brussels, 2024. Available from: https://costr.
+ilcor.org [accessed: May 8, 2026].
+[43] Pandor A, Essat M, Sutton A, et al. Cervical spine immobilisation
+following blunt trauma in pre-hospital and emergency care: a
+systematic review. PLOS ONE 2024; 19: e0302127.
+[44] Van Beeck EF, Branche CM, Szpilman D, et al. A new definition
+of drowning: towards documentation and prevention of a global
+public health problem. Bull World Health Organ. 2005; 83:
+853–856.
+[45] Zhu W, He X, San R, et al. Global, regional, and national drowning trends from 1990 to 2021: results from the 2021 global burden of disease study. Acad Emerg Med 2024; 31: 1212–1222.
+[46] Hungarian Lifeguard Service. Statistical summary of the 2023
+Balaton water rescue season. [Statisztikai összefoglaló a 2023. évi
+balatoni vízimentési szezonról.] Vízimentők Magyarországi
+Szakszolgálata, 2024. [Hungarian]
+[47] Barcala-Furelos R, Graham D, Abelairas-Gomez C, et al. Layrescuers in drowning incidents: a scoping review. Am J Emerg
+Med. 2021; 44: 38–44.
+[48] Mota MA, Santos MR, Santos EJ, et al. Trauma prehospital hypothermia prevention and treatment: an observational study.
+J Trauma Nurs. 2021; 28: 194–202.
+
+[49] Singletary EM, Zideman DA, Bendall JC, et al. 2020 international consensus on first aid science with treatment recommendations. Resuscitation 2020; 156: A240–A282.
+[50] Ádám K, Berényi T, Melicher D, et al. Risk factors of early death
+in heat stroke and the challenges of emergency care in Hungary
+– a case series study. Int J Emerg Med 2024; 17: 150.
+[51] Mazerolle SM, Ganio MS, Casa DJ, et al. Is oral temperature an
+accurate measurement of deep body temperature? A systematic
+review. J Athl Train 2011; 46: 566–573.
+[52] McDermott BP, CasaDJ, Ganio MS, et al. Acute whole-body
+cooling for exercise-induced hyperthermia: a systematic review.
+J Athl Train 2009; 44: 84–93.
+[53] Douma MJ, Aves T, Allan KS, et al. First aid cooling techniques
+for heat stroke and exertional hyperthermia: a systematic review
+and meta-analysis. Resuscitation 2020; 148: 173–190.
+[54] Hewett Brumberg EK, Douma MJ, Alibertis K, et al. 2024
+American Heart Association and American Red Cross guidelines
+for first aid. Circulation 2024; 150: e519–e579.
+[55] Chippaux JP. Epidemiology of snakebites in Europe: a systematic
+review of the literature. Toxicon 2012; 59: 86–99.
+[56] Malina T, Krecsák L, Korsós Z, et al. Snakebites in Hungary –
+epidemiological and clinical aspects over the past 36 years. Toxicon 2008; 51: 943–951.
+[57] Varga C, Malina T, Alföldi V, et al. Extending knowledge of the
+clinical picture of Balkan adder (Vipera berus bosniensis) envenoming: the first photographically-documented neurotoxic case
+from South-Western Hungary. Toxicon 2018; 143: 29–35.
+[58] Avau B, Borra V, Vandekerckhove P, et al. The treatment of
+snake bites in a first aid setting: a systematic review. PLOS Negl
+Trop Dis. 2016; 10: e0005079.
+[59] Parker-Cote J, Meggs WJ. First aid and pre-hospital management of venomous snakebites. Trop Med Infect Dis. 2018; 3:
+45.
+[60] National Health Service. Snake bites. NHS, London, 2025.
+Available from: https://www.nhs.uk/conditions/snake-bites
+[accessed: May 8, 2026].
+[61] Jobb B, Bánfai-Csonka H, Gróf K, et al. Invisible support, lifesaving collaboration. The common role of dispatchers and laypeople in improving efficiency of first aid. [Láthatatlan irányítás,
+életmentő együttműködés. Mentésirányítók és laikusok közös
+szerepe az elsősegélynyújtás hatékonyságának növelésében.] Orv
+Hetil. 2025; 166: 1083–1090. [Hungarian]
+[62] HeartCity. [SzívCity.] Available from: https://szivcity.hu/ [accessed: May 8, 2026]. [Hungarian]
+
+(Betlehem József dr.,
+Pécs, Vörösmarty u. 4., 7621
+e-mail: betlehem@etk.pte.hu)
+
+A cikk a Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/) feltételei szerint publikált Open Access közlemény,
+melynek szellemében a cikk bármilyen médiumban szabadon felhasználható, megosztható és újraközölhető, feltéve, hogy az eredeti szerző és a közlés helye,
+illetve a CC License linkje és az esetlegesen végrehajtott módosítások feltüntetésre kerülnek. (SID_1)
+2026 ■ 167. évfolyam, 33. szám
+
+1308
+
+ORVOSI HETILAP
+
+Brought to you by MTA Könyvtár és Információs Központ olvasók | Unauthenticated | Downloaded 09/14/26 12:01 PM UTC
+
+

@@ -1,0 +1,150 @@
+{
+  "mark": "SAMPLE-ONLY-NOT-FOR-RELEASE",
+  "note": "Only for the test build of npm run audit (SAMPLE=1): made-up cards to check the card's window. Never in the app's own build — scripts/pwa.ts stops a build that carries the mark above.",
+  "sources": [
+    {
+      "id": "sample-source-uk",
+      "title": "SAMPLE source — not real",
+      "publisher": "Nobody (sample)",
+      "url": "https://example.org/sample",
+      "lang": "uk",
+      "version": "sample",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "us-government-work",
+        "url": "https://example.org/licence",
+        "quote": "Sample words, not a licence."
+      },
+      "attribution": null,
+      "note": null,
+      "series": null
+    },
+    {
+      "id": "sample-source-army",
+      "title": "SAMPLE source — not real",
+      "publisher": "Nobody (sample)",
+      "url": "https://example.org/sample",
+      "lang": "en",
+      "version": "sample",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "us-government-work",
+        "url": "https://example.org/licence",
+        "quote": "Sample words, not a licence."
+      },
+      "attribution": null,
+      "note": "usArmy",
+      "series": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "sample-first-aid",
+      "section": "firstAid",
+      "source": "sample-source-uk"
+    },
+    {
+      "id": "sample-army",
+      "section": "water",
+      "source": "sample-source-army"
+    }
+  ],
+  "words": {
+    "uk": {
+      "cards": {
+        "sample-first-aid": {
+          "title": "ЗРАЗОК: картка для перевірки екрана",
+          "steps": {
+            "1": "Крок зразка номер 1. Цей текст — не порада: він лише показує, як картка виглядає на екрані, і буває довгим, щоб вікно горталося.",
+            "2": "Крок зразка номер 2. Цей текст — не порада: він лише показує, як картка виглядає на екрані, і буває довгим, щоб вікно горталося.",
+            "3": "Крок зразка номер 3. Цей текст — не порада: він лише показує, як картка виглядає на екрані, і буває довгим, щоб вікно горталося.",
+            "4": "Крок зразка номер 4. Цей текст — не порада: він лише показує, як картка виглядає на екрані, і буває довгим, щоб вікно горталося.",
+            "5": "Крок зразка номер 5. Цей текст — не порада: він лише показує, як картка виглядає на екрані, і буває довгим, щоб вікно горталося.",
+            "6": "Крок зразка номер 6. Цей текст — не порада: він лише показує, як картка виглядає на екрані, і буває довгим, щоб вікно горталося."
+          },
+          "works": "ЗРАЗОК: тут буде сказано, коли спосіб працює.",
+          "reliability": "ЗРАЗОК: тут буде сказано, наскільки спосіб надійний.",
+          "mistakes": "ЗРАЗОК: тут буде сказано, де помиляються."
+        },
+        "sample-army": {
+          "title": "ЗРАЗОК: картка для перевірки екрана (2)",
+          "steps": {
+            "1": "Крок зразка номер 1. Цей текст — не порада: він лише показує, як картка виглядає на екрані, і буває довгим, щоб вікно горталося.",
+            "2": "Крок зразка номер 2. Цей текст — не порада: він лише показує, як картка виглядає на екрані, і буває довгим, щоб вікно горталося.",
+            "3": "Крок зразка номер 3. Цей текст — не порада: він лише показує, як картка виглядає на екрані, і буває довгим, щоб вікно горталося.",
+            "4": "Крок зразка номер 4. Цей текст — не порада: він лише показує, як картка виглядає на екрані, і буває довгим, щоб вікно горталося.",
+            "5": "Крок зразка номер 5. Цей текст — не порада: він лише показує, як картка виглядає на екрані, і буває довгим, щоб вікно горталося.",
+            "6": "Крок зразка номер 6. Цей текст — не порада: він лише показує, як картка виглядає на екрані, і буває довгим, щоб вікно горталося."
+          },
+          "works": "ЗРАЗОК: тут буде сказано, коли спосіб працює.",
+          "reliability": "ЗРАЗОК: тут буде сказано, наскільки спосіб надійний.",
+          "mistakes": "ЗРАЗОК: тут буде сказано, де помиляються."
+        }
+      }
+    },
+    "hu": {
+      "cards": {
+        "sample-first-aid": {
+          "title": "MINTA: kártya a képernyő ellenőrzéséhez",
+          "steps": {
+            "1": "A minta 1. lépése. Ez a szöveg nem tanács: csak azt mutatja, hogyan néz ki a kártya a képernyőn, és hosszú, hogy az ablak görgethető legyen.",
+            "2": "A minta 2. lépése. Ez a szöveg nem tanács: csak azt mutatja, hogyan néz ki a kártya a képernyőn, és hosszú, hogy az ablak görgethető legyen.",
+            "3": "A minta 3. lépése. Ez a szöveg nem tanács: csak azt mutatja, hogyan néz ki a kártya a képernyőn, és hosszú, hogy az ablak görgethető legyen.",
+            "4": "A minta 4. lépése. Ez a szöveg nem tanács: csak azt mutatja, hogyan néz ki a kártya a képernyőn, és hosszú, hogy az ablak görgethető legyen.",
+            "5": "A minta 5. lépése. Ez a szöveg nem tanács: csak azt mutatja, hogyan néz ki a kártya a képernyőn, és hosszú, hogy az ablak görgethető legyen.",
+            "6": "A minta 6. lépése. Ez a szöveg nem tanács: csak azt mutatja, hogyan néz ki a kártya a képernyőn, és hosszú, hogy az ablak görgethető legyen."
+          },
+          "works": "MINTA: itt áll majd, mikor működik a módszer.",
+          "reliability": "MINTA: itt áll majd, mennyire megbízható a módszer.",
+          "mistakes": "MINTA: itt áll majd, hol szoktak hibázni."
+        },
+        "sample-army": {
+          "title": "MINTA: kártya a képernyő ellenőrzéséhez (2)",
+          "steps": {
+            "1": "A minta 1. lépése. Ez a szöveg nem tanács: csak azt mutatja, hogyan néz ki a kártya a képernyőn, és hosszú, hogy az ablak görgethető legyen.",
+            "2": "A minta 2. lépése. Ez a szöveg nem tanács: csak azt mutatja, hogyan néz ki a kártya a képernyőn, és hosszú, hogy az ablak görgethető legyen.",
+            "3": "A minta 3. lépése. Ez a szöveg nem tanács: csak azt mutatja, hogyan néz ki a kártya a képernyőn, és hosszú, hogy az ablak görgethető legyen.",
+            "4": "A minta 4. lépése. Ez a szöveg nem tanács: csak azt mutatja, hogyan néz ki a kártya a képernyőn, és hosszú, hogy az ablak görgethető legyen.",
+            "5": "A minta 5. lépése. Ez a szöveg nem tanács: csak azt mutatja, hogyan néz ki a kártya a képernyőn, és hosszú, hogy az ablak görgethető legyen.",
+            "6": "A minta 6. lépése. Ez a szöveg nem tanács: csak azt mutatja, hogyan néz ki a kártya a képernyőn, és hosszú, hogy az ablak görgethető legyen."
+          },
+          "works": "MINTA: itt áll majd, mikor működik a módszer.",
+          "reliability": "MINTA: itt áll majd, mennyire megbízható a módszer.",
+          "mistakes": "MINTA: itt áll majd, hol szoktak hibázni."
+        }
+      }
+    },
+    "en": {
+      "cards": {
+        "sample-first-aid": {
+          "title": "SAMPLE: a card to check the screen",
+          "steps": {
+            "1": "Step 1 of the sample. This text is no advice: it only shows how a card looks on the screen, and it is long so that the window scrolls.",
+            "2": "Step 2 of the sample. This text is no advice: it only shows how a card looks on the screen, and it is long so that the window scrolls.",
+            "3": "Step 3 of the sample. This text is no advice: it only shows how a card looks on the screen, and it is long so that the window scrolls.",
+            "4": "Step 4 of the sample. This text is no advice: it only shows how a card looks on the screen, and it is long so that the window scrolls.",
+            "5": "Step 5 of the sample. This text is no advice: it only shows how a card looks on the screen, and it is long so that the window scrolls.",
+            "6": "Step 6 of the sample. This text is no advice: it only shows how a card looks on the screen, and it is long so that the window scrolls."
+          },
+          "works": "SAMPLE: here it will say when the method works.",
+          "reliability": "SAMPLE: here it will say how reliable the method is.",
+          "mistakes": "SAMPLE: here it will say where people go wrong."
+        },
+        "sample-army": {
+          "title": "SAMPLE: a card to check the screen (2)",
+          "steps": {
+            "1": "Step 1 of the sample. This text is no advice: it only shows how a card looks on the screen, and it is long so that the window scrolls.",
+            "2": "Step 2 of the sample. This text is no advice: it only shows how a card looks on the screen, and it is long so that the window scrolls.",
+            "3": "Step 3 of the sample. This text is no advice: it only shows how a card looks on the screen, and it is long so that the window scrolls.",
+            "4": "Step 4 of the sample. This text is no advice: it only shows how a card looks on the screen, and it is long so that the window scrolls.",
+            "5": "Step 5 of the sample. This text is no advice: it only shows how a card looks on the screen, and it is long so that the window scrolls.",
+            "6": "Step 6 of the sample. This text is no advice: it only shows how a card looks on the screen, and it is long so that the window scrolls."
+          },
+          "works": "SAMPLE: here it will say when the method works.",
+          "reliability": "SAMPLE: here it will say how reliable the method is.",
+          "mistakes": "SAMPLE: here it will say where people go wrong."
+        }
+      }
+    }
+  }
+}

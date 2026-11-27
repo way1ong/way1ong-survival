@@ -1,0 +1,70 @@
+{
+  "cards": [
+    {
+      "id": "eu-112",
+      "section": "help",
+      "source": "ec-112"
+    },
+    {
+      "id": "lost",
+      "section": "help",
+      "source": "nps-emergency-plan-pdf",
+      "notes": [
+        "usNumber"
+      ]
+    },
+    {
+      "id": "signals",
+      "section": "help",
+      "source": "nps-emergency-plan-pdf"
+    },
+    {
+      "id": "group-member-lost",
+      "section": "help",
+      "source": "nps-emergency-plan",
+      "notes": [
+        "usNumber"
+      ]
+    },
+    {
+      "id": "cpr-adult",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "cpr-child",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "choking",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "bleeding",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "shock",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "anaphylaxis",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "stroke",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "heart-attack",
+      "section": "firstAid",
+      "source": "moz-441"
+    }
+  ]
+}

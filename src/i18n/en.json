@@ -1,0 +1,435 @@
+{
+  "app": {
+    "name": "way1ong Survival",
+    "tagline": "How not to get lost in the forests and mountains of Europe. Every piece of advice comes from an official source, named under the advice."
+  },
+  "actions": {
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "update": {
+    "ready": "A new version of the app is out.",
+    "apply": "Update"
+  },
+  "sections": {
+    "title": "Sections",
+    "help": "Calling for help",
+    "firstAid": "First aid",
+    "dangers": "What is dangerous and what is not",
+    "water": "Water",
+    "fire": "Fire",
+    "shelter": "Shelter",
+    "orientation": "Where am I, which way to go",
+    "tools": "Makeshift tools"
+  },
+  "section": {
+    "soon": "This section is being prepared. The advice will appear here once each piece has been checked against its official source.",
+    "cards": "Cards"
+  },
+  "menu": {
+    "title": "Menu",
+    "language": "Language"
+  },
+  "install": {
+    "title": "On your phone or computer",
+    "text": "The program can be installed like an app: it gets its own icon and opens without internet.",
+    "button": "Install the program",
+    "ios": "On iPhone and iPad: tap “Share”, then “Add to Home Screen”. The program gets its own icon and opens without internet."
+  },
+  "about": {
+    "title": "About",
+    "text": "A free program by way1ong: no ads, no tracking, no account. It sends nothing over the network; the chosen language and country are kept only on this device.",
+    "rule": "Every piece of advice comes only from an official source that allows such use. Under each piece of advice: its source, when the method works, how reliable it is and where people go wrong.",
+    "sources": "Sources",
+    "madeBy": "Made by way1ong",
+    "series": "the pages of the countries with emergency numbers, read on {date}"
+  },
+  "card": {
+    "steps": "What to do",
+    "works": "When it works",
+    "reliability": "How reliable",
+    "mistakes": "Where people go wrong",
+    "source": "Source",
+    "read": "Read on {date}",
+    "licence": "Licence",
+    "sample": "SAMPLE"
+  },
+  "notices": {
+    "notDoctor": "This is not a substitute for a doctor.",
+    "translation": "Translation. Original language: {language}.",
+    "usArmy": "Based on a U.S. Army manual.",
+    "usNumber": "The source gives the U.S. emergency number (911); here the numbers of your country stand in its place."
+  },
+  "emergency": {
+    "title": "Emergency help",
+    "titleIn": "Emergency help: {country}",
+    "eu": "112 is the European emergency phone number, available everywhere in the EU, free of charge. 112 functions alongside existing national emergency numbers.",
+    "choose": "Choose your country",
+    "change": "Change country",
+    "pickTitle": "Where are you now?",
+    "pickText": "Choose a country, and the app shows its emergency numbers. The choice is kept only on this device.",
+    "call": "Call {number}",
+    "from": {
+      "mobile": "from a mobile",
+      "landline": "from a landline"
+    },
+    "services": {
+      "all": "all emergencies",
+      "general": "emergency services",
+      "european": "European emergency number",
+      "ambulance": "ambulance",
+      "fire": "fire",
+      "police": "police",
+      "mountainRescue": "mountain rescue",
+      "rescue": "rescue",
+      "deaf": "for deaf and hard of hearing people (SMS, chat, video and fax)",
+      "lifeThreatening": "life-threatening emergencies"
+    },
+    "sources": "Where the numbers come from",
+    "translated": "translation"
+  },
+  "licences": {
+    "ua-official-act": "an act of a state body — not an object of copyright (Civil Code of Ukraine, art. 434)",
+    "us-government-work": "a work of the U.S. Government — not protected by copyright in the U.S.",
+    "ogl-3.0": "Open Government Licence v3.0",
+    "cc-by-4.0": "CC BY 4.0"
+  },
+  "cards": {
+    "eu-112": {
+      "title": "112 — the European emergency number",
+      "steps": {
+        "1": "You can call 112 from fixed and mobile phones to contact any emergency service: an ambulance, the fire brigade or the police.",
+        "2": "A specially trained operator will answer. The operator will either deal with the request directly or transfer the call to the most appropriate emergency service.",
+        "3": "Operators in many countries can answer not only in their national language, but also in English or French.",
+        "4": "If you do not know where you are, the operator will identify where you are physically located and pass it to the emergency authorities, so that they can help immediately."
+      },
+      "works": "112 is available everywhere in the EU, free of charge. It is also used in some countries outside the EU, such as Switzerland and South Africa, and according to the European Commission it is available worldwide on GSM mobile networks.",
+      "reliability": "112 works alongside the existing national emergency numbers. Denmark, Estonia, Finland, Malta, the Netherlands, Portugal, Romania and Sweden have opted for 112 as their only national emergency number.",
+      "mistakes": "112 operators respond only to real emergencies: they do not give traffic and weather reports, general information or answers to queries. Hoax calls to 112 waste the operators’ time and money, can be dangerous and are a criminal offence in most countries."
+    },
+    "lost": {
+      "title": "If you get lost",
+      "steps": {
+        "1": "Stop and breathe: take a moment to calmly assess your situation.",
+        "2": "Find your location: use your map, compass, handheld GPS or visible landmarks.",
+        "3": "Retrace your steps: if it is safe to do so, go back the way you came to get back on your planned route.",
+        "4": {
+          "text": "If you cannot retrace your steps, call the emergency number and tell them:",
+          "items": {
+            "1": "the GPS coordinates from your phone, if available;",
+            "2": "the name of the trail or area where you started;",
+            "3": "your last known location before you became lost;",
+            "4": "what you see around you, including visible landmarks;",
+            "5": "the types and colours of the clothes you are wearing;",
+            "6": "the equipment you are carrying;",
+            "7": "any medical conditions you have."
+          }
+        },
+        "5": "Stay put: if you change location, it will be difficult for rescuers to find you.",
+        "6": "If you have no phone or no reception: find a place that protects you from sun, rain or snow; check and conserve what you have with you; keep warm by putting on any extra clothes you have; signal for help (see “Signals for rescuers”); wait patiently and conserve your energy."
+      },
+      "works": "Retrace your steps only if it is safe to do so. If you have called for help and are waiting for rescue, the later steps help you check your resources and save your energy.",
+      "reliability": "Help can take hours or days, depending on your location, the weather and the resources available.",
+      "mistakes": "Moving on: move only if there is an immediate threat to your life. Do not build a fire if the fire risk is high or it is wildfire season: it could cause a wildfire and put you and others at great risk."
+    },
+    "signals": {
+      "title": "Signals for rescuers",
+      "steps": {
+        "1": "Whistle: blow it three times, take a break, and blow three times again. It saves the energy that yelling would take.",
+        "2": "Flashlight: flash the SOS pattern — three times quickly, three times slowly, three times quickly.",
+        "3": "Mirror: flash it to alert planes and helicopters flying in the area.",
+        "4": "Make yourself visible: lay out the shelter you carry, or use rocks to make a shape that can be seen from aircraft."
+      },
+      "works": "When you cannot call for help because you have no phone or no reception, signals help search and rescue find you. Bright clothes make you easier to see during a search.",
+      "reliability": "A mirror does not run out of battery. A flashlight drains its batteries, so use it wisely.",
+      "mistakes": "Yelling instead of using a whistle: yelling uses up your energy."
+    },
+    "group-member-lost": {
+      "title": "If someone in your group gets lost",
+      "steps": {
+        "1": "Stop the activity and gather the group together.",
+        "2": "Go to the last known place: retrace your steps as a group to where the person was last seen, and wait there for as long as it is safe to do so.",
+        "3": {
+          "text": "If you have phone service, call the emergency number and tell them:",
+          "items": {
+            "1": "the GPS coordinates of the place where the person was last seen, if available;",
+            "2": "the name of the trail or area where you started;",
+            "3": "what is around that place, including visible landmarks;",
+            "4": "the types and colours of the clothes the person is wearing;",
+            "5": "the equipment the person is carrying;",
+            "6": "any medical conditions the person has;",
+            "7": "the meeting place your group agreed on."
+          }
+        },
+        "4": "If you cannot call, turn the group around and go to the nearest ranger station or visitor centre for help."
+      },
+      "works": "Before the trip, the U.S. National Park Service advises a group to agree on a meeting place, take a picture of the group to show what everyone is wearing, and stay together.",
+      "reliability": "Search and rescue can take hours or days, depending on the weather and on the people and means available.",
+      "mistakes": "Going to look for the person off the trail or on your own: other members of the group could get lost too."
+    },
+    "cpr-adult": {
+      "title": "Sudden cardiac arrest in an adult",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger; only when there is none, go on to the next step.",
+        "2": "Check whether the adult is conscious: gently shake them by the shoulder and speak to them loudly, for example: “Are you all right? Do you need help?”",
+        "3": {
+          "text": "If the adult responds:",
+          "items": {
+            "1": "leave them in the position you found them in, if nothing threatens them;",
+            "2": "find out what has happened;",
+            "3": "call emergency medical help and follow the instructions of the dispatcher;",
+            "4": "if needed, help the adult into a comfortable position;",
+            "5": "watch over the adult until the emergency (ambulance) team arrives."
+          }
+        },
+        "4": {
+          "text": "If the adult does not respond:",
+          "items": {
+            "1": "call out to people nearby for help. If there are several bystanders, speak to one particular person;",
+            "2": "if the adult is lying on their stomach, turn them onto their back and open the airway. If their condition is linked to an injury, for example a fall from a height, assume they have an injury of the neck (cervical spine). In that case, keep movements of the neck to a minimum;",
+            "3": "open the airway and check for breathing with the “listen, look, feel” method. Check for breathing for up to 10 seconds. If you are in doubt whether there is breathing, or it is not normal, assume there is no breathing."
+          }
+        },
+        "5": "If the adult is breathing normally but is unconscious, put them in the stable side (recovery) position, call emergency medical help and check their breathing every 3–5 minutes until the emergency (ambulance) team arrives. If you suspect an injury, avoid turning them into the recovery position; keep the airway open by pushing the lower jaw forward until the emergency (ambulance) team arrives.",
+        "6": "If there is no breathing: call emergency medical help and follow the instructions of the dispatcher. If there are other bystanders, tell them to call emergency medical help and go on to the next step at once. If your phone has a loudspeaker, call emergency medical help and do cardiopulmonary resuscitation at the same time.",
+        "7": {
+          "text": "Start cardiopulmonary resuscitation:",
+          "items": {
+            "1": "do 30 compressions in the middle of the chest, at least 5 cm deep (no more than 6 cm), at a rate of 100 compressions (no more than 120) a minute;",
+            "2": "give 2 breaths using a pocket mask with a valve, a breathing mask or the like. Without protective equipment you may skip the rescue breaths and do chest compressions only. The two rescue breaths should take no more than 5 seconds;",
+            "3": "after the two breaths, go on with chest compressions as described in this step;",
+            "4": "do not interrupt chest compressions on an adult for more than 10 seconds."
+          }
+        },
+        "8": "Change the person doing chest compressions every 2 minutes. If the person doing the compressions becomes exhausted, change earlier than after 2 minutes.",
+        "9": "Stop cardiopulmonary resuscitation before the emergency (ambulance) team arrives only: if the adult shows clear signs of life; if normal breathing on their own, coordinated movement or opening of the eyes return; if there is a threat to the life of the rescuer and/or the adult; if it cannot be continued because of severe physical exhaustion."
+      },
+      "works": "“Sudden cardiac arrest” is a non-violent death that came unexpectedly within 6 hours of the start of acute symptoms. An adult is a person over 18 or one who looks like an adult. This is the procedure for when no automated external defibrillator is at hand; for when there is one, the order has a separate procedure.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "Doubting whether the person is breathing: “If you are in doubt whether there is breathing, or it is not normal, assume there is no breathing.” Pausing compressions: “Do not interrupt chest compressions on an adult for more than 10 seconds.” Turning the person on their side when an injury is suspected: “If you suspect an injury, avoid turning them into the recovery position.”"
+    },
+    "cpr-child": {
+      "title": "Sudden cardiac arrest in a child",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger; only when there is none, go on to the next step.",
+        "2": "Check whether the child is conscious: gently squeeze the child by the shoulder and speak to them loudly, for example: “Wake up! Are you all right?” Touch the child and speak to them at the same time.",
+        "3": {
+          "text": "If the child responds:",
+          "items": {
+            "1": "leave the child in the position you found them in, if nothing threatens them;",
+            "2": "find out what has happened;",
+            "3": "call emergency medical help and follow the instructions of the dispatcher;",
+            "4": "if needed, help the child into a comfortable position;",
+            "5": "watch over the child until the emergency (ambulance) team arrives."
+          }
+        },
+        "4": {
+          "text": "If the child does not respond:",
+          "items": {
+            "1": "call out to people nearby for help. If there are several bystanders, speak to one particular person. That other person calls emergency medical help and brings an automated external defibrillator, if one is available;",
+            "2": "if the child is lying on their stomach, turn them onto their back and open the airway, first looking into the mouth to rule out visible foreign objects. If the child’s condition is linked to an injury, for example a fall from a height, assume they have an injury of the neck (cervical spine) and keep movements of the neck to a minimum;",
+            "3": "open the airway and check for breathing with the “listen, look, feel” method. Check for breathing for up to 10 seconds. If you are in doubt whether there is breathing, or it is not normal, assume there is no breathing."
+          }
+        },
+        "5": {
+          "text": "If the child is breathing normally but is unconscious:",
+          "items": {
+            "1": "turn the child into a stable position;",
+            "2": "call emergency medical help and follow the instructions of the dispatcher;",
+            "3": "watch over the child until the emergency (ambulance) team arrives."
+          }
+        },
+        "6": {
+          "text": "If there is no breathing:",
+          "items": {
+            "1": "give five rescue breaths. While giving them, check whether they work;",
+            "2": "ask other bystanders to call emergency medical help and follow the instructions of the dispatcher. If you are the only person giving first aid, call emergency medical help after the five rescue breaths;",
+            "3": "if clear signs of life appear during the five rescue breaths, do what step 5 says."
+          }
+        },
+        "7": {
+          "text": "If after five rescue breaths the child shows no signs of life and you are the only person giving first aid: call emergency medical help, switch the phone to loudspeaker and start cardiopulmonary resuscitation at once:",
+          "items": {
+            "1": "do 15 chest compressions, one third of the depth of the chest (front to back), at a rate of 100 compressions (no more than 120) a minute;",
+            "2": "give 2 breaths. The two rescue breaths should take no more than 5 seconds;",
+            "3": "if you have no means or barrier devices for rescue breathing, do compressions only. As soon as you can, give rescue breaths;",
+            "4": "after the two breaths, go on with chest compressions as described in this step;",
+            "5": "do not interrupt chest compressions on a child for more than 10 seconds."
+          }
+        },
+        "8": "Change the person doing chest compressions every 2 minutes. If the person doing the compressions becomes exhausted, change earlier than after 2 minutes.",
+        "9": {
+          "text": "As soon as an automated external defibrillator has been brought, use it at once:",
+          "items": {
+            "1": "switch on the automated external defibrillator and follow its spoken instructions exactly;",
+            "2": "for children weighing over 25 kg or over 8 years old, the automated external defibrillator may be used as for adults;",
+            "3": "for children under 8, an automated external defibrillator with special settings is recommended. Without them, the settings for adults may be used. For younger children, consider placing the pads front and back; for older children, front and side as for adults."
+          }
+        },
+        "10": {
+          "text": "Stop cardiopulmonary resuscitation on a child before the emergency (ambulance) team arrives only:",
+          "items": {
+            "1": "if normal breathing on their own, coordinated movement or opening of the eyes return;",
+            "2": "if there is a threat to the life of the rescuer and/or the child;",
+            "3": "if it cannot be continued because of severe physical exhaustion. If clear signs of life appear before the emergency (ambulance) team arrives, leave the pads of the automated external defibrillator on the child’s chest, if one was used."
+          }
+        }
+      },
+      "works": "“Sudden cardiac arrest” is a non-violent death that came unexpectedly within 6 hours of the start of acute symptoms. A child is a person under 18 or one who looks like a child. “If you cannot tell whether the person is still a child, you may do cardiopulmonary resuscitation following the procedure for sudden cardiac arrest in an adult.” If a previously healthy child lost consciousness suddenly in front of witnesses, or has a known disease of the heart and blood vessels, “do not give the five rescue breaths but go straight to chest compressions”.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "Doubting whether the child is breathing: “If you are in doubt whether there is breathing, or it is not normal, assume there is no breathing.” Pausing compressions: “Do not interrupt chest compressions on a child for more than 10 seconds.”"
+    },
+    "choking": {
+      "title": "A foreign body in the airway (choking)",
+      "steps": {
+        "1": {
+          "text": "If the airway is partly blocked:",
+          "items": {
+            "1": "encourage the person to keep coughing;",
+            "2": "if coughing has cleared the airway, look the person over, call emergency medical help and follow the instructions of the dispatcher."
+          }
+        },
+        "2": {
+          "text": "If the airway is completely blocked:",
+          "items": {
+            "1": "calm the person and explain what you are going to do;",
+            "2": "give up to five sliding blows on the back;",
+            "3": "if the airway is still blocked after five blows on the back, give up to five abdominal thrusts;",
+            "4": "if the airway is still blocked, keep alternating up to five blows on the back and up to five abdominal thrusts;",
+            "5": "if the airway has been cleared, look the person over, call emergency medical help and follow the instructions of the dispatcher."
+          }
+        },
+        "3": {
+          "text": "If the person loses consciousness:",
+          "items": {
+            "1": "lay the person flat;",
+            "2": "call emergency medical help;",
+            "3": "for adults: 30 compressions in the middle of the chest, at least 5 cm deep (no more than 6 cm), at a rate of 100 compressions (no more than 120) a minute; 2 breaths using a pocket mask with a valve, a breathing mask or the like. Without protective equipment you may skip the rescue breaths and do chest compressions only. The two rescue breaths should take no more than 5 seconds;",
+            "4": "for children: look into the mouth for a foreign body. If you can see it clearly, turn the child’s head to the side and remove it from the mouth with a finger; if after five rescue breaths the child shows no visible signs of life, do 15 chest compressions, one third of the depth of the chest (front to back), at a rate of 100 compressions (no more than 120) a minute;",
+            "5": "before every breath, look into the mouth for a foreign body. If you can see it clearly, turn the head to the side and remove it from the mouth with a finger."
+          }
+        }
+      },
+      "works": "Signs of a partly blocked airway: the person can speak, cough and breathe. Signs of a completely blocked airway: the person cannot speak, cannot breathe and makes silent attempts to cough. “For children under 1 year with signs of a completely blocked airway, replace the abdominal thrusts with chest compressions.”",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "The order does not name them separately."
+    },
+    "bleeding": {
+      "title": "Massive external bleeding",
+      "steps": {
+        "1": "Make sure there is no danger.",
+        "2": "Call the people around for help. If there are several bystanders, speak to one particular person.",
+        "3": "If you have them, put on personal protective equipment before giving first aid: gloves, a mask, eye protection.",
+        "4": {
+          "text": "Bleeding from a wound of a limb that you can see clearly:",
+          "items": {
+            "1": "press on the wound with your hands as hard as you can;",
+            "2": "put on a pressure bandage and check whether it works;",
+            "3": "if the bleeding has stopped: calm the person; call emergency medical help and follow the instructions of the dispatcher;",
+            "4": "if the bleeding has not stopped, apply a tourniquet: a tourniquet that can be tightened further should be put 5–7 cm above the wound; tourniquets should not be put directly over the elbow or knee joint;",
+            "5": "after applying the tourniquet, check whether it works: if the bleeding has stopped, write the exact time the tourniquet was applied on the tourniquet itself or another visible place. If you cannot write the time down, tell the medical staff and make sure the time is recorded in the medical records; if you have the skill, check for a pulse in the limb below the tourniquet and, if there is one, tighten the tourniquet more and/or apply another tourniquet as described next; if the bleeding has not stopped, tighten the tourniquet and/or apply another tourniquet above the first one. If the second tourniquet does not work or cannot be applied, press directly on the wound with your hands until the emergency (ambulance) team arrives, or pack the wound."
+          }
+        },
+        "5": {
+          "text": "Bleeding from a wound of a limb that you cannot see clearly:",
+          "items": {
+            "1": "apply a tourniquet as high on the limb as possible;",
+            "2": "calm the person and explain what you are going to do;",
+            "3": "cut the clothes on the limb open, if possible;",
+            "4": "check whether the tourniquet works: if the bleeding has stopped, write the exact time the tourniquet was applied on the tourniquet itself or another visible place. If you cannot write the time down, tell the medical staff and make sure the time is recorded in the medical records; if you have the skill, check for a pulse in the limb below the tourniquet and, if there is one, tighten the tourniquet more and/or apply another tourniquet as described next; if the bleeding has not stopped, tighten the tourniquet and/or apply another tourniquet depending on where the wound is. If the second tourniquet does not work or cannot be applied, press directly on the wound with your hands until the emergency (ambulance) team arrives, or pack the wound; do not remove or loosen the tourniquet until the emergency (ambulance) team arrives."
+          }
+        },
+        "6": {
+          "text": "Bleeding from a wound in the armpit, the groin, the buttocks or the base of the neck:",
+          "items": {
+            "1": "press on the wound as hard as you can;",
+            "2": "calm the person and explain what you are going to do;",
+            "3": "pack the wound tightly with a haemostatic agent or a gauze bandage. After packing, press directly on the wound for 3 minutes when using a haemostatic agent and for 10 minutes when using a gauze bandage;",
+            "4": "check whether the packing works: if the bleeding has stopped, go on giving the first aid of this procedure; if it has not stopped, pack the wound again if you can. If you cannot, press on the wound with your hands as hard as you can until the emergency (ambulance) team arrives."
+          }
+        },
+        "7": "If the person loses consciousness while you are stopping massive bleeding, check for signs of life, then go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "Any of the following is a sign of massive external bleeding: blood flowing fast and heavily from the wound; pulsing bleeding (blood spurts out); a pool of blood next to the person that grows quickly; the person’s clothes heavily soaked with blood; full or partial amputation of a limb above the hand or foot; the person confused or unconscious without signs of a head injury, while there is external bleeding; signs of poor blood supply — pale skin, cold limbs and the like — while there is external bleeding.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "“Tourniquets should not be put directly over the elbow or knee joint”; “do not remove or loosen the tourniquet until the emergency (ambulance) team arrives”."
+    },
+    "shock": {
+      "title": "Suspected shock",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": "If you can, find and remove the cause of the shock.",
+        "5": {
+          "text": "Put the person in the shock position:",
+          "items": {
+            "1": "lay the person flat, if this does not make their breathing worse;",
+            "2": "put a box, a roll of clothes or the like under the person’s legs so that the feet are at the level of the chin;",
+            "3": "put clothes or a pillow under the person’s head, if this does not make their breathing worse."
+          }
+        },
+        "6": "Cover the person with a thermal blanket or a blanket.",
+        "7": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "8": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "9": "If you can, gather as much information as possible from the person about how the injury happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher of the emergency medical service.",
+        "10": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "Signs of shock: pale, cold and moist skin; general weakness; restlessness, irritability; a dry mouth, thirst; fast or slow breathing; confusion, fainting. Shock can be caused by: massive external bleeding; internal bleeding; injuries of various kinds; anaphylaxis; a heart attack and the like.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "The order does not name them separately."
+    },
+    "anaphylaxis": {
+      "title": "Anaphylaxis",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger to yourself, the people around or the person; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": "Give epinephrine with an auto-injector, provided that the person giving first aid has had the training for it and the epinephrine auto-injector is part of the first-aid kit.",
+        "5": "If five minutes after the epinephrine the person’s condition has not changed or has got worse, give the next dose of epinephrine with an auto-injector.",
+        "6": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "7": "If you can, gather as much information as possible from the person or the people around about how the anaphylaxis started. Pass all of it on to the emergency (ambulance) team or to the dispatcher of the emergency medical service.",
+        "8": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "“Anaphylaxis” is an emergency caused by an allergen, whatever way it entered the person’s body, that causes changes throughout the body. A combination of these signs shows anaphylaxis: changes of the skin and/or mucous membranes — hives, itching, swelling of the tongue or lips; breathing problems — fast shallow breathing, a feeling of not getting enough air, whistling or wheezing when breathing; irritation of the stomach and gut — vomiting, belly pain, diarrhoea; restlessness, signs of shock, loss of consciousness.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "The order does not name them separately."
+    },
+    "stroke": {
+      "title": "Suspected acute stroke",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": "Help the person into the position most comfortable for them. It is recommended to raise the person’s head by 15–30 degrees.",
+        "5": "Do not give the person anything to eat or drink.",
+        "6": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "7": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "8": "If you can, find out from the person as much as possible about the exact time the illness began and what may be connected with it. Pass all of it on to the emergency (ambulance) team or to the dispatcher.",
+        "9": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "Signs of an acute stroke: a sudden change of facial expression, the face no longer symmetrical; sudden weakness and/or numbness in an arm or a leg on one side; sudden difficulty speaking or understanding simple commands or questions; sudden worsening of sight in one or both eyes; sudden difficulty walking; dizziness, loss of balance or coordination; a severe headache with no apparent cause.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "“Do not give the person anything to eat or drink.” “If the signs of the stroke disappear before the emergency (ambulance) team arrives, do not cancel the call under any circumstances. Explain to the person that they still need to go to hospital and be examined.”"
+    },
+    "heart-attack": {
+      "title": "Suspected acute heart attack",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": "Help the person into the position most comfortable for them.",
+        "5": "Undo any tight clothing.",
+        "6": "Let fresh air into the room where the person is.",
+        "7": "If possible, give the person a tablet of acetylsalicylic acid of 162–325 mg to chew (whatever other medicines they take), provided they are not allergic to it.",
+        "8": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "9": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "10": "If you can, find out from the person as much as possible about the exact time the illness began and what may be connected with it. Pass all of it on to the emergency (ambulance) team or to the dispatcher of the emergency medical service.",
+        "11": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult."
+      },
+      "works": "Signs of an acute heart attack: discomfort in the centre of the chest; squeezing, pulling pain behind the breastbone; aching pain in the chest that spreads to the left arm, the neck, the lower jaw; fear without a reason; sudden shortness of breath; cold sweat, nausea, dizziness.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "The order does not name them separately."
+    }
+  }
+}

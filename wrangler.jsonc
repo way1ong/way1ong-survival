@@ -1,0 +1,20 @@
+{
+  // Cloudflare Workers with static assets: the app is the dist/ folder built by `npm run build`.
+  // The Worker name must match the name in the Cloudflare dashboard (Workers Builds) — docs/cloudflare.md.
+  "name": "way1ong-survival",
+  "compatibility_date": "2026-11-17",
+  "assets": {
+    "directory": "./dist"
+  },
+  // The app's own address (decision of 27.11, agreed with the site's session). way1ong.eu is already a domain
+  // of this Cloudflare account, so the first deploy from main creates the DNS record and the certificate itself.
+  // The same address is in src/config.ts (a test keeps them equal).
+  "routes": [{ "pattern": "survival.way1ong.eu", "custom_domain": true }],
+  // No workers.dev address (as for the site, the games and Sky): it carries the account's subdomain.
+  "workers_dev": false,
+  // No public addresses for branch previews and versions either: Cloudflare posts them into pull requests.
+  "preview_urls": false,
+  // Branches other than main: Workers Builds runs `npx wrangler preview` for them, and that command stops
+  // when this block is missing (it may be empty).
+  "previews": {}
+}

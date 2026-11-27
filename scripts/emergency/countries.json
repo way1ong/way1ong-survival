@@ -1,0 +1,183 @@
+{
+  "note": "Countries of Europe whose emergency numbers the app shows (decision of 27.11). govuk: the slug of the country's page in GOV.UK Foreign travel advice; other: the id of another source in src/data/sources.json; skip: why the country is left out.",
+  "countries": [
+    {
+      "code": "AL",
+      "govuk": "albania"
+    },
+    {
+      "code": "AD",
+      "govuk": "andorra"
+    },
+    {
+      "code": "AT",
+      "govuk": "austria"
+    },
+    {
+      "code": "BE",
+      "govuk": "belgium"
+    },
+    {
+      "code": "BA",
+      "govuk": "bosnia-and-herzegovina"
+    },
+    {
+      "code": "BG",
+      "govuk": "bulgaria"
+    },
+    {
+      "code": "HR",
+      "govuk": "croatia"
+    },
+    {
+      "code": "CY",
+      "govuk": "cyprus"
+    },
+    {
+      "code": "CZ",
+      "govuk": "czech-republic"
+    },
+    {
+      "code": "DK",
+      "govuk": "denmark"
+    },
+    {
+      "code": "EE",
+      "govuk": "estonia"
+    },
+    {
+      "code": "FI",
+      "govuk": "finland"
+    },
+    {
+      "code": "FR",
+      "govuk": "france"
+    },
+    {
+      "code": "DE",
+      "govuk": "germany"
+    },
+    {
+      "code": "GR",
+      "govuk": "greece"
+    },
+    {
+      "code": "HU",
+      "govuk": "hungary"
+    },
+    {
+      "code": "IS",
+      "govuk": "iceland"
+    },
+    {
+      "code": "IE",
+      "govuk": "ireland"
+    },
+    {
+      "code": "IT",
+      "govuk": "italy"
+    },
+    {
+      "code": "XK",
+      "govuk": "kosovo"
+    },
+    {
+      "code": "LV",
+      "govuk": "latvia"
+    },
+    {
+      "code": "LI",
+      "govuk": "liechtenstein"
+    },
+    {
+      "code": "LT",
+      "govuk": "lithuania"
+    },
+    {
+      "code": "LU",
+      "govuk": "luxembourg"
+    },
+    {
+      "code": "MT",
+      "govuk": "malta"
+    },
+    {
+      "code": "MD",
+      "govuk": "moldova"
+    },
+    {
+      "code": "MC",
+      "govuk": "monaco"
+    },
+    {
+      "code": "ME",
+      "govuk": "montenegro"
+    },
+    {
+      "code": "NL",
+      "govuk": "netherlands"
+    },
+    {
+      "code": "MK",
+      "govuk": "north-macedonia"
+    },
+    {
+      "code": "NO",
+      "govuk": "norway"
+    },
+    {
+      "code": "PL",
+      "govuk": "poland"
+    },
+    {
+      "code": "PT",
+      "govuk": "portugal"
+    },
+    {
+      "code": "RO",
+      "govuk": "romania"
+    },
+    {
+      "code": "SM",
+      "govuk": "san-marino"
+    },
+    {
+      "code": "RS",
+      "govuk": "serbia"
+    },
+    {
+      "code": "SK",
+      "govuk": "slovakia"
+    },
+    {
+      "code": "SI",
+      "govuk": "slovenia"
+    },
+    {
+      "code": "ES",
+      "govuk": "spain"
+    },
+    {
+      "code": "SE",
+      "govuk": "sweden"
+    },
+    {
+      "code": "CH",
+      "govuk": "switzerland"
+    },
+    {
+      "code": "UA",
+      "govuk": "ukraine"
+    },
+    {
+      "code": "GB",
+      "govuk": null,
+      "other": "nhs-999"
+    },
+    {
+      "code": "VA",
+      "govuk": null,
+      "skip": "No source found on 27.11.2026: GOV.UK has no travel advice page for it (404) and its page for Italy does not name it."
+    }
+  ]
+}

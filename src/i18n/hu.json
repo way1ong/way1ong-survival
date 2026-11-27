@@ -1,0 +1,435 @@
+{
+  "app": {
+    "name": "way1ong Survival",
+    "tagline": "Hogyan ne vesszen el Európa erdeiben és hegyeiben. Minden tanács kizárólag hivatalos forrásból származik, amelyet a tanács alatt megnevezünk."
+  },
+  "actions": {
+    "menu": "Menü",
+    "close": "Bezárás"
+  },
+  "update": {
+    "ready": "Megjelent az alkalmazás új verziója.",
+    "apply": "Frissítés"
+  },
+  "sections": {
+    "title": "Fejezetek",
+    "help": "Segélyhívás",
+    "firstAid": "Elsősegély",
+    "dangers": "Mi veszélyes, és mi nem",
+    "water": "Víz",
+    "fire": "Tűz",
+    "shelter": "Menedék",
+    "orientation": "Hol vagyok, merre menjek",
+    "tools": "Rögtönzött eszközök"
+  },
+  "section": {
+    "soon": "A fejezet készül. A tanácsok akkor jelennek meg itt, amikor mindegyiket egyeztettük a hivatalos forrással.",
+    "cards": "Kártyák"
+  },
+  "menu": {
+    "title": "Menü",
+    "language": "Nyelv"
+  },
+  "install": {
+    "title": "Telefonra vagy számítógépre",
+    "text": "A program alkalmazásként telepíthető: saját ikont kap, és internet nélkül is megnyílik.",
+    "button": "A program telepítése",
+    "ios": "iPhone-on és iPaden: koppintson a „Megosztás”, majd a „Főképernyőhöz adás” lehetőségre. A program saját ikont kap, és internet nélkül is megnyílik."
+  },
+  "about": {
+    "title": "Névjegy",
+    "text": "A way1ong ingyenes programja: reklám, követés és fiók nélkül. Semmit nem küld a hálózatra; a választott nyelvet és országot csak ezen az eszközön tárolja.",
+    "rule": "Minden tanács kizárólag olyan hivatalos forrásból származik, amely ezt a felhasználást megengedi. Minden tanács alatt ott a forrása, valamint az, hogy a módszer mikor működik, mennyire megbízható, és hol szoktak hibázni.",
+    "sources": "Források",
+    "madeBy": "Készítette: way1ong",
+    "series": "az országok oldalai a segélyhívószámokkal, olvasva: {date}"
+  },
+  "card": {
+    "steps": "Teendők",
+    "works": "Mikor működik",
+    "reliability": "Mennyire megbízható",
+    "mistakes": "Hol szoktak hibázni",
+    "source": "Forrás",
+    "read": "Olvasva: {date}",
+    "licence": "Licenc",
+    "sample": "MINTA"
+  },
+  "notices": {
+    "notDoctor": "Ez nem helyettesíti az orvost.",
+    "translation": "Fordítás. Az eredeti nyelve: {language}.",
+    "usArmy": "Az amerikai hadsereg kézikönyve alapján.",
+    "usNumber": "A forrásban az Egyesült Államok segélyhívószáma (911) szerepel; itt helyette az Ön országának számai állnak."
+  },
+  "emergency": {
+    "title": "Sürgősségi segítség",
+    "titleIn": "Sürgősségi segítség: {country}",
+    "eu": "A 112 az európai segélyhívószám: ingyenes, és az EU-ban mindenhol elérhető. A nemzeti segélyhívószámok mellett működik.",
+    "choose": "Ország kiválasztása",
+    "change": "Másik ország",
+    "pickTitle": "Hol tartózkodik most?",
+    "pickText": "Válassza ki az országot, és a program megmutatja az ottani segélyhívószámokat. A választást csak ez az eszköz tárolja.",
+    "call": "{number} hívása",
+    "from": {
+      "mobile": "mobiltelefonról",
+      "landline": "vezetékes telefonról"
+    },
+    "services": {
+      "all": "minden vészhelyzet",
+      "general": "segélyhívó szolgálatok",
+      "european": "európai segélyhívószám",
+      "ambulance": "mentők",
+      "fire": "tűzoltók",
+      "police": "rendőrség",
+      "mountainRescue": "hegyimentők",
+      "rescue": "mentőcsapatok",
+      "deaf": "siketek és nagyothallók számára (SMS, csevegés, videó, fax)",
+      "lifeThreatening": "életveszélyes helyzetek"
+    },
+    "sources": "A számok forrása",
+    "translated": "fordítás"
+  },
+  "licences": {
+    "ua-official-act": "állami szerv jogi aktusa — nem tárgya a szerzői jognak (Ukrajna Polgári Törvénykönyve, 434. cikk)",
+    "us-government-work": "az Egyesült Államok kormányának műve — az Egyesült Államokban nem áll szerzői jogi védelem alatt",
+    "ogl-3.0": "Open Government Licence v3.0",
+    "cc-by-4.0": "CC BY 4.0"
+  },
+  "cards": {
+    "eu-112": {
+      "title": "112 – az európai segélyhívószám",
+      "steps": {
+        "1": "A 112-t vezetékes és mobiltelefonról is hívhatja, hogy bármely segélyhívó szolgálatot elérje: a mentőket, a tűzoltókat vagy a rendőrséget.",
+        "2": "Egy speciálisan képzett ügyintéző válaszol. Ő vagy maga intézi a bejelentést, vagy továbbkapcsolja a hívást a legmegfelelőbb segélyhívó szolgálathoz.",
+        "3": "Sok országban az ügyintézők nemcsak a saját nyelvükön, hanem angolul vagy franciául is válaszolnak.",
+        "4": "Ha Ön nem tudja, hol van, az ügyintéző megállapítja, hol tartózkodik, és ezt továbbítja a segélyhívó szolgálatoknak, hogy azonnal segíthessenek."
+      },
+      "works": "A 112 az EU-ban mindenhol ingyenesen hívható. Néhány EU-n kívüli országban is használják, például Svájcban és a Dél-afrikai Köztársaságban, és az Európai Bizottság szerint világszerte elérhető a GSM-mobilhálózatokon.",
+      "reliability": "A 112 a nemzeti segélyhívószámok mellett működik. Dánia, Észtország, Finnország, Málta, Hollandia, Portugália, Románia és Svédország a 112-t választotta egyetlen nemzeti segélyhívószámának.",
+      "mistakes": "A 112 ügyintézői csak valódi vészhelyzetekre reagálnak: nem adnak közlekedési és időjárási tájékoztatást, általános információt, és nem válaszolnak kérdésekre. A 112 hamis hívása pazarolja az ügyintézők idejét és pénzét, veszélyes lehet, és a legtöbb országban bűncselekmény."
+    },
+    "lost": {
+      "title": "Ha eltévedt",
+      "steps": {
+        "1": "Álljon meg, és vegyen levegőt: nyugodtan mérje fel a helyzetét.",
+        "2": "Határozza meg, hol van: térképpel, iránytűvel, GPS-készülékkel vagy jól látható tereptárgyak alapján.",
+        "3": "Menjen vissza a saját nyomán: ha ez biztonságos, térjen vissza a tervezett útvonalára.",
+        "4": {
+          "text": "Ha nem tud visszatalálni, hívja a segélyhívószámot, és mondja el:",
+          "items": {
+            "1": "a telefonja GPS-koordinátáit, ha elérhetők;",
+            "2": "az ösvény vagy a terület nevét, ahonnan elindult;",
+            "3": "hol volt utoljára, mielőtt eltévedt;",
+            "4": "mit lát maga körül, a jól látható tereptárgyakat is;",
+            "5": "milyen ruha van Önön, és milyen színű;",
+            "6": "milyen felszerelés van Önnél;",
+            "7": "milyen betegsége van, ha van."
+          }
+        },
+        "5": "Maradjon a helyén: ha máshová megy, a mentők nehezen találják meg.",
+        "6": "Ha nincs telefonja vagy térereje: keressen olyan helyet, amely véd a nap, az eső vagy a hó ellen; nézze át és ossza be, ami Önnél van; maradjon melegben, vegye fel minden tartalék ruháját; adjon jelzéseket (lásd a „Jelzések a mentőknek” kártyát); türelmesen várjon, és kímélje az erejét."
+      },
+      "works": "Csak akkor menjen vissza a nyomán, ha ez biztonságos. Ha már segítséget hívott, és a mentőkre vár, a további lépések segítenek beosztani a készleteit és kímélni az erejét.",
+      "reliability": "A segítség órák vagy akár napok múlva érkezhet, attól függően, hol van, milyen az időjárás, és milyen erők és eszközök állnak rendelkezésre.",
+      "mistakes": "Továbbmenni: csak akkor induljon el, ha közvetlen életveszély fenyegeti. Ne gyújtson tüzet, ha nagy a tűzveszély, vagy erdőtűzszezon van: erdőtüzet okozhat, és nagy veszélybe sodorhatja magát és másokat."
+    },
+    "signals": {
+      "title": "Jelzések a mentőknek",
+      "steps": {
+        "1": "Síp: fújja meg háromszor, tartson szünetet, majd fújja meg ismét háromszor. Így kíméli az erejét, amelyet a kiabálás elvenne.",
+        "2": "Zseblámpa: adja le az SOS-jelet – háromszor gyorsan, háromszor lassan, háromszor gyorsan.",
+        "3": "Tükör: villantson vele, hogy felhívja a környéken repülő repülőgépek és helikopterek figyelmét.",
+        "4": "Legyen látható: terítse ki a magával vitt menedéket, vagy rakjon ki kövekből olyan alakzatot, amely a levegőből látható."
+      },
+      "works": "Amikor nem tud segítséget hívni, mert nincs telefonja vagy térereje, a jelzések segítenek a mentőknek megtalálni Önt. Az élénk színű ruha keresés közben jobban láthatóvá teszi.",
+      "reliability": "A tükör nem merül le. A zseblámpa lemeríti az elemeket, ezért használja megfontoltan.",
+      "mistakes": "Kiabálni síp helyett: a kiabálás elveszi az erejét."
+    },
+    "group-member-lost": {
+      "title": "Ha valaki eltéved a csoportból",
+      "steps": {
+        "1": "Szakítsák meg a túrát, és gyűjtsék össze a csoportot.",
+        "2": "Menjenek vissza oda, ahol az illetőt utoljára látták: az egész csoport a saját nyomán térjen vissza, és várjanak ott, amíg ez biztonságos.",
+        "3": {
+          "text": "Ha van térerő, hívja a segélyhívószámot, és mondja el:",
+          "items": {
+            "1": "annak a helynek a GPS-koordinátáit, ahol az illetőt utoljára látták, ha elérhetők;",
+            "2": "az ösvény vagy a terület nevét, ahonnan elindultak;",
+            "3": "mi van annak a helynek a környékén, a jól látható tereptárgyakat is;",
+            "4": "milyen ruha van az illetőn, és milyen színű;",
+            "5": "milyen felszerelés van nála;",
+            "6": "milyen betegsége van, ha van;",
+            "7": "a csoport által megbeszélt találkozási helyet."
+          }
+        },
+        "4": "Ha nem tud telefonálni, a csoport forduljon vissza, és kérjen segítséget a legközelebbi parkőrállomáson vagy látogatóközpontban."
+      },
+      "works": "Az Egyesült Államok Nemzeti Park Szolgálata azt tanácsolja, hogy a csoport már a túra előtt beszéljen meg egy találkozási helyet, készítsen közös fényképet, hogy látszódjon, ki mit visel, és maradjanak együtt.",
+      "reliability": "A keresés és a mentés órákig vagy napokig is tarthat, az időjárástól és a rendelkezésre álló emberektől és eszközöktől függően.",
+      "mistakes": "Letérni az ösvényről, vagy egyedül keresni az eltűnt társat: így a csoport más tagjai is eltévedhetnek."
+    },
+    "cpr-adult": {
+      "title": "Hirtelen keringésmegállás felnőttnél",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Állapítsa meg, eszméleténél van-e: óvatosan rázza meg a felnőtt vállát, és szóljon hozzá hangosan, például: „Jól van? Segítségre van szüksége?”",
+        "3": {
+          "text": "Ha a felnőtt reagál:",
+          "items": {
+            "1": "hagyja abban a helyzetben, amelyben találta, ha semmi sem fenyegeti;",
+            "2": "derítse ki, mi történt;",
+            "3": "hívja a mentőket, és kövesse a mentésirányító utasításait;",
+            "4": "szükség esetén segítse kényelmes helyzetbe;",
+            "5": "figyelje a felnőttet, amíg a mentők meg nem érkeznek."
+          }
+        },
+        "4": {
+          "text": "Ha a felnőtt nem reagál:",
+          "items": {
+            "1": "kérjen segítséget a közelben lévőktől. Ha több szemtanú is van, egy konkrét személyhez forduljon;",
+            "2": "ha a felnőtt hason fekszik, fordítsa a hátára, és tegye szabaddá a légutait. Ha az állapota sérüléssel függ össze, például magasból esett le, tételezze fel, hogy a nyaki gerince sérült. Ilyenkor a lehető legjobban korlátozza a nyak mozgását;",
+            "3": "tegye szabaddá a légutakat, és a „látom, hallom, érzem” módszerrel állapítsa meg, lélegzik-e. A légzést legfeljebb 10 másodpercig vizsgálja. Ha kétséges, hogy van-e légzés, vagy a légzés nem normális, tekintse úgy, hogy nincs légzés."
+          }
+        },
+        "5": "Ha a felnőtt normálisan lélegzik, de nincs eszméleténél, fektesse stabil oldalfekvő helyzetbe, hívja a mentőket, és 3–5 percenként ellenőrizze a légzését, amíg a mentők meg nem érkeznek. Ha sérülés gyanúja áll fenn, kerülje a stabil oldalfekvő helyzetbe fordítást, és a légutakat az alsó állkapocs előretolásával tartsa szabadon a mentők érkezéséig.",
+        "6": "Ha nincs légzés: hívja a mentőket, és kövesse a mentésirányító utasításait. Ha más szemtanúk is vannak, mondja meg nekik, hogy hívják a mentőket, Ön pedig azonnal lépjen tovább a következő lépésre. Ha a telefonján van kihangosítás, egyszerre hívja a mentőket és végezze a szív-tüdő újraélesztést.",
+        "7": {
+          "text": "Kezdje meg a szív-tüdő újraélesztést:",
+          "items": {
+            "1": "nyomja meg 30-szor a mellkas közepét legalább 5 cm (legfeljebb 6 cm) mélyen, percenként 100 (legfeljebb 120) nyomás ütemében;",
+            "2": "adjon 2 befúvást szelepes zsebmaszkkal, lélegeztetőmaszkkal vagy hasonlóval. Védőeszköz hiányában a befúvás elhagyható, és csak mellkaskompressziót végezhet. A két befúvás legfeljebb 5 másodpercig tartson;",
+            "3": "a két befúvás után folytassa a mellkaskompressziót az e lépésben leírtak szerint;",
+            "4": "felnőttnél a mellkaskompressziót ne szakítsa meg 10 másodpercnél hosszabb időre."
+          }
+        },
+        "8": "A mellkaskompressziót végző személyt 2 percenként váltsák. Ha a kompressziót végző kimerül, a váltásra 2 percnél előbb kerüljön sor.",
+        "9": "A szív-tüdő újraélesztést a mentők érkezése előtt csak akkor hagyja abba: ha a felnőttnél az élet egyértelmű jelei jelennek meg; ha visszatér az önálló normális légzés, a koordinált mozgás, kinyitja a szemét; ha az újraélesztő és/vagy a felnőtt életét veszély fenyegeti; ha az újraélesztés súlyos fizikai kimerültség miatt nem folytatható."
+      },
+      "works": "A „hirtelen keringésmegállás” olyan nem erőszakos halál, amely váratlanul, az akut tünetek kezdetétől számított 6 órán belül következett be. Felnőttnek a 18 évesnél idősebb, vagy külsőre felnőttnek látszó személy számít. Ez az eljárás arra az esetre szól, amikor nincs kéznél automata külső defibrillátor; arra az esetre, amikor van, a rendelet külön eljárást ír elő.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "Kétkedni abban, hogy lélegzik-e: „Ha kétséges, hogy van-e légzés, vagy a légzés nem normális, tekintse úgy, hogy nincs légzés.” Megszakítani a kompressziót: „Felnőttnél a mellkaskompressziót ne szakítsa meg 10 másodpercnél hosszabb időre.” Oldalra fordítani sérülés gyanújakor: „Ha sérülés gyanúja áll fenn, kerülje a stabil oldalfekvő helyzetbe fordítást.”"
+    },
+    "cpr-child": {
+      "title": "Hirtelen keringésmegállás gyermeknél",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Állapítsa meg, eszméleténél van-e: óvatosan szorítsa meg a gyermek vállát, és szóljon hozzá hangosan, például: „Ébredj! Jól vagy?” Az érintést és a megszólítást egyszerre végezze.",
+        "3": {
+          "text": "Ha a gyermek reagál:",
+          "items": {
+            "1": "hagyja abban a helyzetben, amelyben találta, ha semmi sem fenyegeti;",
+            "2": "derítse ki, mi történt;",
+            "3": "hívja a mentőket, és kövesse a mentésirányító utasításait;",
+            "4": "szükség esetén segítse kényelmes helyzetbe;",
+            "5": "figyelje a gyermeket, amíg a mentők meg nem érkeznek."
+          }
+        },
+        "4": {
+          "text": "Ha a gyermek nem reagál:",
+          "items": {
+            "1": "kérjen segítséget a közelben lévőktől. Ha több szemtanú is van, egy konkrét személyhez forduljon. Ez a másik személy hívja a mentőket, és elhozza az automata külső defibrillátort, ha van elérhető;",
+            "2": "ha a gyermek hason fekszik, fordítsa a hátára, és tegye szabaddá a légutait, előbb azonban nézzen bele a szájába, hogy nincs-e benne látható idegen tárgy. Ha az állapota sérüléssel függ össze, például magasból esett le, tételezze fel, hogy a nyaki gerince sérült, és a lehető legjobban korlátozza a nyak mozgását;",
+            "3": "tegye szabaddá a légutakat, és a „látom, hallom, érzem” módszerrel állapítsa meg, lélegzik-e. A légzést legfeljebb 10 másodpercig vizsgálja. Ha kétséges, hogy van-e légzés, vagy a légzés nem normális, tekintse úgy, hogy nincs légzés."
+          }
+        },
+        "5": {
+          "text": "Ha a gyermek normálisan lélegzik, de nincs eszméleténél:",
+          "items": {
+            "1": "fordítsa stabil helyzetbe;",
+            "2": "hívja a mentőket, és kövesse a mentésirányító utasításait;",
+            "3": "figyelje a gyermeket, amíg a mentők meg nem érkeznek."
+          }
+        },
+        "6": {
+          "text": "Ha nincs légzés:",
+          "items": {
+            "1": "adjon öt befúvást. Közben figyelje, hatásosak-e;",
+            "2": "kérje meg a többi szemtanút, hogy hívják a mentőket, és kövessék a mentésirányító utasításait. Ha egyedül nyújt elsősegélyt, az öt befúvás után hívja a mentőket;",
+            "3": "ha az öt befúvás alatt a gyermeknél megjelennek az élet egyértelmű jelei, tegye azt, amit az 5. lépés ír."
+          }
+        },
+        "7": {
+          "text": "Ha az öt befúvás után a gyermeknél nincsenek életjelek, és Ön egyedül nyújt elsősegélyt: hívja a mentőket, kapcsolja a telefont kihangosításra, és azonnal kezdje meg a szív-tüdő újraélesztést:",
+          "items": {
+            "1": "nyomja meg 15-ször a mellkast a mellkas elülső-hátsó átmérőjének harmadáig, percenként 100 (legfeljebb 120) nyomás ütemében;",
+            "2": "adjon 2 befúvást. A két befúvás legfeljebb 5 másodpercig tartson;",
+            "3": "ha nincs eszköz vagy védőeszköz a lélegeztetéshez, csak kompressziót végezzen. Amint lehetséges, lélegeztessen is;",
+            "4": "a két befúvás után folytassa a mellkaskompressziót az e lépésben leírtak szerint;",
+            "5": "gyermeknél a mellkaskompressziót ne szakítsa meg 10 másodpercnél hosszabb időre."
+          }
+        },
+        "8": "A mellkaskompressziót végző személyt 2 percenként váltsák. Ha a kompressziót végző kimerül, a váltásra 2 percnél előbb kerüljön sor.",
+        "9": {
+          "text": "Amint megérkezik az automata külső defibrillátor, azonnal használja:",
+          "items": {
+            "1": "kapcsolja be az automata külső defibrillátort, és pontosan kövesse a hangutasításait;",
+            "2": "25 kg-nál nehezebb vagy 8 évesnél idősebb gyermeknél az automata külső defibrillátor ugyanúgy használható, mint felnőttnél;",
+            "3": "8 évesnél fiatalabb gyermeknél speciális beállítású automata külső defibrillátor ajánlott. Ennek hiányában a felnőtt beállítás is használható. Kisebb gyermeknél fontolja meg az elektródák elöl-hátul történő elhelyezését, nagyobb gyermeknél a felnőttekéhez hasonló elöl-oldalt elhelyezést."
+          }
+        },
+        "10": {
+          "text": "A gyermek szív-tüdő újraélesztését a mentők érkezése előtt csak akkor hagyja abba:",
+          "items": {
+            "1": "ha visszatér az önálló normális légzés, a koordinált mozgás, kinyitja a szemét;",
+            "2": "ha az újraélesztő és/vagy a gyermek életét veszély fenyegeti;",
+            "3": "ha az újraélesztés súlyos fizikai kimerültség miatt nem folytatható. Ha a mentők érkezése előtt az élet egyértelmű jelei jelennek meg, az automata külső defibrillátor elektródáit hagyja a gyermek mellkasán, ha használták."
+          }
+        }
+      },
+      "works": "A „hirtelen keringésmegállás” olyan nem erőszakos halál, amely váratlanul, az akut tünetek kezdetétől számított 6 órán belül következett be. Gyermeknek a 18 év alatti, vagy külsőre gyermeknek látszó személy számít. „Ha nem lehet megállapítani, hogy az illető még gyermek-e, a szív-tüdő újraélesztés a felnőtt hirtelen keringésmegállásakor követendő eljárás szerint is végezhető.” Ha egy korábban egészséges gyermek szemtanúk előtt hirtelen veszítette el az eszméletét, vagy ismert szív- és érrendszeri betegsége van, „az öt befúvást nem kell elvégezni, hanem azonnal a mellkaskompresszióval kell kezdeni”.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "Kétkedni abban, hogy a gyermek lélegzik-e: „Ha kétséges, hogy van-e légzés, vagy a légzés nem normális, tekintse úgy, hogy nincs légzés.” Megszakítani a kompressziót: „Gyermeknél a mellkaskompressziót ne szakítsa meg 10 másodpercnél hosszabb időre.”"
+    },
+    "choking": {
+      "title": "Idegen test a légutakban (félrenyelés)",
+      "steps": {
+        "1": {
+          "text": "Ha a légút részlegesen elzáródott:",
+          "items": {
+            "1": "biztassa a sérültet, hogy köhögjön tovább;",
+            "2": "ha a köhögés sikeres volt, és a légút szabaddá vált, vizsgálja meg a sérültet, hívja a mentőket, és kövesse a mentésirányító utasításait."
+          }
+        },
+        "2": {
+          "text": "Ha a légút teljesen elzáródott:",
+          "items": {
+            "1": "nyugtassa meg a sérültet, és magyarázza el, mit fog tenni;",
+            "2": "adjon legfeljebb öt csúsztatott hátba ütést;",
+            "3": "ha öt hátba ütés után sem szabad a légút, végezzen legfeljebb öt hasi lökést (Heimlich-féle műfogás);",
+            "4": "ha a légút még mindig nem szabad, felváltva ismételje a legfeljebb öt hátba ütést és a legfeljebb öt hasi lökést;",
+            "5": "ha a légút szabaddá vált, vizsgálja meg a sérültet, hívja a mentőket, és kövesse a mentésirányító utasításait."
+          }
+        },
+        "3": {
+          "text": "Ha a sérült elveszíti az eszméletét:",
+          "items": {
+            "1": "fektesse vízszintes helyzetbe;",
+            "2": "hívja a mentőket;",
+            "3": "felnőttnél: 30 nyomás a mellkas közepére legalább 5 cm (legfeljebb 6 cm) mélyen, percenként 100 (legfeljebb 120) nyomás ütemében; 2 befúvás szelepes zsebmaszkkal, lélegeztetőmaszkkal vagy hasonlóval. Védőeszköz hiányában a befúvás elhagyható, és csak mellkaskompressziót végezhet. A két befúvás legfeljebb 5 másodpercig tartson;",
+            "4": "gyermeknél: nézzen bele a szájába, nincs-e benne idegen test. Ha jól látja, fordítsa a gyermek fejét oldalra, és ujjával távolítsa el a szájából; ha öt befúvás után a gyermeknél nincsenek látható életjelek, nyomja meg 15-ször a mellkast a mellkas elülső-hátsó átmérőjének harmadáig, percenként 100 (legfeljebb 120) nyomás ütemében;",
+            "5": "minden befúvás előtt nézzen bele a szájába, nincs-e benne idegen test. Ha jól látja, fordítsa a fejet oldalra, és ujjával távolítsa el a szájából."
+          }
+        }
+      },
+      "works": "A részleges elzáródás jelei: a sérült tud beszélni, köhögni, lélegezni. A teljes elzáródás jelei: a sérült nem tud beszélni, nem tud lélegezni, hangtalanul próbál köhögni. „1 év alatti gyermeknél, ha a légút teljes elzáródásának jelei láthatók, a hasi lökéseket mellkaskompresszióval kell helyettesíteni.”",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "A rendelet ezt külön nem nevezi meg."
+    },
+    "bleeding": {
+      "title": "Súlyos külső vérzés",
+      "steps": {
+        "1": "Győződjön meg róla, hogy nincs veszély.",
+        "2": "Kérjen segítséget a körülállóktól. Ha több szemtanú is van, egy konkrét személyhez forduljon.",
+        "3": "Ha van, az elsősegély megkezdése előtt vegyen fel egyéni védőeszközt: kesztyűt, maszkot, szemvédőt.",
+        "4": {
+          "text": "Végtagseb vérzésekor, ha a seb jól látható:",
+          "items": {
+            "1": "nyomja a sebet a kezével, amilyen erősen csak tudja;",
+            "2": "helyezzen fel nyomókötést, és ellenőrizze, hatásos-e;",
+            "3": "ha a vérzés elállt: nyugtassa meg a sérültet; hívja a mentőket, és kövesse a mentésirányító utasításait;",
+            "4": "ha a vérzés nem állt el, helyezzen fel érszorítót: a tovább szorítható érszorítót 5–7 cm-rel a seb fölé kell felhelyezni; érszorítót nem szabad közvetlenül a könyök- vagy a térdízületre tenni;",
+            "5": "az érszorító felhelyezése után ellenőrizze, hatásos-e: ha a vérzés elállt, írja fel a felhelyezés pontos idejét magára az érszorítóra vagy más jól látható helyre. Ha nem tudja felírni az időt, mondja el az egészségügyi dolgozóknak, és győződjön meg róla, hogy rögzítették az egészségügyi dokumentációban; ha van hozzá gyakorlata, tapintsa ki a pulzust a végtagon az érszorító alatt, és ha van pulzus, szorítsa tovább az érszorítót és/vagy helyezzen fel még egy érszorítót az alábbiak szerint; ha a vérzés nem állt el, szorítsa tovább az érszorítót és/vagy helyezzen fel még egy érszorítót az első fölé. Ha a második érszorító nem hatásos, vagy nem lehet felhelyezni, a mentők érkezéséig nyomja a sebet közvetlenül a kezével, vagy tamponálja a sebet."
+          }
+        },
+        "5": {
+          "text": "Végtagseb vérzésekor, ha a seb nem látható jól:",
+          "items": {
+            "1": "helyezze fel az érszorítót a végtagon a lehető legmagasabbra;",
+            "2": "nyugtassa meg a sérültet, és magyarázza el, mit fog tenni;",
+            "3": "ha lehetséges, vágja fel a ruhát a végtagon;",
+            "4": "ellenőrizze, hatásos-e az érszorító: ha a vérzés elállt, írja fel a felhelyezés pontos idejét magára az érszorítóra vagy más jól látható helyre. Ha nem tudja felírni az időt, mondja el az egészségügyi dolgozóknak, és győződjön meg róla, hogy rögzítették az egészségügyi dokumentációban; ha van hozzá gyakorlata, tapintsa ki a pulzust a végtagon az érszorító alatt, és ha van pulzus, szorítsa tovább az érszorítót és/vagy helyezzen fel még egy érszorítót az alábbiak szerint; ha a vérzés nem állt el, szorítsa tovább az érszorítót és/vagy helyezzen fel még egy érszorítót a seb helyétől függően. Ha a második érszorító nem hatásos, vagy nem lehet felhelyezni, a mentők érkezéséig nyomja a sebet közvetlenül a kezével, vagy tamponálja a sebet; az érszorítót ne vegye le és ne lazítsa meg a mentők érkezéséig."
+          }
+        },
+        "6": {
+          "text": "Ha a seb a hónaljban, a lágyékban, a farizmon vagy a nyak tövénél vérzik:",
+          "items": {
+            "1": "nyomja a sebet, amilyen erősen csak tudja;",
+            "2": "nyugtassa meg a sérültet, és magyarázza el, mit fog tenni;",
+            "3": "tamponálja szorosan a sebet vérzéscsillapító anyaggal vagy gézpólyával. A tamponálás után nyomja közvetlenül a sebet vérzéscsillapító anyag esetén 3 percig, gézpólya esetén 10 percig;",
+            "4": "ellenőrizze, hatásos-e a tamponálás: ha a vérzés elállt, nyújtsa tovább az eljárás szerinti elsősegélyt; ha nem állt el, ha lehet, tamponálja újra a sebet. Ha erre nincs lehetőség, a mentők érkezéséig nyomja a sebet a kezével, amilyen erősen csak tudja."
+          }
+        },
+        "7": "Ha a súlyos vérzés csillapítása közben a sérült elveszíti az eszméletét, ellenőrizze az életjeleket, majd térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A súlyos külső vérzés jele bármelyik az alábbiak közül: a vér gyorsan, erősen ömlik a sebből; lüktető vérzés (a vér spriccel); a sérült mellett gyorsan növekvő vértócsa; a sérült ruhája erősen átázott a vértől; a végtag teljes vagy részleges leszakadása a kéz vagy a lábfej fölött; zavartság vagy eszméletvesztés koponyasérülés jelei nélkül, külső vérzés mellett; rossz vérellátás jelei – sápadt bőr, hideg végtagok stb. – külső vérzés mellett.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "„Érszorítót nem szabad közvetlenül a könyök- vagy a térdízületre tenni”; „az érszorítót ne vegye le és ne lazítsa meg a mentők érkezéséig”."
+    },
+    "shock": {
+      "title": "Sokk gyanúja",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": "Ha lehet, derítse ki és szüntesse meg a sokk okát.",
+        "5": {
+          "text": "Fektesse a sérültet sokkfektetésbe:",
+          "items": {
+            "1": "fektesse vízszintesen, ha ez nem rontja a légzését;",
+            "2": "tegyen a lába alá dobozt, ruhából készült hengert vagy hasonlót úgy, hogy a lábfeje az álla magasságában legyen;",
+            "3": "tegyen a feje alá ruhát vagy párnát, ha ez nem rontja a légzését."
+          }
+        },
+        "6": "Takarja be a sérültet mentőfóliával vagy takaróval.",
+        "7": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "8": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "9": "Ha lehet, gyűjtsön a sérülttől minél több információt a sérülés körülményeiről és módjáról. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "10": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A sokk jelei: sápadt, hideg és nyirkos bőr; általános gyengeség; nyugtalanság, ingerlékenység; szájszárazság, szomjúság; szapora vagy lassú légzés; tudatzavar, ájulás. A sokk oka lehet: súlyos külső vérzés; belső vérzés; különféle sérülések; anafilaxia; szívroham stb.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "A rendelet ezt külön nem nevezi meg."
+    },
+    "anaphylaxis": {
+      "title": "Anafilaxia",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély sem Önre, sem a körülállókra, sem a sérültre; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": "Adjon be adrenalint (epinefrint) autoinjektorral, ha az elsősegélyt nyújtó személy erre képzést kapott, és az adrenalin-autoinjektor az elsősegélycsomag része.",
+        "5": "Ha az adrenalin beadása után öt perccel a sérült állapota nem változott vagy romlott, adja be a következő adag adrenalint autoinjektorral.",
+        "6": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "7": "Ha lehet, gyűjtsön a sérülttől vagy a körülállóktól minél több információt arról, hogyan alakult ki az anafilaxia. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "8": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "Az „anafilaxia” allergén okozta sürgős állapot – bármilyen úton jutott is az allergén a szervezetbe –, amely az egész szervezetre kiterjedő változásokat okoz. Az anafilaxiát az alábbi jelek együttese jelzi: bőr- és/vagy nyálkahártya-tünetek – csalánkiütés, viszketés, a nyelv vagy az ajkak duzzanata; légzészavar – szapora, felületes légzés, levegőhiány érzése, sípoló vagy hörgő légzés; a gyomor és a belek tünetei – hányás, hasfájás, hasmenés; nyugtalanság, a sokk jelei, eszméletvesztés.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "A rendelet ezt külön nem nevezi meg."
+    },
+    "stroke": {
+      "title": "Akut stroke gyanúja",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": "Segítse a sérültet a számára legkényelmesebb helyzetbe. Ajánlott a fejét 15–30 fokkal megemelni.",
+        "5": "Ne adjon a sérültnek enni és inni.",
+        "6": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "7": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "8": "Ha lehet, tudjon meg a sérülttől minél többet arról, pontosan mikor kezdődött a betegség, és milyen körülmények függhetnek ezzel össze. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "9": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "Az akut stroke jelei: az arckifejezés hirtelen megváltozása, az arc aszimmetriája; hirtelen gyengeség és/vagy zsibbadás az egyik oldali karban vagy lábban; hirtelen beszédzavar, illetve egyszerű utasítások vagy kérdések megértésének zavara; hirtelen látásromlás az egyik vagy mindkét szemen; hirtelen járászavar; szédülés, az egyensúly vagy a koordináció elvesztése; kifejezett fejfájás látható ok nélkül.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "„Ne adjon a sérültnek enni és inni.” „Ha a stroke jelei a mentők érkezése előtt elmúlnak, a hívást semmiképpen ne mondja le. Magyarázza el a sérültnek, hogy kórházi felvételre és kivizsgálásra van szüksége.”"
+    },
+    "heart-attack": {
+      "title": "Akut szívinfarktus gyanúja",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": "Segítse a sérültet a számára legkényelmesebb helyzetbe.",
+        "5": "Lazítsa meg a szorító ruhadarabokat.",
+        "6": "Gondoskodjon friss levegőről abban a helyiségben, ahol a sérült van.",
+        "7": "Ha lehetséges, adjon a sérültnek szétrágásra egy 162–325 mg-os acetilszalicilsav- (aszpirin-) tablettát (függetlenül attól, milyen más gyógyszert szed), ha nem allergiás rá.",
+        "8": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "9": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "10": "Ha lehet, tudjon meg a sérülttől minél többet arról, pontosan mikor kezdődött a betegség, és milyen körülmények függhetnek ezzel össze. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "11": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "Az akut szívinfarktus jelei: kellemetlen érzés a mellkas közepén; szorító, húzó fájdalom a szegycsont mögött; tompa fájdalom a mellkasban, amely a bal karba, a nyakba, az alsó állkapocsba sugárzik; ok nélküli félelemérzet; hirtelen nehézlégzés; hideg verejték, hányinger, szédülés.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "A rendelet ezt külön nem nevezi meg."
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# The pages must reach the reader exactly as they were built. On a domain of its own Cloudflare adds a
+# measuring script of its Web Analytics to every HTML page (on by default on the free plan, for visitors
+# outside Europe) — against the rules "no tracking" and "no outside requests". "no-transform" forbids any
+# change of our files on the way; the rest of the value is what Cloudflare sends by default.
+# docs/cloudflare.md, "Сторінки доходять без змін". After a deploy: npm run check:live.
+/*
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
