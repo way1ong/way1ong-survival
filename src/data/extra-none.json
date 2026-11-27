@@ -1,0 +1,6 @@
+{
+  "note": "The app's own build: no cards or sources besides those of cards.json and sources.json. The test build (npm run audit) uses extra-sample.json instead.",
+  "sources": [],
+  "cards": [],
+  "words": {}
+}

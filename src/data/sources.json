@@ -1,4 +1,11 @@
 {
+  "series": {
+    "govuk-fta": {
+      "title": "Foreign travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice"
+    }
+  },
   "sources": [
     {
       "id": "moz-441",
@@ -14,7 +21,8 @@
         "quote": "Не є об'єктами авторського права: 1) акти органів державної влади та органів місцевого самоврядування (закони, укази, постанови, рішення тощо), а також їх офіційні переклади"
       },
       "attribution": null,
-      "note": null
+      "note": null,
+      "series": null
     },
     {
       "id": "ec-112",
@@ -30,7 +38,756 @@
         "quote": "Unless otherwise indicated (e.g. in individual copyright notices), content owned by the EU on this website is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence. This means that reuse is allowed, provided appropriate credit is given and changes are indicated."
       },
       "attribution": "© European Union, 1995-2026 (CC BY 4.0); adapted and translated by way1ong",
-      "note": null
+      "note": null,
+      "series": null
+    },
+    {
+      "id": "nhs-999",
+      "title": "When to call 999",
+      "publisher": "NHS (nhs.uk)",
+      "url": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/",
+      "lang": "en",
+      "version": "Page last reviewed: 3 February 2023; next review due: 3 February 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "Copyright and database rights in NHS Website Content are released free-of-charge under the current version of the Open Government Licence"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": null
+    },
+    {
+      "id": "govuk-albania",
+      "title": "Getting help - Albania travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/albania/getting-help",
+      "lang": "en",
+      "version": "Updated: 15 October 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-andorra",
+      "title": "Getting help - Andorra travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/andorra/getting-help",
+      "lang": "en",
+      "version": "Updated: 10 December 2025; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-austria",
+      "title": "Getting help - Austria travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/austria/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-belgium",
+      "title": "Getting help - Belgium travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/belgium/getting-help",
+      "lang": "en",
+      "version": "Updated: 17 October 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-bosnia-and-herzegovina",
+      "title": "Getting help - Bosnia and Herzegovina travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/bosnia-and-herzegovina/getting-help",
+      "lang": "en",
+      "version": "Updated: 13 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-bulgaria",
+      "title": "Getting help - Bulgaria travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/bulgaria/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-croatia",
+      "title": "Getting help - Croatia travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/croatia/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-cyprus",
+      "title": "Getting help - Cyprus travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/cyprus/getting-help",
+      "lang": "en",
+      "version": "Updated: 14 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-czech-republic",
+      "title": "Getting help - Czechia travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/czech-republic/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-denmark",
+      "title": "Getting help - Denmark travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/denmark/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-estonia",
+      "title": "Getting help - Estonia travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/estonia/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-finland",
+      "title": "Getting help - Finland travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/finland/getting-help",
+      "lang": "en",
+      "version": "Updated: 17 November 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-france",
+      "title": "Getting help - France travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/france/getting-help",
+      "lang": "en",
+      "version": "Updated: 22 October 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-germany",
+      "title": "Getting help - Germany travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/germany/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-greece",
+      "title": "Getting help - Greece travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/greece/getting-help",
+      "lang": "en",
+      "version": "Updated: 3 November 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-hungary",
+      "title": "Getting help - Hungary travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/hungary/getting-help",
+      "lang": "en",
+      "version": "Updated: 23 September 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-iceland",
+      "title": "Getting help - Iceland travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/iceland/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-ireland",
+      "title": "Getting help - Ireland travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/ireland/getting-help",
+      "lang": "en",
+      "version": "Updated: 4 September 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-italy",
+      "title": "Getting help - Italy travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/italy/getting-help",
+      "lang": "en",
+      "version": "Updated: 3 November 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-kosovo",
+      "title": "Getting help - Kosovo travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/kosovo/getting-help",
+      "lang": "en",
+      "version": "Updated: 23 September 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-latvia",
+      "title": "Getting help - Latvia travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/latvia/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-liechtenstein",
+      "title": "Getting help - Liechtenstein travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/liechtenstein/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-lithuania",
+      "title": "Getting help - Lithuania travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/lithuania/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-luxembourg",
+      "title": "Getting help - Luxembourg travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/luxembourg/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-malta",
+      "title": "Getting help - Malta travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/malta/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-moldova",
+      "title": "Getting help - Moldova travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/moldova/getting-help",
+      "lang": "en",
+      "version": "Updated: 4 November 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-monaco",
+      "title": "Getting help - Monaco travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/monaco/getting-help",
+      "lang": "en",
+      "version": "Updated: 10 December 2025; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-montenegro",
+      "title": "Getting help - Montenegro travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/montenegro/getting-help",
+      "lang": "en",
+      "version": "Updated: 13 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-netherlands",
+      "title": "Getting help - Netherlands travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/netherlands/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-north-macedonia",
+      "title": "Getting help - North Macedonia travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/north-macedonia/getting-help",
+      "lang": "en",
+      "version": "Updated: 13 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-norway",
+      "title": "Getting help - Norway travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/norway/getting-help",
+      "lang": "en",
+      "version": "Updated: 25 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-poland",
+      "title": "Getting help - Poland travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/poland/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 November 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-portugal",
+      "title": "Getting help - Portugal travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/portugal/getting-help",
+      "lang": "en",
+      "version": "Updated: 12 November 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-romania",
+      "title": "Getting help - Romania travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/romania/getting-help",
+      "lang": "en",
+      "version": "Updated: 18 September 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-san-marino",
+      "title": "Getting help - San Marino travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/san-marino/getting-help",
+      "lang": "en",
+      "version": "Updated: 10 December 2025; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-serbia",
+      "title": "Getting help - Serbia travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/serbia/getting-help",
+      "lang": "en",
+      "version": "Updated: 25 November 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-slovakia",
+      "title": "Getting help - Slovakia travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/slovakia/getting-help",
+      "lang": "en",
+      "version": "Updated: 28 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-slovenia",
+      "title": "Getting help - Slovenia travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/slovenia/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-spain",
+      "title": "Getting help - Spain travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/spain/getting-help",
+      "lang": "en",
+      "version": "Updated: 10 November 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-sweden",
+      "title": "Getting help - Sweden travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/sweden/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-switzerland",
+      "title": "Getting help - Switzerland travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/switzerland/getting-help",
+      "lang": "en",
+      "version": "Updated: 11 August 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "govuk-ukraine",
+      "title": "Getting help - Ukraine travel advice",
+      "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",
+      "url": "https://www.gov.uk/foreign-travel-advice/ukraine/getting-help",
+      "lang": "en",
+      "version": "Updated: 2 October 2026; still current at: 27 November 2026",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "note": null,
+      "series": "govuk-fta"
+    },
+    {
+      "id": "eu-countries",
+      "title": "EU countries",
+      "publisher": "European Union (Directorate-General for Communication)",
+      "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+      "lang": "en",
+      "version": "read 2026-11-27",
+      "read": "2026-11-27",
+      "licence": {
+        "kind": "cc-by-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "quote": "Unless otherwise indicated (e.g. in individual copyright notices), content owned by the EU on this website is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence. This means that reuse is allowed, provided appropriate credit is given and changes are indicated."
+      },
+      "attribution": "© European Union, 1995-2026 (CC BY 4.0)",
+      "note": null,
+      "series": null
     }
   ]
 }

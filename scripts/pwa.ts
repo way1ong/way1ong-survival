@@ -13,7 +13,12 @@ export interface AppInfo {
   description: string;
   /** Language of the manifest's texts. */
   lang: string;
+  /** The test build with the sample card (npm run audit); the app's own build — false. */
+  sample?: boolean;
 }
+
+/** The mark of the sample card's data (src/data/extra-sample.json): it must never reach the app's own build. */
+export const SAMPLE_MARK = 'SAMPLE-ONLY-NOT-FOR-RELEASE';
 
 /** What the worker's storage is called: this prefix and the version. Nothing else on the address may begin so. */
 export const STORE_PREFIX = 'way1ong-survival-';
@@ -69,6 +74,12 @@ export function appPlugin(root: string, app: AppInfo): Plugin {
     writeBundle(options, bundle) {
       const out = options.dir;
       if (!out) throw new Error('No output folder');
+      if (!app.sample) {
+        for (const [file, chunk] of Object.entries(bundle)) {
+          const code = chunk.type === 'chunk' ? chunk.code : String(chunk.source);
+          if (code.includes(SAMPLE_MARK)) throw new Error(`${file}: the sample card got into the app's own build`);
+        }
+      }
       mkdirSync(join(out, 'icons'), { recursive: true });
       const icons = readdirSync(join(root, 'src', 'icons'));
       for (const icon of icons) copyFileSync(join(root, 'src', 'icons', icon), join(out, 'icons', icon));

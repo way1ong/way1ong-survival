@@ -1,0 +1,1543 @@
+{
+  "read": "2026-11-27",
+  "countries": [
+    {
+      "code": "AL",
+      "lines": [
+        {
+          "source": "govuk-albania",
+          "quote": "Ambulance: 127",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "127",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-albania",
+          "quote": "Fire: 128",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "128",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-albania",
+          "quote": "Police: 112",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "AD",
+      "lines": [
+        {
+          "source": "govuk-andorra",
+          "quote": "Ambulance: 116",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "116",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-andorra",
+          "quote": "Fire: 118",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "118",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-andorra",
+          "quote": "Police: 110",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "110",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-andorra",
+          "quote": "Mountain rescue: 112",
+          "services": [
+            "mountainRescue"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "AT",
+      "lines": [
+        {
+          "source": "govuk-austria",
+          "quote": "Ambulance or rescue: 144",
+          "services": [
+            "ambulance",
+            "rescue"
+          ],
+          "numbers": [
+            {
+              "dial": "144",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-austria",
+          "quote": "Fire: 122",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "122",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-austria",
+          "quote": "Police: 133",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "133",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-austria",
+          "quote": "European emergency number: 112",
+          "services": [
+            "european"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BE",
+      "lines": [
+        {
+          "source": "govuk-belgium",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BA",
+      "lines": [
+        {
+          "source": "govuk-bosnia-and-herzegovina",
+          "quote": "Ambulance: 124",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "124",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-bosnia-and-herzegovina",
+          "quote": "Fire: 123",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "123",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-bosnia-and-herzegovina",
+          "quote": "Police: 122",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "122",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BG",
+      "lines": [
+        {
+          "source": "govuk-bulgaria",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "HR",
+      "lines": [
+        {
+          "source": "govuk-croatia",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CY",
+      "lines": [
+        {
+          "source": "govuk-cyprus",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CZ",
+      "lines": [
+        {
+          "source": "govuk-czech-republic",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DK",
+      "lines": [
+        {
+          "source": "govuk-denmark",
+          "quote": "Telephone: 112 (ambulance, fire, police).",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EE",
+      "lines": [
+        {
+          "source": "govuk-estonia",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "FI",
+      "lines": [
+        {
+          "source": "govuk-finland",
+          "quote": "Telephone 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "lines": [
+        {
+          "source": "govuk-france",
+          "quote": "Telephone 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-france",
+          "quote": "Ambulance: 15",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "15",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-france",
+          "quote": "Fire: 18",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "18",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-france",
+          "quote": "Police: 17",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "17",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-france",
+          "quote": "Deaf and hard of hearing emergency number (SMS, chat, video and fax): 114",
+          "services": [
+            "deaf"
+          ],
+          "numbers": [
+            {
+              "dial": "114",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DE",
+      "lines": [
+        {
+          "source": "govuk-germany",
+          "quote": "Ambulance: 112",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-germany",
+          "quote": "Fire: 112",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-germany",
+          "quote": "Police: 110",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "110",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "ec-112",
+          "quote": "112 is the European emergency phone number, available everywhere in the EU, free of charge.",
+          "services": [
+            "european"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GR",
+      "lines": [
+        {
+          "source": "govuk-greece",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "HU",
+      "lines": [
+        {
+          "source": "govuk-hungary",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "IS",
+      "lines": [
+        {
+          "source": "govuk-iceland",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "IE",
+      "lines": [
+        {
+          "source": "govuk-ireland",
+          "quote": "Telephone: 112 or 999 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            },
+            {
+              "dial": "999",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "IT",
+      "lines": [
+        {
+          "source": "govuk-italy",
+          "quote": "Ambulance: 118",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "118",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-italy",
+          "quote": "Fire: 115",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "115",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-italy",
+          "quote": "Police: 112",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "ec-112",
+          "quote": "112 is the European emergency phone number, available everywhere in the EU, free of charge.",
+          "services": [
+            "european"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "XK",
+      "lines": [
+        {
+          "source": "govuk-kosovo",
+          "quote": "All emergencies: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-kosovo",
+          "quote": "Police: 192 from a mobile (92 from a landline)",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "192",
+              "from": "mobile"
+            },
+            {
+              "dial": "92",
+              "from": "landline"
+            }
+          ]
+        },
+        {
+          "source": "govuk-kosovo",
+          "quote": "Fire: 193 from a mobile (93 from a landline)",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "193",
+              "from": "mobile"
+            },
+            {
+              "dial": "93",
+              "from": "landline"
+            }
+          ]
+        },
+        {
+          "source": "govuk-kosovo",
+          "quote": "Ambulance: 194 from a mobile (94 from a landline)",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "194",
+              "from": "mobile"
+            },
+            {
+              "dial": "94",
+              "from": "landline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LV",
+      "lines": [
+        {
+          "source": "govuk-latvia",
+          "quote": "Ambulance: 113",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "113",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-latvia",
+          "quote": "Fire: 112",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-latvia",
+          "quote": "Police: 110",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "110",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "ec-112",
+          "quote": "112 is the European emergency phone number, available everywhere in the EU, free of charge.",
+          "services": [
+            "european"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LI",
+      "lines": [
+        {
+          "source": "govuk-liechtenstein",
+          "quote": "Fire: 118",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "118",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-liechtenstein",
+          "quote": "Police: 117",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "117",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-liechtenstein",
+          "quote": "Ambulance: 144",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "144",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LT",
+      "lines": [
+        {
+          "source": "govuk-lithuania",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LU",
+      "lines": [
+        {
+          "source": "govuk-luxembourg",
+          "quote": "Ambulance: 112",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-luxembourg",
+          "quote": "Fire: 112",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-luxembourg",
+          "quote": "Police: 113",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "113",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "ec-112",
+          "quote": "112 is the European emergency phone number, available everywhere in the EU, free of charge.",
+          "services": [
+            "european"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MT",
+      "lines": [
+        {
+          "source": "govuk-malta",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MD",
+      "lines": [
+        {
+          "source": "govuk-moldova",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MC",
+      "lines": [
+        {
+          "source": "govuk-monaco",
+          "quote": "Telephone: 112 on a mobile or 18 on a landline (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": "mobile"
+            },
+            {
+              "dial": "18",
+              "from": "landline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ME",
+      "lines": [
+        {
+          "source": "govuk-montenegro",
+          "quote": "Telephone: 112",
+          "services": [
+            "general"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "NL",
+      "lines": [
+        {
+          "source": "govuk-netherlands",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MK",
+      "lines": [
+        {
+          "source": "govuk-north-macedonia",
+          "quote": "Ambulance: 194",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "194",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-north-macedonia",
+          "quote": "Police: 192",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "192",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "NO",
+      "lines": [
+        {
+          "source": "govuk-norway",
+          "quote": "Fire: 110",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "110",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-norway",
+          "quote": "Police: 112",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-norway",
+          "quote": "Ambulance: 113",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "113",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PL",
+      "lines": [
+        {
+          "source": "govuk-poland",
+          "quote": "Ambulance: 999",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "999",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-poland",
+          "quote": "Fire: 998",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "998",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-poland",
+          "quote": "Police: 997",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "997",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "ec-112",
+          "quote": "112 is the European emergency phone number, available everywhere in the EU, free of charge.",
+          "services": [
+            "european"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PT",
+      "lines": [
+        {
+          "source": "govuk-portugal",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "RO",
+      "lines": [
+        {
+          "source": "govuk-romania",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SM",
+      "lines": [
+        {
+          "source": "govuk-san-marino",
+          "quote": "Ambulance: 118",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "118",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-san-marino",
+          "quote": "Fire: 115",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "115",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-san-marino",
+          "quote": "Police: 112 or 113",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            },
+            {
+              "dial": "113",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "RS",
+      "lines": [
+        {
+          "source": "govuk-serbia",
+          "quote": "All emergencies: 112",
+          "services": [
+            "all"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-serbia",
+          "quote": "Ambulance: 194",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "194",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-serbia",
+          "quote": "Fire: 193",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "193",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-serbia",
+          "quote": "Police: 192",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "192",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SK",
+      "lines": [
+        {
+          "source": "govuk-slovakia",
+          "quote": "Ambulance: 155",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "155",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-slovakia",
+          "quote": "Fire: 150",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "150",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-slovakia",
+          "quote": "Police: 158",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "158",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "ec-112",
+          "quote": "112 is the European emergency phone number, available everywhere in the EU, free of charge.",
+          "services": [
+            "european"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SI",
+      "lines": [
+        {
+          "source": "govuk-slovenia",
+          "quote": "Police: 113",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "113",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-slovenia",
+          "quote": "Ambulance, fire and mountain rescue: 112",
+          "services": [
+            "ambulance",
+            "fire",
+            "mountainRescue"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "ec-112",
+          "quote": "112 is the European emergency phone number, available everywhere in the EU, free of charge.",
+          "services": [
+            "european"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ES",
+      "lines": [
+        {
+          "source": "govuk-spain",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SE",
+      "lines": [
+        {
+          "source": "govuk-sweden",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH",
+      "lines": [
+        {
+          "source": "govuk-switzerland",
+          "quote": "Telephone: 112 (ambulance, fire, police)",
+          "services": [
+            "ambulance",
+            "fire",
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-switzerland",
+          "quote": "Ambulance: 144",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "144",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-switzerland",
+          "quote": "Fire: 118",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "118",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-switzerland",
+          "quote": "Police: 117",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "117",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "UA",
+      "lines": [
+        {
+          "source": "moz-441",
+          "quote": "здійснити виклик за єдиним телефонним номером системи екстреної допомоги населенню 112",
+          "services": [
+            "general"
+          ],
+          "numbers": [
+            {
+              "dial": "112",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-ukraine",
+          "quote": "Ambulance: 103",
+          "services": [
+            "ambulance"
+          ],
+          "numbers": [
+            {
+              "dial": "103",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-ukraine",
+          "quote": "Fire: 101",
+          "services": [
+            "fire"
+          ],
+          "numbers": [
+            {
+              "dial": "101",
+              "from": null
+            }
+          ]
+        },
+        {
+          "source": "govuk-ukraine",
+          "quote": "Police: 102",
+          "services": [
+            "police"
+          ],
+          "numbers": [
+            {
+              "dial": "102",
+              "from": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GB",
+      "lines": [
+        {
+          "source": "nhs-999",
+          "quote": "999 is for life-threatening emergencies like serious road traffic accidents, strokes and heart attacks.",
+          "services": [
+            "lifeThreatening"
+          ],
+          "numbers": [
+            {
+              "dial": "999",
+              "from": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

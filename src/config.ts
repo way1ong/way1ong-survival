@@ -8,6 +8,7 @@ export const SURVIVAL = {
   links: { site: 'https://way1ong.eu' as string | null },
   /** Where the app lives (decision of 27.11); wrangler.jsonc names the same domain — a test keeps them equal. */
   address: 'https://survival.way1ong.eu',
-  /** Where the chosen language is kept on the device (C). Nothing else is kept, nothing is sent. */
+  /** Where the chosen language and country are kept on the device (C). Nothing else is kept, nothing is sent. */
   langKey: 'way1ong-survival-lang',
+  countryKey: 'way1ong-survival-country',
 } as const;

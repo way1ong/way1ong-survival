@@ -1,7 +1,6 @@
 // Dictionaries: the same keys and parameters in every language, a name for every section.
 import { describe, expect, it } from 'vitest';
-import type { NoticeKey } from '../core/cards.ts';
-import { NOTICE_SOURCES } from '../core/notices.ts';
+import { FACT_TEXTS } from '../core/notices.ts';
 import { SECTION_IDS } from '../core/sections.ts';
 import en from './en.json';
 import hu from './hu.json';
@@ -40,8 +39,12 @@ describe.each(Object.entries(dictionaries))('dictionary %s', (_lang, dict) => {
   });
 });
 
-it('has the words of every note over a card — and nothing else', () => {
-  for (const dict of Object.values(dictionaries)) expect(Object.keys(dict.notices as Tree).sort()).toEqual((Object.keys(NOTICE_SOURCES) as NoticeKey[]).sort());
+it('has the words of the notes over a card that are texts — and nothing else', () => {
+  for (const dict of Object.values(dictionaries)) expect(Object.keys(dict.notices as Tree).sort()).toEqual(['notDoctor', 'translation', 'usArmy']);
+});
+
+it('has every text that states a fact (src/core/notices.ts)', () => {
+  for (const [lang, dict] of Object.entries(dictionaries)) for (const key of Object.keys(FACT_TEXTS)) expect(texts(dict).has(key), `${lang} ${key}`).toBe(true);
 });
 
 it('Ukrainian texts use the typographic apostrophe', () => {

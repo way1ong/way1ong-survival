@@ -4,6 +4,7 @@ import { dialogCross } from './dialog-cross.ts';
 import { h } from './dom.ts';
 import { install, installWay } from './install.ts';
 import { LANGS, langName, type Dict } from './i18n.ts';
+import { sourcesList } from './sources-list.ts';
 
 const link = (url: string, text: string) => h('a', { href: url, rel: 'noopener' }, text);
 
@@ -44,7 +45,7 @@ export function createMenuDialog(): { el: HTMLDialogElement; open(d: Dict, lang:
           h('p', {}, d.about.text),
           h('p', {}, d.about.rule),
           h('h3', {}, d.about.sources),
-          h('p', {}, d.about.noSources),
+          sourcesList(d, lang),
           h('p', {}, made),
           h('div', { class: 'dialog__actions' }, close),
         ),

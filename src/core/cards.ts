@@ -2,6 +2,7 @@
 // (`cards.<id>`): a title, the steps, when the method works, how reliable it is, where people go wrong — a
 // card without the last three is no card (the owner's rules of 26.11). The sentences of the source each card
 // is written after are in docs/topics/<section>.md.
+import extra from '#extra';
 import file from '../data/cards.json';
 import { isSection, type SectionId } from './sections.ts';
 import type { Source } from './sources.ts';
@@ -13,7 +14,13 @@ export interface Card {
   source: string;
 }
 
-export const CARDS: readonly Card[] = file.cards as Card[];
+export const CARDS: readonly Card[] = [...(file.cards as Card[]), ...(extra.cards as Card[])];
+
+/**
+ * Words of cards that are not in the dictionaries: only the sample card of the test build (src/data/extra-sample.json,
+ * npm run audit) has any; the app's own build has none.
+ */
+export const EXTRA_WORDS: Readonly<Record<string, unknown>> = extra.words;
 
 export function cardsOf(section: SectionId): Card[] {
   return CARDS.filter((card) => card.section === section);
@@ -91,16 +98,16 @@ export function cardProblems(cards: readonly Card[], sources: readonly Source[],
   return out;
 }
 
-export type NoticeKey = 'notDoctor' | 'call112' | 'translation' | 'usArmy';
+export type NoticeKey = 'notDoctor' | 'emergency' | 'translation' | 'usArmy';
 
 /**
  * The notes a card shows above its words, in this order: first aid — "not a substitute for a doctor" and the
- * emergency number; a card in another language than its source — "translation"; a source that asks for a note
- * of its own — that note.
+ * emergency numbers of the person's country; a card in another language than its source — "translation"; a
+ * source that asks for a note of its own — that note.
  */
 export function cardNotices(card: Card, source: Source, lang: string): NoticeKey[] {
   const out: NoticeKey[] = [];
-  if (card.section === 'firstAid') out.push('notDoctor', 'call112');
+  if (card.section === 'firstAid') out.push('notDoctor', 'emergency');
   if (source.lang !== lang) out.push('translation');
   if (source.note === 'usArmy') out.push('usArmy');
   return out;

@@ -13,7 +13,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "skipLibCheck": true,
-    "types": ["vite/client", "node"]
+    "types": ["vite/client", "node"],
+    "paths": { "#extra": ["./src/data/extra-none.json"] }
   },
   "include": ["src/**/*"]
 }

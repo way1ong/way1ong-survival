@@ -1,6 +1,7 @@
 // The sources the app's advice is written after: where each is, in which language it was written, which version
 // was read and when, and the words of its licence (docs/SOURCES.md). The text of every source is kept in
 // docs/sources/<id>.txt, so the sentences under each card can be checked against it.
+import extra from '#extra';
 import file from '../data/sources.json';
 import { isLicenceKind, LICENCE_KINDS, type LicenceKind } from './licences.ts';
 
@@ -24,9 +25,19 @@ export interface Source {
   attribution: string | null;
   /** A note every card after this source shows ("usArmy": "after a U.S. Army manual"). */
   note: 'usArmy' | null;
+  /** The series of pages it belongs to (shown once in "About"); null — none. */
+  series: string | null;
 }
 
-export const SOURCES: readonly Source[] = file.sources as Source[];
+/** A series of pages of one publisher, such as the travel advice of GOV.UK: one line in "About". */
+export interface Series {
+  title: string;
+  publisher: string;
+  url: string;
+}
+
+export const SERIES: Readonly<Record<string, Series>> = file.series;
+export const SOURCES: readonly Source[] = [...(file.sources as Source[]), ...(extra.sources as Source[])];
 
 export function sourceById(id: string): Source | undefined {
   return SOURCES.find((one) => one.id === id);
@@ -36,7 +47,7 @@ const ID = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 
 /** What is wrong with the list of sources; empty — nothing. */
-export function sourceProblems(sources: readonly Source[]): string[] {
+export function sourceProblems(sources: readonly Source[], series: Readonly<Record<string, Series>> = SERIES): string[] {
   const out: string[] = [];
   const seen = new Set<string>();
   for (const s of sources) {
@@ -55,6 +66,7 @@ export function sourceProblems(sources: readonly Source[]): string[] {
       if (LICENCE_KINDS[s.licence.kind].credit && !s.attribution?.trim()) out.push(`${at}: the licence asks for credit, and there is none`);
     }
     if (s.note !== null && s.note !== 'usArmy') out.push(`${at}: unknown note ${String(s.note)}`);
+    if (s.series !== null && !Object.hasOwn(series, s.series)) out.push(`${at}: unknown series ${String(s.series)}`);
   }
   return out;
 }

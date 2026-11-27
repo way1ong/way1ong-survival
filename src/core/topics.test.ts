@@ -2,7 +2,7 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
 import { CARDS } from './cards.ts';
-import { NOTICE_SOURCES } from './notices.ts';
+import { FACT_TEXTS } from './notices.ts';
 import { SOURCES } from './sources.ts';
 import { missingQuotes, normalize, parseTopic } from './topics.ts';
 
@@ -24,12 +24,12 @@ describe('the sentences of the sources (docs/topics/)', () => {
     }
   });
 
-  it('every note that states a fact has sentences of each source it stands on', () => {
+  it('every text that states a fact has sentences of each source it stands on', () => {
     const notices = topics.get('notices') ?? [];
-    for (const [key, byLang] of Object.entries(NOTICE_SOURCES)) {
-      if (!byLang) continue;
+    for (const [key, sources] of Object.entries(FACT_TEXTS)) {
       const entry = notices.find((one) => one.id === key);
-      for (const source of new Set(Object.values(byLang))) expect(entry?.groups.some((group) => group.source === source && group.quotes.length > 0), `${key}: ${source}`).toBe(true);
+      expect(entry, key).toBeDefined();
+      for (const source of sources) expect(entry?.groups.some((group) => group.source === source && group.quotes.length > 0), `${key}: ${source}`).toBe(true);
     }
   });
 });

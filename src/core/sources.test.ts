@@ -17,6 +17,7 @@ const sample: Source = {
   licence: { kind: 'cc-by-4.0', url: 'https://creativecommons.org/licenses/by/4.0/', quote: 'Sample words of a licence.' },
   attribution: 'Sample credit',
   note: null,
+  series: null,
 };
 
 describe('the sources of the app', () => {
@@ -45,6 +46,11 @@ describe('the check of sources', () => {
   it('asks for the credit a licence wants, and for the licence\'s own words', () => {
     expect(sourceProblems([{ ...sample, attribution: null }]).join()).toMatch(/asks for credit/);
     expect(sourceProblems([{ ...sample, licence: { ...sample.licence, quote: ' ' } }]).join()).toMatch(/own words/);
+  });
+
+  it('knows the series a source belongs to', () => {
+    expect(sourceProblems([{ ...sample, series: 'none' }], {}).join()).toMatch(/unknown series/);
+    expect(sourceProblems([{ ...sample, series: 'one' }], { one: { title: 'T', publisher: 'P', url: 'https://example.org' } })).toEqual([]);
   });
 
   it('refuses a source without https, with an unknown language or a bad date, or twice', () => {

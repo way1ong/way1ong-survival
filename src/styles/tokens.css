@@ -16,6 +16,10 @@
   --focus: #b8460b;
   --backdrop: rgb(0 0 0 / 0.5);
   --shadow: 0 6px 18px rgb(0 0 0 / 0.25);
+  /* Emergency help: the panel and its call buttons. */
+  --sos: #b3261e;
+  --on-sos: #ffffff;
+  --sos-surface: #fbeeec;
 
   /* Only in the app's icon (scripts/icon-art.mjs). */
   --sun: #f2c14e;
@@ -36,5 +40,8 @@
     --focus: #ffb36b;
     --backdrop: rgb(0 0 0 / 0.65);
     --shadow: 0 6px 18px rgb(0 0 0 / 0.6);
+    --sos: #ff8a80;
+    --on-sos: #2a0805;
+    --sos-surface: #2b1d1b;
   }
 }

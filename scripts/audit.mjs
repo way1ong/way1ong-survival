@@ -2,8 +2,11 @@
 //   npm run build && npm run audit
 //   npm run audit -- --shots <folder>    also pictures of the screens
 // Checks: no sideways scrolling, touch targets of at least 44 px, a name on every button, the cross at the top of
-// every window and that it closes the window, the keyboard, very large text, contrast of the colours, and that
-// the app opens without internet once it has been opened. Needs Playwright (preinstalled in the cloud session).
+// every window and that it closes the window, the emergency numbers and the choice of a country, the window of a
+// card (on the sample card of a test build, SAMPLE=1: there are no real cards yet), the keyboard, very large
+// text, contrast of the colours, and that the app opens without internet once it has been opened.
+// Needs Playwright (preinstalled in the cloud session).
+import { execFileSync } from 'node:child_process';
 import { existsSync, mkdirSync, readFileSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { createRequire } from 'node:module';
@@ -16,10 +19,14 @@ if (!existsSync(join(dist, 'index.html'))) {
   console.error('audit: dist/ not found — run npm run build first');
   process.exit(1);
 }
+// The test build with the sample card, next to the app's own build.
+const sampleDist = join(root, 'node_modules', '.cache', 'way1ong-sample');
+execFileSync('npx', ['vite', 'build', '--logLevel', 'error'], { cwd: root, env: { ...process.env, SAMPLE: '1' }, stdio: 'inherit' });
 const shotsAt = process.argv.includes('--shots') ? process.argv[process.argv.indexOf('--shots') + 1] : null;
 if (shotsAt) mkdirSync(shotsAt, { recursive: true });
 
-const LANG_KEY = /langKey: '([^']+)'/.exec(readFileSync(join(root, 'src', 'config.ts'), 'utf8'))?.[1];
+const CONFIG = readFileSync(join(root, 'src', 'config.ts'), 'utf8');
+const LANG_KEY = /langKey: '([^']+)'/.exec(CONFIG)?.[1];
 const LANGS = ['uk', 'hu', 'en'];
 const SCREENS = [
   { name: 'phone-320', width: 320, height: 640 },
@@ -34,18 +41,24 @@ const MIN_TARGET = 44;
 const MIN_CONTRAST = 4.5;
 
 const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.webmanifest': 'application/manifest+json', '.png': 'image/png', '.svg': 'image/svg+xml', '.webp': 'image/webp' };
-const server = createServer((request, response) => {
-  let path = decodeURIComponent((request.url ?? '/').split('?')[0]);
-  if (path.endsWith('/')) path += 'index.html';
-  const file = normalize(join(dist, path));
-  if (!file.startsWith(dist) || !existsSync(file)) {
-    response.writeHead(404).end();
-    return;
-  }
-  response.writeHead(200, { 'content-type': TYPES[extname(file)] ?? 'application/octet-stream', 'cache-control': 'no-cache' }).end(readFileSync(file));
-});
+function serve(folder) {
+  return createServer((request, response) => {
+    let path = decodeURIComponent((request.url ?? '/').split('?')[0]);
+    if (path.endsWith('/')) path += 'index.html';
+    const file = normalize(join(folder, path));
+    if (!file.startsWith(folder) || !existsSync(file)) {
+      response.writeHead(404).end();
+      return;
+    }
+    response.writeHead(200, { 'content-type': TYPES[extname(file)] ?? 'application/octet-stream', 'cache-control': 'no-cache' }).end(readFileSync(file));
+  });
+}
+const server = serve(dist);
+const sampleServer = serve(sampleDist);
 await new Promise((resolve) => server.listen(0, resolve));
+await new Promise((resolve) => sampleServer.listen(0, resolve));
 const origin = `http://localhost:${server.address().port}`;
+const sampleOrigin = `http://localhost:${sampleServer.address().port}`;
 
 const { chromium } = createRequire(import.meta.url)('playwright');
 const browser = await chromium.launch();
@@ -60,7 +73,7 @@ async function look(page, where) {
     const out = [];
     const doc = document.documentElement;
     if (doc.scrollWidth > doc.clientWidth + 1) out.push(`the page scrolls sideways (${doc.scrollWidth} > ${doc.clientWidth})`);
-    const open = document.querySelector('dialog[open]');
+    const open = [...document.querySelectorAll('dialog[open]')].at(-1) ?? null;
     const scope = open ?? document;
     for (const el of scope.querySelectorAll('button, a[href]')) {
       const box = el.getBoundingClientRect();
@@ -70,7 +83,7 @@ async function look(page, where) {
       if (!name) out.push(`a ${el.tagName.toLowerCase()} without a name`);
       // Links inside running text are exempt (WCAG 2.5.8); buttons and links standing alone are not.
       const inline = el.tagName === 'A' && el.parentElement?.tagName === 'P' && el.parentElement.textContent.trim() !== el.textContent.trim();
-      if (!inline && el.tagName === 'BUTTON' && (box.width < min - 0.5 || box.height < min - 0.5)) out.push(`"${name}" is ${Math.round(box.width)}×${Math.round(box.height)} px`);
+      if (!inline && (el.tagName === 'BUTTON' || el.classList.contains('call')) && (box.width < min - 0.5 || box.height < min - 0.5)) out.push(`"${name}" is ${Math.round(box.width)}×${Math.round(box.height)} px`);
     }
     if (open) {
       const box = open.getBoundingClientRect();
@@ -101,7 +114,7 @@ async function contrast(page, where) {
       return rgb(getComputedStyle(document.body).backgroundColor);
     };
     const out = [];
-    for (const selector of ['.top__title', '.tagline', '.sections__title', '.section', 'dialog[open] p', 'dialog[open] h2', 'dialog[open] .btn', 'dialog[open] .chip', 'dialog[open] a', '.update__words', '.update .btn']) {
+    for (const selector of ['.top__title', '.tagline', '.sections__title', '.section', '.sos__title', '.sos__services', '.sos__source', '.call', '.sos .btn', 'dialog[open] p', 'dialog[open] h2', 'dialog[open] h3', 'dialog[open] li', 'dialog[open] .btn', 'dialog[open] .chip', 'dialog[open] .country', 'dialog[open] a', '.update__words', '.update .btn']) {
       for (const el of document.querySelectorAll(selector)) {
         if (!el.getClientRects().length) continue;
         const a = lum(rgb(getComputedStyle(el).color));
@@ -118,8 +131,9 @@ async function contrast(page, where) {
 /** A window: the cross stands at its top right, is big enough, and closes it. */
 async function windowCross(page, where) {
   checks++;
-  const dialog = page.locator('dialog[open]');
-  if (!(await dialog.count())) return note(where, 'no window opened');
+  const before = await page.locator('dialog[open]').count();
+  const dialog = page.locator('dialog[open]').last();
+  if (!before) return note(where, 'no window opened');
   const cross = dialog.locator('.dialog__cross');
   const [d, c] = [await dialog.boundingBox(), await cross.boundingBox()];
   if (!d || !c) return note(where, 'the window has no cross');
@@ -133,7 +147,7 @@ async function windowCross(page, where) {
   if (!after || !box || after.y - box.y > slack) note(where, 'the cross leaves the top of the window when it is scrolled');
   await cross.click();
   await page.waitForTimeout(100);
-  if (await page.locator('dialog[open]').count()) note(where, 'the cross does not close the window');
+  if ((await page.locator('dialog[open]').count()) !== before - 1) note(where, 'the cross does not close the window');
 }
 
 try {
@@ -145,12 +159,31 @@ try {
         await context.addInitScript(([key, code]) => localStorage.setItem(key, code), [LANG_KEY, lang]);
         const page = await context.newPage();
         page.on('pageerror', (error) => note(where, `error on the page: ${error.message}`));
-        await page.goto(`${origin}/`);
+        await page.goto(`${sampleOrigin}/`);
         await page.waitForSelector('.section');
         if ((await page.evaluate(() => document.documentElement.lang)) !== lang) note(where, 'the page does not say its language');
+        // No country yet: 112 of the EU and the choice of a country.
+        if ((await page.locator('.sos .call[href="tel:112"]').count()) !== 1) note(where, 'without a country the panel does not offer 112');
         await look(page, where);
         await contrast(page, where);
         if (shotsAt && scheme === 'light' && ['phone-390', 'pc-1366'].includes(screen.name)) await page.screenshot({ path: join(shotsAt, `${screen.name}-${lang}.png`), fullPage: true });
+
+        // The choice of a country: every country a button; the chosen one shows its own numbers, and is kept.
+        await page.locator('.sos .btn').click();
+        await look(page, `${where}, countries`);
+        await contrast(page, `${where}, countries`);
+        if (shotsAt && scheme === 'light' && screen.name === 'phone-390') await page.screenshot({ path: join(shotsAt, `${screen.name}-${lang}-countries.png`) });
+        await page.locator('dialog[open] [data-country="XK"]').click();
+        await page.waitForTimeout(100);
+        if (await page.locator('dialog[open]').count()) note(where, 'choosing a country does not close its window');
+        const calls = await page.locator('.sos .call').count();
+        if (calls < 4) note(where, `Kosovo shows ${calls} numbers`);
+        await look(page, `${where}, Kosovo`);
+        await contrast(page, `${where}, Kosovo`);
+        if (shotsAt && scheme === 'light' && screen.name === 'phone-390') await page.screenshot({ path: join(shotsAt, `${screen.name}-${lang}-kosovo.png`) });
+        await page.reload();
+        await page.waitForSelector('.section');
+        if ((await page.locator('.sos .call').count()) !== calls) note(where, 'the chosen country is not kept');
 
         await page.locator('.top .icon-btn').click();
         await look(page, `${where}, menu`);
@@ -158,17 +191,58 @@ try {
         if (shotsAt && scheme === 'light' && screen.name === 'phone-390') await page.screenshot({ path: join(shotsAt, `${screen.name}-${lang}-menu.png`) });
         await windowCross(page, `${where}, menu`);
 
-        const sections = page.locator('.section');
+        const sections = page.locator('.section[data-section]');
         const count = await sections.count();
         for (let i = 0; i < count; i++) {
           await sections.nth(i).click();
           await look(page, `${where}, section ${i + 1}`);
           if (i === 0) await contrast(page, `${where}, section`);
+          // The sample cards: one in first aid, one in water.
+          const cards = page.locator('dialog[open] [data-card]');
+          const cardCount = await cards.count();
+          for (let c = 0; c < cardCount; c++) {
+            const id = await cards.nth(c).getAttribute('data-card');
+            await cards.nth(c).click();
+            const at = `${where}, card ${id}`;
+            if ((await page.locator('dialog[open]').count()) !== 2) note(at, 'the card does not open over its section');
+            await look(page, at);
+            await contrast(page, at);
+            if (shotsAt && scheme === 'light' && screen.name === 'phone-390') await page.screenshot({ path: join(shotsAt, `${screen.name}-${lang}-${id}.png`) });
+            const card = page.locator('dialog[open]').last();
+            if ((await card.locator('.steps li').count()) < 1) note(at, 'no steps');
+            if ((await card.locator('.source a').count()) < 2) note(at, 'no source or licence');
+            if (id === 'sample-first-aid') {
+              if (!(await card.locator('.note--strong').count())) note(at, 'no "not a substitute for a doctor"');
+              if (!(await card.locator('.sos .call').count())) note(at, 'no emergency numbers over a first-aid card');
+              // The sample's source is Ukrainian: in Hungarian and English the card says it is a translation.
+              const notes = await card.locator('.note').count();
+              if (notes !== (lang === 'uk' ? 1 : 2)) note(at, `${notes} notes over the card`);
+            }
+            await windowCross(page, at);
+            if (!(await page.evaluate((card) => document.activeElement?.getAttribute('data-card') === card, id))) note(at, 'after the card the focus is not back on its button');
+          }
           await windowCross(page, `${where}, section ${i + 1}`);
         }
         await context.close();
       }
     }
+  }
+
+  // The app's own build: no sample card, every section says it is being prepared.
+  {
+    const where = 'own build';
+    const context = await browser.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: 'block' });
+    const page = await context.newPage();
+    await page.goto(`${origin}/`);
+    await page.waitForSelector('.section');
+    for (let i = 0; i < (await page.locator('.section[data-section]').count()); i++) {
+      await page.locator('.section[data-section]').nth(i).click();
+      if (await page.locator('dialog[open] [data-card]').count()) note(where, `section ${i + 1} has cards`);
+      await page.keyboard.press('Escape');
+    }
+    if ((await page.content()).includes('SAMPLE-ONLY')) note(where, 'the sample got into the build');
+    checks++;
+    await context.close();
   }
 
   // The keyboard: the menu first, then the sections; Escape closes a window and the focus comes back.
@@ -180,8 +254,9 @@ try {
     await page.waitForSelector('.section');
     await page.keyboard.press('Tab');
     if (!(await page.evaluate(() => document.activeElement?.matches('.top .icon-btn')))) note(where, 'the first Tab does not reach the menu');
-    await page.keyboard.press('Tab');
-    if (!(await page.evaluate(() => document.activeElement?.matches('.section')))) note(where, 'the second Tab does not reach the first section');
+    // Then the emergency panel: its call button, its source, the choice of a country; then the first section.
+    for (let i = 0; i < 6 && !(await page.evaluate(() => document.activeElement?.matches('.section'))); i++) await page.keyboard.press('Tab');
+    if (!(await page.evaluate(() => document.activeElement?.matches('.section')))) note(where, 'Tab does not reach the first section');
     await page.keyboard.press('Enter');
     if (!(await page.locator('dialog[open]').count())) note(where, 'Enter does not open a section');
     await page.keyboard.press('Escape');
@@ -227,6 +302,7 @@ try {
 
 await browser.close();
 server.close();
+sampleServer.close();
 if (problems.length) {
   console.error(`audit: ${problems.length} problem(s) in ${checks} checks`);
   for (const text of problems.slice(0, 80)) console.error(`- ${text}`);

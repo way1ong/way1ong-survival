@@ -23,7 +23,8 @@
     "tools": "Makeshift tools"
   },
   "section": {
-    "soon": "This section is being prepared. The advice will appear here once each piece has been checked against its official source."
+    "soon": "This section is being prepared. The advice will appear here once each piece has been checked against its official source.",
+    "cards": "Cards"
   },
   "menu": {
     "title": "Menu",
@@ -37,11 +38,11 @@
   },
   "about": {
     "title": "About",
-    "text": "A free program by way1ong: no ads, no tracking, no account. It sends nothing over the network; the chosen language is kept only on this device.",
+    "text": "A free program by way1ong: no ads, no tracking, no account. It sends nothing over the network; the chosen language and country are kept only on this device.",
     "rule": "Every piece of advice comes only from an official source that allows such use. Under each piece of advice: its source, when the method works, how reliable it is and where people go wrong.",
     "sources": "Sources",
-    "noSources": "The sources will appear here together with the first advice.",
-    "madeBy": "Made by way1ong"
+    "madeBy": "Made by way1ong",
+    "series": "the pages of the countries with emergency numbers, read on {date}"
   },
   "card": {
     "steps": "What to do",
@@ -49,12 +50,47 @@
     "reliability": "How reliable",
     "mistakes": "Where people go wrong",
     "source": "Source",
-    "read": "Read on {date}"
+    "read": "Read on {date}",
+    "licence": "Licence",
+    "sample": "SAMPLE"
   },
   "notices": {
     "notDoctor": "This is not a substitute for a doctor.",
-    "call112": "112 is the European emergency phone number, available everywhere in the EU, free of charge.",
     "translation": "Translation. Original language: {language}.",
     "usArmy": "Based on a U.S. Army manual."
+  },
+  "emergency": {
+    "title": "Emergency help",
+    "titleIn": "Emergency help: {country}",
+    "eu": "112 is the European emergency phone number, available everywhere in the EU, free of charge. 112 functions alongside existing national emergency numbers.",
+    "choose": "Choose your country",
+    "change": "Change country",
+    "pickTitle": "Where are you now?",
+    "pickText": "Choose a country, and the app shows its emergency numbers. The choice is kept only on this device.",
+    "call": "Call {number}",
+    "from": {
+      "mobile": "from a mobile",
+      "landline": "from a landline"
+    },
+    "services": {
+      "all": "all emergencies",
+      "general": "emergency services",
+      "european": "European emergency number",
+      "ambulance": "ambulance",
+      "fire": "fire",
+      "police": "police",
+      "mountainRescue": "mountain rescue",
+      "rescue": "rescue",
+      "deaf": "for deaf and hard of hearing people (SMS, chat, video and fax)",
+      "lifeThreatening": "life-threatening emergencies"
+    },
+    "sources": "Where the numbers come from",
+    "translated": "translation"
+  },
+  "licences": {
+    "ua-official-act": "an act of a state body — not an object of copyright (Civil Code of Ukraine, art. 434)",
+    "us-government-work": "a work of the U.S. Government — not protected by copyright in the U.S.",
+    "ogl-3.0": "Open Government Licence v3.0",
+    "cc-by-4.0": "CC BY 4.0"
   }
 }

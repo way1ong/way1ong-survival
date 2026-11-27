@@ -17,6 +17,7 @@ const source = (lang: Source['lang'], note: Source['note'] = null): Source => ({
   licence: { kind: 'us-government-work', url: 'https://example.org/licence', quote: 'Sample.' },
   attribution: null,
   note,
+  series: null,
 });
 const card: Card = { id: 'sample-card', section: 'water', source: 'sample-en' };
 const words = (steps: Record<string, string>) => ({ cards: { 'sample-card': { title: 'T', steps, works: 'W', reliability: 'R', mistakes: 'M' } } });
@@ -24,6 +25,7 @@ const words = (steps: Record<string, string>) => ({ cards: { 'sample-card': { ti
 describe('the cards of the app', () => {
   it('are all in order: a known section and source, every part of the words in every language', () => {
     expect(cardProblems(CARDS, SOURCES, { uk, hu, en })).toEqual([]);
+    expect(CARDS.every((card) => !card.id.startsWith('sample-'))).toBe(true);
   });
 });
 
@@ -69,12 +71,12 @@ describe('the check of cards', () => {
 });
 
 describe('the notes over a card', () => {
-  it('first aid: not a substitute for a doctor, then the emergency number', () => {
-    expect(cardNotices({ ...card, section: 'firstAid', source: 'sample-uk' }, source('uk'), 'uk')).toEqual(['notDoctor', 'call112']);
+  it('first aid: not a substitute for a doctor, then the emergency numbers', () => {
+    expect(cardNotices({ ...card, section: 'firstAid', source: 'sample-uk' }, source('uk'), 'uk')).toEqual(['notDoctor', 'emergency']);
   });
 
   it('a card in another language than its source says it is a translation', () => {
-    expect(cardNotices({ ...card, section: 'firstAid', source: 'sample-uk' }, source('uk'), 'hu')).toEqual(['notDoctor', 'call112', 'translation']);
+    expect(cardNotices({ ...card, section: 'firstAid', source: 'sample-uk' }, source('uk'), 'hu')).toEqual(['notDoctor', 'emergency', 'translation']);
     expect(cardNotices(card, source('en'), 'en')).toEqual([]);
   });
 

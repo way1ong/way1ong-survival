@@ -23,7 +23,8 @@
     "tools": "Rögtönzött eszközök"
   },
   "section": {
-    "soon": "A fejezet készül. A tanácsok akkor jelennek meg itt, amikor mindegyiket egyeztettük a hivatalos forrással."
+    "soon": "A fejezet készül. A tanácsok akkor jelennek meg itt, amikor mindegyiket egyeztettük a hivatalos forrással.",
+    "cards": "Kártyák"
   },
   "menu": {
     "title": "Menü",
@@ -37,11 +38,11 @@
   },
   "about": {
     "title": "Névjegy",
-    "text": "A way1ong ingyenes programja: reklám, követés és fiók nélkül. Semmit nem küld a hálózatra; a választott nyelvet csak ezen az eszközön tárolja.",
+    "text": "A way1ong ingyenes programja: reklám, követés és fiók nélkül. Semmit nem küld a hálózatra; a választott nyelvet és országot csak ezen az eszközön tárolja.",
     "rule": "Minden tanács kizárólag olyan hivatalos forrásból származik, amely ezt a felhasználást megengedi. Minden tanács alatt ott a forrása, valamint az, hogy a módszer mikor működik, mennyire megbízható, és hol szoktak hibázni.",
     "sources": "Források",
-    "noSources": "A források az első tanácsokkal együtt jelennek meg itt.",
-    "madeBy": "Készítette: way1ong"
+    "madeBy": "Készítette: way1ong",
+    "series": "az országok oldalai a segélyhívószámokkal, olvasva: {date}"
   },
   "card": {
     "steps": "Teendők",
@@ -49,12 +50,47 @@
     "reliability": "Mennyire megbízható",
     "mistakes": "Hol szoktak hibázni",
     "source": "Forrás",
-    "read": "Olvasva: {date}"
+    "read": "Olvasva: {date}",
+    "licence": "Licenc",
+    "sample": "MINTA"
   },
   "notices": {
     "notDoctor": "Ez nem helyettesíti az orvost.",
-    "call112": "A 112 az európai segélyhívószám, amely az EU egész területén ingyenesen hívható.",
     "translation": "Fordítás. Az eredeti nyelve: {language}.",
     "usArmy": "Az amerikai hadsereg kézikönyve alapján."
+  },
+  "emergency": {
+    "title": "Sürgősségi segítség",
+    "titleIn": "Sürgősségi segítség: {country}",
+    "eu": "A 112 az európai segélyhívószám: ingyenes, és az EU-ban mindenhol elérhető. A nemzeti segélyhívószámok mellett működik.",
+    "choose": "Ország kiválasztása",
+    "change": "Másik ország",
+    "pickTitle": "Hol tartózkodik most?",
+    "pickText": "Válassza ki az országot, és a program megmutatja az ottani segélyhívószámokat. A választást csak ez az eszköz tárolja.",
+    "call": "{number} hívása",
+    "from": {
+      "mobile": "mobiltelefonról",
+      "landline": "vezetékes telefonról"
+    },
+    "services": {
+      "all": "minden vészhelyzet",
+      "general": "segélyhívó szolgálatok",
+      "european": "európai segélyhívószám",
+      "ambulance": "mentők",
+      "fire": "tűzoltók",
+      "police": "rendőrség",
+      "mountainRescue": "hegyimentők",
+      "rescue": "mentőcsapatok",
+      "deaf": "siketek és nagyothallók számára (SMS, csevegés, videó, fax)",
+      "lifeThreatening": "életveszélyes helyzetek"
+    },
+    "sources": "A számok forrása",
+    "translated": "fordítás"
+  },
+  "licences": {
+    "ua-official-act": "állami szerv jogi aktusa — nem tárgya a szerzői jognak (Ukrajna Polgári Törvénykönyve, 434. cikk)",
+    "us-government-work": "az Egyesült Államok kormányának műve — az Egyesült Államokban nem áll szerzői jogi védelem alatt",
+    "ogl-3.0": "Open Government Licence v3.0",
+    "cc-by-4.0": "CC BY 4.0"
   }
 }
