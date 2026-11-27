@@ -1,9 +1,12 @@
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
 import en from '../i18n/en.json';
 import hu from '../i18n/hu.json';
 import uk from '../i18n/uk.json';
 import { CARDS, cardNotices, cardProblems, cardText, type Card } from './cards.ts';
-import { SOURCES, type Source } from './sources.ts';
+import { SOURCES, sourceById, type Source } from './sources.ts';
+import { verbatimIn } from './topics.ts';
 
 // Made-up cards and sources for the checks below — no advice, not real.
 const source = (lang: Source['lang'], note: Source['note'] = null): Source => ({
@@ -27,6 +30,29 @@ describe('the cards of the app', () => {
     expect(cardProblems(CARDS, SOURCES, { uk, hu, en })).toEqual([]);
     expect(CARDS.every((card) => !card.id.startsWith('sample-'))).toBe(true);
   });
+});
+
+describe('first aid in the language of its source', () => {
+  // The owner's rule of 26.11: first aid word for word after the official guidance. Every step and every point
+  // of such a card, in the source's own language, is a passage of the kept text of the source.
+  const dictionaries: Record<string, unknown> = { en, hu, uk };
+  const firstAid = CARDS.filter((card) => card.section === 'firstAid' && !card.id.startsWith('sample-'));
+  it('there are first-aid cards to check', () => {
+    expect(firstAid.length).toBeGreaterThan(0);
+  });
+  for (const card of firstAid) {
+    it(`${card.id}: every step and point is word for word in its source`, () => {
+      const source = sourceById(card.source) as Source;
+      const kept = readFileSync(fileURLToPath(new URL(`../../docs/sources/${source.id}.txt`, import.meta.url)), 'utf8');
+      const words = cardText(dictionaries[source.lang], card.id);
+      expect(typeof words, card.id).toBe('object');
+      if (typeof words === 'string') return;
+      for (const step of words.steps) {
+        expect(verbatimIn(step.text, kept), step.text).toBe(true);
+        for (const item of step.items) expect(verbatimIn(item, kept), item).toBe(true);
+      }
+    });
+  }
 });
 
 describe('the words of a card', () => {

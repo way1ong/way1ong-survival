@@ -71,3 +71,17 @@ export function missingQuotes(entries: readonly TopicEntry[], texts: ReadonlyMap
   }
   return out;
 }
+
+/** The numbers and letters of a list in an official text: "1) ", "а) ", "12. " at the start of a line. */
+const LIST_MARK = /(^|\n)\s*(?:\d+\)|[а-яґєіїa-z]\)|\d+\.)\s+/giu;
+
+/**
+ * Whether a text of a card is word for word a passage of a source: the same words, line breaks and the list's
+ * own numbers aside, a capital letter at the start and the stop at the end being the card's (decision of 26.11:
+ * first aid word for word).
+ */
+export function verbatimIn(text: string, source: string): boolean {
+  const passage = normalize(text).replace(/[.;:,]$/u, '').toLocaleLowerCase('uk');
+  const kept = normalize(source.replace(LIST_MARK, '$1')).toLocaleLowerCase('uk');
+  return passage.length > 0 && kept.includes(passage);
+}

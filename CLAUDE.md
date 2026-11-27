@@ -68,7 +68,7 @@ scripts/check-live.mjs  сторінка на справжній адресі б
 public/_headers        `no-transform`: Cloudflare не змінює наші сторінки дорогою
 wrangler.jsonc         Cloudflare Workers: віддає dist/ (ім'я воркера = ім'я в панелі) — docs/cloudflare.md
 docs/sources/<id>.txt  збережений текст кожного джерела з реєстру (для звірки цитат)
-docs/topics/           речення джерел дослівно: <розділ>.md — під кожною карткою, notices.md — під позначками; будова — docs/topics/README.md
+docs/topics/           речення джерел дослівно: <розділ>.md — під кожною карткою (help.md, firstAid.md), notices.md — під текстами, що кажуть про факти; будова — docs/topics/README.md. Перша допомога мовою джерела: кожен крок і пункт — дослівний уривок наказу (тест у src/core/cards.test.ts)
 docs/                  опис, рішення, стан, джерела; docs/research/ — розвідка (звіт SOURCES.md і збережені сторінки pages-*.tgz)
 ```
 

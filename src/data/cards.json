@@ -25,6 +25,46 @@
       "notes": [
         "usNumber"
       ]
+    },
+    {
+      "id": "cpr-adult",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "cpr-child",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "choking",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "bleeding",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "shock",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "anaphylaxis",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "stroke",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "heart-attack",
+      "section": "firstAid",
+      "source": "moz-441"
     }
   ]
 }

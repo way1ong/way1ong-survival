@@ -4,7 +4,7 @@ import { describe, expect, it } from 'vitest';
 import { CARDS } from './cards.ts';
 import { FACT_TEXTS } from './notices.ts';
 import { SOURCES } from './sources.ts';
-import { missingQuotes, normalize, parseTopic } from './topics.ts';
+import { missingQuotes, normalize, parseTopic, verbatimIn } from './topics.ts';
 
 const docs = (path: string) => fileURLToPath(new URL(`../../docs/${path}`, import.meta.url));
 const topicFiles = readdirSync(docs('topics')).filter((name) => name.endsWith('.md') && name !== 'README.md');
@@ -52,5 +52,17 @@ describe('reading the sentences', () => {
 
   it('treats every kind of space and line break alike', () => {
     expect(normalize(' a b\n\n c ')).toBe('a b c');
+  });
+});
+
+describe('a passage word for word', () => {
+  const source = 'Порядок\n1) перед наданням допомоги переконатися у відсутності небезпеки;\nа) здійснити виклик\nекстреної допомоги;';
+  it('is found whatever the capital letter, the stop at the end and the numbers of the list', () => {
+    expect(verbatimIn('Перед наданням допомоги переконатися у відсутності небезпеки.', source)).toBe(true);
+    expect(verbatimIn('Здійснити виклик екстреної допомоги.', source)).toBe(true);
+  });
+  it('is not found when a word differs', () => {
+    expect(verbatimIn('Перед наданням допомоги переконатися у відсутності загрози.', source)).toBe(false);
+    expect(verbatimIn('', source)).toBe(false);
   });
 });
