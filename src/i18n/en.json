@@ -42,5 +42,19 @@
     "sources": "Sources",
     "noSources": "The sources will appear here together with the first advice.",
     "madeBy": "Made by way1ong"
+  },
+  "card": {
+    "steps": "What to do",
+    "works": "When it works",
+    "reliability": "How reliable",
+    "mistakes": "Where people go wrong",
+    "source": "Source",
+    "read": "Read on {date}"
+  },
+  "notices": {
+    "notDoctor": "This is not a substitute for a doctor.",
+    "call112": "112 is the European emergency phone number, available everywhere in the EU, free of charge.",
+    "translation": "Translation. Original language: {language}.",
+    "usArmy": "Based on a U.S. Army manual."
   }
 }

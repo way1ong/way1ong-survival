@@ -45,7 +45,9 @@
 ## Структура
 ```
 src/config.ts          налаштування самої програми: назва, адреса, де зберігається мова (порад тут немає)
-src/core/              логіка без DOM: sections.ts (розділи в погодженому порядку); поруч тести
+src/core/              логіка без DOM, поруч тести: sections.ts (розділи в погодженому порядку), licences.ts (ліцензії, які програма може використовувати), sources.ts (реєстр джерел і його перевірка), cards.ts (картка: розділ і джерело; її слова в словниках; позначки над нею), notices.ts (на якому джерелі стоїть кожна позначка), topics.ts (читає docs/topics/ і звіряє речення з текстами джерел)
+src/data/sources.json  реєстр джерел: адреса, мова оригіналу, версія, дата прочитання, ліцензія з її словами, підпис
+src/data/cards.json    картки: id, розділ, джерело; слова — у словниках `cards.<id>` (title, steps.1…n, works, reliability, mistakes)
 src/ui/                екран: app.ts (заголовок, повідомлення про нову версію, розділи), menu-dialog.ts (мова, встановлення, «Про програму»), section-dialog.ts (вікно розділу), dialog-cross.ts (хрестик угорі вікна), offline.ts (служ. скрипт і «Оновити»), install.ts, i18n.ts, dom.ts
 src/i18n/              словники uk/hu/en.json; i18n.test.ts їх звіряє
 src/styles/            tokens.css (кольори: світла й темна тема за системою), app.css
@@ -57,6 +59,8 @@ scripts/check-update.mjs  відкрита програма каже про но
 scripts/check-live.mjs  сторінка на справжній адресі байт у байт як у збірці (після викладки)
 public/_headers        `no-transform`: Cloudflare не змінює наші сторінки дорогою
 wrangler.jsonc         Cloudflare Workers: віддає dist/ (ім'я воркера = ім'я в панелі) — docs/cloudflare.md
+docs/sources/<id>.txt  збережений текст кожного джерела з реєстру (для звірки цитат)
+docs/topics/           речення джерел дослівно: <розділ>.md — під кожною карткою, notices.md — під позначками; будова — docs/topics/README.md
 docs/                  опис, рішення, стан, джерела; docs/research/ — розвідка (звіт SOURCES.md і збережені сторінки pages-*.tgz)
 ```
 

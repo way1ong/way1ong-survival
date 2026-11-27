@@ -42,5 +42,19 @@
     "sources": "Források",
     "noSources": "A források az első tanácsokkal együtt jelennek meg itt.",
     "madeBy": "Készítette: way1ong"
+  },
+  "card": {
+    "steps": "Teendők",
+    "works": "Mikor működik",
+    "reliability": "Mennyire megbízható",
+    "mistakes": "Hol szoktak hibázni",
+    "source": "Forrás",
+    "read": "Olvasva: {date}"
+  },
+  "notices": {
+    "notDoctor": "Ez nem helyettesíti az orvost.",
+    "call112": "A 112 az európai segélyhívószám, amely az EU egész területén ingyenesen hívható.",
+    "translation": "Fordítás. Az eredeti nyelve: {language}.",
+    "usArmy": "Az amerikai hadsereg kézikönyve alapján."
   }
 }
