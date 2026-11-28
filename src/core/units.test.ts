@@ -55,6 +55,8 @@ describe('the check of conversions', () => {
   it('passes NIST\'s conversion, rounded as written, and a range', () => {
     expect(conversionProblems('above 8,000 feet (2,438 m)', '')).toEqual([]);
     expect(conversionProblems('2 to 3 quarts (1.9–2.8 l) a day at 68 °F (20 °C)', '')).toEqual([]);
+    expect(conversionProblems('a stick 3/4 inch (1.9 cm) thick and 10 to 12 inches (25–30 cm) long', '')).toEqual([]);
+    expect(conversionProblems('3/4 inch (3 cm)', '').join()).toMatch(/not NIST's conversion/);
   });
 
   it('finds a missing or wrong metric value, and takes the source\'s own words', () => {

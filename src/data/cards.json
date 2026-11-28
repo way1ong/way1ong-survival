@@ -171,6 +171,48 @@
       "figures": [
         "atp-water-filters"
       ]
+    },
+    {
+      "id": "fire-site",
+      "section": "fire",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-fire-walls"
+      ]
+    },
+    {
+      "id": "fire-build",
+      "section": "fire",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-fire-lays"
+      ]
+    },
+    {
+      "id": "fire-light",
+      "section": "fire",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-convex-lens"
+      ]
+    },
+    {
+      "id": "fire-primitive",
+      "section": "fire",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-flint-steel",
+        "atp-bow-drill"
+      ]
     }
   ]
 }

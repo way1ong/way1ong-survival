@@ -223,7 +223,8 @@ try {
               if (!loaded) note(at, `picture ${f + 1} does not load`);
               if (!(await img.getAttribute('alt'))?.trim()) note(at, `picture ${f + 1} has no description`);
               const words = await figures.nth(f).locator('.figure__words li').count();
-              if ((lang === 'en') !== (words === 0)) note(at, `picture ${f + 1}: ${words} translated words`);
+              const expected = lang === 'en' ? 0 : Number(await figures.nth(f).getAttribute('data-words'));
+              if (words !== expected) note(at, `picture ${f + 1}: ${words} translated words, not ${expected}`);
               checks++;
             }
             if (id === 'sample-first-aid') {

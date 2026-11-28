@@ -5,7 +5,10 @@
       "source": "atp-3-50-21",
       "file": "atp-3-50-21/figure-3-2.png",
       "caption": "Figure 3-2. Water machine",
-      "labels": ["Porous material (such as cotton or parachute nylon)", "Snow"],
+      "labels": [
+        "Porous material (such as cotton or parachute nylon)",
+        "Snow"
+      ],
       "width": 527,
       "height": 412
     },
@@ -14,7 +17,16 @@
       "source": "atp-3-50-21",
       "file": "atp-3-50-21/figure-3-11.png",
       "caption": "Figure 3-11. Sub-surface Water",
-      "labels": ["Dig Here", "Green(er) Vegetation", "Bend", "Dig", "Concave Bank", "Soil", "Clay", "Water-soaked Sand"],
+      "labels": [
+        "Dig Here",
+        "Green(er) Vegetation",
+        "Bend",
+        "Dig",
+        "Concave Bank",
+        "Soil",
+        "Clay",
+        "Water-soaked Sand"
+      ],
       "width": 650,
       "height": 395
     },
@@ -23,9 +35,75 @@
       "source": "atp-3-50-21",
       "file": "atp-3-50-21/figure-3-12.png",
       "caption": "Figure 3-12. Water filtering systems",
-      "labels": ["Grass", "Sand", "Charcoal", "Plastic bag", "Water", "Rocks"],
+      "labels": [
+        "Grass",
+        "Sand",
+        "Charcoal",
+        "Plastic bag",
+        "Water",
+        "Rocks"
+      ],
       "width": 630,
       "height": 513
+    },
+    {
+      "id": "atp-fire-walls",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-5-2.png",
+      "caption": "Figure 5-2. Types of firewalls",
+      "labels": [
+        "Straight fire wall",
+        "L-shaped fire wall"
+      ],
+      "width": 674,
+      "height": 677
+    },
+    {
+      "id": "atp-fire-lays",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-5-5.png",
+      "caption": "Figure 5-5. Fire lays",
+      "labels": [
+        "Tepee",
+        "Lean-to",
+        "Cross-ditch",
+        "Pyramid"
+      ],
+      "width": 800,
+      "height": 584
+    },
+    {
+      "id": "atp-convex-lens",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-5-7.png",
+      "caption": "Figure 5-7. Using a convex lens as a fire-starter",
+      "labels": [],
+      "width": 502,
+      "height": 402
+    },
+    {
+      "id": "atp-flint-steel",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-5-8.png",
+      "caption": "Figure 5-8. Flint and steel fire-starter",
+      "labels": [],
+      "width": 645,
+      "height": 404
+    },
+    {
+      "id": "atp-bow-drill",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-5-10.png",
+      "caption": "Figure 5-10. Bow and drill fire-starter",
+      "labels": [
+        "Socket",
+        "Drill",
+        "Cord",
+        "Bow",
+        "Fire board"
+      ],
+      "width": 692,
+      "height": 539
     }
   ]
 }

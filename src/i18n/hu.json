@@ -903,6 +903,97 @@
       "works": "A forralás a legbiztonságosabb módja a víz ihatóvá tételének: tengerszinten 1 percig tartó erős forrás minden, vízzel terjedő kórokozót elpusztít.",
       "reliability": "A legtöbb vízforrásban előforduló két kórokozó a Giardia és a Cryptosporidium. A Cryptosporidium ellen csak a forralás, illetve a gyári mikroszűrő vagy fordított ozmózisos szűrő hatásos: a vegyszerek, például a jódtabletta vagy a hipó, nem bizonyultak 100 százalékosan hatásosnak ellene. A legtöbb gyári szűrő nem szűri ki a vírusokat. Ezek a forralási idők nem azonosak a víz orvosi célú sterilizálásához szükséges idővel.",
       "mistakes": "Csak megszűrt vizet inni. Szájjal hozzáérni a nem ihatóvá tett víztől nedves menethez. Italport tenni a vízbe, mielőtt az ihatóvá tétel befejeződött."
+    },
+    "fire-site": {
+      "title": "Hol és hogyan rakjon biztonságosan tüzet",
+      "steps": {
+        "1": "Válasszon sík, száraz, szélvédett helyet a menedéke közelében és a tüzelő közelében, távol a hóval megrakott fáktól.",
+        "2": "Takarítsa le a földről a lehullott leveleket, növényeket és az avart: legalább 3 láb (1 m) átmérőjű csupasz talajt tegyen szabaddá, hogy a tűz ne terjedhessen a talajon.",
+        "3": "Vigye el a tűzrakóhelyről a likacsos köveket: a tűz hőjétől felrobbanhatnak.",
+        "4": "Ha a hely lejt, egyengesse el, hogy a tüzelő ne csússzon le a tűzről.",
+        "5": "Mély hóban, ahol nem éri el a talajt, nyers rönkökre rakja a tüzet, két rétegben, a felső réteget keresztben az alsón, hogy a parázs ne olvasszon lyukat a hóba.",
+        "6": "A hővisszaverő fal – nem likacsos kövekből vagy egymásra rakott, lehetőleg nyers rönkökből – oda irányítja a hőt, ahová szeretné, például a menedékébe, és véd a szél ellen (lásd a rajzot). Építse meg, mielőtt a tűz felforrósodik.",
+        "7": "Mielőtt meggyújtja a tüzet, készítsen elő vizet, földet vagy homokot és erős botokat az eloltásához.",
+        "8": "Oltás: a fával égő tüzet öntse le elegendő vízzel; húzza szét a nagy égő darabokat, egy ággal kotorja szét a parazsat, és szórja szét a csupasz talajon. Mielőtt elmegy, győződjön meg róla, hogy a tűz helye alatt a föld tapintásra hideg."
+      },
+      "works": "A tűz tartós meleget ad, így a testnek kevesebb energia kell a melegen maradáshoz; megszárítja a nedves ruhát, és megelőzi a hideg okozta sérüléseket, például a fagyási sérülést és a kihűlést; vizet forralhat rajta, ez a víz ihatóvá tételének leghatásosabb módja; fénye és füstje pedig segít a mentőknek megtalálni Önt.",
+      "reliability": "A tűzzel óvatosan kell bánni, hogy ne okozzon kárt vagy sérülést se Önnek, se a környezetének. A kézikönyv nem szól az Ön országának tűzgyújtási szabályairól, sem az erdőtüzek veszélyéről: lásd a „Ha eltévedt” kártyát – ne gyújtson tüzet, ha nagy a tűzveszély, vagy erdőtűzszezon van.",
+      "mistakes": "Likacsos köveket hagyni a tűz mellett: a hőtől felrobbanhatnak. Gyúlékony folyadékot önteni a tűzre, akár csak parázslóra is: felrobbanhat, és súlyos égési sérülést okozhat. Elmenni, mielőtt a tűz helye alatt a föld tapintásra kihűlt."
+    },
+    "fire-build": {
+      "title": "Gyújtós, aprófa és tűzifa: így rakjon tüzet",
+      "steps": {
+        "1": "Alap és támasz: lapos fadarab vagy nem likacsos kő alapként távol tartja a gyújtóst és az aprófát a nedves földtől; egy alkarnyi vastag ág keresztben rajta támaszként segít szabályozni a tűzhöz jutó levegőt.",
+        "2": "A tüzet 3 lépésben rakja: gyújtós, aprófa és tűzifa, mindegyik vastagabb az előzőnél. Ha egy lépést kihagy, a tűz valószínűleg nem gyullad meg.",
+        "3": {
+          "text": "A gyújtós száraz anyag, amelyet egy kis szikra, parázs vagy láng is meggyújt, például:",
+          "items": {
+            "1": "nyírfakéreg;",
+            "2": "finom faforgács vagy -kaparék;",
+            "3": "elhalt száraz fű, páfrány, moha, zuzmó;",
+            "4": "száraz, porrá tört fenyőgyanta;",
+            "5": "magpehely (bogáncs, gyékény);",
+            "6": "„tollas pálca”: botra faragott, hozzá még kapcsolódó forgácsok;",
+            "7": "vattagolyó, ruhaszösz, papír, gyertya."
+          }
+        },
+        "4": "Annyi gyújtóst gyűjtsön, amennyi kitölti a behajlított ujjú tenyerét. A nedves természetes gyújtóst ruharétegei között megszáríthatja.",
+        "5": "Tegye a gyújtóst kupacban az alapra, a támasznak döntve, és gyújtsa meg az alsó szélén, a támasszal ellentétes oldalon: a kis láng felfelé terjed a legjobban.",
+        "6": "Aprófa: amikor a gyújtós erősen ég, tegyen egy marék aprófát a támaszra, keresztben, a láng fölé, és hagyjon réseket a tűznek; a következő marékot az elsőre keresztben tegye. Készítsen aprófát többféle vastagságban: ceruzabél, ceruza és hüvelykujj vastagságút.",
+        "7": "Jó aprófa: elhalt, száraz vékony gallyak; elhalt, száraz fából vékonyra hasított forgács; lehullott tűlevél; a tűlevelű fák alsó, elhalt kis ágai.",
+        "8": "Tűzifa: legalább alkarnyi vastag fa – száraz, lábon álló elhalt fa és elhalt ágak, amelyek reccsenve törnek.",
+        "9": {
+          "text": "Rakja a tűzifát aszerint, amire szüksége van (lásd a rajzot):",
+          "items": {
+            "1": "kúp: a gyújtós és az aprófa kúp alakban; nedves fával is jól ég;",
+            "2": "féltető: a földbe 30 fokos szögben, a szél felé szúrt nyers bot, a gyújtós mélyen alatta, az aprófa neki döntve;",
+            "3": "keresztárok: körülbelül 12 hüvelyk (30 cm) széles és 3 hüvelyk (8 cm) mély, „X” alakban ásott árok, közepén gyújtós, fölötte aprófa: az árkon át levegő jut a gyújtós alá;",
+            "4": "piramis: rönkök rétegei, mindegyik réteg kisebb az előzőnél és keresztben az alatta lévőn, a tetején kis indítótűz: felülről lefelé ég, és éjszaka nem kell vigyázni rá."
+          }
+        }
+      },
+      "works": "A tűznek hő, oxigén és tüzelőanyag kell; ha bármelyiket elveszi, kialszik. Az elhalt ágak belső fája a legszárazabb, és a hasított fa gyorsabban és forróbban ég, mint a kérges.",
+      "reliability": "Ha egy lépést kihagy, a tűz a legjobb körülmények között is valószínűleg nem gyullad meg. Télen a nyugalmi állapotban lévő élő fák és cserjék elhaltnak tűnhetnek: ha gyorsan megnézi a kéreg alatti réteget, kiderül, hogy élő-e a gally, vagy elhalt.",
+      "mistakes": "Takaróként ráborítani az aprófát a gyújtósra: a tűz nem kap elég oxigént, és kialszik. Korhadt fát égetni a földről: parázslik, nagyon nehezen gyullad, és erősen füstöl. Rögtön vastag fát tenni a gyújtósra."
+    },
+    "fire-light": {
+      "title": "Mivel gyújtson tüzet",
+      "steps": {
+        "1": "A széljárta oldalról gyújtsa meg a tüzet, hogy megvédje a kis lángot.",
+        "2": "Gyufa: vízálló gyufa, vízálló dobozban, dörzsfelülettel. Egyenletes nyomással húzza meg a fejét; tartsa a gyufát fejjel lefelé, ferdén, hogy a láng felkússzon a szálon; óvja a széltől; majd tartsa a gyújtós alsó széléhez, de ne nyomja bele a gyújtósba, nehogy elfojtsa a lángot.",
+        "3": "Az öngyújtót ugyanígy használja. Nagy hidegben a töltete megfagyhat: melegítse a testmelegével. Ha a benzines öngyújtóból kifogyott a benzin, a szikrakereke még használható, mint a tűzacél.",
+        "4": "Tűzacél (szikrarúd): a rúd alsó végét tegye szilárdan a gyújtós szélére vagy mellé; a kaparó élét – vagy egy merev pengéjű kés hátát – tartsa 90 fokos szögben a rúdhoz, és egyenletes nyomással húzza le a rúd mentén. Álljon meg, mielőtt a kaparó a gyújtóshoz vagy a szikrákhoz érne.",
+        "5": "Lencse távcsőből, fényképezőgépből vagy nagyító, csak napos, derült napon: fordítsa úgy, hogy a napsugarak a gyújtós egy pontján gyűljenek össze, és tartsa ott, amíg a gyújtós parázslani nem kezd; aztán óvatosan fújja vagy legyezze lángra (lásd a rajzot).",
+        "6": "Akkumulátor vagy elem: kössön két szigetelt vezetéket a két pólusára, és a végüket érintse egy harmadik, csupasz drótdarabhoz – vagy feszítsen finom acélgyapotot a pólusok közé. Az izzó drót vagy acélgyapot meggyújtja a gyújtóst. Tartson minden nyílt lángot távol az akkumulátortól: egyes akkumulátorokból robbanásveszélyes hidrogén szabadul fel."
+      },
+      "works": "A modern tűzgyújtó eszközökkel a leggyorsabb és legkönnyebb tüzet gyújtani, és sérültként is könnyebb használni őket. A gyufa és az öngyújtó töltete csak bizonyos számú tűzhöz elég; a tűzacéllal százszor-ezerszer is lehet tüzet gyújtani.",
+      "reliability": "A gyufa gyorsan átnedvesedik, és akkor gyengén ég, vagy meg sem gyullad. A tűzacélra nincs hatással a nedvesség vagy szárazság, a hideg vagy meleg, sem a kor, de a minősége változó: próbálja ki a sajátját, mielőtt szüksége lenne rá.",
+      "mistakes": "Hagyni, hogy a szél elfújja a gyufát: minden kialudt gyufa eggyel kevesebb tűz. Elfojtani a kis lángot azzal, hogy belenyomja a gyújtósba. Lencsével próbálkozni, amikor nem süt erősen a nap."
+    },
+    "fire-primitive": {
+      "title": "Ősi módszerek: kova és acél, íjas fúró",
+      "steps": {
+        "1": "Gyakorolja ezeket a módszereket, mielőtt szüksége lenne rájuk: idő, erő, türelem és ügyesség kell hozzájuk.",
+        "2": "Kova és acél: üssön kovakővel vagy más kemény, éles peremű kővel – kvarccal, tűzkővel (cherttel), obszidiánnal, acháttal vagy jáspissal – egy szénacél darabra (lásd a rajzot). A rozsdamentes acél nem ad jó szikrát. Amikor a gyújtós elkap egy szikrát, fújjon rá.",
+        "3": "A szikrát legjobban a szenesített vászon fogja meg. Egy kis fémdobozban készítheti el, amelynek fedelén szögnyi lyuk van: tegyen bele lazán, rétegesen pamutanyagot, zárja le, és tegye a tűz szélére, forró parázsra. Amikor már nem jön ki belőle füst, vegye le, és hagyja kihűlni; minden lángtól távol nyissa ki, és a vásznat vizet át nem eresztő tartóban tartsa.",
+        "4": {
+          "text": "Az íjas fúró (lásd a rajzot) öt részből áll:",
+          "items": {
+            "1": "fogó: kő vagy keményfa darab egy kis mélyedéssel, amely a fúró felső végét tartja;",
+            "2": "fúró: egyenes, száraz keményfa bot, körülbelül 3/4 hüvelyk (1,9 cm) vastag és 10–12 hüvelyk (25–30 cm) hosszú, felül lekerekített, alul tompa;",
+            "3": "tűzdeszka: száraz puhafa, körülbelül 1 hüvelyk (2,5 cm) vastag és 4 hüvelyk (10 cm) széles, az egyik széle közelében mélyedéssel, és a széltől a mélyedésig V alakú bevágással;",
+            "4": "tűztálca: vékony kéreg, bőr vagy lapos fadarab a tűzdeszka alatt, amely felfogja a fapor és a parazsat;",
+            "5": "íj: erős, nyers bot, körülbelül 3/4 hüvelyk (1,9 cm) vastag és körülbelül 3 láb (0,9 m) hosszú – az ujjhegytől a vállig ér –, végétől végéig lazaság nélkül kifeszített zsinórral."
+          }
+        },
+        "5": "Mielőtt hozzáfog, tegyen a közelbe, száraz alapra, sok teljesen száraz, finom gyújtóst madárfészek alakúra formálva.",
+        "6": "Ha jobbkezes: bal lábát tegye a tűzdeszkára, jobb térdét a földre. Tekerje egyszer az íj zsinórját a fúró köré, a fúró alsó végét tegye a tűzdeszka bevágásába, a felsőt a bal kezében tartott fogóba. Nyomja lefelé a fogót, és húzza az íjat hosszú, egyenletes mozdulatokkal, állandó, mérsékelt sebességgel.",
+        "7": "Amikor a tűztálcán a fekete fapor füstölni kezd, vegye el a tűzdeszkát, és borítsa a madárfészket a parázsra; fordítsa meg együtt a tűztálcát és a fészket, hogy a fészek legyen alul, és vegye el a tálcát. Zárja lazán a fészket a parázs köré, és fújjon rá hosszú, egyenletes kilégzésekkel, amíg lángra nem lobban.",
+        "8": "Ha tüzet akar vinni magával: terítsen ki egy nagy darab nyírfakérget, tegyen rá egy réteg nedves anyagot, majd korhadt fát; a parazsat tegye a korhadt fába, és tekerje szorosan össze a köteget. Időnként nézze meg, hogy a parázs elég levegőt kapjon. Egy jól elkészített kötegben a parázs napokig eltarthat."
+      },
+      "works": "Ezek a módszerek azt használják, ami a környezetében van, így akkor is segítenek, ha nincs gyufája vagy öngyújtója. Közülük a kova és acél a legkönnyebb.",
+      "reliability": "Elkészítésük időbe telik, és több erő, türelem és ügyesség kell hozzájuk, mint a modern eszközökhöz; akik előre gyakorolták, sokkal nagyobb eséllyel járnak sikerrel. Az íjas fúró sok előkészítést kíván; a kézi fúró kevesebbet, de van, akinek nehezebb vele bánni.",
+      "mistakes": "Rozsdamentes acélt használni szénacél helyett. Gyantás fát használni a fúróhoz vagy a tűzdeszkához: kifényesedik, és akadályozza a munkát. Nem készíteni elő elég száraz gyújtóst, mire a parázs megjelenik."
     }
   },
   "figures": {
@@ -938,6 +1029,45 @@
         "4": "nejlonzacskó",
         "5": "víz",
         "6": "kövek"
+      }
+    },
+    "atp-fire-walls": {
+      "title": "5-2. ábra. Tűzfalak fajtái",
+      "alt": "Kétféle, karók közé rakott rönkökből épített tűzfal. Fent: egyenes fal egy féltetős menedék előtt. Lent: L alakú fal, a sarkában ég a tűz.",
+      "labels": {
+        "1": "egyenes tűzfal",
+        "2": "L alakú tűzfal"
+      }
+    },
+    "atp-fire-lays": {
+      "title": "5-5. ábra. Tűzrakási módok",
+      "alt": "Négyféle tűzrakás: kúp – egymásnak döntött pálcák kúp alakban; féltető – egy ferdén a földbe szúrt hosszú botnak döntött pálcák; keresztárok – két sekély, X alakban ásott árok, a kereszteződésükben gyújtós; piramis – két rönk a földön, rajtuk keresztben vékonyabb pálcák rétegei.",
+      "labels": {
+        "1": "kúp",
+        "2": "féltető",
+        "3": "keresztárok",
+        "4": "piramis"
+      }
+    },
+    "atp-convex-lens": {
+      "title": "5-7. ábra. Tűzgyújtás domború lencsével",
+      "alt": "Egy kéz kis lencsét tart egy gyújtóskupac fölé; a napsugarak a gyújtóson gyűlnek össze, és az füstölni kezd.",
+      "labels": {}
+    },
+    "atp-flint-steel": {
+      "title": "5-8. ábra. Tűzgyújtás kovával és acéllal",
+      "alt": "Két kéz: az egyik követ, a másik acéldarabot tart; összeütik őket, és szikrák pattannak.",
+      "labels": {}
+    },
+    "atp-bow-drill": {
+      "title": "5-10. ábra. Íjas tűzfúró",
+      "alt": "Balra: az íjas fúró részei egymás fölött – fent a fogó, alatta a fúró, az íj a fúró köré tekert zsinórral, alul a tűzdeszka. Jobbra: egy térdelő férfi egyik kezével a fogót tartja a fúrón, a másikkal az íjat húzza; lábával a tűzdeszkát tartja; füst száll fel.",
+      "labels": {
+        "1": "fogó",
+        "2": "fúró",
+        "3": "zsinór",
+        "4": "íj",
+        "5": "tűzdeszka"
       }
     }
   }

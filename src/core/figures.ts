@@ -15,7 +15,7 @@ export interface Figure {
   file: string;
   /** Its caption in the source, word for word. */
   caption: string;
-  /** The words printed on it, each once, in the source's language. */
+  /** The words printed on it, each once, in the source's language; none if it has no words. */
   labels: string[];
   /** Its size in pixels, so the card does not jump while it loads. */
   width: number;
@@ -78,7 +78,7 @@ export function figureProblems(figures: readonly Figure[], cards: readonly Card[
     if (!sources.some((source) => source.id === figure.source)) out.push(`${at}: unknown source ${figure.source}`);
     if (!FILE.test(figure.file)) out.push(`${at}: the file is not "<folder>/<name>.png"`);
     if (!figure.caption?.trim()) out.push(`${at}: no caption`);
-    if (!figure.labels.length || figure.labels.some((label) => !label.trim())) out.push(`${at}: no words, or an empty one`);
+    if (figure.labels.some((label) => !label.trim())) out.push(`${at}: an empty word`);
     if (new Set(figure.labels).size !== figure.labels.length) out.push(`${at}: a word twice`);
     if (!Number.isInteger(figure.width) || !Number.isInteger(figure.height) || figure.width <= 0 || figure.height <= 0) out.push(`${at}: no size`);
     // A figure is shown with a card of its own source, and every figure is shown somewhere.

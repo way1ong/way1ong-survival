@@ -59,6 +59,12 @@ describe('the check of figures', () => {
     expect(figureProblems([], [], [source], { uk: words({}) }).join()).toMatch(/unknown figure sample-figure/);
   });
 
+  it('takes a figure without words, with no words to translate', () => {
+    const plain = { ...figure, labels: [] };
+    expect(figureProblems([plain], [card], [source], { uk: { figures: { 'sample-figure': { title: 'T', alt: 'A', labels: {} } } } })).toEqual([]);
+    expect(figureProblems([{ ...figure, labels: [' '] }], [card], [source], {}).join()).toMatch(/an empty word/);
+  });
+
   it('refuses a file that is not a PNG in a folder, and a word twice', () => {
     expect(figureProblems([{ ...figure, file: 'figure.jpg' }], [card], [source], {}).join()).toMatch(/<folder>\/<name>\.png/);
     expect(figureProblems([{ ...figure, labels: ['Peg', 'Peg'] }], [card], [source], {}).join()).toMatch(/a word twice/);

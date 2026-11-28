@@ -12,7 +12,7 @@ export function figureView(d: Dict, lang: string, figure: Figure, sourceLang: st
   const words = figureText(dict(lang), figure);
   if (!url || typeof words === 'string') return null;
   const legend =
-    lang === sourceLang
+    lang === sourceLang || !figure.labels.length
       ? null
       : h(
           'div',
@@ -22,7 +22,7 @@ export function figureView(d: Dict, lang: string, figure: Figure, sourceLang: st
         );
   return h(
     'figure',
-    { class: 'figure' },
+    { class: 'figure', 'data-words': figure.labels.length },
     h('img', { src: url, alt: words.alt, width: figure.width, height: figure.height, loading: 'lazy', decoding: 'async' }),
     h('figcaption', {}, h('p', { class: 'figure__title' }, words.title), legend),
   );

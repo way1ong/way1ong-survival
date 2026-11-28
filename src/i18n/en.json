@@ -903,6 +903,97 @@
       "works": "Boiling is the safest method for purifying water: a rolling boil for 1 minute at sea level kills all waterborne pathogens.",
       "reliability": "Two pathogens found in most water sources are Giardia and Cryptosporidium. The only effective means against Cryptosporidium is boiling, or a commercial micro filter or reverse-osmosis filter: chemical disinfectants, such as iodine tablets or bleach, have not been shown to be 100 percent effective against it. Most commercial filters do not remove viruses. These boiling times are not the time needed to sterilize water for medical use.",
       "mistakes": "Drinking water that was only filtered. Touching your mouth to threads wet with water that was not purified. Adding a drink mix before the purification is complete."
+    },
+    "fire-site": {
+      "title": "Where and how to make a fire safely",
+      "steps": {
+        "1": "Choose a flat, dry spot, protected from the wind, near your shelter and near a supply of fuel, away from trees laden with snow.",
+        "2": "Clear the ground of fallen leaves, plants and duff: expose bare soil at least 3 feet (1 m) across, so the fire cannot spread along the ground.",
+        "3": "Remove porous rocks from the fire site: the heat of the fire can make them explode.",
+        "4": "If the spot slopes, level it, so the fuel does not slide off the fire.",
+        "5": "In deep snow, where you cannot reach the soil, build the fire on green logs laid in two layers, the top layer across the bottom one, so the coals do not melt a hole through the snow.",
+        "6": "A fire reflector — a wall of nonporous rock or a stack of logs, best of green wood — directs the heat where you want it, for example into your shelter, and shields it from the wind (see the picture). Build it before the fire gets hot.",
+        "7": "Before you light the fire, have water, dirt or sand and sturdy sticks ready to put it out.",
+        "8": "To put it out: pour enough water on a wood fire; pull the big burning pieces apart, rake the coals off with a branch and scatter them over bare soil. Before you leave, make sure the ground under the fire is cool to the touch."
+      },
+      "works": "Fire gives lasting heat, so your body needs less energy to keep warm; it dries wet clothing and prevents cold injuries such as frostbite and hypothermia; it boils water, the most effective way to purify it; and its light and smoke help rescuers find you.",
+      "reliability": "A fire is used with caution, so that it does no damage and causes no injury to you or your surroundings. The manual does not speak of the rules on fires in your country or of the danger of forest fires: see the card “If you get lost” — do not build a fire if the fire risk is high or it is wildfire season.",
+      "mistakes": "Leaving porous rocks at the fire: they can explode from the heat. Pouring highly flammable liquids on a fire, even a smouldering one: they can explode and cause serious burns. Leaving before the ground under the fire is cool to the touch."
+    },
+    "fire-build": {
+      "title": "Tinder, kindling and fuel: building a fire",
+      "steps": {
+        "1": "A base and a brace: a flat piece of wood or nonporous rock as a base keeps the tinder and kindling off the wet ground; a branch about as thick as a forearm, laid across it as a brace, helps control the air reaching the fire.",
+        "2": "A fire is built in 3 phases — tinder, kindling and fuel — each bigger than the last. If one phase is skipped, the fire is likely to fail.",
+        "3": {
+          "text": "Tinder is a dry material that a small spark, coal or flame can light, for example:",
+          "items": {
+            "1": "birch bark;",
+            "2": "fine wood scrapings or shavings;",
+            "3": "dead dry grass, ferns, moss, lichen;",
+            "4": "dry powdered pine sap (pitch);",
+            "5": "seed down (thistle, cattail);",
+            "6": "feather sticks — wood shavings cut into a stick and still joined to it;",
+            "7": "cotton balls, lint, paper, a candle."
+          }
+        },
+        "4": "Collect enough tinder to fill your hand with fingers cupped. Damp natural tinder can dry between the layers of your clothing.",
+        "5": "Lay the tinder on the base in a mound against the brace and light it at its bottom edge, away from the brace: the small flame spreads best upwards.",
+        "6": "Kindling: when the tinder burns strongly, lay a handful of kindling on the brace, across it, over the flame, leaving spaces for the fire; lay the next handful across the first. Prepare kindling in sizes from pencil lead to pencil to thumb.",
+        "7": "Good kindling: dead, dry small twigs; thin shavings of dead, dry wood; dead conifer needles; small dead branches low on the underside of conifers.",
+        "8": "Fuel: wood at least as thick as your forearm — dry, standing dead wood and dead branches that snap when broken.",
+        "9": {
+          "text": "Lay the fuel to suit what you need (see the picture):",
+          "items": {
+            "1": "tepee — tinder and kindling in a cone; it burns well even with wet wood;",
+            "2": "lean-to — a green stick pushed into the ground at a 30-degree angle, pointing into the wind, with the tinder deep under it and the kindling against it;",
+            "3": "cross-ditch — an “X” dug about 12 inches (30 cm) across and 3 inches (8 cm) deep, with tinder in its middle and kindling above: the ditch lets air sweep under the tinder;",
+            "4": "pyramid — layers of logs, each layer smaller than the last and across the one below, with a starter fire on top: it burns downwards and needs no attention during the night."
+          }
+        }
+      },
+      "works": "Fire needs heat, oxygen and fuel; if any of these is removed, the fire goes out. The inner wood of dead branches is the driest, and split wood burns faster and hotter than wood covered by bark.",
+      "reliability": "Even in ideal circumstances a fire is likely to fail if a phase is skipped. In winter, live trees and shrubs that are resting may look dead: a quick check of the layer just under the bark tells whether a twig is alive or dead.",
+      "mistakes": "Laying the kindling over the tinder like a blanket: the fire does not get enough oxygen and dies out. Burning rotten wood from the ground: it smoulders, is very hard to light and makes much smoke. Going from tinder straight to big wood."
+    },
+    "fire-light": {
+      "title": "What to light a fire with",
+      "steps": {
+        "1": "Light the fire from the upwind side, to protect the small flame.",
+        "2": "Matches: waterproof matches, kept in a waterproof container, with a striker. Strike the head with even pressure; hold the match with its head pointing down at an angle, so the flame climbs the stick; shield it from the wind; then hold it to the bottom edge of the tinder, without pressing it into the tinder and smothering it.",
+        "3": "A lighter is used the same way. In extreme cold its fuel can freeze: warm it with your body heat. If a liquid-fuel lighter runs out of fuel, its sparking wheel can still be used like a metal match.",
+        "4": "A metal match (fire steel): put the bottom of the rod firmly on or near the edge of the tinder; hold the edge of the striker — or the back of a fixed-blade knife — at a 90-degree angle to the rod and drive it down along the rod with even pressure. Stop before the striker disturbs the tinder or the sparks.",
+        "5": "A lens from binoculars, a camera or a magnifying glass, only on bright, sunny days: angle it so the sun’s rays meet on one spot of the tinder and hold it there until the tinder smoulders; then gently blow or fan it into a flame (see the picture).",
+        "6": "A battery: connect two insulated wires to its two posts and touch their ends to a third, bare piece of wire — or stretch fine steel wool between the posts. The hot wire or steel wool lights the tinder. Keep any open flame away from the battery: some batteries give off explosive hydrogen gas."
+      },
+      "works": "Modern fire-starters are the quickest and easiest way to start a fire, and easier to use for someone who is injured. Matches and lighter fuel last only for a number of fires; a metal match can be used hundreds to thousands of times.",
+      "reliability": "Matches quickly become damp and then burn weakly or not at all. Metal matches are not affected by wet or dry, cold or hot weather, or by age, but their quality varies: test the one you carry before you need it.",
+      "mistakes": "Letting the wind blow a match out: each match that goes out is one fire fewer. Smothering the small flame by pressing it into the tinder. Trying a lens when the sun is not bright."
+    },
+    "fire-primitive": {
+      "title": "Old ways: flint and steel, bow drill",
+      "steps": {
+        "1": "Practise these ways before you need them: they take time, energy, patience and skill.",
+        "2": "Flint and steel: strike a flint or another hard, sharp-edged rock — quartz, chert, obsidian, agate or jasper — with a piece of carbon steel (see the picture). Stainless steel does not give a good spark. When the tinder catches a spark, blow on it.",
+        "3": "Charred cloth catches sparks best. Make it in a small metal tin with a nail-sized hole in its lid: put loose layers of cotton inside, close the tin and set it on hot embers at the edge of the fire. When smoke stops coming out, take it off and let it cool; open it away from any flame and keep the cloth in a container that keeps out water.",
+        "4": {
+          "text": "A bow drill (see the picture) has five parts:",
+          "items": {
+            "1": "a socket — a stone or a piece of hard wood with a slight dent, to hold the top of the drill;",
+            "2": "a drill — a straight, dry hardwood stick about 3/4 inch (1.9 cm) thick and 10 to 12 inches (25–30 cm) long, rounded at the top and blunt at the bottom;",
+            "3": "a fireboard — dry softwood about 1 inch (2.5 cm) thick and 4 inches (10 cm) wide, with a dent near one edge and a V-shaped cut from the edge to the dent;",
+            "4": "a fire pan — thin bark, leather or a flat piece of wood under the fireboard, to catch the wood dust and the coal;",
+            "5": "a bow — a strong green stick about 3/4 inch (1.9 cm) thick and about 3 feet (0.9 m) long, from your fingertips to your shoulder, with a cord tied from end to end without slack."
+          }
+        },
+        "5": "Before you start, put a large amount of completely dry, fine tinder, shaped like a bird’s nest, on a dry base nearby.",
+        "6": "If you are right-handed: put your left foot on the fireboard and your right knee on the ground. Wrap the bowstring once around the drill, set the bottom of the drill in the notch of the fireboard and its top in the socket held in your left hand. Press down on the socket and make long, smooth strokes of the bow at a steady, moderate speed.",
+        "7": "When the black wood dust on the fire pan begins to smoke, move the fireboard away and lay the bird’s nest over the coal; turn the fire pan and the nest over together, so the nest is at the bottom, and take the fire pan away. Close the nest lightly around the coal and blow on it with long, steady breaths until it bursts into flame.",
+        "8": "To carry fire with you: lay out a large piece of birch bark, add a layer of wet material, then rotten wood; put the coals in the rotten wood and roll the bundle shut. Check it now and then, so the coals get enough air. Embers in a well-built bundle can last for several days."
+      },
+      "works": "These ways use what you find around you, so they help when you have no matches or lighter. Flint and steel is the easiest of them.",
+      "reliability": "They take time to make and need more energy, patience and skill than modern fire-starters; people who practised them before are much more likely to succeed. The bow drill needs much preparation; the hand drill needs less, but is harder to use for some people.",
+      "mistakes": "Using stainless steel instead of carbon steel. Using resinous wood for the drill or the fireboard: it glazes over and hinders the process. Not having enough dry tinder ready when the coal appears."
     }
   },
   "figures": {
@@ -938,6 +1029,45 @@
         "4": "Plastic bag",
         "5": "Water",
         "6": "Rocks"
+      }
+    },
+    "atp-fire-walls": {
+      "title": "Figure 5-2. Types of firewalls",
+      "alt": "Two kinds of fire walls made of logs stacked between stakes. Top: a straight wall in front of a lean-to shelter. Bottom: an L-shaped wall with a fire burning in its corner.",
+      "labels": {
+        "1": "Straight fire wall",
+        "2": "L-shaped fire wall"
+      }
+    },
+    "atp-fire-lays": {
+      "title": "Figure 5-5. Fire lays",
+      "alt": "Four ways to lay a fire: tepee — sticks leaning together in a cone; lean-to — sticks leaning against one long stick pushed into the ground at an angle; cross-ditch — two shallow ditches dug in an X, with tinder where they cross; pyramid — two logs on the ground with layers of smaller sticks across them.",
+      "labels": {
+        "1": "Tepee",
+        "2": "Lean-to",
+        "3": "Cross-ditch",
+        "4": "Pyramid"
+      }
+    },
+    "atp-convex-lens": {
+      "title": "Figure 5-7. Using a convex lens as a fire-starter",
+      "alt": "A hand holds a small lens above a heap of tinder; the sun’s rays meet on the tinder, which begins to smoke.",
+      "labels": {}
+    },
+    "atp-flint-steel": {
+      "title": "Figure 5-8. Flint and steel fire-starter",
+      "alt": "Two hands: one holds a stone, the other a piece of steel; they strike each other and sparks fly.",
+      "labels": {}
+    },
+    "atp-bow-drill": {
+      "title": "Figure 5-10. Bow and drill fire-starter",
+      "alt": "Left: the parts of a bow drill, one above the other — the socket on top, the drill, the bow with its cord wrapped around the drill, and the fire board at the bottom. Right: a kneeling man holds the socket on the drill with one hand and moves the bow with the other; his foot holds the fire board; smoke rises.",
+      "labels": {
+        "1": "Socket",
+        "2": "Drill",
+        "3": "Cord",
+        "4": "Bow",
+        "5": "Fire board"
       }
     }
   }

@@ -21,10 +21,15 @@ export const UNITS: Readonly<Record<string, Unit>> = {
 };
 
 const NUMBER = String.raw`\d+(?:,\d{3})*(?:\.\d+)?`;
-const US = new RegExp(String.raw`(${NUMBER})(?:\s*(?:to|–|-)\s*(${NUMBER}))?\s*(feet|foot|ft|inches|inch|quarts?|°F)\b`, 'g');
+/** A U.S. measure may be a fraction too: "3/4 inch". */
+const US_NUMBER = String.raw`\d+\/\d+|${NUMBER}`;
+const US = new RegExp(String.raw`(${US_NUMBER})(?:\s*(?:to|–|-)\s*(${US_NUMBER}))?\s*(feet|foot|ft|inches|inch|quarts?|°F)\b`, 'g');
 const METRIC = new RegExp(String.raw`^\s*\((${NUMBER})(?:\s*[–-]\s*(${NUMBER}))?\s*(m|cm|l|°C)\)`);
 
-const value = (text: string) => Number(text.replace(/,/g, ''));
+const value = (text: string) => {
+  const [top, bottom] = text.split('/');
+  return bottom === undefined ? Number(text.replace(/,/g, '')) : Number(top) / Number(bottom);
+};
 const decimals = (text: string) => text.split('.')[1]?.length ?? 0;
 
 /**
