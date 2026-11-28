@@ -52,14 +52,16 @@
     "source": "Forrás",
     "read": "Olvasva: {date}",
     "licence": "Licenc",
-    "sample": "MINTA"
+    "sample": "MINTA",
+    "figureWords": "A rajzon szereplő szavak:"
   },
   "notices": {
     "notDoctor": "Ez nem helyettesíti az orvost.",
     "translation": "Fordítás. Az eredeti nyelve: {language}.",
     "usArmy": "Az amerikai hadsereg kézikönyve alapján.",
     "usNumber": "A forrásban az Egyesült Államok segélyhívószáma (911) szerepel; itt helyette az Ön országának számai állnak.",
-    "cdc": "Forrás: CDC, az Egyesült Államok Betegségellenőrzési és Megelőzési Központjai. Ez nem jelenti, hogy a CDC, az Egyesült Államok Egészségügyi és Humán Szolgáltatások Minisztériuma vagy az Egyesült Államok kormánya támogatná ezt az alkalmazást. Az anyag a CDC honlapján is ingyenesen elérhető."
+    "cdc": "Forrás: CDC, az Egyesült Államok Betegségellenőrzési és Megelőzési Központjai. Ez nem jelenti, hogy a CDC, az Egyesült Államok Egészségügyi és Humán Szolgáltatások Minisztériuma vagy az Egyesült Államok kormánya támogatná ezt az alkalmazást. Az anyag a CDC honlapján is ingyenesen elérhető.",
+    "metric": "A zárójelben álló métert, litert és Celsius-fokot mi számítottuk át a NIST (USA) mértékegység-útmutatója alapján."
   },
   "emergency": {
     "title": "Sürgősségi segítség",
@@ -841,6 +843,598 @@
       "works": "Ha mennydörgést hall, a villám már elég közel van ahhoz, hogy Önbe csapjon.",
       "reliability": "Ha zivatar van a környéken, a szabadban SEHOL sincs biztonságos hely. Azok a lépések, amelyek arra az esetre szólnak, ha a szabadban éri a zivatar, és nincs a közelben biztonságos menedék, csak „csökkenthetik a kockázatot”. Ha valakibe villám csapott: „Áramütés vagy villámcsapás” kártya az „Elsősegély” fejezetben.",
       "mistakes": "A szabadban maradni: ha zivatar van a környéken, a szabadban sehol sincs biztonságos hely. Túl korán elhagyni a menedéket: maradjon ott legalább 30 percig az utolsó mennydörgés után. A földre feküdni; magányos fa, szikla vagy sziklaperem alá húzódni."
+    },
+    "water-safe": {
+      "title": "Milyen vizet igyon, és milyet ne",
+      "steps": {
+        "1": "Ha folyó és állóvíz közül kell választania, a folyóvizet válassza – de azt is mindenképp tegye ihatóvá.",
+        "2": "Minden felszíni vizet tekintsen emberi és állati ürülékkel szennyezettnek; kivétel legfeljebb a nagyon magasan fekvő hegyi patak vagy a lakatlan vidéken fakadó forrás lehet.",
+        "3": "A források általában a legbiztonságosabb nyílt vízforrások, de a vizüket is tegye ihatóvá, ha van rá módja, az óvatosság kedvéért.",
+        "4": "A tavak, patakok, kis tavak és mocsarak vizét – különösen a lakott helyek közelében vagy a trópusokon – ihatóvá kell tenni.",
+        "5": "Kerülje a kellemetlen szagú vizet és azt, amely mérgező anyagokkal szennyeződhetett.",
+        "6": "Ne igyon a természetes mélyedésekben álló vízből: állóvíz, és gyakran erősen szennyezik a növényvédő szerek, a szemét és más hulladék.",
+        "7": "Ne igyon sós vizet, még keveset sem. Ne igyon vizeletet és alkoholt.",
+        "8": "Ne egyen havat vagy jeget olvasztás nélkül: a hó vagy jég evése csökkentheti a testhőmérsékletet, és fokozhatja a kiszáradást."
+      },
+      "works": "A víz az egyik legsürgetőbb szükséglet. 68 °F (20 °C) hőmérsékleten, kevés fizikai munka mellett egy embernek általában napi 2⁠–⁠3 quart (1,9⁠–⁠2,8 l) vízre van szüksége. Melegben nő a vízveszteség; hidegben gyengébb a szomjúságérzet, ami kedvez a kiszáradásnak.",
+      "reliability": "A nem ihatóvá tett víztől megbetegedhet: a káros élőlények hasmenést okoznak, és halálhoz is vezethetnek. Ha lehet, minden vizet tegyen ihatóvá forralással, vegyszerrel vagy gyári szűrővel („Hogyan tegye ihatóvá a vizet” kártya).",
+      "mistakes": "Állóvizet választani, amikor folyóvíz is van. Természetes mélyedésből inni. Megbízni a lakott hely közelében lévő vízben, és nem tenni ihatóvá. Havat enni: a szervezetnek fel kell melegítenie és meg kell olvasztania – ez fölösleges kalóriaveszteség, amikor amúgy is kevés a kalória."
+    },
+    "water-rain-snow-dew": {
+      "title": "Eső, hó és harmat: honnan szerezzen vizet",
+      "steps": {
+        "1": "Először szerezzen olyan edényt, amely megtartja a vizet, és jól lezárható. Rögtönözhet ilyet nejlonzacskóból, ponyvából, fóliából, vagy nyírfakéregből és gyantából.",
+        "2": "Eső: tegyen ki rögtönzött, vizet át nem eresztő tárgyakat, hogy egyenesen az égből fogják fel az esőt.",
+        "3": "A közvetlenül edénybe gyűjtött friss esővizet nem kell ihatóvá tenni. Ha az eső leveleken folyik le az edénybe, szennyezheti a vizet, ezért azt ihatóvá kell tenni – kivéve, ha előbb legalább 15 percig hagyta, hogy az eső lemossa a leveleket.",
+        "4": "Hó: friss, tiszta havat használjon. A hóval teli edényt tegye a tűz mellé vagy a ruharétegei közé, hogy a testmelege megolvassza. Ha egy kevés vizet önt a hóhoz, gyorsabban olvad.",
+        "5": "„Vízgép”: tegye a havat likacsos anyagra (például pamutra vagy ejtőernyő-nejlonra), fogja össze a széleit, akassza ezt a „zsákot” a tűz közelébe, alá pedig tegyen edényt (lásd a rajzot). Töltsön bele havat, amikor kell, és ürítse ki az edényt, amikor megtelt.",
+        "6": "A jég több vizet ad, mint a hó, és kevesebb hő kell hozzá. A hó vagy jég kevés fáradsággal megolvad egy sötét anyagdarabon a napon.",
+        "7": "Harmat: kössön finom füvet, szivacsot vagy rongyot a lábszárára és bokájára, menjen végig a magas fűben, majd facsarja ki a harmatot egy edénybe – így akár 1 quart (0,95 l) vizet vagy többet is gyűjthet.",
+        "8": "Hidegben tartsa a vizes edényeket fejjel lefelé: a víz felülről fagy meg, így a meg nem fagyott víz alul, a nyílásnál marad."
+      },
+      "works": "Szinte minden környezetben van valamennyi víz. A közvetlenül edénybe gyűjtött friss esővíz ihatóvá tétel nélkül is iható.",
+      "reliability": "A hó és a jég nem tisztább annál a víznél, amelyből lett: olvassza meg, és tegye ihatóvá a vizet („Hogyan tegye ihatóvá a vizet” kártya).",
+      "mistakes": "Havat vagy jeget enni olvasztás helyett: csökkenti a test maghőmérsékletét, és több energiatartalékot használ fel, mint ha a testen kívül olvasztaná meg. Leveleken lefolyt esővizet ihatóvá tétel nélkül inni."
+    },
+    "water-seepage": {
+      "title": "Víz a föld alól: szivárgókút",
+      "steps": {
+        "1": "A szivárgókút a földbe ásott gödör, amely eléri a felszín alatt álló vagy mozgó vizet. Ha van ott víz, összegyűlik a gödörben, és kimerhető.",
+        "2": "Hol ásson: a kiszáradt meder külső kanyarulatánál, sziklák vagy kövek tövében, napfénytől védett mélyedésekben, vagy ahol a homok a felszín alatt nedves (lásd a rajzot).",
+        "3": "Tó, patak vagy kis tó mellett ásson gödröt a víz szélén: a víz átszivárog a környező talajon, amely megszűri, és összegyűlik a gödörben, ihatóvá tételre készen.",
+        "4": "Mielőtt inna, tegye ihatóvá a vizet („Hogyan tegye ihatóvá a vizet” kártya)."
+      },
+      "works": "Ez a módszer a legtöbb környezetben használható.",
+      "reliability": "A felszín alatt nem mindig van víz: csak ha van, akkor gyűlik össze a kútban. A talaj megszűri a vizet, de így is ihatóvá kell tenni.",
+      "mistakes": "A gödör vizét ihatóvá tétel nélkül inni: a szűrés csak kellemesebbé teszi a vizet, ihatóvá tenni így is kell."
+    },
+    "water-purify": {
+      "title": "Hogyan tegye ihatóvá a vizet",
+      "steps": {
+        "1": "Zavaros, poshadt vagy rossz szagú víz: hagyja néhány órán át állni egy edényben, hogy az üledék leülepedjen. Öntögesse át egyik edényből a másikba: ettől jobb lesz az íze.",
+        "2": "Szűrő: rétegezzen természetes anyagokat – homokot, zúzott követ vagy kavicsot és faszenet – egy edénybe vagy rongydarabokra (lásd a rajzot). Kiszűri a nagy és apró részecskéket, és javítja a víz ízét.",
+        "3": "A tűzből származó faszén, ha a vízbe teszi, és 45 percig benne hagyja, segít eltüntetni a szagot, és megköti a mezőgazdasági és ipari vegyszereket.",
+        "4": "A szűrés nem teszi ihatóvá a vizet: utána is ihatóvá kell tenni.",
+        "5": "Forralja fel a vizet: hozza erős forrásba, és tengerszinten 1 percig forralja. 8000 láb (2438 m) fölött 3 percig forralja.",
+        "6": "Víztisztító tabletta: mindig kövesse a gyártó utasítását, és ellenőrizze, nem járt-e le a tabletta szavatossága.",
+        "7": "Vegyszer után: hagyja állni a vizet az előírt ideig, majd nyissa ki a kupakot, és hagyja, hogy az ihatóvá tett víz leöblítse az edény menetét, mielőtt a szájához érinti.",
+        "8": "Italport csak akkor tegyen a vízbe, ha az ihatóvá tétel befejeződött."
+      },
+      "works": "A forralás a legbiztonságosabb módja a víz ihatóvá tételének: tengerszinten 1 percig tartó erős forrás minden, vízzel terjedő kórokozót elpusztít.",
+      "reliability": "A legtöbb vízforrásban előforduló két kórokozó a Giardia és a Cryptosporidium. A Cryptosporidium ellen csak a forralás, illetve a gyári mikroszűrő vagy fordított ozmózisos szűrő hatásos: a vegyszerek, például a jódtabletta vagy a hipó, nem bizonyultak 100 százalékosan hatásosnak ellene. A legtöbb gyári szűrő nem szűri ki a vírusokat. Ezek a forralási idők nem azonosak a víz orvosi célú sterilizálásához szükséges idővel.",
+      "mistakes": "Csak megszűrt vizet inni. Szájjal hozzáérni a nem ihatóvá tett víztől nedves menethez. Italport tenni a vízbe, mielőtt az ihatóvá tétel befejeződött."
+    },
+    "fire-site": {
+      "title": "Hol és hogyan rakjon biztonságosan tüzet",
+      "steps": {
+        "1": "Válasszon sík, száraz, szélvédett helyet a menedéke közelében és a tüzelő közelében, távol a hóval megrakott fáktól.",
+        "2": "Takarítsa le a földről a lehullott leveleket, növényeket és az avart: legalább 3 láb (1 m) átmérőjű csupasz talajt tegyen szabaddá, hogy a tűz ne terjedhessen a talajon.",
+        "3": "Vigye el a tűzrakóhelyről a likacsos köveket: a tűz hőjétől felrobbanhatnak.",
+        "4": "Ha a hely lejt, egyengesse el, hogy a tüzelő ne csússzon le a tűzről.",
+        "5": "Mély hóban, ahol nem éri el a talajt, nyers rönkökre rakja a tüzet, két rétegben, a felső réteget keresztben az alsón, hogy a parázs ne olvasszon lyukat a hóba.",
+        "6": "A hővisszaverő fal – nem likacsos kövekből vagy egymásra rakott, lehetőleg nyers rönkökből – oda irányítja a hőt, ahová szeretné, például a menedékébe, és véd a szél ellen (lásd a rajzot). Építse meg, mielőtt a tűz felforrósodik.",
+        "7": "Mielőtt meggyújtja a tüzet, készítsen elő vizet, földet vagy homokot és erős botokat az eloltásához.",
+        "8": "Oltás: a fával égő tüzet öntse le elegendő vízzel; húzza szét a nagy égő darabokat, egy ággal kotorja szét a parazsat, és szórja szét a csupasz talajon. Mielőtt elmegy, győződjön meg róla, hogy a tűz helye alatt a föld tapintásra hideg."
+      },
+      "works": "A tűz tartós meleget ad, így a testnek kevesebb energia kell a melegen maradáshoz; megszárítja a nedves ruhát, és megelőzi a hideg okozta sérüléseket, például a fagyási sérülést és a kihűlést; vizet forralhat rajta, ez a víz ihatóvá tételének leghatásosabb módja; fénye és füstje pedig segít a mentőknek megtalálni Önt.",
+      "reliability": "A tűzzel óvatosan kell bánni, hogy ne okozzon kárt vagy sérülést se Önnek, se a környezetének. A kézikönyv nem szól az Ön országának tűzgyújtási szabályairól, sem az erdőtüzek veszélyéről: lásd a „Ha eltévedt” kártyát – ne gyújtson tüzet, ha nagy a tűzveszély, vagy erdőtűzszezon van.",
+      "mistakes": "Likacsos köveket hagyni a tűz mellett: a hőtől felrobbanhatnak. Gyúlékony folyadékot önteni a tűzre, akár csak parázslóra is: felrobbanhat, és súlyos égési sérülést okozhat. Elmenni, mielőtt a tűz helye alatt a föld tapintásra kihűlt."
+    },
+    "fire-build": {
+      "title": "Gyújtós, aprófa és tűzifa: így rakjon tüzet",
+      "steps": {
+        "1": "Alap és támasz: lapos fadarab vagy nem likacsos kő alapként távol tartja a gyújtóst és az aprófát a nedves földtől; egy alkarnyi vastag ág keresztben rajta támaszként segít szabályozni a tűzhöz jutó levegőt.",
+        "2": "A tüzet 3 lépésben rakja: gyújtós, aprófa és tűzifa, mindegyik vastagabb az előzőnél. Ha egy lépést kihagy, a tűz valószínűleg nem gyullad meg.",
+        "3": {
+          "text": "A gyújtós száraz anyag, amelyet egy kis szikra, parázs vagy láng is meggyújt, például:",
+          "items": {
+            "1": "nyírfakéreg;",
+            "2": "finom faforgács vagy -kaparék;",
+            "3": "elhalt száraz fű, páfrány, moha, zuzmó;",
+            "4": "száraz, porrá tört fenyőgyanta;",
+            "5": "magpehely (bogáncs, gyékény);",
+            "6": "„tollas pálca”: botra faragott, hozzá még kapcsolódó forgácsok;",
+            "7": "vattagolyó, ruhaszösz, papír, gyertya."
+          }
+        },
+        "4": "Annyi gyújtóst gyűjtsön, amennyi kitölti a behajlított ujjú tenyerét. A nedves természetes gyújtóst ruharétegei között megszáríthatja.",
+        "5": "Tegye a gyújtóst kupacban az alapra, a támasznak döntve, és gyújtsa meg az alsó szélén, a támasszal ellentétes oldalon: a kis láng felfelé terjed a legjobban.",
+        "6": "Aprófa: amikor a gyújtós erősen ég, tegyen egy marék aprófát a támaszra, keresztben, a láng fölé, és hagyjon réseket a tűznek; a következő marékot az elsőre keresztben tegye. Készítsen aprófát többféle vastagságban: ceruzabél, ceruza és hüvelykujj vastagságút.",
+        "7": "Jó aprófa: elhalt, száraz vékony gallyak; elhalt, száraz fából vékonyra hasított forgács; lehullott tűlevél; a tűlevelű fák alsó, elhalt kis ágai.",
+        "8": "Tűzifa: legalább alkarnyi vastag fa – száraz, lábon álló elhalt fa és elhalt ágak, amelyek reccsenve törnek.",
+        "9": {
+          "text": "Rakja a tűzifát aszerint, amire szüksége van (lásd a rajzot):",
+          "items": {
+            "1": "kúp: a gyújtós és az aprófa kúp alakban; nedves fával is jól ég;",
+            "2": "féltető: a földbe 30 fokos szögben, a szél felé szúrt nyers bot, a gyújtós mélyen alatta, az aprófa neki döntve;",
+            "3": "keresztárok: körülbelül 12 hüvelyk (30 cm) széles és 3 hüvelyk (8 cm) mély, „X” alakban ásott árok, közepén gyújtós, fölötte aprófa: az árkon át levegő jut a gyújtós alá;",
+            "4": "piramis: rönkök rétegei, mindegyik réteg kisebb az előzőnél és keresztben az alatta lévőn, a tetején kis indítótűz: felülről lefelé ég, és éjszaka nem kell vigyázni rá."
+          }
+        }
+      },
+      "works": "A tűznek hő, oxigén és tüzelőanyag kell; ha bármelyiket elveszi, kialszik. Az elhalt ágak belső fája a legszárazabb, és a hasított fa gyorsabban és forróbban ég, mint a kérges.",
+      "reliability": "Ha egy lépést kihagy, a tűz a legjobb körülmények között is valószínűleg nem gyullad meg. Télen a nyugalmi állapotban lévő élő fák és cserjék elhaltnak tűnhetnek: ha gyorsan megnézi a kéreg alatti réteget, kiderül, hogy élő-e a gally, vagy elhalt.",
+      "mistakes": "Takaróként ráborítani az aprófát a gyújtósra: a tűz nem kap elég oxigént, és kialszik. Korhadt fát égetni a földről: parázslik, nagyon nehezen gyullad, és erősen füstöl. Rögtön vastag fát tenni a gyújtósra."
+    },
+    "fire-light": {
+      "title": "Mivel gyújtson tüzet",
+      "steps": {
+        "1": "A széljárta oldalról gyújtsa meg a tüzet, hogy megvédje a kis lángot.",
+        "2": "Gyufa: vízálló gyufa, vízálló dobozban, dörzsfelülettel. Egyenletes nyomással húzza meg a fejét; tartsa a gyufát fejjel lefelé, ferdén, hogy a láng felkússzon a szálon; óvja a széltől; majd tartsa a gyújtós alsó széléhez, de ne nyomja bele a gyújtósba, nehogy elfojtsa a lángot.",
+        "3": "Az öngyújtót ugyanígy használja. Nagy hidegben a töltete megfagyhat: melegítse a testmelegével. Ha a benzines öngyújtóból kifogyott a benzin, a szikrakereke még használható, mint a tűzacél.",
+        "4": "Tűzacél (szikrarúd): a rúd alsó végét tegye szilárdan a gyújtós szélére vagy mellé; a kaparó élét – vagy egy merev pengéjű kés hátát – tartsa 90 fokos szögben a rúdhoz, és egyenletes nyomással húzza le a rúd mentén. Álljon meg, mielőtt a kaparó a gyújtóshoz vagy a szikrákhoz érne.",
+        "5": "Lencse távcsőből, fényképezőgépből vagy nagyító, csak napos, derült napon: fordítsa úgy, hogy a napsugarak a gyújtós egy pontján gyűljenek össze, és tartsa ott, amíg a gyújtós parázslani nem kezd; aztán óvatosan fújja vagy legyezze lángra (lásd a rajzot).",
+        "6": "Akkumulátor vagy elem: kössön két szigetelt vezetéket a két pólusára, és a végüket érintse egy harmadik, csupasz drótdarabhoz – vagy feszítsen finom acélgyapotot a pólusok közé. Az izzó drót vagy acélgyapot meggyújtja a gyújtóst. Tartson minden nyílt lángot távol az akkumulátortól: egyes akkumulátorokból robbanásveszélyes hidrogén szabadul fel."
+      },
+      "works": "A modern tűzgyújtó eszközökkel a leggyorsabb és legkönnyebb tüzet gyújtani, és sérültként is könnyebb használni őket. A gyufa és az öngyújtó töltete csak bizonyos számú tűzhöz elég; a tűzacéllal százszor-ezerszer is lehet tüzet gyújtani.",
+      "reliability": "A gyufa gyorsan átnedvesedik, és akkor gyengén ég, vagy meg sem gyullad. A tűzacélra nincs hatással a nedvesség vagy szárazság, a hideg vagy meleg, sem a kor, de a minősége változó: próbálja ki a sajátját, mielőtt szüksége lenne rá.",
+      "mistakes": "Hagyni, hogy a szél elfújja a gyufát: minden kialudt gyufa eggyel kevesebb tűz. Elfojtani a kis lángot azzal, hogy belenyomja a gyújtósba. Lencsével próbálkozni, amikor nem süt erősen a nap."
+    },
+    "fire-primitive": {
+      "title": "Ősi módszerek: kova és acél, íjas fúró",
+      "steps": {
+        "1": "Gyakorolja ezeket a módszereket, mielőtt szüksége lenne rájuk: idő, erő, türelem és ügyesség kell hozzájuk.",
+        "2": "Kova és acél: üssön kovakővel vagy más kemény, éles peremű kővel – kvarccal, tűzkővel (cherttel), obszidiánnal, acháttal vagy jáspissal – egy szénacél darabra (lásd a rajzot). A rozsdamentes acél nem ad jó szikrát. Amikor a gyújtós elkap egy szikrát, fújjon rá.",
+        "3": "A szikrát legjobban a szenesített vászon fogja meg. Egy kis fémdobozban készítheti el, amelynek fedelén szögnyi lyuk van: tegyen bele lazán, rétegesen pamutanyagot, zárja le, és tegye a tűz szélére, forró parázsra. Amikor már nem jön ki belőle füst, vegye le, és hagyja kihűlni; minden lángtól távol nyissa ki, és a vásznat vizet át nem eresztő tartóban tartsa.",
+        "4": {
+          "text": "Az íjas fúró (lásd a rajzot) öt részből áll:",
+          "items": {
+            "1": "fogó: kő vagy keményfa darab egy kis mélyedéssel, amely a fúró felső végét tartja;",
+            "2": "fúró: egyenes, száraz keményfa bot, körülbelül 3/4 hüvelyk (1,9 cm) vastag és 10⁠–⁠12 hüvelyk (25⁠–⁠30 cm) hosszú, felül lekerekített, alul tompa;",
+            "3": "tűzdeszka: száraz puhafa, körülbelül 1 hüvelyk (2,5 cm) vastag és 4 hüvelyk (10 cm) széles, az egyik széle közelében mélyedéssel, és a széltől a mélyedésig V alakú bevágással;",
+            "4": "tűztálca: vékony kéreg, bőr vagy lapos fadarab a tűzdeszka alatt, amely felfogja a fapor és a parazsat;",
+            "5": "íj: erős, nyers bot, körülbelül 3/4 hüvelyk (1,9 cm) vastag és körülbelül 3 láb (0,9 m) hosszú – az ujjhegytől a vállig ér –, végétől végéig lazaság nélkül kifeszített zsinórral."
+          }
+        },
+        "5": "Mielőtt hozzáfog, tegyen a közelbe, száraz alapra, sok teljesen száraz, finom gyújtóst madárfészek alakúra formálva.",
+        "6": "Ha jobbkezes: bal lábát tegye a tűzdeszkára, jobb térdét a földre. Tekerje egyszer az íj zsinórját a fúró köré, a fúró alsó végét tegye a tűzdeszka bevágásába, a felsőt a bal kezében tartott fogóba. Nyomja lefelé a fogót, és húzza az íjat hosszú, egyenletes mozdulatokkal, állandó, mérsékelt sebességgel.",
+        "7": "Amikor a tűztálcán a fekete fapor füstölni kezd, vegye el a tűzdeszkát, és borítsa a madárfészket a parázsra; fordítsa meg együtt a tűztálcát és a fészket, hogy a fészek legyen alul, és vegye el a tálcát. Zárja lazán a fészket a parázs köré, és fújjon rá hosszú, egyenletes kilégzésekkel, amíg lángra nem lobban.",
+        "8": "Ha tüzet akar vinni magával: terítsen ki egy nagy darab nyírfakérget, tegyen rá egy réteg nedves anyagot, majd korhadt fát; a parazsat tegye a korhadt fába, és tekerje szorosan össze a köteget. Időnként nézze meg, hogy a parázs elég levegőt kapjon. Egy jól elkészített kötegben a parázs napokig eltarthat."
+      },
+      "works": "Ezek a módszerek azt használják, ami a környezetében van, így akkor is segítenek, ha nincs gyufája vagy öngyújtója. Közülük a kova és acél a legkönnyebb.",
+      "reliability": "Elkészítésük időbe telik, és több erő, türelem és ügyesség kell hozzájuk, mint a modern eszközökhöz; akik előre gyakorolták, sokkal nagyobb eséllyel járnak sikerrel. Az íjas fúró sok előkészítést kíván; a kézi fúró kevesebbet, de van, akinek nehezebb vele bánni.",
+      "mistakes": "Rozsdamentes acélt használni szénacél helyett. Gyantás fát használni a fúróhoz vagy a tűzdeszkához: kifényesedik, és akadályozza a munkát. Nem készíteni elő elég száraz gyújtóst, mire a parázs megjelenik."
+    },
+    "shelter-site": {
+      "title": "Hol legyen a menedék",
+      "steps": {
+        "1": "Amint tudja, hogy menedékre van szüksége, minél előbb keressen neki helyet. A jó helyen van elég anyag a szükséges menedékhez, és elég tágas és sík ahhoz, hogy lefeküdhessen, és a holmiját is megóvja.",
+        "2": {
+          "text": "Olyan helyet válasszon, amely:",
+          "items": {
+            "1": "véd a nap, a szél, az eső és a hó ellen;",
+            "2": "mentes a kidőlhető, elhalt fáktól;",
+            "3": "távol van a lavináktól, kőomlásoktól és földcsuszamlásoktól, valamint azoktól a helyektől, ahová a villámárvíz vagy a magas víz elér;",
+            "4": "mentes a rovaroktól és a hüllőktől;",
+            "5": "nem olyan mélyedés, ahol összegyűlik a hideg levegő;",
+            "6": "lehetővé teszi, hogy jelezzen, és megtalálják."
+          }
+        },
+        "3": "Kérdezze meg magától: mennyi időt és erőt kíván a menedék; megvédi-e az időjárástól; megvannak-e a szerszámai és anyagai; mennyi ideig marad itt?",
+        "4": "Készítse elő a helyet: söpörje el a köveket és a gallyakat onnan, ahol aludni fog, vágja vissza a lelógó növényeket, és keresse meg a laza köveket és elhalt ágakat, amelyek a menedékre eshetnek. Nézze meg, nincsenek-e a helyen kígyók, kullancsok és csípő hangyák.",
+        "5": "Ha kevés az ideje, anyaga vagy szerszáma, használja azt, ami már ott van (lásd a rajzot): barlangok, sziklahasadékok, kis mélyedések, nagy kövek a domb szélárnyékos oldalán, bokorcsoportok, alacsonyan lógó ágú nagy fák, sűrű ágú kidőlt fák, kifordult fák gyökerei.",
+        "6": "Gyors menedék lehet egy fal vagy épület, egy jármű, egy ponyva, esőköpeny, fóliadarab vagy mentőfólia is – bármi, ami felülről fedezéket ad."
+      },
+      "works": "A menedék véd a nap, a rovarok, a szél, az eső, a hó, a hőség és a hideg ellen. Egyes helyeken a menedék fontosabb lehet az élelemnél, sőt talán még a víznél is: a hosszan tartó hideg nagy fáradtságot és gyengeséget okozhat.",
+      "reliability": "Ami már ott van, az időt, erőt és anyagot takarít meg; de bármilyen is a menedék, meg kell adnia a szükséges védelmet. A természetes anyagokból épített menedék általában a legtöbb időt és erőt kívánja.",
+      "mistakes": "Elhalt fák alá telepedni, vagy oda, ahová lavina, kőomlás vagy árvíz elérhet. Sűrű, bozótos mélyedést választani: ott több a rovar. Tüzet rakni a menedékül használt járműben vagy annak közelében: a kifolyt üzemanyag vagy olaj meggyulladhat."
+    },
+    "shelter-tarp": {
+      "title": "Menedék esőköpenyből vagy ponyvából",
+      "steps": {
+        "1": "Szüksége lesz: esőköpenyre vagy ponyvára, 7⁠–⁠10 láb (2,1⁠–⁠3,0 m) kötélre vagy zsinórra, három körülbelül 1 láb (30 cm) hosszú cövekre, és két fára vagy rúdra, egymástól 7⁠–⁠10 láb (2,1⁠–⁠3,0 m) távolságra.",
+        "2": "Nézze meg, honnan fúj a szél: a féltető hátoldala a szél felé nézzen (lásd a rajzot).",
+        "3": "Ha az esőköpenynek van kapucnija, húzza össze a zsinórját, tekerje fel a kapucnit, hajtsa össze, és kösse le a zsinórral. Vágja félbe a kötelet, és az egyik hosszú oldal két sarkán lévő fűzőlyukhoz kösse a két felét.",
+        "4": "Kössön mindkét kötélre egy rövid, körülbelül 4 hüvelyk (10 cm) hosszú pálcát, „csepegtetőt”, körülbelül 1 hüvelyknyire (2,5 cm) a fűzőlyuktól: így az esővíz nem folyik le a köteleken a menedékbe.",
+        "5": "Kösse a köteleket a fákra nagyjából derékmagasságban, egy teljes körrel és két fél csomóval, gyorsan oldható csomóval.",
+        "6": "Terítse ki az esőköpenyt, és rögzítse a földhöz a fűzőlyukakon átszúrt hegyes pálcákkal.",
+        "7": "Ha egy éjszakánál tovább marad, vagy esőre számít, támassza alá a közepét: egy zsinór a kapucnitól egy fölötte lévő ágig, lazaság nélkül – vagy egy függőleges bot a közepe alatt, bár az helyet foglal.",
+        "8": "Tegyen gallyat vagy a hátizsákját az oldalaihoz a szél és az eső ellen, belülre pedig levelet vagy tűlevelet a föld hidege ellen.",
+        "9": "Fűzőlyuk nélküli anyag, például fólia: tegyen az anyag mögé egy kis „gombot” – egy marék földet, egy makkot vagy hasonlót –, fogja össze körülötte az anyagot, és húzzon a dudorra egy hurkos zsinórt. Aztán cövekelje ki az anyagot, és húzza ki a ráncokat.",
+        "10": "Cövekek: hegyezzen ki körülbelül 1 hüvelyk (2,5 cm) vastag és 12 hüvelyk (30 cm) hosszú botokat, és körülbelül 45 fokos szögben verje be őket, a húzással ellentétes irányba döntve. Köves vagy fagyott talajon a ponyvát egy a földön fekvő nehéz ághoz vagy kőhöz kösse; laza homokban vagy földben kösse egy fadarabhoz vagy kőhöz, és ássa el."
+      },
+      "works": "Gyorsan és kevés felszereléssel felállítható. A 40⁠–⁠60 fokos dőlésszögben feszesre húzott anyag lepergeti az esőt és a havat.",
+      "reliability": "A likacsos anyag, például az ejtőernyőselyem, csak akkor nem ereszti át a vizet, ha elég meredeken és feszesen van kihúzva. Pihenés közben testhője akár 80 százalékát is leadhatja a földnek: tegyen maga alá szigetelést („Alom és meleg a menedékben” kártya).",
+      "mistakes": "Megérinteni az anyagot, miközben víz folyik rajta: azon a ponton becsepeg a víz. Lazán vagy ráncosan hagyni: a víz összegyűlik a ráncokban, és beázik. A féltető nyitott oldalát a szél felé fordítani."
+    },
+    "shelter-debris-hut": {
+      "title": "Kunyhó ágakból és avarból",
+      "steps": {
+        "1": "Készítsen vázat: háromlábat két rövid cövekből és egy hosszú gerincrúdból – vagy tegye a hosszú gerincrúd egyik végét egy szilárd alapra, vagy kösse egy fához nagyjából derékmagasságban.",
+        "2": "Támasszon nagy botokat a gerincrúd mindkét oldalához, mint a bordákat, ék alakban: elég szélesen, hogy elférjen benne, és elég meredeken, hogy lepergesse a vizet.",
+        "3": "Tegyen a bordákra keresztben vékonyabb pálcákat és rőzsét: ez a rács nem engedi, hogy a szigetelőanyag beessen oda, ahol aludni fog.",
+        "4": "Halmozzon a bordákra könnyű, száraz, puha anyagot – füvet, tűlevelet, avart –, amíg legalább 3 láb (0,9 m) vastag nem lesz: minél vastagabb, annál jobb.",
+        "5": "Belül tegyen le egy 2 láb (0,6 m) vastag szigetelőréteget.",
+        "6": "A bejáratnál halmozzon fel szigetelőanyagot, amelyet belülről a bejárathoz húzhat, hogy bezárja – vagy készítsen ajtót.",
+        "7": "Végül tegyen ágakat vagy más anyagot az avarréteg tetejére, hogy a vihar ne fújja el."
+      },
+      "works": "Melegség és könnyű építés szempontjából az avarkunyhó az egyik legjobb menedék: ha a túléléshez menedék kell, ezt építse.",
+      "reliability": "Ahhoz, hogy a meleg bent maradjon, legalább 6⁠–⁠12 hüvelyk (15⁠–⁠30 cm) szigetelés kell Ön fölött. A természetes anyagokból épített menedék általában a legtöbb időt és erőt kívánja: előbb gyűjtsön össze minden anyagot, és olyan helyet válasszon, ahol kevesebb a munka.",
+      "mistakes": "Túl vékony avarréteg: minél vastagabb, annál jobb. Hozzáfogni az építéshez, mielőtt minden anyag – a vázhoz, a fedéshez, az alomhoz és a kötözéshez – összegyűlt."
+    },
+    "shelter-bedding": {
+      "title": "Alom és meleg a menedékben",
+      "steps": {
+        "1": "Tegyen szigetelőréteget maga és a hideg föld közé: matracot, járműülés-párnát vagy tartalék ruhát; ha ezekből kevés van, páfrányt és füvet; tűlevelű erdőben fenyőágakat.",
+        "2": "A természetes alom legalább 12 hüvelyk (30 cm) vastag legyen, hogy összenyomva is szigeteljen. Két használat között lazítsa fel, és tegyen hozzá anyagot.",
+        "3": "Fenyőágakkal, mohával és fűvel magát a menedéket is szigetelheti.",
+        "4": "Zárja el a menedék minden nyílását a szellőzőnyílások kivételével. A szellőzőket hagyja nyitva, különösen, ha gyertyát, gélüzemanyagot vagy kis olajlámpát használ: ezek szén-monoxidot termelnek.",
+        "5": "Tűz a menedéken kívül: a menedék bejárata 90 fokos szöget zárjon be az uralkodó széliránnyal, hogy a szikrákat és a füstöt ne fújja be a szél, ha megfordul – hegyekben reggel és este ez gyakran megesik. A tűz és a menedék között a legjobb távolság körülbelül 3 láb (0,9 m)."
+      },
+      "works": "Pihenés közben testhője akár 80 százalékát is leadhatja a földnek; a közé és a föld közé tett szigetelőréteg csökkenti ezt a veszteséget.",
+      "reliability": "A szigetelés csak „bizonyos mértékig” fékezi a föld felé irányuló hőveszteséget, és az összenyomódott alom kevésbé szigetel: lazítsa fel, és tegyen hozzá.",
+      "mistakes": "Közvetlenül a földre feküdni. Minden nyílást elzárni, miközben gyertya vagy lámpa ég: szén-monoxid. Túl közel rakni a tüzet a menedékhez, vagy a szél felé néző bejárat elé."
+    },
+    "direction-shadow": {
+      "title": "Égtájak az árnyék alapján",
+      "steps": {
+        "1": "Szúrjon egy botot vagy ágat a földbe egy sík helyen, ahol éles árnyékot vet. Jelölje meg az árnyék csúcsát egy kővel, gallyal vagy hasonlóval: ez az első jel mindig nyugat (lásd a rajzot).",
+        "2": "Várjon 10⁠–⁠15 percet, amíg az árnyék csúcsa néhány hüvelyknyit elmozdul. Az új helyét ugyanígy jelölje meg.",
+        "3": "Húzzon egyenes vonalat a két jelen át: ez nagyjából a kelet–nyugati vonal.",
+        "4": "Álljon úgy, hogy az első jel (nyugat) Ön bal oldalán legyen: ekkor észak Ön előtt, kelet jobbra, dél Ön mögött van.",
+        "5": "Nem kell nagy sík helyet keresnie: a bot lehet ferde is, és egy tenyérnyi sík folt elég. Bármilyen mozdulatlan tárgy – például egy ág vége – ugyanúgy megfelel, mint a bot, mert csak az árnyék csúcsát kell megjelölni.",
+        "6": {
+          "text": "Pontosabb módszer délben (lásd a második rajzot):",
+          "items": {
+            "1": "állítson le függőlegesen egy botot ott, ahol az árnyéka legalább 12 hüvelyk (30 cm) hosszú, és 5⁠–⁠10 perccel dél előtt jelölje meg az árnyék csúcsát;",
+            "2": "rajzoljon a bot köré ívet, amelynek sugara az árnyék hossza – egy zsinórral, cipőfűzővel vagy egy második bottal;",
+            "3": "dél után az árnyék ismét megnyúlik: jelölje meg a helyet, ahol a csúcsa másodszor éri el az ívet;",
+            "4": "a két jelen át húzott egyenes a kelet–nyugati vonal."
+          }
+        }
+      },
+      "works": "A nap keleten kel és nyugaton nyugszik, az árnyékok pedig ellenkező irányba mozognak. Az északi féltekén az árnyékok nyugatról kelet felé haladnak, és délben észak felé mutatnak.",
+      "reliability": "A nap ritkán kel pontosan keleten vagy nyugszik pontosan nyugaton, és évszakonként is van eltérés: a kapott vonal csak hozzávetőleges. A kézikönyv szerint az első módszer messze északon és délen, körülbelül 66° szélesség fölött nem működik, a nap horizont feletti helyzete miatt; a déli módszer pontosabb, és egész évben használható minden 66°-nál kisebb szélességen.",
+      "mistakes": "Összekeverni a jeleket: az első mindig nyugat, a második kelet. Elkésni a déli módszerrel: az első jelet dél előtt kell megtenni."
+    },
+    "direction-watch": {
+      "title": "Égtájak az óra alapján",
+      "steps": {
+        "1": "Egy hagyományos, mutatós órára van szüksége.",
+        "2": "Az északi mérsékelt övben tartsa úgy az órát, hogy a kismutató a nap felé mutasson (lásd a rajzot).",
+        "3": "Dél a kismutató és a 12-es szám között félúton van, ha az óra a zónaidőt (téli időt) mutatja. Ha nyári időt mutat, az észak–déli vonal a kismutató és az 1-es szám között félúton húzódik.",
+        "4": "Ha nem biztos benne, melyik vége a vonalnak észak: délelőtt a nap keleten, délután nyugaton van.",
+        "5": "Ha csak digitális órája van, rajzoljon egy papírkorongra vagy a földre számlapot a pontos idővel, és azzal ugyanígy járjon el."
+      },
+      "works": "Egy hagyományos, mutatós órával napsütésben hozzávetőleg meghatározhatja a valódi északot és délt.",
+      "reliability": "Az órás módszer pontatlan lehet, főleg az alacsonyabb szélességeken, és miatta körbe-körbe járhat. A fenti szabály csak az északi mérsékelt övre érvényes; a déli mérsékelt övben más.",
+      "mistakes": "Megfeledkezni a nyári időről: akkor a vonal a kismutató és az 1-es között húzódik, nem a 12-es között. A kismutató helyett a 12-est fordítani a nap felé: ez a déli mérsékelt öv módszere."
+    },
+    "direction-stars": {
+      "title": "Észak a Sarkcsillag alapján",
+      "steps": {
+        "1": "Tiszta éjszakán keresse meg a Göncölszekeret (Nagy Medve csillagkép): hét csillag merőkanál alakban (lásd a rajzot).",
+        "2": "A merőkanál öblének külső szélén álló két csillag a „mutatócsillag”. Gondolatban húzzon vonalat az alsótól a felsőig, és hosszabbítsa meg körülbelül a köztük lévő távolság ötszörösével: ezen a vonalon van a Sarkcsillag.",
+        "3": "A Kassziopeiát is használhatja: öt csillag „W” alakban, amelynek egyik oldala laposabb. Felezze meg a laposabb oldal szögét, és hosszabbítsa meg ezt a vonalat körülbelül a „W” alja és teteje közötti távolság ötszörösével. A Sarkcsillag a Kassziopeia és a Göncölszekér között van.",
+        "4": "A Göncölszekér és a Kassziopeia általában egymással szemben áll, és a Sarkcsillag körül forog: ha mindkettőt használja, könnyebb elkerülni a tévedést.",
+        "5": "A valódi észak közvetlenül a Sarkcsillag alatt van: húzzon tőle képzeletbeli vonalat le a földig.",
+        "6": "A hold csak durva kelet–nyugati irányt ad: ha még napnyugta előtt felkel, a megvilágított oldala nyugat felé néz; ha éjfél után kel fel, kelet felé."
+      },
+      "works": "A Sarkcsillag gyakorlatilag egy helyben áll: mindössze 1,08 fokot mozdul az északi égi pólus körül. Ez a módszer az északi égboltra való.",
+      "reliability": "A Sarkcsillag a Kis Göncöl rúdjának utolsó csillaga; a Kis Göncöl hét csillaga elég halvány, és városok közelében nehezen látható; a Sarkcsillagot össze lehet téveszteni a Göncölszekérrel.",
+      "mistakes": "A Göncölszekér egyik csillagát tartani Sarkcsillagnak. A holdra többet bízni, mint egy durva irányt."
+    },
+    "direction-compass": {
+      "title": "Rögtönzött iránytű",
+      "steps": {
+        "1": "Szüksége lesz egy vas- vagy acéldarabra – egy tűre vagy egy lapos, kétélű borotvapengére – és egy cérnára vagy hosszú hajszálra, amelyre felfüggesztheti.",
+        "2": "Mágnesezze fel: lassan, mindig csak egy irányba húzza végig egy selyemdarabon vagy a haján – vagy újra és újra húzzon végig egy mágnessel az egyik végén.",
+        "3": "Függessze fel a tűt vagy a pengét a hajszálra vagy cérnára: lassan beáll az észak–déli vonal mentén.",
+        "4": "Vagy úsztassa: húzza át a felmágnesezett tűt a haján, hogy zsíros legyen, és óvatosan tegye nyugodt víz felszínére – vagy tegye egy vízen úszó kis parafadarabra, levélre vagy ragasztószalagra. Lassan beáll észak–déli irányba.",
+        "5": "Legalább 2 voltos elemmel és szigetelt dróttal a fémet elektromosan is felmágnesezheti: tekerjen a drótból tekercset, a végeit érintse az elem pólusaihoz, és a fém egyik végét újra és újra dugja be a tekercsbe, majd húzza ki. Ha a drót csupasz, előbb tekerje a fémet egy vékony papírcsíkba vagy levélbe."
+      },
+      "works": "A hajszálra függesztett vagy vízen úszó felmágnesezett tű lassan beáll észak–déli irányba.",
+      "reliability": "A kézikönyv csak azt mondja, hogy a tű az észak–déli vonal mentén áll be; azt nem, hogyan tudja meg, melyik vége észak. Hogy merre van észak, azt az árnyék és az óra mutatja meg (e fejezet más kártyái).",
+      "mistakes": "Oda-vissza húzni: mindig csak egy irányba húzza. Fémszálra függeszteni a tűt: nem fém zsinórt használjon."
+    },
+    "direction-signs": {
+      "title": "Moha, tuskók és lejtők: óvatosan a jelekkel",
+      "steps": {
+        "1": "A fán lévő mohára nem lehet hagyatkozni, ha északot keresi: egyes fákon körben mindenütt nő. Ahol nő, ott az északi féltekén valójában a déli oldalon dúsabb.",
+        "2": "Tuskók: ha a közelben több kivágott fa van, hasonlítsa össze a tuskóikat. A fa az Egyenlítő felé eső oldalán erőteljesebben nő, és ott az évgyűrűk ritkábbak; a sark felé eső oldalon sűrűbbek.",
+        "3": "Lejtők: az északi féltekén az északra néző lejtők kevesebb napot kapnak, mint a délre nézők, ezért hűvösebbek és nedvesebbek. Nyáron az északi lejtőkön hófoltok maradnak; télen a déli lejtőkről, valamint a sziklák és nagy kövek déli oldaláról olvad el először a hó.",
+        "4": "A szél csak ott segít, ahol uralkodó iránya van, és Ön ismeri ezt az irányt."
+      },
+      "works": "Az északra és délre néző lejtők növényzetének és nedvességének különbségei segíthetnek az irány meghatározásában.",
+      "reliability": "Ezek jelek, nem műszerek: a moha egyáltalán nem megbízható, a tuskók pedig csak akkor mondanak valamit, ha több van belőlük az összehasonlításhoz.",
+      "mistakes": "A fán lévő mohát iránytűnek tekinteni. Egyetlen tuskóból ítélni. Megbízni a szélben anélkül, hogy ismerné az uralkodó irányát."
+    },
+    "cordage-fibres": {
+      "title": "Kötél rostokból",
+      "steps": {
+        "1": "Használja, ami van: bontsa szálakra egy pamut derékszíjat, vagy sodorjon, illetve fonjon kötelet több szál ejtőernyőzsinórból vagy lepedőcsíkokból (lásd a rajzot). Az ejtőernyőzsinór a külső burkolatára és a belső szálaira is szétszedhető.",
+        "2": "Mielőtt természetes anyagból kötelet készít, próbálja ki: húzza meg egy darabját; sodorja az ujjai között, és morzsolja össze a rostokat; ha kibírja, és nem szakad el, kössön rá egy egyszerű csomót, és óvatosan húzza meg. Ha a csomó nem szakad el, az anyag jó.",
+        "3": "Egyes fák belső kérgének rostjaiból – például hárs, szil, fehér tölgy, eperfa, gesztenye, vörös és fehér cédrus – zsinór készíthető. Próbálja ki, elég erős-e; ha több szálat összefon, erősebb lesz.",
+        "4": "Sodrás: a hosszú, erős, kipróbált rostokat gyűjtse egyenletes vastagságú laza szálakba – szálanként körülbelül 15⁠–⁠30 rostot –, és minden szálat sodorjon az óramutató járásával megegyezően. Aztán két, három vagy négy szálat sodorjon össze az óramutató járásával ellentétesen, miközben a még össze nem sodort szálakat továbbra is az óramutató járásával megegyezően sodorja (lásd a második rajzot). Minden szál egyformán legyen sodorva, és egyforma vastag legyen.",
+        "5": "Egyedül is sodorhat zsinórt: görgesse a rostokat a tenyere és a combja között, a másik kezével pedig adagolja az új rostot.",
+        "6": {
+          "text": "Háromszálas fonat, ha nincs, aki segítsen a sodrásban:",
+          "items": {
+            "1": "tegye a jobb oldali szálat a tőle balra lévőre;",
+            "2": "tegye a bal oldali szálat a tőle jobbra lévőre;",
+            "3": "ismételje felváltva balról és jobbról."
+          }
+        }
+      },
+      "works": "Szinte bármilyen természetes rostos anyagból sodorható jól használható kötél vagy zsinór, és sok 12⁠–⁠24 hüvelyk (30⁠–⁠61 cm) vagy hosszabb anyag befonható.",
+      "reliability": "A házi készítésű kötél erőssége nagyon eltérő: a biztonság kedvéért mindig a legkisebb értékkel számoljon. A természetes kötél tönkremegy, ha a rostjait éles kő vagy kés elvágja, és gyengül, ha nem tartják tisztán. A kézi sodrás lassú, ha hosszú zsinór kell.",
+      "mistakes": "Eltérő sodratú, vastagságú vagy feszességű szálak: minden szál egyformán legyen sodorva, és egyforma vastag legyen. Hagyni, hogy összesodráskor az egyik szál a másik köré tekeredjen. Ki nem próbált anyagot használni."
+    },
+    "knot-square": {
+      "title": "Zátonycsomó (laposcsomó)",
+      "steps": {
+        "1": "Szavak: a munkavég a kötél szabad, dolgozó vége; az álló rész a kötél többi része; az öböl a kötél U alakú hajlata.",
+        "2": "A zátonycsomóval két egyforma vastag kötelet köthet össze.",
+        "3": "Fektesse egymás mellé a két kötél munkavégét ellenkező irányba mutatva, és vezesse át az egyik kötél munkavégét a másik álló része alatt.",
+        "4": "Emelje fel mindkét munkavéget, el a keresztezésüktől, és keresztezze őket még egyszer.",
+        "5": "Amikor mindkét munkavég párhuzamos a saját álló részével, húzza meg a két véget (lásd a rajzot).",
+        "6": "Kibontáshoz fogja meg a két öböl hajlatát, és húzza szét a csomót."
+      },
+      "works": "Az igazi zátonycsomó terhelés alatt még szorosabbra húzódik, és könnyen kibontható.",
+      "reliability": "Ha egy munkavég nem párhuzamos a saját álló részével, az „nagymamacsomó”: terhelés alatt megcsúszik, ezért ne használja. Ha a végek párhuzamosak, de nem egymással szemben állnak, az „tolvajcsomó”: terhelés alatt megcsúszik, és nehezen bontható ki.",
+      "mistakes": "Nagymama- vagy tolvajcsomót kötni zátonycsomó helyett. Lazán hagyni a csomót: a lazán kötött csomó terhelés alatt könnyen deformálódik, megcsúszik vagy kibomlik."
+    },
+    "knot-sheet-bend": {
+      "title": "Szövőcsomó: különböző vastag kötelek",
+      "steps": {
+        "1": "Az egyszerű szövőcsomóval két száraz, különböző vastag kötelet köthet össze (a szavakat lásd a „Zátonycsomó” kártyán).",
+        "2": "Hajlítson öblöt a vastagabb kötélen.",
+        "3": "Vezesse a vékonyabb kötél munkavégét az öblön át, a vastagabb kötél mindkét része körül, majd vissza a vékonyabb kötél alá; aztán húzza meg (lásd a rajzot).",
+        "4": "Kettős szövőcsomó: mielőtt meghúzza, tegyen a vékonyabb kötéllel még egy fordulatot az öböl mindkét oldala körül, majd húzza meg (lásd a második rajzot)."
+      },
+      "works": "Az egyszerű szövőcsomó kis terhelés alatt meghúzódik. A kettős szövőcsomó jobb egyforma vagy különböző vastag kötelek és nedves kötelek összekötésére, valamint kötél szemhez kötésére: nagy terhelés alatt sem csúszik meg, és nem húzódik be.",
+      "reliability": "Az egyszerű szövőcsomó csak száraz kötelekhez való, és meglazulhat vagy megcsúszhat, amikor a feszítés megszűnik.",
+      "mistakes": "Egyszerű szövőcsomót kötni nedves kötélre, vagy bízni benne a terhelés megszűnése után: használja a kettőset."
+    },
+    "knot-bowline": {
+      "title": "Mentőcsomó (bowline): hurok a kötél végén",
+      "steps": {
+        "1": "Vezesse a munkavéget át azon, amihez köt, és az álló részen formáljon egy kis hurkot (a szavakat lásd a „Zátonycsomó” kártyán).",
+        "2": "Vezesse a munkavéget alulról át a hurkon, az álló rész körül, majd felülről vissza a hurkon át: lefelé halad a hurokból felfelé kijövő kötél mellett.",
+        "3": "Húzza meg a csomót (lásd a rajzot).",
+        "4": "Ha nem a kötél végén kell hurok, kettős mentőcsomót köt: hajtsa kétrét a kötelet, formáljon hurkot, mint a mentőcsomónál, a kettőzött rész végét vezesse fel a hurkon át, majd vissza le az egész csomó köré, és húzza meg. Könnyen kibontható, és nem csúszik meg."
+      },
+      "works": "A mentőcsomó hasznos csomó a kötél végén lévő hurokhoz, és könnyen kibontható.",
+      "reliability": "Minden csomót igazítson el és húzzon meg – egyenesítse ki a részeit, és húzza meg őket, hogy egymásra szoruljanak: ha ezt elhanyagolja, a csomó szilárdsága 50 százalékkal csökkenhet.",
+      "mistakes": "Lazán vagy rendezetlenül hagyni a csomót. Rossz irányban vezetni a munkavéget a hurkon át: alulról felfelé, az álló rész körül, majd felülről lefelé halad."
+    },
+    "knot-clove-hitch": {
+      "title": "Szorítócsomó (clove hitch): kötél rúdhoz",
+      "steps": {
+        "1": "Kötél rúdhoz, oszlophoz vagy csőhöz rögzítésére való; a kötél bármely pontján megköthető. A rudak összekötése ezzel kezdődik és végződik.",
+        "2": "A kötél közepén: tegyen egymás mellé két fordulatot, és csavarja őket úgy, hogy a két hurok háttal egymásnak feküdjön; húzza rá mindkét hurkot a rúdra (lásd a rajzot, „At center of rope”).",
+        "3": "A kötél végén: vezesse a kötelet két fordulattal a rúd köré úgy, hogy az első fordulat keresztezze az álló részt, a második fordulatnál pedig a munkavég saját maga alatt jöjjön ki („At end of rope”).",
+        "4": "Kötél sátorcövekhez: előbb a cövek előtt vezesse el, aztán saját maga alatt."
+      },
+      "works": "Az ilyen csomó úgy rögzíti a kötelet a rúd vagy oszlop körül, hogy egy ideig tartson, de könnyen kioldható legyen.",
+      "reliability": "Az ilyen csomó ideiglenesen tart: könnyen kioldható.",
+      "mistakes": "Úgy csavarni a hurkokat, hogy nem fekszenek háttal egymásnak. Lazán hagyni."
+    },
+    "knot-half-hitches": {
+      "title": "Teljes kör két fél csomóval",
+      "steps": {
+        "1": "Kötél rúdhoz vagy fához kötésére való, ha jó rögzítés kell, és nagy terhelés alatt más csomók úgy beszorulnának, hogy nehéz lenne kibontani őket.",
+        "2": "Teljes kör: vezesse a kötelet a rúd köré úgy, hogy a munkavég nagyjából ugyanabba az irányba hagyja el a kört, mint az álló rész.",
+        "3": "Fél csomó: vezesse a munkavéget az álló rész köré, majd vissza saját maga alá.",
+        "4": "Ugyanígy kössön egy második fél csomót, és húzza meg (lásd a rajzokat).",
+        "5": "Két fél csomó magában is gyorsan rögzíti a kötelet egy rúdhoz: vezesse a munkavéget a rúd köré, majd kössön két fél csomót az álló rész köré."
+      },
+      "works": "Ez a fő rögzítőcsomó, ha jó rögzítés kell, és nagy terhelés alatt más csomók beszorulnának; leginkább kötél rúdhoz vagy fához rögzítésére használják.",
+      "reliability": "Egyetlen fél csomó nem túl biztos csomó: csak a kötél szabad végének ideiglenes rögzítésére való, és terhelés nélkül hajlamos kibomlani.",
+      "mistakes": "Egyetlen fél csomóban bízni. Lazán hagyni a fél csomókat."
+    },
+    "lashing-square": {
+      "title": "Rudak összekötése",
+      "steps": {
+        "1": "A derékszögű kötéssel egy rudat a másikhoz rögzíthet derékszögben (lásd a rajzot).",
+        "2": "Kezdje szorítócsomóval a függőleges rúd körül, közvetlenül az alatt a hely alatt, ahová a keresztrúd kerül.",
+        "3": "Tegyen három-négy fordulatot: a keresztrúd körül a kötél az előző fordulaton kívül, a függőleges rúd körül azon belül halad. Tartsa feszesen a kötelet.",
+        "4": "Tegyen két-három szorítófordulatot a rudak között, a fordulatok köré, és húzza meg erősen: ez szorosan összefogja a rudakat.",
+        "5": "Fejezze be szorítócsomóval: a kézikönyv szövege szerint ugyanazon a rúdon, amelyen kezdte; a rajza a keresztrúdon mutatja.",
+        "6": "Átlós kötés, ahol a rudak keresztezik egymást: kezdje szorítócsomóval mindkét rúd körül a keresztezésnél; tegyen három fordulatot mindkét rúd köré egymás mellé, majd még hármat keresztben rájuk; húzza meg, tegyen néhány szorítófordulatot a rudak közé, és fejezze be szorítócsomóval azon a rúdon, amelyen kezdte.",
+        "7": "Párhuzamos kötés egymás melletti rudakhoz: fektesse őket lazán egymás mellé, kezdje szorítócsomóval az egyik szélső rúdon, tegyen hét-nyolc fordulatot mindegyik köré, minden két rúd között szorítófordulatokkal, és fejezze be szorítócsomóval a másik oldali rúdon."
+      },
+      "works": "A kötésekkel rudakat erősítenek össze menedékhez és szárítóállványhoz: a derékszögű kötés derékszögben tartja egymáshoz a rudakat, a párhuzamos egymás mellé köti őket.",
+      "reliability": "A fordulatok tartják össze a rudakat, a szorítófordulatok pedig megfeszítik őket. A kézikönyv rajza és szövege eltér abban, hol fejeződik be a derékszögű kötés (5. lépés).",
+      "mistakes": "Az átlós kötés fordulatait egymásra tenni: egymás mellé kerülnek. Kihagyni a szorítófordulatokat. Hagyni, hogy a kötél meglazuljon."
+    }
+  },
+  "figures": {
+    "atp-water-machine": {
+      "title": "3-2. ábra. „Vízgép”",
+      "alt": "Hóval teli, likacsos anyagból készült zsák lóg három összekötött rúdon a tűz mellett; víz csöpög belőle az alatta álló dobozba.",
+      "labels": {
+        "1": "likacsos anyag (például pamut vagy ejtőernyő-nejlon)",
+        "2": "hó"
+      }
+    },
+    "atp-sub-surface-water": {
+      "title": "3-11. ábra. Víz a felszín alatt",
+      "alt": "Kiszáradt meder kanyarog a dombok között. Nyilak mutatják, hol kell ásni: a meder külső kanyarulatánál és homorú partjánál, valamint egy szikla tövében, ahol zöldebbek a növények. A föld metszete talajt, agyagréteget és alul vízzel átitatott homokot mutat.",
+      "labels": {
+        "1": "itt ásson",
+        "2": "zöldebb növényzet",
+        "3": "kanyar",
+        "4": "ásson",
+        "5": "homorú part",
+        "6": "talaj",
+        "7": "agyag",
+        "8": "vízzel átitatott homok"
+      }
+    },
+    "atp-water-filters": {
+      "title": "3-12. ábra. Víztisztító szűrők",
+      "alt": "Két szűrő. Balra: rudakból álló háromlábon egymás fölött három rongy lóg, bennük fű, homok és faszén; a víz rajtuk át egy ládába csöpög. Jobbra: egy ágon lógó nejlonzacskó, benne kövek, homok és faszén rétegei; a víz az aljából csöpög.",
+      "labels": {
+        "1": "fű",
+        "2": "homok",
+        "3": "faszén",
+        "4": "nejlonzacskó",
+        "5": "víz",
+        "6": "kövek"
+      }
+    },
+    "atp-fire-walls": {
+      "title": "5-2. ábra. Tűzfalak fajtái",
+      "alt": "Kétféle, karók közé rakott rönkökből épített tűzfal. Fent: egyenes fal egy féltetős menedék előtt. Lent: L alakú fal, a sarkában ég a tűz.",
+      "labels": {
+        "1": "egyenes tűzfal",
+        "2": "L alakú tűzfal"
+      }
+    },
+    "atp-fire-lays": {
+      "title": "5-5. ábra. Tűzrakási módok",
+      "alt": "Négyféle tűzrakás: kúp – egymásnak döntött pálcák kúp alakban; féltető – egy ferdén a földbe szúrt hosszú botnak döntött pálcák; keresztárok – két sekély, X alakban ásott árok, a kereszteződésükben gyújtós; piramis – két rönk a földön, rajtuk keresztben vékonyabb pálcák rétegei.",
+      "labels": {
+        "1": "kúp",
+        "2": "féltető",
+        "3": "keresztárok",
+        "4": "piramis"
+      }
+    },
+    "atp-convex-lens": {
+      "title": "5-7. ábra. Tűzgyújtás domború lencsével",
+      "alt": "Egy kéz kis lencsét tart egy gyújtóskupac fölé; a napsugarak a gyújtóson gyűlnek össze, és az füstölni kezd.",
+      "labels": {}
+    },
+    "atp-flint-steel": {
+      "title": "5-8. ábra. Tűzgyújtás kovával és acéllal",
+      "alt": "Két kéz: az egyik követ, a másik acéldarabot tart; összeütik őket, és szikrák pattannak.",
+      "labels": {}
+    },
+    "atp-bow-drill": {
+      "title": "5-10. ábra. Íjas tűzfúró",
+      "alt": "Balra: az íjas fúró részei egymás fölött – fent a fogó, alatta a fúró, az íj a fúró köré tekert zsinórral, alul a tűzdeszka. Jobbra: egy térdelő férfi egyik kezével a fogót tartja a fúrón, a másikkal az íjat húzza; lábával a tűzdeszkát tartja; füst száll fel.",
+      "labels": {
+        "1": "fogó",
+        "2": "fúró",
+        "3": "zsinór",
+        "4": "íj",
+        "5": "tűzdeszka"
+      }
+    },
+    "atp-natural-shelters": {
+      "title": "6-1. ábra. Természetes menedékek",
+      "alt": "Már meglévő menedékek: bokorcsoport; üreg egy nagy kő alatt; sűrű ágú kidőlt fa; kidőlt törzsnek támasztott fadarabok; a hóba ásott gödör egy fa körül.",
+      "labels": {}
+    },
+    "atp-poncho-lean-to": {
+      "title": "6-2. ábra. Féltető esőköpenyből",
+      "alt": "Két fa közé, nagyjából derékmagasságban, a sarkainál kikötött és hátul a földhöz rögzített esőköpeny, ferde tetőként; egy nyíl mutatja, hogy a szél a hátoldalának fúj.",
+      "labels": {
+        "1": "szél"
+      }
+    },
+    "atp-debris-hut": {
+      "title": "6-13. ábra. Avarkunyhó",
+      "alt": "Fent: a váz – egy tuskón nyugvó hosszú gerincrúd, mindkét oldalán bordaként odatámasztott botokkal. Lent: ugyanez a váz vastag avarréteggel borítva, a bejárat a tuskónál.",
+      "labels": {}
+    },
+    "atp-shadow-tip": {
+      "title": "7-8. ábra („A” rész). Az árnyékcsúcs módszere",
+      "alt": "Földbe szúrt bot árnyékot vet; az árnyék csúcsának első és második jele az E és W közötti vonalon fekszik, ez a hozzávetőleges kelet–nyugati vonal; rá merőlegesen fut az S-től N-ig tartó déli vonal.",
+      "labels": {
+        "1": "irány",
+        "2": "az árnyékcsúcs első jele",
+        "3": "az árnyékcsúcs második jele",
+        "4": "hozzávetőleges kelet–nyugati vonal",
+        "5": "déli vonal",
+        "6": "dél",
+        "7": "észak",
+        "8": "kelet",
+        "9": "nyugat"
+      }
+    },
+    "atp-equal-shadow": {
+      "title": "7-9. ábra. Az egyenlő árnyékok módszere",
+      "alt": "Egy ív közepén bot áll. A reggeli és a délutáni árnyék két cövek mellett éri el az ívet; a cövekek közötti vonal kelet–nyugati, a rá merőleges nyíl észak felé mutat.",
+      "labels": {
+        "1": "cövek",
+        "2": "reggeli árnyék",
+        "3": "délutáni árnyék",
+        "4": "észak"
+      }
+    },
+    "atp-watch": {
+      "title": "7-10. ábra. Az órás módszer",
+      "alt": "Két vízszintesen fekvő óra. Fent az északi mérsékelt öv: a kismutató a napra mutat, a 12-esig félúton húzott szaggatott vonal N felé, azaz északra. Lent a déli mérsékelt öv: a 12-es mutat a napra.",
+      "labels": {
+        "1": "északi mérsékelt öv",
+        "2": "déli mérsékelt öv",
+        "3": "észak"
+      }
+    },
+    "atp-northern-sky": {
+      "title": "7-11. ábra. Az északi égbolt",
+      "alt": "Éjszakai égbolt: a Göncölszekértől és a Kassziopeiától vonalak vezetnek a köztük lévő Sarkcsillaghoz; a Sarkcsillagtól egy nyíl egyenesen lefelé, a horizonthoz, az Északi-sarkhoz mutat.",
+      "labels": {
+        "1": "Sarkcsillag",
+        "2": "Göncölszekér",
+        "3": "Kassziopeia",
+        "4": "Északi-sark"
+      }
+    },
+    "atp-making-cordage": {
+      "title": "8-8. ábra. Zsinór készítése",
+      "alt": "Három lépés: két szál fent csomóval összekötve; mindkét szál az óramutató járásával megegyezően sodorva; az egyik szál a másik köré sodorva az óramutató járásával ellentétesen – kész a zsinór.",
+      "labels": {
+        "1": "1. Rögzítse erősen csomóval",
+        "2": "2. Sodorja mindkét szálat az óramutató járásával megegyezően",
+        "3": "3. Sodorja az egyik szálat a másik köré az óramutató járásával ellentétesen."
+      }
+    },
+    "atp-twisting-fibers": {
+      "title": "A-21. ábra. Rostok sodrása",
+      "alt": "Két kéz két rostszálat sodor, mindegyiket a maga irányába, miközben a szálak zsinórrá sodródnak.",
+      "labels": {}
+    },
+    "atp-square-knot": {
+      "title": "A-5. ábra. Zátonycsomó",
+      "alt": "Három lépés: a két vég keresztezve; még egyszer keresztezve; a kész zátonycsomó, mindkét vég a saját kötele mellett fekszik.",
+      "labels": {}
+    },
+    "atp-sheet-bend": {
+      "title": "A-6. ábra. Egyszerű szövőcsomó",
+      "alt": "Három lépés: öböl a vastagabb kötélen; a vékonyabb kötél vége átvezetve rajta, mindkét rész körül és saját maga alatt; a kész csomó.",
+      "labels": {}
+    },
+    "atp-double-sheet-bend": {
+      "title": "A-7. ábra. Kettős szövőcsomó",
+      "alt": "Két lépés: egy további fordulat az öböl körül; a kész kettős szövőcsomó.",
+      "labels": {}
+    },
+    "atp-bowline": {
+      "title": "A-8. ábra. Mentőcsomó",
+      "alt": "Három lépés: kis hurok az álló részen, amelyen alulról átjön a vég; a vég megkerüli az álló részt, és visszamegy lefelé; a kész hurok.",
+      "labels": {}
+    },
+    "atp-clove-hitch": {
+      "title": "A-15. ábra. Szorítócsomó",
+      "alt": "Az 1–4. lépés a kötél közepén: két hurok, háttal egymásnak fektetve és egy oszlopra húzva. Az 5–6. lépés a kötél végén: a kötél kétszer az oszlop köré vezetve, a vége saját maga alatt jön ki.",
+      "labels": {
+        "1": "a kötél közepén",
+        "2": "a kötél végén"
+      }
+    },
+    "atp-round-turn": {
+      "title": "A-3. ábra. Teljes kör két fél csomóval",
+      "alt": "Oszlop köré vezetett kötél, az álló része köré kötött két fél csomóval befejezve.",
+      "labels": {}
+    },
+    "atp-half-hitches": {
+      "title": "A-12. ábra. Fél csomó és két fél csomó",
+      "alt": "A: egyetlen fél csomó egy rúd körül, két lépésben. B: két fél csomó egy rúd körül, három lépésben.",
+      "labels": {}
+    },
+    "atp-square-lashing": {
+      "title": "A-18. ábra. Derékszögű kötés",
+      "alt": "Két keresztezett rúd derékszögű kötésének négy lépése, mindegyik a maga szövegével: a szorítócsomó, a fordulatok mindkét rúd körül, három-négy fordulat, a szorítófordulatok.",
+      "labels": {
+        "1": "1. Kezdje szorítócsomóval a függőleges rúdon, közvetlenül az alatt, ahová a vízszintes rúd kerül.",
+        "2": "2. Csavarja a kötél végét a kötél függőleges része köré, hogy rendezett legyen, majd tekerje a kötelet a vízszintes és a függőleges rúd köré, összefogva őket.",
+        "3": "3. Folytassa: tekerje a kötelet háromszor-négyszer a függőleges és a vízszintes rúd köré.",
+        "4": "4. Tegyen két-három szorítófordulatot a rudak között, maga a kötél köré. Húzza meg nagyon szorosan ezeket a fordulatokat. Fejezze be szorítócsomóval a vízszintes rúdon."
+      }
     }
   }
 }

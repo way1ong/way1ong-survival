@@ -1,0 +1,300 @@
+{
+  "figures": [
+    {
+      "id": "atp-water-machine",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-3-2.png",
+      "caption": "Figure 3-2. Water machine",
+      "labels": [
+        "Porous material (such as cotton or parachute nylon)",
+        "Snow"
+      ],
+      "width": 527,
+      "height": 412
+    },
+    {
+      "id": "atp-sub-surface-water",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-3-11.png",
+      "caption": "Figure 3-11. Sub-surface Water",
+      "labels": [
+        "Dig Here",
+        "Green(er) Vegetation",
+        "Bend",
+        "Dig",
+        "Concave Bank",
+        "Soil",
+        "Clay",
+        "Water-soaked Sand"
+      ],
+      "width": 650,
+      "height": 395
+    },
+    {
+      "id": "atp-water-filters",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-3-12.png",
+      "caption": "Figure 3-12. Water filtering systems",
+      "labels": [
+        "Grass",
+        "Sand",
+        "Charcoal",
+        "Plastic bag",
+        "Water",
+        "Rocks"
+      ],
+      "width": 630,
+      "height": 513
+    },
+    {
+      "id": "atp-fire-walls",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-5-2.png",
+      "caption": "Figure 5-2. Types of firewalls",
+      "labels": [
+        "Straight fire wall",
+        "L-shaped fire wall"
+      ],
+      "width": 674,
+      "height": 677
+    },
+    {
+      "id": "atp-fire-lays",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-5-5.png",
+      "caption": "Figure 5-5. Fire lays",
+      "labels": [
+        "Tepee",
+        "Lean-to",
+        "Cross-ditch",
+        "Pyramid"
+      ],
+      "width": 800,
+      "height": 584
+    },
+    {
+      "id": "atp-convex-lens",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-5-7.png",
+      "caption": "Figure 5-7. Using a convex lens as a fire-starter",
+      "labels": [],
+      "width": 502,
+      "height": 402
+    },
+    {
+      "id": "atp-flint-steel",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-5-8.png",
+      "caption": "Figure 5-8. Flint and steel fire-starter",
+      "labels": [],
+      "width": 645,
+      "height": 404
+    },
+    {
+      "id": "atp-bow-drill",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-5-10.png",
+      "caption": "Figure 5-10. Bow and drill fire-starter",
+      "labels": [
+        "Socket",
+        "Drill",
+        "Cord",
+        "Bow",
+        "Fire board"
+      ],
+      "width": 692,
+      "height": 539
+    },
+    {
+      "id": "atp-natural-shelters",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-6-1.png",
+      "caption": "Figure 6-1. Types of naturally occurring shelters",
+      "labels": [],
+      "width": 732,
+      "height": 426
+    },
+    {
+      "id": "atp-poncho-lean-to",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-6-2.png",
+      "caption": "Figure 6-2. Poncho lean-to",
+      "labels": [
+        "Wind"
+      ],
+      "width": 689,
+      "height": 456
+    },
+    {
+      "id": "atp-debris-hut",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-6-13.png",
+      "caption": "Figure 6-13. Debris hut",
+      "labels": [],
+      "width": 800,
+      "height": 594
+    },
+    {
+      "id": "atp-shadow-tip",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-7-8a.png",
+      "caption": "Figure 7-8. Shadow-tip method",
+      "labels": [
+        "Direction",
+        "First shadow tip mark",
+        "Second shadow tip mark",
+        "Approximate east-west line",
+        "Noon line",
+        "S",
+        "N",
+        "E",
+        "W"
+      ],
+      "width": 373,
+      "height": 296
+    },
+    {
+      "id": "atp-equal-shadow",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-7-9.png",
+      "caption": "Figure 7-9. Equal-shadow method",
+      "labels": [
+        "Peg",
+        "Morning shadow",
+        "Afternoon shadow",
+        "North"
+      ],
+      "width": 800,
+      "height": 572
+    },
+    {
+      "id": "atp-watch",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-7-10.png",
+      "caption": "Figure 7-10. Watch method",
+      "labels": [
+        "North temperate zone",
+        "South temperate zone",
+        "N"
+      ],
+      "width": 557,
+      "height": 611
+    },
+    {
+      "id": "atp-northern-sky",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-7-11.png",
+      "caption": "Figure 7-11. Northern sky",
+      "labels": [
+        "Polaris",
+        "Big Dipper",
+        "Cassiopeia",
+        "North Pole"
+      ],
+      "width": 352,
+      "height": 283
+    },
+    {
+      "id": "atp-making-cordage",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-8-8.png",
+      "caption": "Figure 8-8. Making cordage",
+      "labels": [
+        "1. Secure firmly at knot",
+        "2. Twist both strands clockwise",
+        "3. Twist one strand around the other counterclockwise."
+      ],
+      "width": 756,
+      "height": 456
+    },
+    {
+      "id": "atp-twisting-fibers",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-a-21.png",
+      "caption": "Figure A-21. Twisting fibers",
+      "labels": [],
+      "width": 453,
+      "height": 326
+    },
+    {
+      "id": "atp-square-knot",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-a-5.png",
+      "caption": "Figure A-5. Square knot",
+      "labels": [],
+      "width": 626,
+      "height": 530
+    },
+    {
+      "id": "atp-sheet-bend",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-a-6.png",
+      "caption": "Figure A-6. Single sheet bend",
+      "labels": [],
+      "width": 800,
+      "height": 557
+    },
+    {
+      "id": "atp-double-sheet-bend",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-a-7.png",
+      "caption": "Figure A-7. Double sheet bend",
+      "labels": [],
+      "width": 800,
+      "height": 301
+    },
+    {
+      "id": "atp-bowline",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-a-8.png",
+      "caption": "Figure A-8. Bowline knot",
+      "labels": [],
+      "width": 513,
+      "height": 402
+    },
+    {
+      "id": "atp-clove-hitch",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-a-15.png",
+      "caption": "Figure A-15. Clove hitch",
+      "labels": [
+        "At center of rope",
+        "At end of rope"
+      ],
+      "width": 764,
+      "height": 620
+    },
+    {
+      "id": "atp-round-turn",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-a-3.png",
+      "caption": "Figure A-3. Round turn and two half hitches",
+      "labels": [],
+      "width": 800,
+      "height": 361
+    },
+    {
+      "id": "atp-half-hitches",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-a-12.png",
+      "caption": "Figure A-12. Half hitch and a two half hitch",
+      "labels": [],
+      "width": 653,
+      "height": 965
+    },
+    {
+      "id": "atp-square-lashing",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-a-18.png",
+      "caption": "Figure A-18. Square lashing",
+      "labels": [
+        "1. Start by tying a clove hitch to the vertical spar, just below where the horizontal spar will be.",
+        "2. Twist the end of the rope around the verical part of the rope for a clean look, then wrap the rope around the horizontal and vertical spars, binding them together.",
+        "3. Continue by wrapping the rope three or four times around the vertical and horizontal spars.",
+        "4. Make two or three frapping turns between the spars, around the rope itself. Pull these frapping turns very taut. Finish by tying a clove hitch to the horizontal spar."
+      ],
+      "width": 581,
+      "height": 779
+    }
+  ]
+}

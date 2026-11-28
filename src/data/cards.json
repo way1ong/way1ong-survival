@@ -133,6 +133,224 @@
       "id": "lightning",
       "section": "dangers",
       "source": "nws-lightning-tips"
+    },
+    {
+      "id": "water-safe",
+      "section": "water",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ]
+    },
+    {
+      "id": "water-rain-snow-dew",
+      "section": "water",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-water-machine"
+      ]
+    },
+    {
+      "id": "water-seepage",
+      "section": "water",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-sub-surface-water"
+      ]
+    },
+    {
+      "id": "water-purify",
+      "section": "water",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-water-filters"
+      ]
+    },
+    {
+      "id": "fire-site",
+      "section": "fire",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-fire-walls"
+      ]
+    },
+    {
+      "id": "fire-build",
+      "section": "fire",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-fire-lays"
+      ]
+    },
+    {
+      "id": "fire-light",
+      "section": "fire",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-convex-lens"
+      ]
+    },
+    {
+      "id": "fire-primitive",
+      "section": "fire",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-flint-steel",
+        "atp-bow-drill"
+      ]
+    },
+    {
+      "id": "shelter-site",
+      "section": "shelter",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-natural-shelters"
+      ]
+    },
+    {
+      "id": "shelter-tarp",
+      "section": "shelter",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-poncho-lean-to"
+      ]
+    },
+    {
+      "id": "shelter-debris-hut",
+      "section": "shelter",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-debris-hut"
+      ]
+    },
+    {
+      "id": "shelter-bedding",
+      "section": "shelter",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ]
+    },
+    {
+      "id": "direction-shadow",
+      "section": "orientation",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-shadow-tip",
+        "atp-equal-shadow"
+      ]
+    },
+    {
+      "id": "direction-watch",
+      "section": "orientation",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-watch"
+      ]
+    },
+    {
+      "id": "direction-stars",
+      "section": "orientation",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-northern-sky"
+      ]
+    },
+    {
+      "id": "direction-compass",
+      "section": "orientation",
+      "source": "atp-3-50-21"
+    },
+    {
+      "id": "direction-signs",
+      "section": "orientation",
+      "source": "atp-3-50-21"
+    },
+    {
+      "id": "cordage-fibres",
+      "section": "tools",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-making-cordage",
+        "atp-twisting-fibers"
+      ]
+    },
+    {
+      "id": "knot-square",
+      "section": "tools",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-square-knot"
+      ]
+    },
+    {
+      "id": "knot-sheet-bend",
+      "section": "tools",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-sheet-bend",
+        "atp-double-sheet-bend"
+      ]
+    },
+    {
+      "id": "knot-bowline",
+      "section": "tools",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-bowline"
+      ]
+    },
+    {
+      "id": "knot-clove-hitch",
+      "section": "tools",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-clove-hitch"
+      ]
+    },
+    {
+      "id": "knot-half-hitches",
+      "section": "tools",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-round-turn",
+        "atp-half-hitches"
+      ]
+    },
+    {
+      "id": "lashing-square",
+      "section": "tools",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-square-lashing"
+      ]
     }
   ]
 }

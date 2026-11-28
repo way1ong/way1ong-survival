@@ -195,6 +195,40 @@
       "series": null
     },
     {
+      "id": "atp-3-50-21",
+      "title": "ATP 3-50.21 Survival",
+      "publisher": "Headquarters, Department of the Army (U.S. Army)",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN12086_ATP%203-50x21%20FINAL%20WEB%202.pdf",
+      "lang": "en",
+      "version": "September 2018; Army Publishing Directorate: dated 18 September 2018, status ACTIVE",
+      "read": "2026-11-28",
+      "licence": {
+        "kind": "us-government-work",
+        "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN12086_ATP%203-50x21%20FINAL%20WEB%202.pdf",
+        "quote": "DISTRIBUTION RESTRICTION: Approved for public release; distribution is unlimited."
+      },
+      "attribution": "No claim to original U.S. Government works.",
+      "note": "usArmy",
+      "series": null
+    },
+    {
+      "id": "nist-sp811-b8",
+      "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
+      "publisher": "National Institute of Standards and Technology (NIST), U.S. Department of Commerce",
+      "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+      "lang": "en",
+      "version": "Created February 1, 2016, Updated August 18, 2025",
+      "read": "2026-11-28",
+      "licence": {
+        "kind": "us-government-work",
+        "url": "https://www.nist.gov/copyrights-disclaimers",
+        "quote": "With the exception of material marked as copyrighted, information presented on NIST sites are considered public information and may be distributed or copied. Use of appropriate byline/photo/image credits is requested."
+      },
+      "attribution": "Conversion factors: NIST Guide to the SI (NIST Special Publication 811), Appendix B.8.",
+      "note": null,
+      "series": null
+    },
+    {
       "id": "govuk-albania",
       "title": "Getting help - Albania travel advice",
       "publisher": "Foreign, Commonwealth & Development Office (GOV.UK)",

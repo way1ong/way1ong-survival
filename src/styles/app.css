@@ -488,6 +488,44 @@ button {
   font-weight: 800;
 }
 
+/* A picture of the source under the steps: as wide as the window allows, never wider than itself. */
+.figure {
+  margin: 1rem 0 0;
+  min-width: 0;
+}
+
+.figure img {
+  display: block;
+  width: 100%;
+  max-width: max-content;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+}
+
+.figure figcaption {
+  margin-top: 0.5rem;
+  color: var(--muted);
+}
+
+.figure__title {
+  margin: 0;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.figure__words p {
+  margin: 0.5rem 0 0.25rem;
+}
+
+.figure__words ul {
+  display: grid;
+  gap: 0.25rem;
+  margin: 0;
+  padding-left: 1.25rem;
+  overflow-wrap: anywhere;
+}
+
 .steps {
   display: grid;
   gap: 0.5rem;

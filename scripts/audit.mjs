@@ -214,6 +214,19 @@ try {
             if ((await card.locator('.source a').count()) < 2) note(at, 'no source or licence');
             const section = await page.evaluate(() => document.querySelector('dialog[open]')?.querySelector('h2')?.textContent ?? '');
             if (['help', 'firstAid'].some((s) => section === sectionNames[s]) && !(await card.locator('.sos .call').count())) note(at, 'no emergency numbers over the card');
+            // The pictures of the source: loaded, described, and in Ukrainian and Hungarian the words on them translated.
+            const figures = card.locator('.figure');
+            for (let f = 0; f < (await figures.count()); f++) {
+              const img = figures.nth(f).locator('img');
+              await img.scrollIntoViewIfNeeded();
+              const loaded = await img.evaluate((el) => (el.complete && el.naturalWidth > 0 ? true : new Promise((resolve) => { el.addEventListener('load', () => resolve(el.naturalWidth > 0)); el.addEventListener('error', () => resolve(false)); })));
+              if (!loaded) note(at, `picture ${f + 1} does not load`);
+              if (!(await img.getAttribute('alt'))?.trim()) note(at, `picture ${f + 1} has no description`);
+              const words = await figures.nth(f).locator('.figure__words li').count();
+              const expected = lang === 'en' ? 0 : Number(await figures.nth(f).getAttribute('data-words'));
+              if (words !== expected) note(at, `picture ${f + 1}: ${words} translated words, not ${expected}`);
+              checks++;
+            }
             if (id === 'sample-first-aid') {
               if (!(await card.locator('.note--strong').count())) note(at, 'no "not a substitute for a doctor"');
               if (!(await card.locator('.sos .call').count())) note(at, 'no emergency numbers over a first-aid card');
@@ -296,6 +309,13 @@ try {
     await context.setOffline(true);
     await page.reload();
     if ((await page.locator('.section').count()) === 0) note(where, 'the app does not open without internet');
+    // A card with a picture: the picture is kept too.
+    await page.locator('.section[data-section="water"]').click();
+    await page.locator('dialog[open] [data-card="water-purify"]').click();
+    const img = page.locator('dialog[open] .figure img').first();
+    await img.scrollIntoViewIfNeeded();
+    const loaded = await img.evaluate((el) => (el.complete && el.naturalWidth > 0 ? true : new Promise((resolve) => { el.addEventListener('load', () => resolve(el.naturalWidth > 0)); el.addEventListener('error', () => resolve(false)); })));
+    if (!loaded) note(where, 'the picture of a card does not open without internet');
     checks++;
     await context.close();
   }

@@ -52,14 +52,16 @@
     "source": "Source",
     "read": "Read on {date}",
     "licence": "Licence",
-    "sample": "SAMPLE"
+    "sample": "SAMPLE",
+    "figureWords": "Words on the picture:"
   },
   "notices": {
     "notDoctor": "This is not a substitute for a doctor.",
     "translation": "Translation. Original language: {language}.",
     "usArmy": "Based on a U.S. Army manual.",
     "usNumber": "The source gives the U.S. emergency number (911); here the numbers of your country stand in its place.",
-    "cdc": "Source: CDC, the U.S. Centers for Disease Control and Prevention. This does not imply endorsement of this app by CDC, the U.S. Department of Health and Human Services or the U.S. Government. The material is otherwise available on the CDC website for no charge."
+    "cdc": "Source: CDC, the U.S. Centers for Disease Control and Prevention. This does not imply endorsement of this app by CDC, the U.S. Department of Health and Human Services or the U.S. Government. The material is otherwise available on the CDC website for no charge.",
+    "metric": "The metres, litres and degrees Celsius in brackets are our conversion, after the units guide of NIST (U.S.)."
   },
   "emergency": {
     "title": "Emergency help",
@@ -841,6 +843,598 @@
       "works": "If you hear thunder, lightning is close enough to strike you.",
       "reliability": "NO PLACE outside is safe when thunderstorms are in the area. The actions for when you are caught outside with no safe shelter anywhere nearby only “may reduce your risk”. If someone has been struck by lightning: the card “Electric shock or lightning strike” in “First aid”.",
       "mistakes": "Staying outside: no place outside is safe when thunderstorms are in the area. Leaving shelter too soon: stay in safe shelter at least 30 minutes after you hear the last sound of thunder. Lying flat on the ground; sheltering under an isolated tree, a cliff or a rocky overhang."
+    },
+    "water-safe": {
+      "title": "Which water to drink, and which not",
+      "steps": {
+        "1": "If you have to choose between running water and stagnant water, choose running water — but make sure it is also treated.",
+        "2": "Consider all surface water to be contaminated with human and animal waste, with the possible exception of very high mountain streams or springs in uninhabited areas.",
+        "3": "Springs are typically the safest open source to drink from, but purify their water too whenever you have the means, as a precaution.",
+        "4": "Water from lakes, streams, ponds and swamps — especially any water near human settlements or in the tropics — needs to be purified.",
+        "5": "Avoid water that has a foul odor, and water that may be contaminated with toxins.",
+        "6": "Do not drink water found in natural depressions: it is stagnant and often heavily contaminated with pesticides, garbage and other debris.",
+        "7": "Do not drink saltwater, even a small amount. Do not drink urine or alcoholic beverages.",
+        "8": "Do not eat snow or ice without melting it: eating snow or ice can reduce body temperature and lead to more dehydration."
+      },
+      "works": "Water is one of your most urgent needs. At a temperature of 68 °F (20 °C) with limited physical activity, a person normally needs 2 to 3 quarts (1.9⁠–⁠2.8 l) of water a day. Water loss increases with heat; in cold weather the thirst response decreases, which favors dehydration.",
+      "reliability": "Drinking water that is not safe can make you ill from harmful organisms that can cause diarrhea and lead to death. When possible, purify all water by boiling, chemical disinfectants or commercial filters (card “How to make water safe”).",
+      "mistakes": "Choosing stagnant water when running water is there. Drinking from natural depressions. Trusting water near human settlements without purifying it. Eating snow: the body has to heat the water and melt the snow, a foolish expenditure of calories that are already in short supply."
+    },
+    "water-rain-snow-dew": {
+      "title": "Rain, snow and dew: where to get water",
+      "steps": {
+        "1": "First get a container that can hold water and can be sealed. You can improvise one from plastic bags, tarps, sheets of plastic, or birch bark and pitch.",
+        "2": "Rain: put out improvised nonporous items to catch the rain as it falls from the sky.",
+        "3": "Fresh rainwater collected straight into containers does not need purification. Rain that runs down leaves on its way to the container can contaminate the water and should be purified — unless you first let the rain wash the leaves for at least 15 min.",
+        "4": "Snow: use fresh, clean snow. Put containers filled with snow near a fire or between the layers of your clothing, so that body heat melts it. Adding water to snow helps it melt faster.",
+        "5": "A water machine: put snow on porous material (such as cotton or parachute nylon), gather up the edges and hang this “bag” near a fire, with a container under it (see the picture). Fill it with snow as needed and empty the container when it is full.",
+        "6": "Ice gives more water than snow and needs less heat. Snow or ice melts with little effort on a dark piece of material in sunlight.",
+        "7": "Dew: tie fine grasses, a sponge or cloth around your lower legs and ankles and walk through tall grass, then wring the dew out into a container — up to 1 quart (0.95 l) of water or more.",
+        "8": "In cold weather keep water containers upside down: water freezes from the top, so the water that is not frozen stays at the bottom, by the opening."
+      },
+      "works": "Almost any environment has water present to some degree. Fresh rainwater collected straight into a container can be drunk without purifying it.",
+      "reliability": "Snow and ice are no purer than the water they come from: melt them and purify the water (card “How to make water safe”).",
+      "mistakes": "Eating snow or ice instead of melting it: it lowers the body’s core temperature and uses more of its energy reserves than melting it outside the body. Drinking rain that ran down leaves without purifying it."
+    },
+    "water-seepage": {
+      "title": "Water from the ground: a seepage well",
+      "steps": {
+        "1": "A seepage well is a hole dug into the ground to reach the water that pools or moves below the surface. If there is water, it pools in the hole and can be collected.",
+        "2": "Where to dig: at the outside bend of a dry riverbed, at the foot of cliffs or rocks, in low areas protected from the sun, or where the sand below the surface is damp (see the picture).",
+        "3": "Beside a lake, stream or pond, dig a hole next to the water: the water flows through the surrounding soil, which filters it, and pools in the hole, ready for purification.",
+        "4": "Purify the water before you drink it (card “How to make water safe”)."
+      },
+      "works": "This technique can be used in most environments.",
+      "reliability": "There is not always water below the surface: only if it is there does it pool in the well. The soil filters the water, but it still needs purifying.",
+      "mistakes": "Drinking the water of the hole without purifying it: filtering only makes water more pleasant to drink; it still requires purification."
+    },
+    "water-purify": {
+      "title": "How to make water safe",
+      "steps": {
+        "1": "Muddy, stagnant or foul-smelling water: let it stand in a container for several hours so the sediment settles to the bottom. Pour it between two containers: this improves the taste.",
+        "2": "A filter: build layers of natural materials — sand, crushed rock or gravel, and charcoal — in a container or in pieces of cloth (see the picture). It removes large and small particles from the water and improves its taste.",
+        "3": "Charcoal from a fire, added to the water and left for 45 minutes, helps remove odor and absorbs agricultural and industrial chemicals.",
+        "4": "Filtering does not make water safe: after it, the water still needs purifying.",
+        "5": "Boil the water: bring it to a rolling boil for 1 minute at sea level. Above 8,000 feet (2,438 m), boil it for 3 minutes.",
+        "6": "Purification tablets: always follow the manufacturer’s instructions, and check that the tablets are within their date.",
+        "7": "After a chemical: let the water stand for the prescribed time, then open the cap and let the purified water rinse the threads of the container before you touch it to your mouth.",
+        "8": "Add a drink mix only after the purification is complete."
+      },
+      "works": "Boiling is the safest method for purifying water: a rolling boil for 1 minute at sea level kills all waterborne pathogens.",
+      "reliability": "Two pathogens found in most water sources are Giardia and Cryptosporidium. The only effective means against Cryptosporidium is boiling, or a commercial micro filter or reverse-osmosis filter: chemical disinfectants, such as iodine tablets or bleach, have not been shown to be 100 percent effective against it. Most commercial filters do not remove viruses. These boiling times are not the time needed to sterilize water for medical use.",
+      "mistakes": "Drinking water that was only filtered. Touching your mouth to threads wet with water that was not purified. Adding a drink mix before the purification is complete."
+    },
+    "fire-site": {
+      "title": "Where and how to make a fire safely",
+      "steps": {
+        "1": "Choose a flat, dry spot, protected from the wind, near your shelter and near a supply of fuel, away from trees laden with snow.",
+        "2": "Clear the ground of fallen leaves, plants and duff: expose bare soil at least 3 feet (1 m) across, so the fire cannot spread along the ground.",
+        "3": "Remove porous rocks from the fire site: the heat of the fire can make them explode.",
+        "4": "If the spot slopes, level it, so the fuel does not slide off the fire.",
+        "5": "In deep snow, where you cannot reach the soil, build the fire on green logs laid in two layers, the top layer across the bottom one, so the coals do not melt a hole through the snow.",
+        "6": "A fire reflector — a wall of nonporous rock or a stack of logs, best of green wood — directs the heat where you want it, for example into your shelter, and shields it from the wind (see the picture). Build it before the fire gets hot.",
+        "7": "Before you light the fire, have water, dirt or sand and sturdy sticks ready to put it out.",
+        "8": "To put it out: pour enough water on a wood fire; pull the big burning pieces apart, rake the coals off with a branch and scatter them over bare soil. Before you leave, make sure the ground under the fire is cool to the touch."
+      },
+      "works": "Fire gives lasting heat, so your body needs less energy to keep warm; it dries wet clothing and prevents cold injuries such as frostbite and hypothermia; it boils water, the most effective way to purify it; and its light and smoke help rescuers find you.",
+      "reliability": "A fire is used with caution, so that it does no damage and causes no injury to you or your surroundings. The manual does not speak of the rules on fires in your country or of the danger of forest fires: see the card “If you get lost” — do not build a fire if the fire risk is high or it is wildfire season.",
+      "mistakes": "Leaving porous rocks at the fire: they can explode from the heat. Pouring highly flammable liquids on a fire, even a smouldering one: they can explode and cause serious burns. Leaving before the ground under the fire is cool to the touch."
+    },
+    "fire-build": {
+      "title": "Tinder, kindling and fuel: building a fire",
+      "steps": {
+        "1": "A base and a brace: a flat piece of wood or nonporous rock as a base keeps the tinder and kindling off the wet ground; a branch about as thick as a forearm, laid across it as a brace, helps control the air reaching the fire.",
+        "2": "A fire is built in 3 phases — tinder, kindling and fuel — each bigger than the last. If one phase is skipped, the fire is likely to fail.",
+        "3": {
+          "text": "Tinder is a dry material that a small spark, coal or flame can light, for example:",
+          "items": {
+            "1": "birch bark;",
+            "2": "fine wood scrapings or shavings;",
+            "3": "dead dry grass, ferns, moss, lichen;",
+            "4": "dry powdered pine sap (pitch);",
+            "5": "seed down (thistle, cattail);",
+            "6": "feather sticks — wood shavings cut into a stick and still joined to it;",
+            "7": "cotton balls, lint, paper, a candle."
+          }
+        },
+        "4": "Collect enough tinder to fill your hand with fingers cupped. Damp natural tinder can dry between the layers of your clothing.",
+        "5": "Lay the tinder on the base in a mound against the brace and light it at its bottom edge, away from the brace: the small flame spreads best upwards.",
+        "6": "Kindling: when the tinder burns strongly, lay a handful of kindling on the brace, across it, over the flame, leaving spaces for the fire; lay the next handful across the first. Prepare kindling in sizes from pencil lead to pencil to thumb.",
+        "7": "Good kindling: dead, dry small twigs; thin shavings of dead, dry wood; dead conifer needles; small dead branches low on the underside of conifers.",
+        "8": "Fuel: wood at least as thick as your forearm — dry, standing dead wood and dead branches that snap when broken.",
+        "9": {
+          "text": "Lay the fuel to suit what you need (see the picture):",
+          "items": {
+            "1": "tepee — tinder and kindling in a cone; it burns well even with wet wood;",
+            "2": "lean-to — a green stick pushed into the ground at a 30-degree angle, pointing into the wind, with the tinder deep under it and the kindling against it;",
+            "3": "cross-ditch — an “X” dug about 12 inches (30 cm) across and 3 inches (8 cm) deep, with tinder in its middle and kindling above: the ditch lets air sweep under the tinder;",
+            "4": "pyramid — layers of logs, each layer smaller than the last and across the one below, with a starter fire on top: it burns downwards and needs no attention during the night."
+          }
+        }
+      },
+      "works": "Fire needs heat, oxygen and fuel; if any of these is removed, the fire goes out. The inner wood of dead branches is the driest, and split wood burns faster and hotter than wood covered by bark.",
+      "reliability": "Even in ideal circumstances a fire is likely to fail if a phase is skipped. In winter, live trees and shrubs that are resting may look dead: a quick check of the layer just under the bark tells whether a twig is alive or dead.",
+      "mistakes": "Laying the kindling over the tinder like a blanket: the fire does not get enough oxygen and dies out. Burning rotten wood from the ground: it smoulders, is very hard to light and makes much smoke. Going from tinder straight to big wood."
+    },
+    "fire-light": {
+      "title": "What to light a fire with",
+      "steps": {
+        "1": "Light the fire from the upwind side, to protect the small flame.",
+        "2": "Matches: waterproof matches, kept in a waterproof container, with a striker. Strike the head with even pressure; hold the match with its head pointing down at an angle, so the flame climbs the stick; shield it from the wind; then hold it to the bottom edge of the tinder, without pressing it into the tinder and smothering it.",
+        "3": "A lighter is used the same way. In extreme cold its fuel can freeze: warm it with your body heat. If a liquid-fuel lighter runs out of fuel, its sparking wheel can still be used like a metal match.",
+        "4": "A metal match (fire steel): put the bottom of the rod firmly on or near the edge of the tinder; hold the edge of the striker — or the back of a fixed-blade knife — at a 90-degree angle to the rod and drive it down along the rod with even pressure. Stop before the striker disturbs the tinder or the sparks.",
+        "5": "A lens from binoculars, a camera or a magnifying glass, only on bright, sunny days: angle it so the sun’s rays meet on one spot of the tinder and hold it there until the tinder smoulders; then gently blow or fan it into a flame (see the picture).",
+        "6": "A battery: connect two insulated wires to its two posts and touch their ends to a third, bare piece of wire — or stretch fine steel wool between the posts. The hot wire or steel wool lights the tinder. Keep any open flame away from the battery: some batteries give off explosive hydrogen gas."
+      },
+      "works": "Modern fire-starters are the quickest and easiest way to start a fire, and easier to use for someone who is injured. Matches and lighter fuel last only for a number of fires; a metal match can be used hundreds to thousands of times.",
+      "reliability": "Matches quickly become damp and then burn weakly or not at all. Metal matches are not affected by wet or dry, cold or hot weather, or by age, but their quality varies: test the one you carry before you need it.",
+      "mistakes": "Letting the wind blow a match out: each match that goes out is one fire fewer. Smothering the small flame by pressing it into the tinder. Trying a lens when the sun is not bright."
+    },
+    "fire-primitive": {
+      "title": "Old ways: flint and steel, bow drill",
+      "steps": {
+        "1": "Practise these ways before you need them: they take time, energy, patience and skill.",
+        "2": "Flint and steel: strike a flint or another hard, sharp-edged rock — quartz, chert, obsidian, agate or jasper — with a piece of carbon steel (see the picture). Stainless steel does not give a good spark. When the tinder catches a spark, blow on it.",
+        "3": "Charred cloth catches sparks best. Make it in a small metal tin with a nail-sized hole in its lid: put loose layers of cotton inside, close the tin and set it on hot embers at the edge of the fire. When smoke stops coming out, take it off and let it cool; open it away from any flame and keep the cloth in a container that keeps out water.",
+        "4": {
+          "text": "A bow drill (see the picture) has five parts:",
+          "items": {
+            "1": "a socket — a stone or a piece of hard wood with a slight dent, to hold the top of the drill;",
+            "2": "a drill — a straight, dry hardwood stick about 3/4 inch (1.9 cm) thick and 10 to 12 inches (25⁠–⁠30 cm) long, rounded at the top and blunt at the bottom;",
+            "3": "a fireboard — dry softwood about 1 inch (2.5 cm) thick and 4 inches (10 cm) wide, with a dent near one edge and a V-shaped cut from the edge to the dent;",
+            "4": "a fire pan — thin bark, leather or a flat piece of wood under the fireboard, to catch the wood dust and the coal;",
+            "5": "a bow — a strong green stick about 3/4 inch (1.9 cm) thick and about 3 feet (0.9 m) long, from your fingertips to your shoulder, with a cord tied from end to end without slack."
+          }
+        },
+        "5": "Before you start, put a large amount of completely dry, fine tinder, shaped like a bird’s nest, on a dry base nearby.",
+        "6": "If you are right-handed: put your left foot on the fireboard and your right knee on the ground. Wrap the bowstring once around the drill, set the bottom of the drill in the notch of the fireboard and its top in the socket held in your left hand. Press down on the socket and make long, smooth strokes of the bow at a steady, moderate speed.",
+        "7": "When the black wood dust on the fire pan begins to smoke, move the fireboard away and lay the bird’s nest over the coal; turn the fire pan and the nest over together, so the nest is at the bottom, and take the fire pan away. Close the nest lightly around the coal and blow on it with long, steady breaths until it bursts into flame.",
+        "8": "To carry fire with you: lay out a large piece of birch bark, add a layer of wet material, then rotten wood; put the coals in the rotten wood and roll the bundle shut. Check it now and then, so the coals get enough air. Embers in a well-built bundle can last for several days."
+      },
+      "works": "These ways use what you find around you, so they help when you have no matches or lighter. Flint and steel is the easiest of them.",
+      "reliability": "They take time to make and need more energy, patience and skill than modern fire-starters; people who practised them before are much more likely to succeed. The bow drill needs much preparation; the hand drill needs less, but is harder to use for some people.",
+      "mistakes": "Using stainless steel instead of carbon steel. Using resinous wood for the drill or the fireboard: it glazes over and hinders the process. Not having enough dry tinder ready when the coal appears."
+    },
+    "shelter-site": {
+      "title": "Where to put a shelter",
+      "steps": {
+        "1": "When you know you need shelter, start looking for a site as soon as possible. A good site has enough material for the shelter you need and is large enough and level enough for you to lie down and keep your things.",
+        "2": {
+          "text": "Choose a site that:",
+          "items": {
+            "1": "protects you from sun, wind, rain and snow;",
+            "2": "is free of dead trees that may fall;",
+            "3": "is away from avalanches, rockslides and mudslides, and from places that flash floods or high water reach;",
+            "4": "is free of insects and reptiles;",
+            "5": "is not a low spot where cold air collects;",
+            "6": "lets you signal and be found."
+          }
+        },
+        "3": "Ask yourself: how much time and effort will the shelter need; will it protect you from the weather; do you have the tools and materials; how long will you stay here?",
+        "4": "Prepare the site: brush away rocks and twigs from where you will sleep, cut back overhanging plants, and look for loose rocks and dead branches that could fall on the shelter. Check the site for snakes, ticks and stinging ants.",
+        "5": "When you have little time, material or tools, use what is already there (see the picture): caves, rocky crevices, small depressions, large rocks on the side of a hill away from the wind, clumps of bushes, large trees with low-hanging branches, fallen trees with thick branches, the roots of an uprooted tree.",
+        "6": "A quick shelter can also be a wall or a building, a vehicle, a tarp, a poncho, a piece of plastic or a space blanket — anything that gives cover from above."
+      },
+      "works": "A shelter protects you from sun, insects, wind, rain, snow, heat and cold. In some areas your need for shelter may come before your need for food, and possibly even your need for water: long exposure to cold can cause great fatigue and weakness.",
+      "reliability": "Using what is already there saves time, energy and materials; but whatever its kind, a shelter must give the protection you need. Shelters of natural materials usually take the most time and energy to build.",
+      "mistakes": "Settling under dead trees, or where avalanches, rockslides or floods can reach you. Choosing thick, brushy, low ground: it harbours more insects. Making a fire in or near a vehicle used as a shelter: spilled fuel or oil can catch fire."
+    },
+    "shelter-tarp": {
+      "title": "A shelter from a poncho or tarp",
+      "steps": {
+        "1": "You need: a poncho or tarp, 7 to 10 feet (2.1⁠–⁠3.0 m) of rope or cord, three stakes about 1 foot (30 cm) long, and two trees or two poles 7 to 10 feet (2.1⁠–⁠3.0 m) apart.",
+        "2": "Check the wind direction: the back of the lean-to must face into the wind (see the picture).",
+        "3": "If the poncho has a hood, pull its drawstring tight, roll the hood up, fold it and tie it off with the drawstring. Cut the rope in half and tie one half to each corner grommet of one long side.",
+        "4": "Tie a short stick — a drip stick, about 4 inches (10 cm) long — to each rope about 1 inch (2.5 cm) from the grommet: rainwater then does not run down the ropes into the shelter.",
+        "5": "Tie the ropes to the trees about waist high, with a round turn and two half hitches with a quick-release knot.",
+        "6": "Spread the poncho and anchor it to the ground with sharpened sticks through the grommets.",
+        "7": "If you will stay more than one night or rain is expected, support the middle: a line from the hood to an overhanging branch, without slack — or a stick upright under the middle, though it takes up space.",
+        "8": "Put brush or your rucksack at the sides against wind and rain, and leaves or pine needles inside against the cold of the ground.",
+        "9": "Material without grommets, such as plastic: put a small “button” — a pinch of dirt, an acorn or the like — behind the material, gather the material around it and put a line with a slip loop over the bulge. Then stake the material out and pull out the wrinkles.",
+        "10": "Stakes: sharpen sticks about 1 inch (2.5 cm) thick and 12 inches (30 cm) long and drive them in at about a 45-degree angle, slanted away from the pull. On rocky or frozen ground, tie the cover to a heavy branch or rock lying on the ground; in loose sand or soil, tie it to a piece of wood or a rock and bury it."
+      },
+      "works": "It takes only a short time and little equipment to build. Material stretched tight at a pitch of 40 to 60 degrees sheds rain and snow.",
+      "reliability": "Porous material, such as parachute cloth, sheds water only when stretched tight at a steep enough angle. At rest, you can lose as much as 80 percent of your body heat to the ground: put insulation under you (card “Bedding and warmth in a shelter”).",
+      "mistakes": "Touching the material while water runs over it: water then drips in at that spot. Leaving it slack or wrinkled: water pools in the wrinkles and leaks in. Turning the open side of the lean-to into the wind."
+    },
+    "shelter-debris-hut": {
+      "title": "A hut of branches and leaves",
+      "steps": {
+        "1": "Make a frame: a tripod of two short stakes and a long ridgepole — or rest one end of the long ridgepole on a sturdy base, or tie it to a tree at about waist height.",
+        "2": "Prop large sticks along both sides of the ridgepole, like ribs, in a wedge shape: wide enough for your body and steep enough to shed water.",
+        "3": "Lay finer sticks and brush crosswise on the ribs: a lattice that keeps the insulating material from falling through into the sleeping space.",
+        "4": "Pile light, dry, soft debris — grass, pine needles, leaves — over the ribs until it is at least 3 feet (0.9 m) thick: the thicker the better.",
+        "5": "Put a layer of insulating material 2 feet (0.6 m) thick inside the shelter.",
+        "6": "At the entrance, pile insulating material that you can pull into the entrance from inside to close it — or build a door.",
+        "7": "Finally, lay branches or other material on top of the debris, so that a storm does not blow it away."
+      },
+      "works": "For warmth and ease of building, the debris hut is one of the best shelters: when shelter is essential to survival, build this one.",
+      "reliability": "At least 6 to 12 inches (15⁠–⁠30 cm) of insulation above you is needed to keep the heat in. Natural shelters usually take the most time and energy to build: gather all the materials first, and choose a site that saves effort.",
+      "mistakes": "Too thin a layer of debris: the thicker, the better. Starting to build before all the materials — frame, covering, bedding and cord — have been gathered."
+    },
+    "shelter-bedding": {
+      "title": "Bedding and warmth in a shelter",
+      "steps": {
+        "1": "Put a layer of insulation between you and the cold ground: a sleeping pad, seat cushions or extra clothing; if these are scarce, ferns and grass; in a conifer forest, boughs.",
+        "2": "Make natural bedding at least 12 inches (30 cm) thick, so that it still insulates when pressed down. Fluff it up between uses and add material.",
+        "3": "Pine boughs, moss and grasses can also insulate the shelter itself.",
+        "4": "Seal all the openings of the shelter except the ventilation holes. Keep the vents open, especially if you use candles, fuel gel or small oil lamps: they produce carbon monoxide.",
+        "5": "A fire outside the shelter: put the opening of the shelter at 90 degrees to the prevailing wind, so sparks and smoke are not blown in if the wind turns, as often happens in the mountains in the morning and evening. The best distance from fire to shelter is about 3 feet (0.9 m)."
+      },
+      "works": "At rest, you can lose as much as 80 percent of your body heat to the ground; a layer of insulation between you and the ground reduces this loss.",
+      "reliability": "Insulation only “somewhat” controls the loss of heat to the ground, and bedding that has been pressed down insulates less: fluff it up and add to it.",
+      "mistakes": "Lying straight on the ground. Closing every opening while a candle or lamp burns: carbon monoxide. Making the fire too close to the shelter, or in front of an opening that faces the wind."
+    },
+    "direction-shadow": {
+      "title": "Directions from a shadow",
+      "steps": {
+        "1": "Put a stick or branch into the ground at a level spot where it casts a clear shadow. Mark the tip of the shadow with a stone, a twig or the like: this first mark is always west (see the picture).",
+        "2": "Wait 10 to 15 minutes, until the tip of the shadow has moved a few inches. Mark its new position in the same way.",
+        "3": "Draw a straight line through the two marks: this is roughly the east–west line.",
+        "4": "Stand with the first mark (west) on your left: north is in front of you, east is on your right and south is behind you.",
+        "5": "You need not look for a large level spot: the stick may lean, and a flat spot the size of your hand is enough. Any fixed object — the end of a branch, say — serves as well as a stick, because only the tip of the shadow is marked.",
+        "6": {
+          "text": "A more accurate way, around noon (see the second picture):",
+          "items": {
+            "1": "put a stick upright where its shadow is at least 12 inches (30 cm) long, and mark the tip of the shadow 5 to 10 minutes before noon;",
+            "2": "draw an arc around the stick with the shadow as its radius — with a string, a shoelace or a second stick;",
+            "3": "after noon the shadow grows longer again: mark the spot where its tip touches the arc a second time;",
+            "4": "a straight line through the two marks is the east–west line."
+          }
+        }
+      },
+      "works": "The sun rises in the east and sets in the west, and shadows move the opposite way. In the Northern Hemisphere, shadows move from west to east and point north at noon.",
+      "reliability": "The sun rarely rises due east or sets due west, and there is some seasonal variation: the line you get is approximate. The manual says the first way does not work far north and far south, beyond about 66° latitude, because of the position of the sun above the horizon; the noon way is more accurate and works at all latitudes below 66°, all year round.",
+      "mistakes": "Mixing up the marks: the first mark is always west, the second east. Starting the noon way too late: the first mark must be made before noon."
+    },
+    "direction-watch": {
+      "title": "Directions from a watch",
+      "steps": {
+        "1": "You need an ordinary watch with hands.",
+        "2": "In the northern temperate zone, hold the watch so that the hour hand points at the sun (see the picture).",
+        "3": "South lies midway between the hour hand and the 12, if the watch shows standard time. If it shows summer time (daylight saving time), the north–south line lies midway between the hour hand and the 1.",
+        "4": "If you are not sure which end of the line is north: before noon the sun is in the east, and after noon in the west.",
+        "5": "If you only have a digital watch, draw a clock face showing the right time on a circle of paper, or on the ground, and use it in the same way."
+      },
+      "works": "With an ordinary watch with hands you can find the approximate true north and south when the sun is out.",
+      "reliability": "The watch method can be inaccurate, especially in the lower latitudes, and may make you walk in circles. The rule above is for the northern temperate zone only; in the southern temperate zone it is different.",
+      "mistakes": "Forgetting summer time: then the line runs between the hour hand and the 1, not the 12. Pointing the 12 at the sun instead of the hour hand: that is the way of the southern temperate zone."
+    },
+    "direction-stars": {
+      "title": "North by the North Star",
+      "steps": {
+        "1": "On a clear night, find the Big Dipper (Ursa Major): seven stars in the shape of a dipper (see the picture).",
+        "2": "The two stars at the outer edge of its bowl are the “pointer stars”. In your mind, draw a line from the lower one to the upper one and extend it about five times the distance between them: the North Star (Polaris) lies on this line.",
+        "3": "You can also use Cassiopeia: five stars in the shape of a “W”, one side of which looks flatter. Halve the angle on its flatter side and extend that line about five times the distance between the bottom and the top of the “W”. The North Star lies between Cassiopeia and the Big Dipper.",
+        "4": "The Big Dipper and Cassiopeia are generally opposite each other and turn around the North Star: using both together helps prevent confusion.",
+        "5": "True north lies straight below the North Star: draw an imaginary line from it down to the earth.",
+        "6": "The moon gives only a rough east–west direction: if it rises before the sun has set, its lit side faces west; if it rises after midnight, its lit side faces east."
+      },
+      "works": "The North Star practically stays in one place: it moves only 1.08 degrees around the northern celestial pole. This way is for the northern sky.",
+      "reliability": "The North Star is the last star of the handle of the Little Dipper, whose seven stars are rather dim and hard to see near towns and cities; it can be confused with the Big Dipper.",
+      "mistakes": "Taking a star of the Big Dipper for the North Star. Relying on the moon for more than a rough direction."
+    },
+    "direction-compass": {
+      "title": "An improvised compass",
+      "steps": {
+        "1": "You need a piece of iron or steel — a needle or a flat double-edged razor blade — and a thread or a long hair to hang it from.",
+        "2": "Magnetize it: stroke it slowly, always in one direction only, on a piece of silk or through your hair — or stroke one end of it again and again with a magnet.",
+        "3": "Hang the needle or blade from the hair or thread: it slowly turns to lie along the north–south line.",
+        "4": "Or float it: pass the magnetized needle through your hair to oil it and lay it gently on still water — or lay it on a small piece of cork, a leaf or tape floating on the water. It slowly turns north–south.",
+        "5": "With a battery of at least 2 volts and an insulated wire, you can magnetize the metal electrically: form a coil from the wire, touch its ends to the battery’s terminals, and move one end of the metal in and out of the coil again and again. If the wire is bare, first wrap the metal in a thin strip of paper or a leaf."
+      },
+      "works": "A magnetized needle, hung from a hair or floating on water, gradually lines up north–south.",
+      "reliability": "The manual says only that the needle lines up along the north–south line; it does not say how to tell its north end. Where north is, the shadow and the watch show (other cards in this section).",
+      "mistakes": "Stroking back and forth: always stroke in one direction only. Hanging the needle from a metal thread: use a string that is not metal."
+    },
+    "direction-signs": {
+      "title": "Moss, stumps and slopes: signs to treat with care",
+      "steps": {
+        "1": "Moss on a tree cannot be relied on to show north: on some trees it grows all around. Where it grows, it is actually lusher on the south-facing side in the Northern Hemisphere.",
+        "2": "Stumps: if several felled trees are around, compare their stumps. Growth is more vigorous on the side towards the equator, where the growth rings are more widely spaced; on the side towards the pole they are closer together.",
+        "3": "Slopes: in the Northern Hemisphere, north-facing slopes get less sun than south-facing ones, so they are cooler and damper. In summer, north-facing slopes keep patches of snow; in winter, south-facing slopes and the south sides of boulders and large rocks lose their snow first.",
+        "4": "Wind helps only where it blows from a prevailing direction and you know what that direction is."
+      },
+      "works": "Differences in plants and moisture between north- and south-facing slopes can help you find direction.",
+      "reliability": "These are signs, not instruments: moss is not reliable at all, and stumps tell you something only when there are several of them to compare.",
+      "mistakes": "Using the moss on a tree as a compass. Judging by a single stump. Trusting the wind without knowing its prevailing direction."
+    },
+    "cordage-fibres": {
+      "title": "Cordage from fibres",
+      "steps": {
+        "1": "Use what you have: unravel a cotton web belt into string, or twist or braid several strands of parachute cord, or strips of a sheet, into a rope (see the picture). Parachute cord can also be taken apart into its outer cover and its inner strands.",
+        "2": "Test natural material before you make cordage from it: pull on a length of it; twist it between your fingers and roll the fibres together; if it holds and does not snap, tie an overhand knot in it and tighten it gently. If the knot does not break, the material will work.",
+        "3": "Fibres from the inner bark of some trees — such as linden, elm, white oak, mulberry, chestnut, red and white cedar — make cord. Test it to be sure it is strong enough; braiding several strands together makes it stronger.",
+        "4": "Twisting: gather long, strong, tested fibres into loose strands of even thickness — about 15 to 30 fibres to a strand — and twist each strand clockwise. Then twist two, three or four strands together counterclockwise, while you keep twisting the strands that are not yet laid up clockwise (see the second picture). Each strand must be of equal twist and thickness.",
+        "5": "Alone, you can spin cord by rolling the fibres between the flat of your hand and your thigh, feeding in new fibre with the other hand.",
+        "6": {
+          "text": "A three-strand braid, if no one can help you spin:",
+          "items": {
+            "1": "pass the right-hand strand over the strand to its left;",
+            "2": "pass the left-hand strand over the strand to its right;",
+            "3": "repeat, alternately from left and right."
+          }
+        }
+      },
+      "works": "Almost any natural fibrous material can be spun into good serviceable rope or cord, and many materials 12 to 24 inches (30⁠–⁠61 cm) long or more can be braided.",
+      "reliability": "The strength of home-made rope varies widely: for safety, always count on the lowest figure. Natural rope is destroyed if its fibres are cut with a sharp rock or knife, and it loses strength if it is not kept clean. Spinning cord by hand is slow if a long length is needed.",
+      "mistakes": "Strands of uneven twist, thickness or tension: each strand must be of equal twist and thickness. Letting one strand twist around the other while laying up. Using material you have not tested."
+    },
+    "knot-square": {
+      "title": "Square knot",
+      "steps": {
+        "1": "Words: the running end is the free, working end of a rope; the standing part is the rest of it; a bight is a U-shaped bend in the rope.",
+        "2": "Use the square knot to tie together two ropes of equal thickness.",
+        "3": "Lay the running ends of the two ropes together, pointing in opposite directions, and pass the running end of one rope under the standing part of the other.",
+        "4": "Bring the two running ends up, away from where they cross, and cross them again.",
+        "5": "When each running end lies parallel to its own standing part, pull the two ends tight (see the picture).",
+        "6": "To untie it, take hold of the bends of the two bights and pull the knot apart."
+      },
+      "works": "A true square knot draws tighter under strain, and it can be untied easily.",
+      "reliability": "If a running end does not lie parallel to its own standing part, the knot is a “granny knot”: it slips under strain, so do not use it. If the ends lie parallel but not opposite each other, it is a “thief knot”: it slips under strain and is hard to untie.",
+      "mistakes": "Tying a granny or a thief knot instead of a square knot. Leaving the knot loose: a loosely tied knot can easily deform under strain and slip or come undone."
+    },
+    "knot-sheet-bend": {
+      "title": "Sheet bend: joining ropes of different thickness",
+      "steps": {
+        "1": "Use the single sheet bend to tie together two dry ropes of different thickness (the words: see the card “Square knot”).",
+        "2": "Make a bight in the thicker rope.",
+        "3": "Pass the running end of the thinner rope through the bight, around both parts of the thicker rope and back under the thinner rope itself; then pull it tight (see the picture).",
+        "4": "Double sheet bend: before you pull it tight, take one extra turn with the thinner rope around both sides of the bight, then tighten (see the second picture)."
+      },
+      "works": "The single sheet bend draws tight under light loads. The double sheet bend is better for joining ropes of equal or different thickness, for wet ropes and for tying a rope to an eye: it does not slip or draw tight under heavy loads.",
+      "reliability": "The single sheet bend is only for dry ropes, and it may loosen or slip when the tension is released.",
+      "mistakes": "Using the single sheet bend on wet ropes, or trusting it after the load comes off: use the double sheet bend."
+    },
+    "knot-bowline": {
+      "title": "Bowline: a loop at the end of a rope",
+      "steps": {
+        "1": "Pass the running end through the object you are tying to, and form a small loop in the standing part (the words: see the card “Square knot”).",
+        "2": "Pass the running end up through the loop from underneath, around the standing part, and back down through the loop from the top: it goes down beside the rope that comes up through the loop.",
+        "3": "Pull the knot tight (see the picture).",
+        "4": "For a loop away from the end of the rope, tie a bowline on a bight: double the rope, form a loop as for the bowline, pass the end of the doubled part up through the loop, back down around the whole knot, and tighten. It is easily untied and does not slip."
+      },
+      "works": "The bowline is a useful knot for forming a loop at the end of a rope, and it is easy to untie.",
+      "reliability": "Dress and set every knot — straighten its parts and tighten them so they bind on one another: neglecting this can reduce the knot’s strength by 50 percent.",
+      "mistakes": "Leaving the knot loose or badly dressed. Passing the running end the wrong way through the loop: it goes up from underneath, around the standing part and back down from the top."
+    },
+    "knot-clove-hitch": {
+      "title": "Clove hitch: a rope to a pole",
+      "steps": {
+        "1": "Use it to fasten a rope to a pole, post or pipe; it can be tied at any point of the rope. Lashings begin and end with it.",
+        "2": "In the middle of a rope: make two turns close together and twist them so that the two loops lie back to back; slip both loops over the pole (see the picture, “At center of rope”).",
+        "3": "At the end of a rope: pass the rope around the pole in two turns, so that the first turn crosses the standing part and the running end comes up under itself on the second turn (“At end of rope”).",
+        "4": "Tying a line to a tent stake: the line passes in front of the stake first and then under itself."
+      },
+      "works": "A hitch secures a rope around a pole or post so that it holds for the time being but can readily be undone.",
+      "reliability": "A hitch is meant to hold temporarily: it can readily be undone.",
+      "mistakes": "Twisting the two loops so that they do not lie back to back. Leaving it loose."
+    },
+    "knot-half-hitches": {
+      "title": "Round turn and two half hitches",
+      "steps": {
+        "1": "Use it to tie a rope to a pole or tree where you need a good anchor and a high load would make other knots jam and be hard to untie.",
+        "2": "Round turn: take the rope around the pole so that the running end leaves the circle in the same general direction as the standing part.",
+        "3": "Half hitch: pass the running end around the standing part and back under itself.",
+        "4": "Make a second half hitch in the same way, and pull tight (see the pictures).",
+        "5": "Two half hitches alone are a quick way to tie a rope to a pole: pass the running end around the pole, then make the two half hitches around the standing part."
+      },
+      "works": "It is the main anchor knot when a good anchor is needed and high loads would make other knots jam; it is most used to anchor a rope to a pole or tree.",
+      "reliability": "A single half hitch is not a very secure knot: it is only for temporarily securing the free end of a rope, and it tends to undo itself without a load.",
+      "mistakes": "Trusting a single half hitch. Leaving the half hitches loose."
+    },
+    "lashing-square": {
+      "title": "Lashing poles together",
+      "steps": {
+        "1": "Square lashing fastens one pole at right angles to another (see the picture).",
+        "2": "Start with a clove hitch around the upright pole, just under where the crosspiece will lie.",
+        "3": "Lay three or four turns: around the crosspiece the rope goes outside the previous turn, around the upright pole inside it. Keep the rope tight.",
+        "4": "Make two or three frapping turns between the poles, around the turns, and pull them tight: this binds the poles firmly together.",
+        "5": "Finish with a clove hitch: the text of the manual says around the same pole you started on; its picture shows it on the crosspiece.",
+        "6": "Diagonal lashing, where poles cross: start with a clove hitch around both poles where they cross; take three turns around both, lying side by side, then three more crosswise over them; pull tight, add a couple of frapping turns between the poles, and finish with a clove hitch on the pole you started on.",
+        "7": "Shear lashing, for poles side by side: lay them loosely beside each other, start with a clove hitch on an outer pole, make seven or eight turns around all of them with frapping turns between each pole, and finish with a clove hitch on the pole at the other side."
+      },
+      "works": "Lashings bind poles for shelters and racks: the square lashing holds one pole at right angles to another; the shear lashing joins poles side by side.",
+      "reliability": "The turns hold the poles together, and the frapping turns make them tight. The manual’s picture and text differ on where to finish the square lashing (step 5).",
+      "mistakes": "Laying the turns of a diagonal lashing on top of each other: they lie beside each other. Leaving out the frapping turns. Letting the rope go slack."
+    }
+  },
+  "figures": {
+    "atp-water-machine": {
+      "title": "Figure 3-2. Water machine",
+      "alt": "A bag of porous cloth filled with snow hangs from three crossed poles beside a fire; water drips from it into a can below.",
+      "labels": {
+        "1": "Porous material (such as cotton or parachute nylon)",
+        "2": "Snow"
+      }
+    },
+    "atp-sub-surface-water": {
+      "title": "Figure 3-11. Sub-surface water",
+      "alt": "A dry riverbed winding between hills. Arrows show where to dig: at the outside bend and the concave bank of the riverbed, and at the foot of a cliff where the plants are greener. A cut through the ground shows soil, a layer of clay and water-soaked sand below.",
+      "labels": {
+        "1": "Dig Here",
+        "2": "Green(er) Vegetation",
+        "3": "Bend",
+        "4": "Dig",
+        "5": "Concave Bank",
+        "6": "Soil",
+        "7": "Clay",
+        "8": "Water-soaked Sand"
+      }
+    },
+    "atp-water-filters": {
+      "title": "Figure 3-12. Water filtering systems",
+      "alt": "Two filters. Left: three cloths hung one above the other on a tripod of poles hold grass, sand and charcoal; water drips through them into a box. Right: a plastic bag hung from a branch is filled with layers of rocks, sand and charcoal; water drips out of its bottom.",
+      "labels": {
+        "1": "Grass",
+        "2": "Sand",
+        "3": "Charcoal",
+        "4": "Plastic bag",
+        "5": "Water",
+        "6": "Rocks"
+      }
+    },
+    "atp-fire-walls": {
+      "title": "Figure 5-2. Types of firewalls",
+      "alt": "Two kinds of fire walls made of logs stacked between stakes. Top: a straight wall in front of a lean-to shelter. Bottom: an L-shaped wall with a fire burning in its corner.",
+      "labels": {
+        "1": "Straight fire wall",
+        "2": "L-shaped fire wall"
+      }
+    },
+    "atp-fire-lays": {
+      "title": "Figure 5-5. Fire lays",
+      "alt": "Four ways to lay a fire: tepee — sticks leaning together in a cone; lean-to — sticks leaning against one long stick pushed into the ground at an angle; cross-ditch — two shallow ditches dug in an X, with tinder where they cross; pyramid — two logs on the ground with layers of smaller sticks across them.",
+      "labels": {
+        "1": "Tepee",
+        "2": "Lean-to",
+        "3": "Cross-ditch",
+        "4": "Pyramid"
+      }
+    },
+    "atp-convex-lens": {
+      "title": "Figure 5-7. Using a convex lens as a fire-starter",
+      "alt": "A hand holds a small lens above a heap of tinder; the sun’s rays meet on the tinder, which begins to smoke.",
+      "labels": {}
+    },
+    "atp-flint-steel": {
+      "title": "Figure 5-8. Flint and steel fire-starter",
+      "alt": "Two hands: one holds a stone, the other a piece of steel; they strike each other and sparks fly.",
+      "labels": {}
+    },
+    "atp-bow-drill": {
+      "title": "Figure 5-10. Bow and drill fire-starter",
+      "alt": "Left: the parts of a bow drill, one above the other — the socket on top, the drill, the bow with its cord wrapped around the drill, and the fire board at the bottom. Right: a kneeling man holds the socket on the drill with one hand and moves the bow with the other; his foot holds the fire board; smoke rises.",
+      "labels": {
+        "1": "Socket",
+        "2": "Drill",
+        "3": "Cord",
+        "4": "Bow",
+        "5": "Fire board"
+      }
+    },
+    "atp-natural-shelters": {
+      "title": "Figure 6-1. Types of naturally occurring shelters",
+      "alt": "Shelters that are already there: a clump of bushes; a hollow under a large rock; a fallen tree with thick branches; pieces of wood leaning against a fallen trunk; a pit dug in the snow around a tree.",
+      "labels": {}
+    },
+    "atp-poncho-lean-to": {
+      "title": "Figure 6-2. Poncho lean-to",
+      "alt": "A poncho tied by its corners between two trees at about waist height and pegged to the ground behind, as a sloping roof; an arrow shows the wind blowing against its back.",
+      "labels": {
+        "1": "Wind"
+      }
+    },
+    "atp-debris-hut": {
+      "title": "Figure 6-13. Debris hut",
+      "alt": "Top: the frame — a long ridgepole resting on a stump, with sticks propped along both sides like ribs. Bottom: the same frame covered with a thick layer of leaves, its entrance by the stump.",
+      "labels": {}
+    },
+    "atp-shadow-tip": {
+      "title": "Figure 7-8 (part A). Shadow-tip method",
+      "alt": "A stick in the ground casts a shadow; the first and the second marks of the shadow tip lie on a line from E to W, the approximate east-west line; across it runs the noon line from S to N.",
+      "labels": {
+        "1": "Direction",
+        "2": "First shadow tip mark",
+        "3": "Second shadow tip mark",
+        "4": "Approximate east-west line",
+        "5": "Noon line",
+        "6": "S",
+        "7": "N",
+        "8": "E",
+        "9": "W"
+      }
+    },
+    "atp-equal-shadow": {
+      "title": "Figure 7-9. Equal-shadow method",
+      "alt": "A stick stands in the centre of an arc. The morning shadow and the afternoon shadow touch the arc at two pegs; the line between the pegs runs east–west, and an arrow across it points north.",
+      "labels": {
+        "1": "Peg",
+        "2": "Morning shadow",
+        "3": "Afternoon shadow",
+        "4": "North"
+      }
+    },
+    "atp-watch": {
+      "title": "Figure 7-10. Watch method",
+      "alt": "Two watches lying flat. Top, north temperate zone: the hour hand points at the sun, and the dashed line midway to the 12 points to N. Bottom, south temperate zone: the 12 points at the sun.",
+      "labels": {
+        "1": "North temperate zone",
+        "2": "South temperate zone",
+        "3": "N"
+      }
+    },
+    "atp-northern-sky": {
+      "title": "Figure 7-11. Northern sky",
+      "alt": "The night sky: lines lead from the Big Dipper and from Cassiopeia to Polaris, between them; an arrow from Polaris points straight down to the horizon, to the North Pole.",
+      "labels": {
+        "1": "Polaris",
+        "2": "Big Dipper",
+        "3": "Cassiopeia",
+        "4": "North Pole"
+      }
+    },
+    "atp-making-cordage": {
+      "title": "Figure 8-8. Making cordage",
+      "alt": "Three steps: two strands tied together at the top; both strands twisted clockwise; one strand twisted around the other counterclockwise into a cord.",
+      "labels": {
+        "1": "1. Secure firmly at knot",
+        "2": "2. Twist both strands clockwise",
+        "3": "3. Twist one strand around the other counterclockwise."
+      }
+    },
+    "atp-twisting-fibers": {
+      "title": "Figure A-21. Twisting fibers",
+      "alt": "Two hands twist two strands of fibre, each in its own direction, while the strands are laid up into a cord.",
+      "labels": {}
+    },
+    "atp-square-knot": {
+      "title": "Figure A-5. Square knot",
+      "alt": "Three steps: the two ends crossed; crossed again; the finished square knot, each end lying beside its own rope.",
+      "labels": {}
+    },
+    "atp-sheet-bend": {
+      "title": "Figure A-6. Single sheet bend",
+      "alt": "Three steps: a bight in the thicker rope; the end of the thinner rope passed through it, around both parts and under itself; the finished knot.",
+      "labels": {}
+    },
+    "atp-double-sheet-bend": {
+      "title": "Figure A-7. Double sheet bend",
+      "alt": "Two steps: an extra turn taken around the bight; the finished double sheet bend.",
+      "labels": {}
+    },
+    "atp-bowline": {
+      "title": "Figure A-8. Bowline knot",
+      "alt": "Three steps: a small loop in the standing part with the end coming up through it; the end going around the standing part and back down; the finished loop.",
+      "labels": {}
+    },
+    "atp-clove-hitch": {
+      "title": "Figure A-15. Clove hitch",
+      "alt": "Steps 1–4, in the middle of a rope: two loops made, laid back to back and slipped over a post. Steps 5–6, at the end of a rope: the rope taken around a post twice, its end coming up under itself.",
+      "labels": {
+        "1": "At center of rope",
+        "2": "At end of rope"
+      }
+    },
+    "atp-round-turn": {
+      "title": "Figure A-3. Round turn and two half hitches",
+      "alt": "A rope taken around a post and finished with two half hitches around its standing part.",
+      "labels": {}
+    },
+    "atp-half-hitches": {
+      "title": "Figure A-12. Half hitch and a two half hitch",
+      "alt": "A: a single half hitch around a pole, in two steps. B: two half hitches around a pole, in three steps.",
+      "labels": {}
+    },
+    "atp-square-lashing": {
+      "title": "Figure A-18. Square lashing",
+      "alt": "Four steps of a square lashing of two crossed poles, each with its words: the clove hitch, the turns around both poles, three or four turns, the frapping turns.",
+      "labels": {
+        "1": "1. Start by tying a clove hitch to the vertical spar, just below where the horizontal spar will be.",
+        "2": "2. Twist the end of the rope around the verical part of the rope for a clean look, then wrap the rope around the horizontal and vertical spars, binding them together.",
+        "3": "3. Continue by wrapping the rope three or four times around the vertical and horizontal spars.",
+        "4": "4. Make two or three frapping turns between the spars, around the rope itself. Pull these frapping turns very taut. Finish by tying a clove hitch to the horizontal spar."
+      }
     }
   }
 }
