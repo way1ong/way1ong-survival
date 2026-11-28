@@ -5,7 +5,7 @@
 import extra from '#extra';
 import file from '../data/cards.json';
 import { isSection, type SectionId } from './sections.ts';
-import type { Source } from './sources.ts';
+import type { Source, SourceNote } from './sources.ts';
 
 export interface Card {
   id: string;
@@ -14,6 +14,11 @@ export interface Card {
   source: string;
   /** Notes of its own over the card: where its words differ from the source (CARD_NOTES). */
   notes?: CardNote[];
+  /**
+   * Health advice outside the first-aid section (a tick, a bite, a sting): like first aid, it says it is not a
+   * substitute for a doctor, shows the emergency numbers, and its steps are word for word in its source's language.
+   */
+  medical?: true;
 }
 
 /** "usNumber": the source gives the U.S. emergency number (911); the card refers to the numbers of the person's country. */
@@ -118,6 +123,7 @@ export function cardProblems(cards: readonly Card[], sources: readonly Source[],
     if (!isSection(card.section)) out.push(`${at}: unknown section ${card.section}`);
     if (!sources.some((s) => s.id === card.source)) out.push(`${at}: unknown source ${card.source}`);
     for (const note of card.notes ?? []) if (!(CARD_NOTES as readonly string[]).includes(note)) out.push(`${at}: unknown note ${note}`);
+    if (card.medical !== undefined && card.medical !== true) out.push(`${at}: "medical" is true or left out`);
     const shapes = new Set<string>();
     for (const [lang, dictionary] of Object.entries(dictionaries)) {
       const words = cardText(dictionary, card.id);
@@ -134,19 +140,23 @@ export function cardProblems(cards: readonly Card[], sources: readonly Source[],
   return out;
 }
 
-export type NoticeKey = 'notDoctor' | 'emergency' | 'translation' | 'usArmy' | CardNote;
+export type NoticeKey = 'notDoctor' | 'emergency' | 'translation' | SourceNote | CardNote;
+
+/** First aid, and health advice in other sections: the cards the owner's rule on first aid holds for. */
+export const isMedical = (card: Card): boolean => card.section === 'firstAid' || card.medical === true;
 
 /**
- * The notes a card shows above its words, in this order: first aid — "not a substitute for a doctor"; first aid
- * and calling for help — the emergency numbers of the person's country; a card in another language than its
- * source — "translation"; a source that asks for a note of its own — that note; then the card's own notes.
+ * The notes a card shows above its words, in this order: first aid and other health advice — "not a substitute
+ * for a doctor"; these and calling for help — the emergency numbers of the person's country; a card in another
+ * language than its source — "translation"; a source that asks for a note of its own — that note; then the
+ * card's own notes.
  */
 export function cardNotices(card: Card, source: Source, lang: string): NoticeKey[] {
   const out: NoticeKey[] = [];
-  if (card.section === 'firstAid') out.push('notDoctor');
-  if (card.section === 'firstAid' || card.section === 'help') out.push('emergency');
+  if (isMedical(card)) out.push('notDoctor');
+  if (isMedical(card) || card.section === 'help') out.push('emergency');
   if (source.lang !== lang) out.push('translation');
-  if (source.note === 'usArmy') out.push('usArmy');
+  if (source.note) out.push(source.note);
   out.push(...(card.notes ?? []));
   return out;
 }

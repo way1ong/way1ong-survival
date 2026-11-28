@@ -1,6 +1,7 @@
 // The emergency numbers of the countries of Europe (decision of 27.11), from GOV.UK Foreign travel advice —
 // each country's "Getting help" page, under the Open Government Licence v3.0 — and from two other sources:
-// the NHS for the United Kingdom, the order of the Ministry of Health of Ukraine for 112 in Ukraine.
+// GOV.UK guidance for people from Ukraine in the United Kingdom ("Get urgent help and report a crime: Homes for
+// Ukraine") for the United Kingdom, the order of the Ministry of Health of Ukraine for 112 in Ukraine.
 //
 //   node scripts/emergency/build.mjs --fetch   download the pages again (into scripts/emergency/cache/, not kept in git)
 //   node scripts/emergency/build.mjs           build from the downloaded pages
@@ -113,8 +114,12 @@ const report = [];
 const sources = [];
 const emergency = [];
 const OTHER = {
-  // The United Kingdom has no page of its own in GOV.UK Foreign travel advice: the NHS says when to call 999.
-  'nhs-999': [{ source: 'nhs-999', quote: '999 is for life-threatening emergencies like serious road traffic accidents, strokes and heart attacks.', services: ['lifeThreatening'], numbers: [{ dial: '999', from: null }] }],
+  // The United Kingdom has no page of its own in GOV.UK Foreign travel advice; GOV.UK's guidance for people from
+  // Ukraine names its numbers (decision of 28.11: not the NHS, whose terms forbid naming it under a translation).
+  'govuk-hfu-urgent-help': [
+    { source: 'govuk-hfu-urgent-help', quote: '999 is the number to call in an emergency.', services: ['all'], numbers: [{ dial: '999', from: null }] },
+    { source: 'govuk-hfu-urgent-help', quote: '112 is also a common emergency telephone number that is free to use from most mobile telephones, and in some countries, fixed telephones. It can be used instead of 999 and will connect you to the same services.', services: ['all'], numbers: [{ dial: '112', from: null }] },
+  ],
 };
 // Ukraine: besides GOV.UK, the order of the Ministry of Health names the single number of the emergency system.
 const ALSO = {

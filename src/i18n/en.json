@@ -58,7 +58,8 @@
     "notDoctor": "This is not a substitute for a doctor.",
     "translation": "Translation. Original language: {language}.",
     "usArmy": "Based on a U.S. Army manual.",
-    "usNumber": "The source gives the U.S. emergency number (911); here the numbers of your country stand in its place."
+    "usNumber": "The source gives the U.S. emergency number (911); here the numbers of your country stand in its place.",
+    "cdc": "Source: CDC, the U.S. Centers for Disease Control and Prevention. This does not imply endorsement of this app by CDC, the U.S. Department of Health and Human Services or the U.S. Government. The material is otherwise available on the CDC website for no charge."
   },
   "emergency": {
     "title": "Emergency help",
@@ -82,8 +83,7 @@
       "police": "police",
       "mountainRescue": "mountain rescue",
       "rescue": "rescue",
-      "deaf": "for deaf and hard of hearing people (SMS, chat, video and fax)",
-      "lifeThreatening": "life-threatening emergencies"
+      "deaf": "for deaf and hard of hearing people (SMS, chat, video and fax)"
     },
     "sources": "Where the numbers come from",
     "translated": "translation"
@@ -697,6 +697,150 @@
       "works": "“Drowning” is cardiac arrest caused by the person’s airway being fully under liquid.",
       "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
       "mistakes": "Doubting whether the person is breathing: “If you are in doubt whether there is breathing, or it is not normal, assume there is no breathing.” Leaving the person to look for a defibrillator: “If you are the only rescuer and do not know that an automated external defibrillator is very close by, do not leave the person to look for one.” Pausing compressions: “Do not interrupt chest compressions on an adult for more than 10 seconds.”"
+    },
+    "tick-prevention": {
+      "title": "Preventing tick bites",
+      "steps": {
+        "1": "Know where to expect ticks. Ticks live in grassy, brushy, or wooded areas, or even on animals.",
+        "2": "Avoid contact with ticks. Avoid wooded and brushy areas with high grass and leaf litter. Walk in the center of trails.",
+        "3": "Use Environmental Protection Agency (EPA)-registered insect repellents containing DEET, picaridin, IR3535, Oil of Lemon Eucalyptus (OLE), para-menthane-diol (PMD), or 2-undecanone.",
+        "4": "Always follow product instructions. Do not use products containing OLE or PMD on children under 3 years old.",
+        "5": "Treat clothing and gear with products containing 0.5% permethrin. Permethrin can be used to treat boots, clothing and camping gear and remain protective through several washings.",
+        "6": {
+          "text": "Conduct a full body check upon return from potentially tick-infested areas, including your own backyard. Use a hand-held or full-length mirror to view all parts of your body. Check these parts of your body and your child's body for ticks:",
+          "items": {
+            "1": "Under the arms;",
+            "2": "In and around the ears;",
+            "3": "Inside belly button;",
+            "4": "Back of the knees;",
+            "5": "In and around the hair;",
+            "6": "Between the legs;",
+            "7": "Around the waist."
+          }
+        },
+        "7": "Examine gear and pets. Ticks can ride into the home on clothing and pets, then attach to a person later, so carefully examine pets, coats, and daypacks.",
+        "8": "Shower soon after being outdoors. Showering within two hours of coming indoors has been shown to reduce your risk of getting Lyme disease and may be effective in reducing the risk of other tickborne diseases."
+      },
+      "works": "Reducing exposure to ticks is the best defense against tickborne diseases. Tick exposure can occur year-round, but ticks are most active during warmer months (April-September).",
+      "reliability": "When used as directed, EPA-registered insect repellents are proven safe and effective, even for pregnant and breastfeeding women. The page is written for the United States: “EPA-registered” means registered with the U.S. Environmental Protection Agency; look for an EPA registration number (EPA Reg. No.) on the label.",
+      "mistakes": "Putting on insect repellent before sunscreen: if you are using sunscreen, apply sunscreen first and insect repellent second. Using products containing OLE or PMD on children under 3 years old. Checking only your skin: ticks may be carried into the house on clothing and pets, then attach to a person later."
+    },
+    "tick-bite": {
+      "title": "If a tick has bitten you",
+      "steps": {
+        "1": "If you find a tick attached to your skin, remove the tick as soon as possible. Do not wait to go to a healthcare provider to remove the tick.",
+        "2": "Grasp the tick as close to the skin's surface as possible using clean fine-tipped tweezers. If fine-tipped tweezers are not available, use regular tweezers or your fingers to grasp the tick.",
+        "3": "Pull tick away from the skin with steady, even pressure. Don't twist or jerk the tick. This can cause the tick mouthparts to break off and remain in the skin.",
+        "4": "If this happens, your body will naturally push the mouthparts out over time as your skin heals. You can also remove the mouthparts with tweezers. If you cannot remove the mouthparts easily with tweezers, leave them alone.",
+        "5": {
+          "text": "Dispose of the live tick by taking one of these steps:",
+          "items": {
+            "1": "place it in a sealed container;",
+            "2": "wrap it tightly in tape;",
+            "3": "flush it down the toilet;",
+            "4": "put it in alcohol."
+          }
+        },
+        "6": "After removing the tick, thoroughly clean the bite area and your hands with soap and water, rubbing alcohol, or hand sanitizer.",
+        "7": "If you find a tick attached to you, there may be other ticks on your body. Do a careful tick check to look for other ticks and promptly remove them.",
+        "8": {
+          "text": "If you develop a rash or fever within several weeks of removing a tick, see your doctor:",
+          "items": {
+            "1": "Tell the doctor about your recent tick bite;",
+            "2": "When the bite occurred;",
+            "3": "Where you most likely acquired the tick."
+          }
+        }
+      },
+      "works": "If you find a tick attached to your skin, simply remove the tick as soon as possible. Check your body for ticks after spending time in grassy, brushy, or wooded areas.",
+      "reliability": "There are several tick removal devices on the market, but a plain set of tweezers works very well. Delaying tick removal to get help from a healthcare provider could increase your risk of getting a disease spread through tick bites, known as tickborne diseases.",
+      "mistakes": "Trying to make the tick detach: do not use petroleum jelly, heat, nail polish, or other substances; this may agitate the tick and force infected fluid from the tick into the skin. Twisting or jerking the tick. Crushing the tick with your fingers. Having the tick tested: although some commercial groups offer testing, in general this is not recommended; if you do become ill, you should not wait for tick testing results before beginning appropriate treatment."
+    },
+    "snake-bite": {
+      "title": "Snakes: avoiding a bite, and what to do if bitten",
+      "steps": {
+        "1": {
+          "text": "How to prevent snake bites:",
+          "items": {
+            "1": "Do not touch or handle any snake.",
+            "2": "Stay away from tall grass and piles of leaves when possible.",
+            "3": "Avoid climbing on rocks or piles of wood where a snake may be hiding.",
+            "4": "Be aware that snakes tend to be most active at dawn and dusk and in warm weather.",
+            "5": "Wear boots and long pants when working outdoors.",
+            "6": "Wear leather gloves when handling brush and debris."
+          }
+        },
+        "2": {
+          "text": "If a snake bites you:",
+          "items": {
+            "1": "Seek emergency medical attention as soon as possible to start antivenom (if needed) and stop irreversible damage.",
+            "2": "Do not drive yourself to the hospital because the snakebite can make you dizzy or pass out.",
+            "3": "Take a photograph from a safe distance to identify the snake if possible, which may aid in faster treatment.",
+            "4": "Keep calm."
+          }
+        },
+        "3": {
+          "text": "Apply first aid while waiting for someone to take you to the hospital:",
+          "items": {
+            "1": "Lay or sit down with the bite in a neutral position of comfort.",
+            "2": "Remove rings and watches before swelling starts.",
+            "3": "Wash the bite with soap and water.",
+            "4": "Cover the bite with a clean, dry dressing.",
+            "5": "Mark the leading edge of tenderness/swelling on the skin and write the time alongside it."
+          }
+        }
+      },
+      "works": "Signs or symptoms of a snake bite can vary depending on the type of snake. Around the wound: puncture marks; bleeding, redness, swelling, bruising, or blistering; severe pain and tenderness. After a snake bite: nausea, vomiting, or diarrhea; trouble seeing or breathing; in extreme cases, breathing may stop; rapid heart rate, weak pulse, low blood pressure; metallic, mint, or rubber taste in the mouth; increased salivation and sweating; numbness or tingling around face and/or limbs; muscle twitching.",
+      "reliability": "Prompt medical treatment can reduce the risk of death and serious injury. Snakebites can also cause lasting injuries. The page is written for outdoor workers in the United States, and the venomous snakes it describes are snakes of the United States.",
+      "mistakes": "Do not pick up the snake or try to trap it. Never handle a venomous snake, not even a dead one or its decapitated head. Do not wait for symptoms to appear; get medical help right away. Do not apply a tourniquet, electric shock, or folk therapies. Do not slash the wound with a knife or cut it in any way. Do not try to suck out the venom. Do not apply ice or immerse the wound in water. Do not drink alcohol as a painkiller or take pain relievers (such as aspirin, ibuprofen, naproxen)."
+    },
+    "stings": {
+      "title": "Bee, wasp and hornet stings",
+      "steps": {
+        "1": "Remain calm and still if a single stinging insect is flying around. Swatting at an insect may cause it to sting.",
+        "2": {
+          "text": "If you are attacked by several stinging insects at once, run to get away from them. Bees release a chemical when they sting, which may attract other bees.",
+          "items": {
+            "1": "Go indoors.",
+            "2": "A shaded area is better than an open area to get away from insects.",
+            "3": "Do not jump into water since some insects will hover above water."
+          }
+        },
+        "3": {
+          "text": "If a worker is stung by a bee, wasp, or hornet:",
+          "items": {
+            "1": "Have someone stay with them to see if they have an allergic reaction.",
+            "2": "Wash the site with soap and water.",
+            "3": "Remove the stinger. Wipe gauze or scrape a fingernail over the area. Never squeeze the stinger or use tweezers.",
+            "4": "Apply ice to reduce swelling.",
+            "5": "Do not scratch the sting. Scratching may increase swelling, itching, and risk of infection."
+          }
+        }
+      },
+      "works": "A sting or bite from an insect or scorpion may cause mild discomfort or pain. Bees, wasps, and hornets are most abundant in the warmer months. Nests and hives may be found in trees, under roof eaves, or on equipment such as ladders.",
+      "reliability": "People who are allergic to venom may experience anaphylaxis, a severe and potentially life-threatening allergic reaction that requires immediate emergency care. Workers with a history of severe allergic reactions to insect bites or stings should carry an EpiPen and wear a medical identification bracelet or necklace. The page is written for outdoor workers in the United States. What to do in anaphylaxis: the card “Anaphylaxis” in “First aid”.",
+      "mistakes": "Swatting at an insect: it may cause it to sting. Jumping into water: some insects will hover above water. Squeezing the stinger or pulling it out with tweezers. Scratching the sting: scratching may increase swelling, itching, and risk of infection."
+    },
+    "lightning": {
+      "title": "Thunderstorms: lightning outdoors",
+      "steps": {
+        "1": "When you hear thunder, immediately move to safe shelter: a substantial building with electricity or plumbing or an enclosed, metal-topped vehicle with windows up.",
+        "2": "Stay in safe shelter at least 30 minutes after you hear the last sound of thunder.",
+        "3": {
+          "text": "If you are caught outside with no safe shelter anywhere nearby the following actions may reduce your risk:",
+          "items": {
+            "1": "Immediately get off elevated areas such as hills, mountain ridges or peaks;",
+            "2": "Never lie flat on the ground;",
+            "3": "Never shelter under an isolated tree;",
+            "4": "Never use a cliff or rocky overhang for shelter;",
+            "5": "Immediately get out and away from ponds, lakes and other bodies of water;",
+            "6": "Stay away from objects that conduct electricity (barbed wire fences, power lines, windmills, etc.)."
+          }
+        }
+      },
+      "works": "If you hear thunder, lightning is close enough to strike you.",
+      "reliability": "NO PLACE outside is safe when thunderstorms are in the area. The actions for when you are caught outside with no safe shelter anywhere nearby only “may reduce your risk”. If someone has been struck by lightning: the card “Electric shock or lightning strike” in “First aid”.",
+      "mistakes": "Staying outside: no place outside is safe when thunderstorms are in the area. Leaving shelter too soon: stay in safe shelter at least 30 minutes after you hear the last sound of thunder. Lying flat on the ground; sheltering under an isolated tree, a cliff or a rocky overhang."
     }
   }
 }

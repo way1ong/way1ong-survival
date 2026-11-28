@@ -4,7 +4,7 @@ import { describe, expect, it } from 'vitest';
 import en from '../i18n/en.json';
 import hu from '../i18n/hu.json';
 import uk from '../i18n/uk.json';
-import { CARDS, cardNotices, cardProblems, cardText, type Card } from './cards.ts';
+import { CARDS, cardNotices, cardProblems, cardText, isMedical, type Card } from './cards.ts';
 import { SOURCES, sourceById, type Source } from './sources.ts';
 import { verbatimIn } from './topics.ts';
 
@@ -32,15 +32,17 @@ describe('the cards of the app', () => {
   });
 });
 
-describe('first aid in the language of its source', () => {
-  // The owner's rule of 26.11: first aid word for word after the official guidance. Every step and every point
-  // of such a card, in the source's own language, is a passage of the kept text of the source.
+describe('first aid, other health advice and CDC in the language of the source', () => {
+  // The owner's rule of 26.11: first aid word for word after the official guidance — and so the other health
+  // advice ("medical" cards). CDC's terms: "You may not change the substantive content of the materials". Every
+  // step and every point of such a card, in the source's own language, is a passage of the kept text of the source.
   const dictionaries: Record<string, unknown> = { en, hu, uk };
-  const firstAid = CARDS.filter((card) => card.section === 'firstAid' && !card.id.startsWith('sample-'));
-  it('there are first-aid cards to check', () => {
-    expect(firstAid.length).toBeGreaterThan(0);
+  const checked = CARDS.filter((card) => (isMedical(card) || sourceById(card.source)?.note === 'cdc') && !card.id.startsWith('sample-'));
+  it('there are first-aid, health and CDC cards to check', () => {
+    expect(checked.filter((card) => card.section === 'firstAid').length).toBeGreaterThan(0);
+    expect(checked.filter((card) => card.section !== 'firstAid').length).toBeGreaterThan(0);
   });
-  for (const card of firstAid) {
+  for (const card of checked) {
     it(`${card.id}: every step and point is word for word in its source`, () => {
       const source = sourceById(card.source) as Source;
       const kept = readFileSync(fileURLToPath(new URL(`../../docs/sources/${source.id}.txt`, import.meta.url)), 'utf8');
@@ -104,6 +106,11 @@ describe('the check of cards', () => {
     expect(cardProblems([{ ...card, notes: ['other'] } as unknown as Card], sources, { en: words({ '1': 'A' }) }).join()).toMatch(/unknown note other/);
   });
 
+  it('takes "medical" only as true', () => {
+    expect(cardProblems([{ ...card, medical: true }], sources, { en: words({ '1': 'A' }) })).toEqual([]);
+    expect(cardProblems([{ ...card, medical: false } as unknown as Card], sources, { en: words({ '1': 'A' }) }).join()).toMatch(/"medical" is true or left out/);
+  });
+
   it('finds texts of a card that does not exist', () => {
     expect(cardProblems([], sources, { en: words({ '1': 'A' }) }).join()).toMatch(/unknown card sample-card/);
   });
@@ -127,5 +134,15 @@ describe('the notes over a card', () => {
   it('a card after a U.S. Army manual says so, in every language', () => {
     expect(cardNotices(card, source('en', 'usArmy'), 'en')).toEqual(['usArmy']);
     expect(cardNotices(card, source('en', 'usArmy'), 'uk')).toEqual(['translation', 'usArmy']);
+  });
+
+  it('health advice outside first aid: not a substitute for a doctor and the emergency numbers, as first aid', () => {
+    expect(cardNotices({ ...card, section: 'dangers', medical: true }, source('en'), 'en')).toEqual(['notDoctor', 'emergency']);
+    expect(cardNotices({ ...card, section: 'dangers' }, source('en'), 'en')).toEqual([]);
+  });
+
+  it('a card after CDC carries the words CDC\'s terms ask for, after "translation"', () => {
+    expect(cardNotices({ ...card, section: 'dangers', medical: true }, source('en', 'cdc'), 'hu')).toEqual(['notDoctor', 'emergency', 'translation', 'cdc']);
+    expect(cardNotices({ ...card, section: 'dangers' }, source('en', 'cdc'), 'en')).toEqual(['cdc']);
   });
 });

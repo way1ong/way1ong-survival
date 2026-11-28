@@ -48,5 +48,5 @@
 | SE | `govuk-sweden` | Telephone: 112 (ambulance, fire, police) |
 | CH | `govuk-switzerland` | Telephone: 112 (ambulance, fire, police) / Ambulance: 144 / Fire: 118 / Police: 117 |
 | UA | `moz-441`, `govuk-ukraine` | здійснити виклик за єдиним телефонним номером системи екстреної допомоги населенню 112 / Ambulance: 103 / Fire: 101 / Police: 102 |
-| GB | `nhs-999` | 999 is for life-threatening emergencies like serious road traffic accidents, strokes and heart attacks. |
+| GB | `govuk-hfu-urgent-help` | 999 is the number to call in an emergency. / 112 is also a common emergency telephone number that is free to use from most mobile telephones, and in some countries, fixed telephones. It can be used instead of 999 and will connect you to the same services. |
 | VA | — | left out: No source found on 27.11.2026: GOV.UK has no travel advice page for it (404) and its page for Italy does not name it. |

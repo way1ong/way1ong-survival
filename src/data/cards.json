@@ -105,6 +105,34 @@
       "id": "drowning",
       "section": "firstAid",
       "source": "moz-441"
+    },
+    {
+      "id": "tick-prevention",
+      "section": "dangers",
+      "source": "cdc-tick-prevention"
+    },
+    {
+      "id": "tick-bite",
+      "section": "dangers",
+      "source": "cdc-tick-bite",
+      "medical": true
+    },
+    {
+      "id": "snake-bite",
+      "section": "dangers",
+      "source": "cdc-venomous-snakes",
+      "medical": true
+    },
+    {
+      "id": "stings",
+      "section": "dangers",
+      "source": "cdc-insects-scorpions",
+      "medical": true
+    },
+    {
+      "id": "lightning",
+      "section": "dangers",
+      "source": "nws-lightning-tips"
     }
   ]
 }

@@ -172,7 +172,7 @@
     {
       "code": "GB",
       "govuk": null,
-      "other": "nhs-999"
+      "other": "govuk-hfu-urgent-help"
     },
     {
       "code": "VA",

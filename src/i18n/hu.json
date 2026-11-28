@@ -58,7 +58,8 @@
     "notDoctor": "Ez nem helyettesíti az orvost.",
     "translation": "Fordítás. Az eredeti nyelve: {language}.",
     "usArmy": "Az amerikai hadsereg kézikönyve alapján.",
-    "usNumber": "A forrásban az Egyesült Államok segélyhívószáma (911) szerepel; itt helyette az Ön országának számai állnak."
+    "usNumber": "A forrásban az Egyesült Államok segélyhívószáma (911) szerepel; itt helyette az Ön országának számai állnak.",
+    "cdc": "Forrás: CDC, az Egyesült Államok Betegségellenőrzési és Megelőzési Központjai. Ez nem jelenti, hogy a CDC, az Egyesült Államok Egészségügyi és Humán Szolgáltatások Minisztériuma vagy az Egyesült Államok kormánya támogatná ezt az alkalmazást. Az anyag a CDC honlapján is ingyenesen elérhető."
   },
   "emergency": {
     "title": "Sürgősségi segítség",
@@ -82,8 +83,7 @@
       "police": "rendőrség",
       "mountainRescue": "hegyimentők",
       "rescue": "mentőcsapatok",
-      "deaf": "siketek és nagyothallók számára (SMS, csevegés, videó, fax)",
-      "lifeThreatening": "életveszélyes helyzetek"
+      "deaf": "siketek és nagyothallók számára (SMS, csevegés, videó, fax)"
     },
     "sources": "A számok forrása",
     "translated": "fordítás"
@@ -697,6 +697,150 @@
       "works": "A „vízbe fulladás” a sérült keringésmegállása, amelyet a légutak teljes folyadékba merülése okoz.",
       "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
       "mistakes": "Kétkedni abban, hogy lélegzik-e: „Ha kétséges, hogy van-e légzés, vagy a légzés nem normális, tekintse úgy, hogy nincs légzés.” Magára hagyni a sérültet, hogy defibrillátort keressen: „Ha egyedül van, és nem tudja, hogy automata külső defibrillátor van a közvetlen közelben, ne hagyja magára a sérültet.” Megszakítani a kompressziót: „Felnőttnél a mellkaskompressziót ne szakítsa meg 10 másodpercnél hosszabb időre.”"
+    },
+    "tick-prevention": {
+      "title": "Védekezés a kullancscsípés ellen",
+      "steps": {
+        "1": "Tudja, hol számíthat kullancsokra. A kullancsok füves, bozótos vagy erdős területeken, sőt állatokon is élnek.",
+        "2": "Kerülje a kullancsokkal való érintkezést. Kerülje a magas füvű, avaros erdős és bozótos területeket. Az ösvény közepén haladjon.",
+        "3": "Használjon az Egyesült Államok Környezetvédelmi Ügynöksége (EPA) által nyilvántartásba vett rovarriasztót, amely DEET-et, pikaridint, IR3535-öt, citromeukaliptusz-olajat (OLE), para-mentán-diolt (PMD) vagy 2-undekanont tartalmaz.",
+        "4": "Mindig kövesse a termék használati utasítását. 3 évesnél fiatalabb gyermeken ne használjon OLE-t vagy PMD-t tartalmazó terméket.",
+        "5": "Kezelje a ruházatát és a felszerelését 0,5% permetrint tartalmazó termékkel. Permetrinnel cipő, ruha és kempingfelszerelés is kezelhető, és több mosás után is véd.",
+        "6": {
+          "text": "Ha olyan helyről tér vissza, ahol kullancsok lehetnek – akár a saját kertjéből is –, nézze át az egész testét. Kézi vagy egész alakos tükörrel a teste minden részét megnézheti. Ezeken a helyeken keressen kullancsot a saját és a gyermeke testén:",
+          "items": {
+            "1": "a hónaljban;",
+            "2": "a fülben és a fül körül;",
+            "3": "a köldökben;",
+            "4": "a térdhajlatban;",
+            "5": "a hajban és a haj körül;",
+            "6": "a lábak között;",
+            "7": "a derék körül."
+          }
+        },
+        "7": "Nézze át a felszerelést és a háziállatokat. A kullancsok a ruhán és az állatokon bejuthatnak a lakásba, és később az emberen is megtapadhatnak, ezért gondosan nézze át az állatokat, a kabátokat és a hátizsákokat.",
+        "8": "A szabadban töltött idő után hamar zuhanyozzon le. Kimutatták, hogy a hazaérkezés utáni két órán belüli zuhanyozás csökkenti a Lyme-kór kockázatát, és más, kullancsok terjesztette betegségek kockázatát is csökkentheti."
+      },
+      "works": "A kullancsok terjesztette betegségek elleni legjobb védekezés, ha minél kevésbé érintkezik kullancsokkal. Kullancsokkal egész évben találkozhat, de a melegebb hónapokban (áprilistól szeptemberig) a legaktívabbak.",
+      "reliability": "Kimutatták, hogy az EPA által nyilvántartásba vett rovarriasztók az utasítás szerint használva biztonságosak és hatásosak, még várandós és szoptató nők számára is. Az oldal az Egyesült Államok számára készült: az „EPA által nyilvántartásba vett” az Egyesült Államok Környezetvédelmi Ügynökségénél nyilvántartásba vett terméket jelent; keresse a címkén az EPA nyilvántartási számát (EPA Reg. No.).",
+      "mistakes": "A rovarriasztót a fényvédő előtt felvinni: ha fényvédőt is használ, először a fényvédőt, utána a rovarriasztót vigye fel. 3 évesnél fiatalabb gyermeken OLE-t vagy PMD-t tartalmazó terméket használni. Csak a bőrét átnézni: a kullancsok a ruhán és az állatokon bejuthatnak a lakásba, és később az emberen is megtapadhatnak."
+    },
+    "tick-bite": {
+      "title": "Ha kullancs csípte meg",
+      "steps": {
+        "1": "Ha a bőrébe kapaszkodott kullancsot talál, minél előbb távolítsa el. Ne várja meg, hogy egészségügyi dolgozó távolítsa el.",
+        "2": "Fogja meg a kullancsot a bőr felszínéhez a lehető legközelebb tiszta, hegyes végű csipesszel. Ha nincs hegyes végű csipesze, fogja meg a kullancsot közönséges csipesszel vagy az ujjaival.",
+        "3": "Egyenletes, folyamatos erővel húzza ki a kullancsot a bőrből. Ne csavarja és ne rántsa: ettől a kullancs szájszervei letörhetnek, és a bőrben maradhatnak.",
+        "4": "Ha ez megtörténik, a szervezete a bőr gyógyulása során idővel magától kilöki a szájszerveket. Csipesszel is eltávolíthatja őket. Ha csipesszel nem könnyű eltávolítani őket, hagyja békén őket.",
+        "5": {
+          "text": "Az élő kullancsot az alábbi módok egyikével semmisítse meg:",
+          "items": {
+            "1": "tegye jól záródó edénybe;",
+            "2": "tekerje szorosan ragasztószalagba;",
+            "3": "húzza le a vécén;",
+            "4": "tegye alkoholba."
+          }
+        },
+        "6": "A kullancs eltávolítása után alaposan tisztítsa meg a csípés helyét és a kezét szappanos vízzel, fertőtlenítő alkohollal vagy kézfertőtlenítővel.",
+        "7": "Ha egy kullancsot talált magán, lehetnek még mások is a testén. Gondosan nézze át magát, keressen további kullancsokat, és gyorsan távolítsa el őket.",
+        "8": {
+          "text": "Ha a kullancs eltávolítása utáni néhány héten belül bőrkiütés vagy láz jelentkezik, forduljon orvoshoz:",
+          "items": {
+            "1": "mondja el az orvosnak, hogy nemrég kullancs csípte meg;",
+            "2": "mikor történt a csípés;",
+            "3": "hol szedhette fel a legvalószínűbben a kullancsot."
+          }
+        }
+      },
+      "works": "Ha a bőrébe kapaszkodott kullancsot talál, egyszerűen távolítsa el minél előbb. Ha füves, bozótos vagy erdős helyen járt, nézze át a testét, nincs-e rajta kullancs.",
+      "reliability": "Kullancseltávolító eszközből több is kapható, de egy egyszerű csipesz is nagyon jól működik. Ha a kullancs eltávolítását elhalasztja, hogy egészségügyi dolgozó segítsen, nőhet a kullancsok terjesztette betegség kockázata.",
+      "mistakes": "Megpróbálni rávenni a kullancsot, hogy magától leváljon: ne használjon vazelint, hőt, körömlakkot vagy más anyagot – ez felingerelheti a kullancsot, és fertőzött folyadékot juttathat belőle a bőrbe. A kullancsot csavarni vagy rántani. A kullancsot az ujjaival szétnyomni. A kullancsot bevizsgáltatni: bár egyes kereskedelmi cégek kínálnak ilyet, általában nem javasolt; ha megbetegszik, ne várjon a kullancsvizsgálat eredményére a megfelelő kezelés megkezdésével."
+    },
+    "snake-bite": {
+      "title": "Kígyók: hogyan kerülje el a marást, és mit tegyen, ha megmarta",
+      "steps": {
+        "1": {
+          "text": "Hogyan előzze meg a kígyómarást:",
+          "items": {
+            "1": "Ne érjen hozzá egyetlen kígyóhoz se, és ne vegye kézbe.",
+            "2": "Ha lehet, kerülje a magas füvet és a levélkupacokat.",
+            "3": "Ne másszon olyan sziklákra vagy farakásokra, ahol kígyó rejtőzhet.",
+            "4": "Ne feledje: a kígyók általában hajnalban, alkonyatkor és meleg időben a legaktívabbak.",
+            "5": "Ha a szabadban dolgozik, viseljen bakancsot és hosszú nadrágot.",
+            "6": "Ha gallyat és hulladékot hord el, viseljen bőrkesztyűt."
+          }
+        },
+        "2": {
+          "text": "Ha kígyó marta meg:",
+          "items": {
+            "1": "Minél előbb kérjen sürgősségi orvosi ellátást, hogy (ha szükséges) megkezdhessék az ellenszérum adását, és megelőzzék a maradandó károsodást.",
+            "2": "Ne vezessen maga a kórházba, mert a kígyómarástól szédülhet vagy elájulhat.",
+            "3": "Ha lehet, biztonságos távolságból fényképezze le a kígyót, hogy azonosítani lehessen: ez gyorsíthatja a kezelést.",
+            "4": "Őrizze meg a nyugalmát."
+          }
+        },
+        "3": {
+          "text": "Amíg arra vár, hogy valaki kórházba vigye, nyújtson elsősegélyt:",
+          "items": {
+            "1": "Feküdjön vagy üljön le úgy, hogy a marás helye semleges, kényelmes helyzetben legyen.",
+            "2": "Vegye le a gyűrűit és az óráját, mielőtt a duzzanat megkezdődik.",
+            "3": "Mossa meg a marás helyét szappanos vízzel.",
+            "4": "Fedje be a marás helyét tiszta, száraz kötéssel.",
+            "5": "Jelölje meg a bőrén a nyomásérzékeny vagy duzzadt terület szélét, és írja mellé az időpontot."
+          }
+        }
+      },
+      "works": "A kígyómarás jelei a kígyó fajtájától függően eltérőek lehetnek. A seb körül: szúrásnyomok; vérzés, bőrpír, duzzanat, véraláfutás vagy hólyagok; erős fájdalom és nyomásérzékenység. A marás után: hányinger, hányás vagy hasmenés; látászavar vagy nehézlégzés; súlyos esetben a légzés leállhat; szapora szívverés, gyenge pulzus, alacsony vérnyomás; fémes, mentás vagy gumiszerű íz a szájban; fokozott nyálelválasztás és izzadás; zsibbadás vagy bizsergés az arc körül és/vagy a végtagokban; izomrángás.",
+      "reliability": "A gyors orvosi ellátás csökkentheti a halál és a súlyos károsodás kockázatát. A kígyómarás maradandó sérülést is okozhat. Az oldal az Egyesült Államokban a szabadban dolgozóknak készült, és az általa leírt mérges kígyók az Egyesült Államok kígyói.",
+      "mistakes": "Ne vegye fel a kígyót, és ne próbálja befogni. Soha ne nyúljon mérges kígyóhoz – még döglötthöz vagy a levágott fejéhez se. Ne várjon, amíg tünetek jelentkeznek: azonnal kérjen orvosi segítséget. Ne alkalmazzon érszorítót, áramütést vagy népi gyógymódot. Ne vágja fel a sebet késsel, és semmilyen más módon se vágja meg. Ne próbálja kiszívni a mérget. Ne tegyen rá jeget, és ne merítse a sebet vízbe. Ne igyon alkoholt fájdalomcsillapításként, és ne vegyen be fájdalomcsillapítót (például aszpirint, ibuprofént, naproxént)."
+    },
+    "stings": {
+      "title": "Méh-, darázs- és lódarázscsípés",
+      "steps": {
+        "1": "Ha egyetlen fullánkos rovar repül Ön körül, maradjon nyugodt és mozdulatlan. Ha csapkod a rovar felé, az megcsípheti.",
+        "2": {
+          "text": "Ha egyszerre több fullánkos rovar támadja meg, fusson el tőlük. A méhek csípéskor olyan anyagot bocsátanak ki, amely más méheket is odacsalhat.",
+          "items": {
+            "1": "Menjen be egy épületbe.",
+            "2": "A rovarok elől árnyékos helyre érdemesebb menekülni, mint nyílt területre.",
+            "3": "Ne ugorjon vízbe: egyes rovarok a víz fölött köröznek."
+          }
+        },
+        "3": {
+          "text": "Ha valakit méh, darázs vagy lódarázs csípett meg:",
+          "items": {
+            "1": "Valaki maradjon mellette, és figyelje, nem alakul-e ki allergiás reakció.",
+            "2": "Mossa meg a csípés helyét szappanos vízzel.",
+            "3": "Távolítsa el a fullánkot: törölje át a területet gézzel, vagy kaparja ki a fullánkot a körmével. Soha ne nyomja össze a fullánkot, és ne használjon csipeszt.",
+            "4": "Tegyen rá jeget a duzzanat csökkentésére.",
+            "5": "Ne vakarja a csípést: a vakarás fokozhatja a duzzanatot és a viszketést, és növelheti a fertőzés kockázatát."
+          }
+        }
+      },
+      "works": "A rovar- vagy skorpiócsípés enyhe kellemetlenséget vagy fájdalmat okozhat. A méhek, darazsak és lódarazsak a melegebb hónapokban a leggyakoribbak. Fészkeik és kaptáraik fákon, az eresz alatt vagy tárgyakon, például létrákon is lehetnek.",
+      "reliability": "Akik allergiásak a rovarméregre, azoknál anafilaxia alakulhat ki: ez súlyos, akár életveszélyes allergiás reakció, amely azonnali sürgősségi ellátást igényel. Akinek már volt súlyos allergiás reakciója rovarcsípésre, hordjon magánál adrenalin-autoinjektort (EpiPen), és viseljen orvosi azonosító karkötőt vagy nyakláncot. Az oldal az Egyesült Államokban a szabadban dolgozóknak készült. Mi a teendő anafilaxia esetén: „Anafilaxia” kártya az „Elsősegély” fejezetben.",
+      "mistakes": "A rovar felé csapkodni: megcsípheti. Vízbe ugrani: egyes rovarok a víz fölött köröznek. A fullánkot összenyomni vagy csipesszel kihúzni. A csípést vakarni: a vakarás fokozhatja a duzzanatot és a viszketést, és növelheti a fertőzés kockázatát."
+    },
+    "lightning": {
+      "title": "Zivatar: villámcsapás a szabadban",
+      "steps": {
+        "1": "Ha mennydörgést hall, azonnal menjen biztonságos menedékbe: szilárd, villany- vagy vízvezetékkel ellátott épületbe, vagy zárt, fémtetős járműbe, felhúzott ablakokkal.",
+        "2": "Maradjon a biztonságos menedékben legalább 30 percig azután, hogy az utolsó mennydörgést hallotta.",
+        "3": {
+          "text": "Ha a szabadban éri a zivatar, és sehol a közelben nincs biztonságos menedék, a következők csökkenthetik a kockázatot:",
+          "items": {
+            "1": "azonnal jöjjön le a magaslatokról: dombokról, hegygerincekről, csúcsokról;",
+            "2": "soha ne feküdjön le a földre;",
+            "3": "soha ne húzódjon magányos fa alá;",
+            "4": "soha ne keressen menedéket szikla vagy sziklaperem alatt;",
+            "5": "azonnal jöjjön ki a vízből, és távolodjon el a kis tavaktól, tavaktól és más vizektől;",
+            "6": "maradjon távol az áramot vezető tárgyaktól (szögesdrót kerítéstől, villanyvezetéktől, szélmalomtól stb.)."
+          }
+        }
+      },
+      "works": "Ha mennydörgést hall, a villám már elég közel van ahhoz, hogy Önbe csapjon.",
+      "reliability": "Ha zivatar van a környéken, a szabadban SEHOL sincs biztonságos hely. Azok a lépések, amelyek arra az esetre szólnak, ha a szabadban éri a zivatar, és nincs a közelben biztonságos menedék, csak „csökkenthetik a kockázatot”. Ha valakibe villám csapott: „Áramütés vagy villámcsapás” kártya az „Elsősegély” fejezetben.",
+      "mistakes": "A szabadban maradni: ha zivatar van a környéken, a szabadban sehol sincs biztonságos hely. Túl korán elhagyni a menedéket: maradjon ott legalább 30 percig az utolsó mennydörgés után. A földre feküdni; magányos fa, szikla vagy sziklaperem alá húzódni."
     }
   }
 }
