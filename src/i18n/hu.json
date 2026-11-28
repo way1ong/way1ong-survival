@@ -1138,6 +1138,105 @@
       "works": "Az északra és délre néző lejtők növényzetének és nedvességének különbségei segíthetnek az irány meghatározásában.",
       "reliability": "Ezek jelek, nem műszerek: a moha egyáltalán nem megbízható, a tuskók pedig csak akkor mondanak valamit, ha több van belőlük az összehasonlításhoz.",
       "mistakes": "A fán lévő mohát iránytűnek tekinteni. Egyetlen tuskóból ítélni. Megbízni a szélben anélkül, hogy ismerné az uralkodó irányát."
+    },
+    "cordage-fibres": {
+      "title": "Kötél rostokból",
+      "steps": {
+        "1": "Használja, ami van: bontsa szálakra egy pamut derékszíjat, vagy sodorjon, illetve fonjon kötelet több szál ejtőernyőzsinórból vagy lepedőcsíkokból (lásd a rajzot). Az ejtőernyőzsinór a külső burkolatára és a belső szálaira is szétszedhető.",
+        "2": "Mielőtt természetes anyagból kötelet készít, próbálja ki: húzza meg egy darabját; sodorja az ujjai között, és morzsolja össze a rostokat; ha kibírja, és nem szakad el, kössön rá egy egyszerű csomót, és óvatosan húzza meg. Ha a csomó nem szakad el, az anyag jó.",
+        "3": "Egyes fák belső kérgének rostjaiból – például hárs, szil, fehér tölgy, eperfa, gesztenye, vörös és fehér cédrus – zsinór készíthető. Próbálja ki, elég erős-e; ha több szálat összefon, erősebb lesz.",
+        "4": "Sodrás: a hosszú, erős, kipróbált rostokat gyűjtse egyenletes vastagságú laza szálakba – szálanként körülbelül 15⁠–⁠30 rostot –, és minden szálat sodorjon az óramutató járásával megegyezően. Aztán két, három vagy négy szálat sodorjon össze az óramutató járásával ellentétesen, miközben a még össze nem sodort szálakat továbbra is az óramutató járásával megegyezően sodorja (lásd a második rajzot). Minden szál egyformán legyen sodorva, és egyforma vastag legyen.",
+        "5": "Egyedül is sodorhat zsinórt: görgesse a rostokat a tenyere és a combja között, a másik kezével pedig adagolja az új rostot.",
+        "6": {
+          "text": "Háromszálas fonat, ha nincs, aki segítsen a sodrásban:",
+          "items": {
+            "1": "tegye a jobb oldali szálat a tőle balra lévőre;",
+            "2": "tegye a bal oldali szálat a tőle jobbra lévőre;",
+            "3": "ismételje felváltva balról és jobbról."
+          }
+        }
+      },
+      "works": "Szinte bármilyen természetes rostos anyagból sodorható jól használható kötél vagy zsinór, és sok 12⁠–⁠24 hüvelyk (30⁠–⁠61 cm) vagy hosszabb anyag befonható.",
+      "reliability": "A házi készítésű kötél erőssége nagyon eltérő: a biztonság kedvéért mindig a legkisebb értékkel számoljon. A természetes kötél tönkremegy, ha a rostjait éles kő vagy kés elvágja, és gyengül, ha nem tartják tisztán. A kézi sodrás lassú, ha hosszú zsinór kell.",
+      "mistakes": "Eltérő sodratú, vastagságú vagy feszességű szálak: minden szál egyformán legyen sodorva, és egyforma vastag legyen. Hagyni, hogy összesodráskor az egyik szál a másik köré tekeredjen. Ki nem próbált anyagot használni."
+    },
+    "knot-square": {
+      "title": "Zátonycsomó (laposcsomó)",
+      "steps": {
+        "1": "Szavak: a munkavég a kötél szabad, dolgozó vége; az álló rész a kötél többi része; az öböl a kötél U alakú hajlata.",
+        "2": "A zátonycsomóval két egyforma vastag kötelet köthet össze.",
+        "3": "Fektesse egymás mellé a két kötél munkavégét ellenkező irányba mutatva, és vezesse át az egyik kötél munkavégét a másik álló része alatt.",
+        "4": "Emelje fel mindkét munkavéget, el a keresztezésüktől, és keresztezze őket még egyszer.",
+        "5": "Amikor mindkét munkavég párhuzamos a saját álló részével, húzza meg a két véget (lásd a rajzot).",
+        "6": "Kibontáshoz fogja meg a két öböl hajlatát, és húzza szét a csomót."
+      },
+      "works": "Az igazi zátonycsomó terhelés alatt még szorosabbra húzódik, és könnyen kibontható.",
+      "reliability": "Ha egy munkavég nem párhuzamos a saját álló részével, az „nagymamacsomó”: terhelés alatt megcsúszik, ezért ne használja. Ha a végek párhuzamosak, de nem egymással szemben állnak, az „tolvajcsomó”: terhelés alatt megcsúszik, és nehezen bontható ki.",
+      "mistakes": "Nagymama- vagy tolvajcsomót kötni zátonycsomó helyett. Lazán hagyni a csomót: a lazán kötött csomó terhelés alatt könnyen deformálódik, megcsúszik vagy kibomlik."
+    },
+    "knot-sheet-bend": {
+      "title": "Szövőcsomó: különböző vastag kötelek",
+      "steps": {
+        "1": "Az egyszerű szövőcsomóval két száraz, különböző vastag kötelet köthet össze (a szavakat lásd a „Zátonycsomó” kártyán).",
+        "2": "Hajlítson öblöt a vastagabb kötélen.",
+        "3": "Vezesse a vékonyabb kötél munkavégét az öblön át, a vastagabb kötél mindkét része körül, majd vissza a vékonyabb kötél alá; aztán húzza meg (lásd a rajzot).",
+        "4": "Kettős szövőcsomó: mielőtt meghúzza, tegyen a vékonyabb kötéllel még egy fordulatot az öböl mindkét oldala körül, majd húzza meg (lásd a második rajzot)."
+      },
+      "works": "Az egyszerű szövőcsomó kis terhelés alatt meghúzódik. A kettős szövőcsomó jobb egyforma vagy különböző vastag kötelek és nedves kötelek összekötésére, valamint kötél szemhez kötésére: nagy terhelés alatt sem csúszik meg, és nem húzódik be.",
+      "reliability": "Az egyszerű szövőcsomó csak száraz kötelekhez való, és meglazulhat vagy megcsúszhat, amikor a feszítés megszűnik.",
+      "mistakes": "Egyszerű szövőcsomót kötni nedves kötélre, vagy bízni benne a terhelés megszűnése után: használja a kettőset."
+    },
+    "knot-bowline": {
+      "title": "Mentőcsomó (bowline): hurok a kötél végén",
+      "steps": {
+        "1": "Vezesse a munkavéget át azon, amihez köt, és az álló részen formáljon egy kis hurkot (a szavakat lásd a „Zátonycsomó” kártyán).",
+        "2": "Vezesse a munkavéget alulról át a hurkon, az álló rész körül, majd felülről vissza a hurkon át: lefelé halad a hurokból felfelé kijövő kötél mellett.",
+        "3": "Húzza meg a csomót (lásd a rajzot).",
+        "4": "Ha nem a kötél végén kell hurok, kettős mentőcsomót köt: hajtsa kétrét a kötelet, formáljon hurkot, mint a mentőcsomónál, a kettőzött rész végét vezesse fel a hurkon át, majd vissza le az egész csomó köré, és húzza meg. Könnyen kibontható, és nem csúszik meg."
+      },
+      "works": "A mentőcsomó hasznos csomó a kötél végén lévő hurokhoz, és könnyen kibontható.",
+      "reliability": "Minden csomót igazítson el és húzzon meg – egyenesítse ki a részeit, és húzza meg őket, hogy egymásra szoruljanak: ha ezt elhanyagolja, a csomó szilárdsága 50 százalékkal csökkenhet.",
+      "mistakes": "Lazán vagy rendezetlenül hagyni a csomót. Rossz irányban vezetni a munkavéget a hurkon át: alulról felfelé, az álló rész körül, majd felülről lefelé halad."
+    },
+    "knot-clove-hitch": {
+      "title": "Szorítócsomó (clove hitch): kötél rúdhoz",
+      "steps": {
+        "1": "Kötél rúdhoz, oszlophoz vagy csőhöz rögzítésére való; a kötél bármely pontján megköthető. A rudak összekötése ezzel kezdődik és végződik.",
+        "2": "A kötél közepén: tegyen egymás mellé két fordulatot, és csavarja őket úgy, hogy a két hurok háttal egymásnak feküdjön; húzza rá mindkét hurkot a rúdra (lásd a rajzot, „At center of rope”).",
+        "3": "A kötél végén: vezesse a kötelet két fordulattal a rúd köré úgy, hogy az első fordulat keresztezze az álló részt, a második fordulatnál pedig a munkavég saját maga alatt jöjjön ki („At end of rope”).",
+        "4": "Kötél sátorcövekhez: előbb a cövek előtt vezesse el, aztán saját maga alatt."
+      },
+      "works": "Az ilyen csomó úgy rögzíti a kötelet a rúd vagy oszlop körül, hogy egy ideig tartson, de könnyen kioldható legyen.",
+      "reliability": "Az ilyen csomó ideiglenesen tart: könnyen kioldható.",
+      "mistakes": "Úgy csavarni a hurkokat, hogy nem fekszenek háttal egymásnak. Lazán hagyni."
+    },
+    "knot-half-hitches": {
+      "title": "Teljes kör két fél csomóval",
+      "steps": {
+        "1": "Kötél rúdhoz vagy fához kötésére való, ha jó rögzítés kell, és nagy terhelés alatt más csomók úgy beszorulnának, hogy nehéz lenne kibontani őket.",
+        "2": "Teljes kör: vezesse a kötelet a rúd köré úgy, hogy a munkavég nagyjából ugyanabba az irányba hagyja el a kört, mint az álló rész.",
+        "3": "Fél csomó: vezesse a munkavéget az álló rész köré, majd vissza saját maga alá.",
+        "4": "Ugyanígy kössön egy második fél csomót, és húzza meg (lásd a rajzokat).",
+        "5": "Két fél csomó magában is gyorsan rögzíti a kötelet egy rúdhoz: vezesse a munkavéget a rúd köré, majd kössön két fél csomót az álló rész köré."
+      },
+      "works": "Ez a fő rögzítőcsomó, ha jó rögzítés kell, és nagy terhelés alatt más csomók beszorulnának; leginkább kötél rúdhoz vagy fához rögzítésére használják.",
+      "reliability": "Egyetlen fél csomó nem túl biztos csomó: csak a kötél szabad végének ideiglenes rögzítésére való, és terhelés nélkül hajlamos kibomlani.",
+      "mistakes": "Egyetlen fél csomóban bízni. Lazán hagyni a fél csomókat."
+    },
+    "lashing-square": {
+      "title": "Rudak összekötése",
+      "steps": {
+        "1": "A derékszögű kötéssel egy rudat a másikhoz rögzíthet derékszögben (lásd a rajzot).",
+        "2": "Kezdje szorítócsomóval a függőleges rúd körül, közvetlenül az alatt a hely alatt, ahová a keresztrúd kerül.",
+        "3": "Tegyen három-négy fordulatot: a keresztrúd körül a kötél az előző fordulaton kívül, a függőleges rúd körül azon belül halad. Tartsa feszesen a kötelet.",
+        "4": "Tegyen két-három szorítófordulatot a rudak között, a fordulatok köré, és húzza meg erősen: ez szorosan összefogja a rudakat.",
+        "5": "Fejezze be szorítócsomóval: a kézikönyv szövege szerint ugyanazon a rúdon, amelyen kezdte; a rajza a keresztrúdon mutatja.",
+        "6": "Átlós kötés, ahol a rudak keresztezik egymást: kezdje szorítócsomóval mindkét rúd körül a keresztezésnél; tegyen három fordulatot mindkét rúd köré egymás mellé, majd még hármat keresztben rájuk; húzza meg, tegyen néhány szorítófordulatot a rudak közé, és fejezze be szorítócsomóval azon a rúdon, amelyen kezdte.",
+        "7": "Párhuzamos kötés egymás melletti rudakhoz: fektesse őket lazán egymás mellé, kezdje szorítócsomóval az egyik szélső rúdon, tegyen hét-nyolc fordulatot mindegyik köré, minden két rúd között szorítófordulatokkal, és fejezze be szorítócsomóval a másik oldali rúdon."
+      },
+      "works": "A kötésekkel rudakat erősítenek össze menedékhez és szárítóállványhoz: a derékszögű kötés derékszögben tartja egymáshoz a rudakat, a párhuzamos egymás mellé köti őket.",
+      "reliability": "A fordulatok tartják össze a rudakat, a szorítófordulatok pedig megfeszítik őket. A kézikönyv rajza és szövege eltér abban, hol fejeződik be a derékszögű kötés (5. lépés).",
+      "mistakes": "Az átlós kötés fordulatait egymásra tenni: egymás mellé kerülnek. Kihagyni a szorítófordulatokat. Hagyni, hogy a kötél meglazuljon."
     }
   },
   "figures": {
@@ -1273,6 +1372,68 @@
         "2": "Göncölszekér",
         "3": "Kassziopeia",
         "4": "Északi-sark"
+      }
+    },
+    "atp-making-cordage": {
+      "title": "8-8. ábra. Zsinór készítése",
+      "alt": "Három lépés: két szál fent csomóval összekötve; mindkét szál az óramutató járásával megegyezően sodorva; az egyik szál a másik köré sodorva az óramutató járásával ellentétesen – kész a zsinór.",
+      "labels": {
+        "1": "1. Rögzítse erősen csomóval",
+        "2": "2. Sodorja mindkét szálat az óramutató járásával megegyezően",
+        "3": "3. Sodorja az egyik szálat a másik köré az óramutató járásával ellentétesen."
+      }
+    },
+    "atp-twisting-fibers": {
+      "title": "A-21. ábra. Rostok sodrása",
+      "alt": "Két kéz két rostszálat sodor, mindegyiket a maga irányába, miközben a szálak zsinórrá sodródnak.",
+      "labels": {}
+    },
+    "atp-square-knot": {
+      "title": "A-5. ábra. Zátonycsomó",
+      "alt": "Három lépés: a két vég keresztezve; még egyszer keresztezve; a kész zátonycsomó, mindkét vég a saját kötele mellett fekszik.",
+      "labels": {}
+    },
+    "atp-sheet-bend": {
+      "title": "A-6. ábra. Egyszerű szövőcsomó",
+      "alt": "Három lépés: öböl a vastagabb kötélen; a vékonyabb kötél vége átvezetve rajta, mindkét rész körül és saját maga alatt; a kész csomó.",
+      "labels": {}
+    },
+    "atp-double-sheet-bend": {
+      "title": "A-7. ábra. Kettős szövőcsomó",
+      "alt": "Két lépés: egy további fordulat az öböl körül; a kész kettős szövőcsomó.",
+      "labels": {}
+    },
+    "atp-bowline": {
+      "title": "A-8. ábra. Mentőcsomó",
+      "alt": "Három lépés: kis hurok az álló részen, amelyen alulról átjön a vég; a vég megkerüli az álló részt, és visszamegy lefelé; a kész hurok.",
+      "labels": {}
+    },
+    "atp-clove-hitch": {
+      "title": "A-15. ábra. Szorítócsomó",
+      "alt": "Az 1–4. lépés a kötél közepén: két hurok, háttal egymásnak fektetve és egy oszlopra húzva. Az 5–6. lépés a kötél végén: a kötél kétszer az oszlop köré vezetve, a vége saját maga alatt jön ki.",
+      "labels": {
+        "1": "a kötél közepén",
+        "2": "a kötél végén"
+      }
+    },
+    "atp-round-turn": {
+      "title": "A-3. ábra. Teljes kör két fél csomóval",
+      "alt": "Oszlop köré vezetett kötél, az álló része köré kötött két fél csomóval befejezve.",
+      "labels": {}
+    },
+    "atp-half-hitches": {
+      "title": "A-12. ábra. Fél csomó és két fél csomó",
+      "alt": "A: egyetlen fél csomó egy rúd körül, két lépésben. B: két fél csomó egy rúd körül, három lépésben.",
+      "labels": {}
+    },
+    "atp-square-lashing": {
+      "title": "A-18. ábra. Derékszögű kötés",
+      "alt": "Két keresztezett rúd derékszögű kötésének négy lépése, mindegyik a maga szövegével: a szorítócsomó, a fordulatok mindkét rúd körül, három-négy fordulat, a szorítófordulatok.",
+      "labels": {
+        "1": "1. Kezdje szorítócsomóval a függőleges rúdon, közvetlenül az alatt, ahová a vízszintes rúd kerül.",
+        "2": "2. Csavarja a kötél végét a kötél függőleges része köré, hogy rendezett legyen, majd tekerje a kötelet a vízszintes és a függőleges rúd köré, összefogva őket.",
+        "3": "3. Folytassa: tekerje a kötelet háromszor-négyszer a függőleges és a vízszintes rúd köré.",
+        "4": "4. Tegyen két-három szorítófordulatot a rudak között, maga a kötél köré. Húzza meg nagyon szorosan ezeket a fordulatokat. Fejezze be szorítócsomóval a vízszintes rúdon."
       }
     }
   }

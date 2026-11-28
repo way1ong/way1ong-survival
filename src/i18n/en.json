@@ -1138,6 +1138,105 @@
       "works": "Differences in plants and moisture between north- and south-facing slopes can help you find direction.",
       "reliability": "These are signs, not instruments: moss is not reliable at all, and stumps tell you something only when there are several of them to compare.",
       "mistakes": "Using the moss on a tree as a compass. Judging by a single stump. Trusting the wind without knowing its prevailing direction."
+    },
+    "cordage-fibres": {
+      "title": "Cordage from fibres",
+      "steps": {
+        "1": "Use what you have: unravel a cotton web belt into string, or twist or braid several strands of parachute cord, or strips of a sheet, into a rope (see the picture). Parachute cord can also be taken apart into its outer cover and its inner strands.",
+        "2": "Test natural material before you make cordage from it: pull on a length of it; twist it between your fingers and roll the fibres together; if it holds and does not snap, tie an overhand knot in it and tighten it gently. If the knot does not break, the material will work.",
+        "3": "Fibres from the inner bark of some trees — such as linden, elm, white oak, mulberry, chestnut, red and white cedar — make cord. Test it to be sure it is strong enough; braiding several strands together makes it stronger.",
+        "4": "Twisting: gather long, strong, tested fibres into loose strands of even thickness — about 15 to 30 fibres to a strand — and twist each strand clockwise. Then twist two, three or four strands together counterclockwise, while you keep twisting the strands that are not yet laid up clockwise (see the second picture). Each strand must be of equal twist and thickness.",
+        "5": "Alone, you can spin cord by rolling the fibres between the flat of your hand and your thigh, feeding in new fibre with the other hand.",
+        "6": {
+          "text": "A three-strand braid, if no one can help you spin:",
+          "items": {
+            "1": "pass the right-hand strand over the strand to its left;",
+            "2": "pass the left-hand strand over the strand to its right;",
+            "3": "repeat, alternately from left and right."
+          }
+        }
+      },
+      "works": "Almost any natural fibrous material can be spun into good serviceable rope or cord, and many materials 12 to 24 inches (30⁠–⁠61 cm) long or more can be braided.",
+      "reliability": "The strength of home-made rope varies widely: for safety, always count on the lowest figure. Natural rope is destroyed if its fibres are cut with a sharp rock or knife, and it loses strength if it is not kept clean. Spinning cord by hand is slow if a long length is needed.",
+      "mistakes": "Strands of uneven twist, thickness or tension: each strand must be of equal twist and thickness. Letting one strand twist around the other while laying up. Using material you have not tested."
+    },
+    "knot-square": {
+      "title": "Square knot",
+      "steps": {
+        "1": "Words: the running end is the free, working end of a rope; the standing part is the rest of it; a bight is a U-shaped bend in the rope.",
+        "2": "Use the square knot to tie together two ropes of equal thickness.",
+        "3": "Lay the running ends of the two ropes together, pointing in opposite directions, and pass the running end of one rope under the standing part of the other.",
+        "4": "Bring the two running ends up, away from where they cross, and cross them again.",
+        "5": "When each running end lies parallel to its own standing part, pull the two ends tight (see the picture).",
+        "6": "To untie it, take hold of the bends of the two bights and pull the knot apart."
+      },
+      "works": "A true square knot draws tighter under strain, and it can be untied easily.",
+      "reliability": "If a running end does not lie parallel to its own standing part, the knot is a “granny knot”: it slips under strain, so do not use it. If the ends lie parallel but not opposite each other, it is a “thief knot”: it slips under strain and is hard to untie.",
+      "mistakes": "Tying a granny or a thief knot instead of a square knot. Leaving the knot loose: a loosely tied knot can easily deform under strain and slip or come undone."
+    },
+    "knot-sheet-bend": {
+      "title": "Sheet bend: joining ropes of different thickness",
+      "steps": {
+        "1": "Use the single sheet bend to tie together two dry ropes of different thickness (the words: see the card “Square knot”).",
+        "2": "Make a bight in the thicker rope.",
+        "3": "Pass the running end of the thinner rope through the bight, around both parts of the thicker rope and back under the thinner rope itself; then pull it tight (see the picture).",
+        "4": "Double sheet bend: before you pull it tight, take one extra turn with the thinner rope around both sides of the bight, then tighten (see the second picture)."
+      },
+      "works": "The single sheet bend draws tight under light loads. The double sheet bend is better for joining ropes of equal or different thickness, for wet ropes and for tying a rope to an eye: it does not slip or draw tight under heavy loads.",
+      "reliability": "The single sheet bend is only for dry ropes, and it may loosen or slip when the tension is released.",
+      "mistakes": "Using the single sheet bend on wet ropes, or trusting it after the load comes off: use the double sheet bend."
+    },
+    "knot-bowline": {
+      "title": "Bowline: a loop at the end of a rope",
+      "steps": {
+        "1": "Pass the running end through the object you are tying to, and form a small loop in the standing part (the words: see the card “Square knot”).",
+        "2": "Pass the running end up through the loop from underneath, around the standing part, and back down through the loop from the top: it goes down beside the rope that comes up through the loop.",
+        "3": "Pull the knot tight (see the picture).",
+        "4": "For a loop away from the end of the rope, tie a bowline on a bight: double the rope, form a loop as for the bowline, pass the end of the doubled part up through the loop, back down around the whole knot, and tighten. It is easily untied and does not slip."
+      },
+      "works": "The bowline is a useful knot for forming a loop at the end of a rope, and it is easy to untie.",
+      "reliability": "Dress and set every knot — straighten its parts and tighten them so they bind on one another: neglecting this can reduce the knot’s strength by 50 percent.",
+      "mistakes": "Leaving the knot loose or badly dressed. Passing the running end the wrong way through the loop: it goes up from underneath, around the standing part and back down from the top."
+    },
+    "knot-clove-hitch": {
+      "title": "Clove hitch: a rope to a pole",
+      "steps": {
+        "1": "Use it to fasten a rope to a pole, post or pipe; it can be tied at any point of the rope. Lashings begin and end with it.",
+        "2": "In the middle of a rope: make two turns close together and twist them so that the two loops lie back to back; slip both loops over the pole (see the picture, “At center of rope”).",
+        "3": "At the end of a rope: pass the rope around the pole in two turns, so that the first turn crosses the standing part and the running end comes up under itself on the second turn (“At end of rope”).",
+        "4": "Tying a line to a tent stake: the line passes in front of the stake first and then under itself."
+      },
+      "works": "A hitch secures a rope around a pole or post so that it holds for the time being but can readily be undone.",
+      "reliability": "A hitch is meant to hold temporarily: it can readily be undone.",
+      "mistakes": "Twisting the two loops so that they do not lie back to back. Leaving it loose."
+    },
+    "knot-half-hitches": {
+      "title": "Round turn and two half hitches",
+      "steps": {
+        "1": "Use it to tie a rope to a pole or tree where you need a good anchor and a high load would make other knots jam and be hard to untie.",
+        "2": "Round turn: take the rope around the pole so that the running end leaves the circle in the same general direction as the standing part.",
+        "3": "Half hitch: pass the running end around the standing part and back under itself.",
+        "4": "Make a second half hitch in the same way, and pull tight (see the pictures).",
+        "5": "Two half hitches alone are a quick way to tie a rope to a pole: pass the running end around the pole, then make the two half hitches around the standing part."
+      },
+      "works": "It is the main anchor knot when a good anchor is needed and high loads would make other knots jam; it is most used to anchor a rope to a pole or tree.",
+      "reliability": "A single half hitch is not a very secure knot: it is only for temporarily securing the free end of a rope, and it tends to undo itself without a load.",
+      "mistakes": "Trusting a single half hitch. Leaving the half hitches loose."
+    },
+    "lashing-square": {
+      "title": "Lashing poles together",
+      "steps": {
+        "1": "Square lashing fastens one pole at right angles to another (see the picture).",
+        "2": "Start with a clove hitch around the upright pole, just under where the crosspiece will lie.",
+        "3": "Lay three or four turns: around the crosspiece the rope goes outside the previous turn, around the upright pole inside it. Keep the rope tight.",
+        "4": "Make two or three frapping turns between the poles, around the turns, and pull them tight: this binds the poles firmly together.",
+        "5": "Finish with a clove hitch: the text of the manual says around the same pole you started on; its picture shows it on the crosspiece.",
+        "6": "Diagonal lashing, where poles cross: start with a clove hitch around both poles where they cross; take three turns around both, lying side by side, then three more crosswise over them; pull tight, add a couple of frapping turns between the poles, and finish with a clove hitch on the pole you started on.",
+        "7": "Shear lashing, for poles side by side: lay them loosely beside each other, start with a clove hitch on an outer pole, make seven or eight turns around all of them with frapping turns between each pole, and finish with a clove hitch on the pole at the other side."
+      },
+      "works": "Lashings bind poles for shelters and racks: the square lashing holds one pole at right angles to another; the shear lashing joins poles side by side.",
+      "reliability": "The turns hold the poles together, and the frapping turns make them tight. The manual’s picture and text differ on where to finish the square lashing (step 5).",
+      "mistakes": "Laying the turns of a diagonal lashing on top of each other: they lie beside each other. Leaving out the frapping turns. Letting the rope go slack."
     }
   },
   "figures": {
@@ -1273,6 +1372,68 @@
         "2": "Big Dipper",
         "3": "Cassiopeia",
         "4": "North Pole"
+      }
+    },
+    "atp-making-cordage": {
+      "title": "Figure 8-8. Making cordage",
+      "alt": "Three steps: two strands tied together at the top; both strands twisted clockwise; one strand twisted around the other counterclockwise into a cord.",
+      "labels": {
+        "1": "1. Secure firmly at knot",
+        "2": "2. Twist both strands clockwise",
+        "3": "3. Twist one strand around the other counterclockwise."
+      }
+    },
+    "atp-twisting-fibers": {
+      "title": "Figure A-21. Twisting fibers",
+      "alt": "Two hands twist two strands of fibre, each in its own direction, while the strands are laid up into a cord.",
+      "labels": {}
+    },
+    "atp-square-knot": {
+      "title": "Figure A-5. Square knot",
+      "alt": "Three steps: the two ends crossed; crossed again; the finished square knot, each end lying beside its own rope.",
+      "labels": {}
+    },
+    "atp-sheet-bend": {
+      "title": "Figure A-6. Single sheet bend",
+      "alt": "Three steps: a bight in the thicker rope; the end of the thinner rope passed through it, around both parts and under itself; the finished knot.",
+      "labels": {}
+    },
+    "atp-double-sheet-bend": {
+      "title": "Figure A-7. Double sheet bend",
+      "alt": "Two steps: an extra turn taken around the bight; the finished double sheet bend.",
+      "labels": {}
+    },
+    "atp-bowline": {
+      "title": "Figure A-8. Bowline knot",
+      "alt": "Three steps: a small loop in the standing part with the end coming up through it; the end going around the standing part and back down; the finished loop.",
+      "labels": {}
+    },
+    "atp-clove-hitch": {
+      "title": "Figure A-15. Clove hitch",
+      "alt": "Steps 1–4, in the middle of a rope: two loops made, laid back to back and slipped over a post. Steps 5–6, at the end of a rope: the rope taken around a post twice, its end coming up under itself.",
+      "labels": {
+        "1": "At center of rope",
+        "2": "At end of rope"
+      }
+    },
+    "atp-round-turn": {
+      "title": "Figure A-3. Round turn and two half hitches",
+      "alt": "A rope taken around a post and finished with two half hitches around its standing part.",
+      "labels": {}
+    },
+    "atp-half-hitches": {
+      "title": "Figure A-12. Half hitch and a two half hitch",
+      "alt": "A: a single half hitch around a pole, in two steps. B: two half hitches around a pole, in three steps.",
+      "labels": {}
+    },
+    "atp-square-lashing": {
+      "title": "Figure A-18. Square lashing",
+      "alt": "Four steps of a square lashing of two crossed poles, each with its words: the clove hitch, the turns around both poles, three or four turns, the frapping turns.",
+      "labels": {
+        "1": "1. Start by tying a clove hitch to the vertical spar, just below where the horizontal spar will be.",
+        "2": "2. Twist the end of the rope around the verical part of the rope for a clean look, then wrap the rope around the horizontal and vertical spars, binding them together.",
+        "3": "3. Continue by wrapping the rope three or four times around the vertical and horizontal spars.",
+        "4": "4. Make two or three frapping turns between the spars, around the rope itself. Pull these frapping turns very taut. Finish by tying a clove hitch to the horizontal spar."
       }
     }
   }

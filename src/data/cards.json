@@ -289,6 +289,68 @@
       "id": "direction-signs",
       "section": "orientation",
       "source": "atp-3-50-21"
+    },
+    {
+      "id": "cordage-fibres",
+      "section": "tools",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-making-cordage",
+        "atp-twisting-fibers"
+      ]
+    },
+    {
+      "id": "knot-square",
+      "section": "tools",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-square-knot"
+      ]
+    },
+    {
+      "id": "knot-sheet-bend",
+      "section": "tools",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-sheet-bend",
+        "atp-double-sheet-bend"
+      ]
+    },
+    {
+      "id": "knot-bowline",
+      "section": "tools",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-bowline"
+      ]
+    },
+    {
+      "id": "knot-clove-hitch",
+      "section": "tools",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-clove-hitch"
+      ]
+    },
+    {
+      "id": "knot-half-hitches",
+      "section": "tools",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-round-turn",
+        "atp-half-hitches"
+      ]
+    },
+    {
+      "id": "lashing-square",
+      "section": "tools",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-square-lashing"
+      ]
     }
   ]
 }
