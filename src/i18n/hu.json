@@ -1237,6 +1237,22 @@
       "works": "A kötésekkel rudakat erősítenek össze menedékhez és szárítóállványhoz: a derékszögű kötés derékszögben tartja egymáshoz a rudakat, a párhuzamos egymás mellé köti őket.",
       "reliability": "A fordulatok tartják össze a rudakat, a szorítófordulatok pedig megfeszítik őket. A kézikönyv rajza és szövege eltér abban, hol fejeződik be a derékszögű kötés (5. lépés).",
       "mistakes": "Az átlós kötés fordulatait egymásra tenni: egymás mellé kerülnek. Kihagyni a szorítófordulatokat. Hagyni, hogy a kötél meglazuljon."
+    },
+    "shelter-clothing": {
+      "title": "A ruha az első menedék",
+      "steps": {
+        "1": "A ruhája az első menedéke: tartsa a lehető legjobb állapotban, és viselje helyesen.",
+        "2": "Tisztaság: tartsa tisztán a ruháját. A kosztól és zsírtól összeállt ruha szigetelésének nagy részét elveszíti: a meleg könnyebben távozik a lenyomott vagy eltömődött légrétegeken át.",
+        "3": "Ne melegedjen túl: ha túl melege van, izzad, és a ruhája magába szívja a nedvességet – a nyirkos ruha kevésbé szigetel, az elpárolgó veríték pedig lehűti a testet. Mielőtt megizzadna, gombolja ki kissé a kabátját, vegyen le egy belső réteget vagy a vastag kesztyűt, vagy hajtsa hátra a kapucnit.",
+        "4": "Lazán és rétegesen: a szoros ruha és lábbeli akadályozza a vérkeringést, és kedvez a hideg okozta sérüléseknek. Több réteg könnyű ruha jobb, mint egyetlen ugyanolyan vastag réteg, mert a rétegek között álló levegő van; ráadásul a rétegeket le lehet venni vagy hozzá lehet adni.",
+        "5": "Szárazság: a nedves ruha akár 25-ször gyorsabban vezetheti el a meleget a testtől, mint a száraz. Ha van víztaszító ruhája, azt viselje legfelül.",
+        "6": "Szárítás: tegye a nedves ruhát a hátizsákjára, napra és szélre, vagy tartsa a nyirkos ruhát a testéhez közel; ahol megáll, készítsen szárítóállványt vagy feszítsen ki kötelet. Tűz mellett alkalmazza a hárommásodperces szabályt: tartsa a kézfejét oda, ahová a ruha kerül – ha kényelmesen ott tudja tartani három másodpercig vagy tovább, akkor nincs túl közel. Figyeljen, hogy a ruha ne essen a tűzbe. A bőrholmit lassan szárítsa.",
+        "7": "Időnként nézze át a ruháját, nincs-e kopott hely vagy szakadás, és javítsa meg, mielőtt a lyukak túl nagyok lesznek a foltozáshoz vagy varráshoz; folt készülhet anyagból vagy ragasztószalagból.",
+        "8": "Zokni: tartsa szárazon a lábát – legyen Önnél tartalék zokni, és cserélje, ha kell. A gyapjú nedvesen is megtartja szigetelését; a pamut, ha átnedvesedik, szigetelésének körülbelül 90 százalékát elveszíti, és nagyon nehezen szárad."
+      },
+      "works": "A ruha az a menedék, amely mindig Önnél van: szárazon, melegben vagy hűvösön kell tartania, védenie kell a naptól és a rovaroktól.",
+      "reliability": "A ruha csak akkor véd, ha jó állapotban van, és helyesen viseli. A polipropilén – gyakori műszálas alsó réteg – könnyen olvad: óvatosan szárítsa tűz mellett.",
+      "mistakes": "Megizzadni a hidegben. Szoros ruha vagy cipő. Túl közel vagy felügyelet nélkül szárítani a ruhát a tűz mellett. Halogatni a javítást, amíg a lyukak túl nagyok nem lesznek."
     }
   },
   "figures": {

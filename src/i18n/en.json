@@ -1237,6 +1237,22 @@
       "works": "Lashings bind poles for shelters and racks: the square lashing holds one pole at right angles to another; the shear lashing joins poles side by side.",
       "reliability": "The turns hold the poles together, and the frapping turns make them tight. The manual’s picture and text differ on where to finish the square lashing (step 5).",
       "mistakes": "Laying the turns of a diagonal lashing on top of each other: they lie beside each other. Leaving out the frapping turns. Letting the rope go slack."
+    },
+    "shelter-clothing": {
+      "title": "Clothing: your first shelter",
+      "steps": {
+        "1": "Your clothing is your first shelter: keep it in as good a condition as you can, and wear it properly.",
+        "2": "Clean: keep your clothing clean. Clothes matted with dirt and grease lose much of their insulation: heat escapes more easily through crushed or filled-up air pockets.",
+        "3": "Do not overheat: when you get too hot, you sweat and your clothing takes up the moisture — damp clothing insulates less, and as the sweat evaporates, your body cools. Before you start to sweat, open your jacket a little, take off an inner layer or your heavy mittens, or throw back your hood.",
+        "4": "Loose and in layers: tight clothing and footwear restrict blood circulation and invite cold injuries. Several layers of light clothing are better than one equally thick layer, because there is still air between the layers; and you can take layers off or add them.",
+        "5": "Dry: wet clothing can take heat away from the body up to 25 times faster than dry clothing. If you have water-repellent clothing, wear it as the outer layer.",
+        "6": "Drying: put wet clothes on your rucksack, in the sun and wind, or keep damp clothes close to your body; where you stay, make a drying rack or a line. Near a fire, use the three-second rule: hold the back of your hand where the clothes will be — if you can comfortably keep it there for three seconds or more, it is not too close. Watch the clothes so that they do not fall into the fire. Dry leather slowly.",
+        "7": "Look your clothing over now and then for worn spots and tears, and mend it before the holes become too large to patch or sew; patches can be made from cloth or tape.",
+        "8": "Socks: keep your feet dry — carry spare socks and change them as needed. Wool keeps its insulation when wet; cotton, once wet, loses about 90 percent of its insulation and is very difficult to dry."
+      },
+      "works": "Your clothing is the shelter you always have with you: it has to keep you dry, warm or cool, out of the sun and away from insects.",
+      "reliability": "Clothing protects you only when it is in good condition and worn properly. Polypropylene, a common synthetic base layer, has a low melting point: take care when you dry it near a fire.",
+      "mistakes": "Sweating in the cold. Tight clothes or boots. Drying clothes too close to the fire, or without watching them. Leaving tears until they are too large to mend."
     }
   },
   "figures": {

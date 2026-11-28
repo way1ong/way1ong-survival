@@ -253,6 +253,11 @@
       ]
     },
     {
+      "id": "shelter-clothing",
+      "section": "shelter",
+      "source": "atp-3-50-21"
+    },
+    {
       "id": "direction-shadow",
       "section": "orientation",
       "source": "atp-3-50-21",
