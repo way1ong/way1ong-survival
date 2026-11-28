@@ -1064,6 +1064,80 @@
       "works": "Pihenés közben testhője akár 80 százalékát is leadhatja a földnek; a közé és a föld közé tett szigetelőréteg csökkenti ezt a veszteséget.",
       "reliability": "A szigetelés csak „bizonyos mértékig” fékezi a föld felé irányuló hőveszteséget, és az összenyomódott alom kevésbé szigetel: lazítsa fel, és tegyen hozzá.",
       "mistakes": "Közvetlenül a földre feküdni. Minden nyílást elzárni, miközben gyertya vagy lámpa ég: szén-monoxid. Túl közel rakni a tüzet a menedékhez, vagy a szél felé néző bejárat elé."
+    },
+    "direction-shadow": {
+      "title": "Égtájak az árnyék alapján",
+      "steps": {
+        "1": "Szúrjon egy botot vagy ágat a földbe egy sík helyen, ahol éles árnyékot vet. Jelölje meg az árnyék csúcsát egy kővel, gallyal vagy hasonlóval: ez az első jel mindig nyugat (lásd a rajzot).",
+        "2": "Várjon 10⁠–⁠15 percet, amíg az árnyék csúcsa néhány hüvelyknyit elmozdul. Az új helyét ugyanígy jelölje meg.",
+        "3": "Húzzon egyenes vonalat a két jelen át: ez nagyjából a kelet–nyugati vonal.",
+        "4": "Álljon úgy, hogy az első jel (nyugat) Ön bal oldalán legyen: ekkor észak Ön előtt, kelet jobbra, dél Ön mögött van.",
+        "5": "Nem kell nagy sík helyet keresnie: a bot lehet ferde is, és egy tenyérnyi sík folt elég. Bármilyen mozdulatlan tárgy – például egy ág vége – ugyanúgy megfelel, mint a bot, mert csak az árnyék csúcsát kell megjelölni.",
+        "6": {
+          "text": "Pontosabb módszer délben (lásd a második rajzot):",
+          "items": {
+            "1": "állítson le függőlegesen egy botot ott, ahol az árnyéka legalább 12 hüvelyk (30 cm) hosszú, és 5⁠–⁠10 perccel dél előtt jelölje meg az árnyék csúcsát;",
+            "2": "rajzoljon a bot köré ívet, amelynek sugara az árnyék hossza – egy zsinórral, cipőfűzővel vagy egy második bottal;",
+            "3": "dél után az árnyék ismét megnyúlik: jelölje meg a helyet, ahol a csúcsa másodszor éri el az ívet;",
+            "4": "a két jelen át húzott egyenes a kelet–nyugati vonal."
+          }
+        }
+      },
+      "works": "A nap keleten kel és nyugaton nyugszik, az árnyékok pedig ellenkező irányba mozognak. Az északi féltekén az árnyékok nyugatról kelet felé haladnak, és délben észak felé mutatnak.",
+      "reliability": "A nap ritkán kel pontosan keleten vagy nyugszik pontosan nyugaton, és évszakonként is van eltérés: a kapott vonal csak hozzávetőleges. A kézikönyv szerint az első módszer messze északon és délen, körülbelül 66° szélesség fölött nem működik, a nap horizont feletti helyzete miatt; a déli módszer pontosabb, és egész évben használható minden 66°-nál kisebb szélességen.",
+      "mistakes": "Összekeverni a jeleket: az első mindig nyugat, a második kelet. Elkésni a déli módszerrel: az első jelet dél előtt kell megtenni."
+    },
+    "direction-watch": {
+      "title": "Égtájak az óra alapján",
+      "steps": {
+        "1": "Egy hagyományos, mutatós órára van szüksége.",
+        "2": "Az északi mérsékelt övben tartsa úgy az órát, hogy a kismutató a nap felé mutasson (lásd a rajzot).",
+        "3": "Dél a kismutató és a 12-es szám között félúton van, ha az óra a zónaidőt (téli időt) mutatja. Ha nyári időt mutat, az észak–déli vonal a kismutató és az 1-es szám között félúton húzódik.",
+        "4": "Ha nem biztos benne, melyik vége a vonalnak észak: délelőtt a nap keleten, délután nyugaton van.",
+        "5": "Ha csak digitális órája van, rajzoljon egy papírkorongra vagy a földre számlapot a pontos idővel, és azzal ugyanígy járjon el."
+      },
+      "works": "Egy hagyományos, mutatós órával napsütésben hozzávetőleg meghatározhatja a valódi északot és délt.",
+      "reliability": "Az órás módszer pontatlan lehet, főleg az alacsonyabb szélességeken, és miatta körbe-körbe járhat. A fenti szabály csak az északi mérsékelt övre érvényes; a déli mérsékelt övben más.",
+      "mistakes": "Megfeledkezni a nyári időről: akkor a vonal a kismutató és az 1-es között húzódik, nem a 12-es között. A kismutató helyett a 12-est fordítani a nap felé: ez a déli mérsékelt öv módszere."
+    },
+    "direction-stars": {
+      "title": "Észak a Sarkcsillag alapján",
+      "steps": {
+        "1": "Tiszta éjszakán keresse meg a Göncölszekeret (Nagy Medve csillagkép): hét csillag merőkanál alakban (lásd a rajzot).",
+        "2": "A merőkanál öblének külső szélén álló két csillag a „mutatócsillag”. Gondolatban húzzon vonalat az alsótól a felsőig, és hosszabbítsa meg körülbelül a köztük lévő távolság ötszörösével: ezen a vonalon van a Sarkcsillag.",
+        "3": "A Kassziopeiát is használhatja: öt csillag „W” alakban, amelynek egyik oldala laposabb. Felezze meg a laposabb oldal szögét, és hosszabbítsa meg ezt a vonalat körülbelül a „W” alja és teteje közötti távolság ötszörösével. A Sarkcsillag a Kassziopeia és a Göncölszekér között van.",
+        "4": "A Göncölszekér és a Kassziopeia általában egymással szemben áll, és a Sarkcsillag körül forog: ha mindkettőt használja, könnyebb elkerülni a tévedést.",
+        "5": "A valódi észak közvetlenül a Sarkcsillag alatt van: húzzon tőle képzeletbeli vonalat le a földig.",
+        "6": "A hold csak durva kelet–nyugati irányt ad: ha még napnyugta előtt felkel, a megvilágított oldala nyugat felé néz; ha éjfél után kel fel, kelet felé."
+      },
+      "works": "A Sarkcsillag gyakorlatilag egy helyben áll: mindössze 1,08 fokot mozdul az északi égi pólus körül. Ez a módszer az északi égboltra való.",
+      "reliability": "A Sarkcsillag a Kis Göncöl rúdjának utolsó csillaga; a Kis Göncöl hét csillaga elég halvány, és városok közelében nehezen látható; a Sarkcsillagot össze lehet téveszteni a Göncölszekérrel.",
+      "mistakes": "A Göncölszekér egyik csillagát tartani Sarkcsillagnak. A holdra többet bízni, mint egy durva irányt."
+    },
+    "direction-compass": {
+      "title": "Rögtönzött iránytű",
+      "steps": {
+        "1": "Szüksége lesz egy vas- vagy acéldarabra – egy tűre vagy egy lapos, kétélű borotvapengére – és egy cérnára vagy hosszú hajszálra, amelyre felfüggesztheti.",
+        "2": "Mágnesezze fel: lassan, mindig csak egy irányba húzza végig egy selyemdarabon vagy a haján – vagy újra és újra húzzon végig egy mágnessel az egyik végén.",
+        "3": "Függessze fel a tűt vagy a pengét a hajszálra vagy cérnára: lassan beáll az észak–déli vonal mentén.",
+        "4": "Vagy úsztassa: húzza át a felmágnesezett tűt a haján, hogy zsíros legyen, és óvatosan tegye nyugodt víz felszínére – vagy tegye egy vízen úszó kis parafadarabra, levélre vagy ragasztószalagra. Lassan beáll észak–déli irányba.",
+        "5": "Legalább 2 voltos elemmel és szigetelt dróttal a fémet elektromosan is felmágnesezheti: tekerjen a drótból tekercset, a végeit érintse az elem pólusaihoz, és a fém egyik végét újra és újra dugja be a tekercsbe, majd húzza ki. Ha a drót csupasz, előbb tekerje a fémet egy vékony papírcsíkba vagy levélbe."
+      },
+      "works": "A hajszálra függesztett vagy vízen úszó felmágnesezett tű lassan beáll észak–déli irányba.",
+      "reliability": "A kézikönyv csak azt mondja, hogy a tű az észak–déli vonal mentén áll be; azt nem, hogyan tudja meg, melyik vége észak. Hogy merre van észak, azt az árnyék és az óra mutatja meg (e fejezet más kártyái).",
+      "mistakes": "Oda-vissza húzni: mindig csak egy irányba húzza. Fémszálra függeszteni a tűt: nem fém zsinórt használjon."
+    },
+    "direction-signs": {
+      "title": "Moha, tuskók és lejtők: óvatosan a jelekkel",
+      "steps": {
+        "1": "A fán lévő mohára nem lehet hagyatkozni, ha északot keresi: egyes fákon körben mindenütt nő. Ahol nő, ott az északi féltekén valójában a déli oldalon dúsabb.",
+        "2": "Tuskók: ha a közelben több kivágott fa van, hasonlítsa össze a tuskóikat. A fa az Egyenlítő felé eső oldalán erőteljesebben nő, és ott az évgyűrűk ritkábbak; a sark felé eső oldalon sűrűbbek.",
+        "3": "Lejtők: az északi féltekén az északra néző lejtők kevesebb napot kapnak, mint a délre nézők, ezért hűvösebbek és nedvesebbek. Nyáron az északi lejtőkön hófoltok maradnak; télen a déli lejtőkről, valamint a sziklák és nagy kövek déli oldaláról olvad el először a hó.",
+        "4": "A szél csak ott segít, ahol uralkodó iránya van, és Ön ismeri ezt az irányt."
+      },
+      "works": "Az északra és délre néző lejtők növényzetének és nedvességének különbségei segíthetnek az irány meghatározásában.",
+      "reliability": "Ezek jelek, nem műszerek: a moha egyáltalán nem megbízható, a tuskók pedig csak akkor mondanak valamit, ha több van belőlük az összehasonlításhoz.",
+      "mistakes": "A fán lévő mohát iránytűnek tekinteni. Egyetlen tuskóból ítélni. Megbízni a szélben anélkül, hogy ismerné az uralkodó irányát."
     }
   },
   "figures": {
@@ -1156,6 +1230,50 @@
       "title": "6-13. ábra. Avarkunyhó",
       "alt": "Fent: a váz – egy tuskón nyugvó hosszú gerincrúd, mindkét oldalán bordaként odatámasztott botokkal. Lent: ugyanez a váz vastag avarréteggel borítva, a bejárat a tuskónál.",
       "labels": {}
+    },
+    "atp-shadow-tip": {
+      "title": "7-8. ábra („A” rész). Az árnyékcsúcs módszere",
+      "alt": "Földbe szúrt bot árnyékot vet; az árnyék csúcsának első és második jele az E és W közötti vonalon fekszik, ez a hozzávetőleges kelet–nyugati vonal; rá merőlegesen fut az S-től N-ig tartó déli vonal.",
+      "labels": {
+        "1": "irány",
+        "2": "az árnyékcsúcs első jele",
+        "3": "az árnyékcsúcs második jele",
+        "4": "hozzávetőleges kelet–nyugati vonal",
+        "5": "déli vonal",
+        "6": "dél",
+        "7": "észak",
+        "8": "kelet",
+        "9": "nyugat"
+      }
+    },
+    "atp-equal-shadow": {
+      "title": "7-9. ábra. Az egyenlő árnyékok módszere",
+      "alt": "Egy ív közepén bot áll. A reggeli és a délutáni árnyék két cövek mellett éri el az ívet; a cövekek közötti vonal kelet–nyugati, a rá merőleges nyíl észak felé mutat.",
+      "labels": {
+        "1": "cövek",
+        "2": "reggeli árnyék",
+        "3": "délutáni árnyék",
+        "4": "észak"
+      }
+    },
+    "atp-watch": {
+      "title": "7-10. ábra. Az órás módszer",
+      "alt": "Két vízszintesen fekvő óra. Fent az északi mérsékelt öv: a kismutató a napra mutat, a 12-esig félúton húzott szaggatott vonal N felé, azaz északra. Lent a déli mérsékelt öv: a 12-es mutat a napra.",
+      "labels": {
+        "1": "északi mérsékelt öv",
+        "2": "déli mérsékelt öv",
+        "3": "észak"
+      }
+    },
+    "atp-northern-sky": {
+      "title": "7-11. ábra. Az északi égbolt",
+      "alt": "Éjszakai égbolt: a Göncölszekértől és a Kassziopeiától vonalak vezetnek a köztük lévő Sarkcsillaghoz; a Sarkcsillagtól egy nyíl egyenesen lefelé, a horizonthoz, az Északi-sarkhoz mutat.",
+      "labels": {
+        "1": "Sarkcsillag",
+        "2": "Göncölszekér",
+        "3": "Kassziopeia",
+        "4": "Északi-sark"
+      }
     }
   }
 }

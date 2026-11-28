@@ -133,6 +133,66 @@
       "labels": [],
       "width": 800,
       "height": 594
+    },
+    {
+      "id": "atp-shadow-tip",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-7-8a.png",
+      "caption": "Figure 7-8. Shadow-tip method",
+      "labels": [
+        "Direction",
+        "First shadow tip mark",
+        "Second shadow tip mark",
+        "Approximate east-west line",
+        "Noon line",
+        "S",
+        "N",
+        "E",
+        "W"
+      ],
+      "width": 373,
+      "height": 296
+    },
+    {
+      "id": "atp-equal-shadow",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-7-9.png",
+      "caption": "Figure 7-9. Equal-shadow method",
+      "labels": [
+        "Peg",
+        "Morning shadow",
+        "Afternoon shadow",
+        "North"
+      ],
+      "width": 800,
+      "height": 572
+    },
+    {
+      "id": "atp-watch",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-7-10.png",
+      "caption": "Figure 7-10. Watch method",
+      "labels": [
+        "North temperate zone",
+        "South temperate zone",
+        "N"
+      ],
+      "width": 557,
+      "height": 611
+    },
+    {
+      "id": "atp-northern-sky",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-7-11.png",
+      "caption": "Figure 7-11. Northern sky",
+      "labels": [
+        "Polaris",
+        "Big Dipper",
+        "Cassiopeia",
+        "North Pole"
+      ],
+      "width": 352,
+      "height": 283
     }
   ]
 }

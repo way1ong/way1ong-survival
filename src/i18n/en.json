@@ -1064,6 +1064,80 @@
       "works": "At rest, you can lose as much as 80 percent of your body heat to the ground; a layer of insulation between you and the ground reduces this loss.",
       "reliability": "Insulation only “somewhat” controls the loss of heat to the ground, and bedding that has been pressed down insulates less: fluff it up and add to it.",
       "mistakes": "Lying straight on the ground. Closing every opening while a candle or lamp burns: carbon monoxide. Making the fire too close to the shelter, or in front of an opening that faces the wind."
+    },
+    "direction-shadow": {
+      "title": "Directions from a shadow",
+      "steps": {
+        "1": "Put a stick or branch into the ground at a level spot where it casts a clear shadow. Mark the tip of the shadow with a stone, a twig or the like: this first mark is always west (see the picture).",
+        "2": "Wait 10 to 15 minutes, until the tip of the shadow has moved a few inches. Mark its new position in the same way.",
+        "3": "Draw a straight line through the two marks: this is roughly the east–west line.",
+        "4": "Stand with the first mark (west) on your left: north is in front of you, east is on your right and south is behind you.",
+        "5": "You need not look for a large level spot: the stick may lean, and a flat spot the size of your hand is enough. Any fixed object — the end of a branch, say — serves as well as a stick, because only the tip of the shadow is marked.",
+        "6": {
+          "text": "A more accurate way, around noon (see the second picture):",
+          "items": {
+            "1": "put a stick upright where its shadow is at least 12 inches (30 cm) long, and mark the tip of the shadow 5 to 10 minutes before noon;",
+            "2": "draw an arc around the stick with the shadow as its radius — with a string, a shoelace or a second stick;",
+            "3": "after noon the shadow grows longer again: mark the spot where its tip touches the arc a second time;",
+            "4": "a straight line through the two marks is the east–west line."
+          }
+        }
+      },
+      "works": "The sun rises in the east and sets in the west, and shadows move the opposite way. In the Northern Hemisphere, shadows move from west to east and point north at noon.",
+      "reliability": "The sun rarely rises due east or sets due west, and there is some seasonal variation: the line you get is approximate. The manual says the first way does not work far north and far south, beyond about 66° latitude, because of the position of the sun above the horizon; the noon way is more accurate and works at all latitudes below 66°, all year round.",
+      "mistakes": "Mixing up the marks: the first mark is always west, the second east. Starting the noon way too late: the first mark must be made before noon."
+    },
+    "direction-watch": {
+      "title": "Directions from a watch",
+      "steps": {
+        "1": "You need an ordinary watch with hands.",
+        "2": "In the northern temperate zone, hold the watch so that the hour hand points at the sun (see the picture).",
+        "3": "South lies midway between the hour hand and the 12, if the watch shows standard time. If it shows summer time (daylight saving time), the north–south line lies midway between the hour hand and the 1.",
+        "4": "If you are not sure which end of the line is north: before noon the sun is in the east, and after noon in the west.",
+        "5": "If you only have a digital watch, draw a clock face showing the right time on a circle of paper, or on the ground, and use it in the same way."
+      },
+      "works": "With an ordinary watch with hands you can find the approximate true north and south when the sun is out.",
+      "reliability": "The watch method can be inaccurate, especially in the lower latitudes, and may make you walk in circles. The rule above is for the northern temperate zone only; in the southern temperate zone it is different.",
+      "mistakes": "Forgetting summer time: then the line runs between the hour hand and the 1, not the 12. Pointing the 12 at the sun instead of the hour hand: that is the way of the southern temperate zone."
+    },
+    "direction-stars": {
+      "title": "North by the North Star",
+      "steps": {
+        "1": "On a clear night, find the Big Dipper (Ursa Major): seven stars in the shape of a dipper (see the picture).",
+        "2": "The two stars at the outer edge of its bowl are the “pointer stars”. In your mind, draw a line from the lower one to the upper one and extend it about five times the distance between them: the North Star (Polaris) lies on this line.",
+        "3": "You can also use Cassiopeia: five stars in the shape of a “W”, one side of which looks flatter. Halve the angle on its flatter side and extend that line about five times the distance between the bottom and the top of the “W”. The North Star lies between Cassiopeia and the Big Dipper.",
+        "4": "The Big Dipper and Cassiopeia are generally opposite each other and turn around the North Star: using both together helps prevent confusion.",
+        "5": "True north lies straight below the North Star: draw an imaginary line from it down to the earth.",
+        "6": "The moon gives only a rough east–west direction: if it rises before the sun has set, its lit side faces west; if it rises after midnight, its lit side faces east."
+      },
+      "works": "The North Star practically stays in one place: it moves only 1.08 degrees around the northern celestial pole. This way is for the northern sky.",
+      "reliability": "The North Star is the last star of the handle of the Little Dipper, whose seven stars are rather dim and hard to see near towns and cities; it can be confused with the Big Dipper.",
+      "mistakes": "Taking a star of the Big Dipper for the North Star. Relying on the moon for more than a rough direction."
+    },
+    "direction-compass": {
+      "title": "An improvised compass",
+      "steps": {
+        "1": "You need a piece of iron or steel — a needle or a flat double-edged razor blade — and a thread or a long hair to hang it from.",
+        "2": "Magnetize it: stroke it slowly, always in one direction only, on a piece of silk or through your hair — or stroke one end of it again and again with a magnet.",
+        "3": "Hang the needle or blade from the hair or thread: it slowly turns to lie along the north–south line.",
+        "4": "Or float it: pass the magnetized needle through your hair to oil it and lay it gently on still water — or lay it on a small piece of cork, a leaf or tape floating on the water. It slowly turns north–south.",
+        "5": "With a battery of at least 2 volts and an insulated wire, you can magnetize the metal electrically: form a coil from the wire, touch its ends to the battery’s terminals, and move one end of the metal in and out of the coil again and again. If the wire is bare, first wrap the metal in a thin strip of paper or a leaf."
+      },
+      "works": "A magnetized needle, hung from a hair or floating on water, gradually lines up north–south.",
+      "reliability": "The manual says only that the needle lines up along the north–south line; it does not say how to tell its north end. Where north is, the shadow and the watch show (other cards in this section).",
+      "mistakes": "Stroking back and forth: always stroke in one direction only. Hanging the needle from a metal thread: use a string that is not metal."
+    },
+    "direction-signs": {
+      "title": "Moss, stumps and slopes: signs to treat with care",
+      "steps": {
+        "1": "Moss on a tree cannot be relied on to show north: on some trees it grows all around. Where it grows, it is actually lusher on the south-facing side in the Northern Hemisphere.",
+        "2": "Stumps: if several felled trees are around, compare their stumps. Growth is more vigorous on the side towards the equator, where the growth rings are more widely spaced; on the side towards the pole they are closer together.",
+        "3": "Slopes: in the Northern Hemisphere, north-facing slopes get less sun than south-facing ones, so they are cooler and damper. In summer, north-facing slopes keep patches of snow; in winter, south-facing slopes and the south sides of boulders and large rocks lose their snow first.",
+        "4": "Wind helps only where it blows from a prevailing direction and you know what that direction is."
+      },
+      "works": "Differences in plants and moisture between north- and south-facing slopes can help you find direction.",
+      "reliability": "These are signs, not instruments: moss is not reliable at all, and stumps tell you something only when there are several of them to compare.",
+      "mistakes": "Using the moss on a tree as a compass. Judging by a single stump. Trusting the wind without knowing its prevailing direction."
     }
   },
   "figures": {
@@ -1156,6 +1230,50 @@
       "title": "Figure 6-13. Debris hut",
       "alt": "Top: the frame — a long ridgepole resting on a stump, with sticks propped along both sides like ribs. Bottom: the same frame covered with a thick layer of leaves, its entrance by the stump.",
       "labels": {}
+    },
+    "atp-shadow-tip": {
+      "title": "Figure 7-8 (part A). Shadow-tip method",
+      "alt": "A stick in the ground casts a shadow; the first and the second marks of the shadow tip lie on a line from E to W, the approximate east-west line; across it runs the noon line from S to N.",
+      "labels": {
+        "1": "Direction",
+        "2": "First shadow tip mark",
+        "3": "Second shadow tip mark",
+        "4": "Approximate east-west line",
+        "5": "Noon line",
+        "6": "S",
+        "7": "N",
+        "8": "E",
+        "9": "W"
+      }
+    },
+    "atp-equal-shadow": {
+      "title": "Figure 7-9. Equal-shadow method",
+      "alt": "A stick stands in the centre of an arc. The morning shadow and the afternoon shadow touch the arc at two pegs; the line between the pegs runs east–west, and an arrow across it points north.",
+      "labels": {
+        "1": "Peg",
+        "2": "Morning shadow",
+        "3": "Afternoon shadow",
+        "4": "North"
+      }
+    },
+    "atp-watch": {
+      "title": "Figure 7-10. Watch method",
+      "alt": "Two watches lying flat. Top, north temperate zone: the hour hand points at the sun, and the dashed line midway to the 12 points to N. Bottom, south temperate zone: the 12 points at the sun.",
+      "labels": {
+        "1": "North temperate zone",
+        "2": "South temperate zone",
+        "3": "N"
+      }
+    },
+    "atp-northern-sky": {
+      "title": "Figure 7-11. Northern sky",
+      "alt": "The night sky: lines lead from the Big Dipper and from Cassiopeia to Polaris, between them; an arrow from Polaris points straight down to the horizon, to the North Pole.",
+      "labels": {
+        "1": "Polaris",
+        "2": "Big Dipper",
+        "3": "Cassiopeia",
+        "4": "North Pole"
+      }
     }
   }
 }

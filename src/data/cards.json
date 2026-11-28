@@ -251,6 +251,44 @@
       "notes": [
         "metric"
       ]
+    },
+    {
+      "id": "direction-shadow",
+      "section": "orientation",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-shadow-tip",
+        "atp-equal-shadow"
+      ]
+    },
+    {
+      "id": "direction-watch",
+      "section": "orientation",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-watch"
+      ]
+    },
+    {
+      "id": "direction-stars",
+      "section": "orientation",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-northern-sky"
+      ]
+    },
+    {
+      "id": "direction-compass",
+      "section": "orientation",
+      "source": "atp-3-50-21"
+    },
+    {
+      "id": "direction-signs",
+      "section": "orientation",
+      "source": "atp-3-50-21"
     }
   ]
 }
