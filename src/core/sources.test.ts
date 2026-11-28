@@ -48,6 +48,12 @@ describe('the check of sources', () => {
     expect(sourceProblems([{ ...sample, licence: { ...sample.licence, quote: ' ' } }]).join()).toMatch(/own words/);
   });
 
+  it('knows the notes a source may ask for', () => {
+    expect(sourceProblems([{ ...sample, note: 'cdc' }])).toEqual([]);
+    expect(sourceProblems([{ ...sample, note: 'usArmy' }])).toEqual([]);
+    expect(sourceProblems([{ ...sample, note: 'other' } as unknown as Source]).join()).toMatch(/unknown note other/);
+  });
+
   it('knows the series a source belongs to', () => {
     expect(sourceProblems([{ ...sample, series: 'none' }], {}).join()).toMatch(/unknown series/);
     expect(sourceProblems([{ ...sample, series: 'one' }], { one: { title: 'T', publisher: 'P', url: 'https://example.org' } })).toEqual([]);

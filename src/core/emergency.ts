@@ -4,7 +4,7 @@
 import file from '../data/emergency.json';
 import type { Source } from './sources.ts';
 
-export const SERVICES = ['all', 'general', 'european', 'ambulance', 'fire', 'police', 'mountainRescue', 'rescue', 'deaf', 'lifeThreatening'] as const;
+export const SERVICES = ['all', 'general', 'european', 'ambulance', 'fire', 'police', 'mountainRescue', 'rescue', 'deaf'] as const;
 export type Service = (typeof SERVICES)[number];
 
 export interface EmergencyNumber {

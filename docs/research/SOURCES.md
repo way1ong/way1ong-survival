@@ -88,3 +88,17 @@
 | NHS, загальні сторінки першої допомоги (`/tests-and-treatments/first-aid/`, `…/cpr/`, `…/recovery-position/`) | переадресовують на St John Ambulance (sja.org.uk) — сайт благодійної організації; адреса з середовища недоступна, ліцензію не прочитано | **?**; на NHS лишилися окремі стани (переохолодження, відмороження, тепловий удар, укуси змій…) і «How to resuscitate a child» |
 
 Висновок: повного офіційного джерела першої допомоги з придатною ліцензією ні англійською, ні угорською не знайдено; угорською є відкритий науковий огляд, що сам себе не вважає повним описом допомоги. Рішення — за Дмитром.
+
+## Четвертий прохід: «Що небезпечне» (28.11.2026)
+
+Перед порцією 4 перечитано умови кожного джерела. Сторінки, що взято, — у `docs/sources/`; сторінки умов і ті, що не взято, — `pages-2026-11-28.tgz`.
+
+| Джерело | Що каже власна сторінка (дослівно) | Вердикт |
+|---|---|---|
+| NHS, умови сайту, п. 3.6 (https://www.nhs.uk/our-policies/terms-and-conditions/) | для зміненого тексту — підпис «Contains public sector information licensed under the Open Government Licence v3.0.» і «You must not attribute the content to the NHS website or cite the NHS specifically as the source of the adapted, updated or non-refreshed content»; серед змін — «Translation into another language» | **ні** для карток: вони перекладені й під кожною стоїть джерело. Вирішено брати CDC (рішення 28.11) |
+| CDC, «Use of Agency Materials» (https://www.cdc.gov/other/agencymaterials.html) | «Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain, and may be freely used or reproduced without obtaining copyright permission»; умови: підпис «Source: CDC», примітка про несхвалення, «You may not change the substantive content of the materials», сказати, що матеріал безплатний на сайті CDC | **так**; сайт 28.11 відповідав (27.11 у першому проході — 403) |
+| NWS, «Lightning Safety Outdoors» (https://www.weather.gov/safety/lightning-outdoors) | поради «When a Safe Location is not Nearby» подано як «tips from the National Outdoor Leadership School» | цей уривок **ні** (не твір уряду США); сторінка «Lightning Tips» — **так** |
+| МОЗ України, сайт moz.gov.ua | «Всі матеріали на цьому сайті розміщені на умовах ліцензії Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International» | **ні** — лише некомерційне й без змін |
+| ECDC | 28.11 знову 429 — не обходили | **?** |
+| Наказ МОЗ № 441 | порядків для укусу змії, кліща чи ужалення немає; є лише «укуси комах, тварин або змій» серед причин анафілаксії | для цієї порції не годиться |
+

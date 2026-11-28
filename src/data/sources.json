@@ -42,23 +42,6 @@
       "series": null
     },
     {
-      "id": "nhs-999",
-      "title": "When to call 999",
-      "publisher": "NHS (nhs.uk)",
-      "url": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/",
-      "lang": "en",
-      "version": "Page last reviewed: 3 February 2023; next review due: 3 February 2026",
-      "read": "2026-11-27",
-      "licence": {
-        "kind": "ogl-3.0",
-        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-        "quote": "Copyright and database rights in NHS Website Content are released free-of-charge under the current version of the Open Government Licence"
-      },
-      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
-      "note": null,
-      "series": null
-    },
-    {
       "id": "nps-emergency-plan-pdf",
       "title": "NPS Outdoor Emergency Plan",
       "publisher": "National Park Service, U.S. Department of the Interior",
@@ -106,6 +89,108 @@
         "quote": "A cikk a Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/) feltételei szerint publikált Open Access közlemény"
       },
       "attribution": "© Szerző(k), CC BY 4.0. Used only to check the Hungarian medical terms of the first-aid cards; the advice follows order No 441 of the Ministry of Health of Ukraine.",
+      "note": null,
+      "series": null
+    },
+    {
+      "id": "cdc-tick-prevention",
+      "title": "Preventing Tick Bites",
+      "publisher": "Centers for Disease Control and Prevention (CDC), National Center for Emerging and Zoonotic Infectious Diseases",
+      "url": "https://www.cdc.gov/ticks/prevention/index.html",
+      "lang": "en",
+      "version": "Last updated and reviewed: August 28, 2024",
+      "read": "2026-11-28",
+      "licence": {
+        "kind": "us-government-work",
+        "url": "https://www.cdc.gov/other/agencymaterials.html",
+        "quote": "Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain, and may be freely used or reproduced without obtaining copyright permission."
+      },
+      "attribution": "Source: CDC. Materials developed by CDC, otherwise available on the CDC website for no charge. Their use here does not imply endorsement by CDC, HHS or the United States Government of this app or of way1ong.",
+      "note": "cdc",
+      "series": null
+    },
+    {
+      "id": "cdc-tick-bite",
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention (CDC), National Center for Emerging and Zoonotic Infectious Diseases",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+      "lang": "en",
+      "version": "Last updated and reviewed: June 9, 2026",
+      "read": "2026-11-28",
+      "licence": {
+        "kind": "us-government-work",
+        "url": "https://www.cdc.gov/other/agencymaterials.html",
+        "quote": "Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain, and may be freely used or reproduced without obtaining copyright permission."
+      },
+      "attribution": "Source: CDC. Materials developed by CDC, otherwise available on the CDC website for no charge. Their use here does not imply endorsement by CDC, HHS or the United States Government of this app or of way1ong.",
+      "note": "cdc",
+      "series": null
+    },
+    {
+      "id": "cdc-venomous-snakes",
+      "title": "Venomous Snakes at Work",
+      "publisher": "Centers for Disease Control and Prevention (CDC), National Institute for Occupational Safety and Health (NIOSH)",
+      "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html",
+      "lang": "en",
+      "version": "Published: September 16, 2024; updated and reviewed: September 23, 2026",
+      "read": "2026-11-28",
+      "licence": {
+        "kind": "us-government-work",
+        "url": "https://www.cdc.gov/other/agencymaterials.html",
+        "quote": "Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain, and may be freely used or reproduced without obtaining copyright permission."
+      },
+      "attribution": "Source: CDC. Materials developed by CDC, otherwise available on the CDC website for no charge. Their use here does not imply endorsement by CDC, HHS or the United States Government of this app or of way1ong.",
+      "note": "cdc",
+      "series": null
+    },
+    {
+      "id": "cdc-insects-scorpions",
+      "title": "Insects and Scorpions at Work",
+      "publisher": "Centers for Disease Control and Prevention (CDC), National Institute for Occupational Safety and Health (NIOSH)",
+      "url": "https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html",
+      "lang": "en",
+      "version": "Published: September 16, 2024; updated and reviewed: September 28, 2026",
+      "read": "2026-11-28",
+      "licence": {
+        "kind": "us-government-work",
+        "url": "https://www.cdc.gov/other/agencymaterials.html",
+        "quote": "Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain, and may be freely used or reproduced without obtaining copyright permission."
+      },
+      "attribution": "Source: CDC. Materials developed by CDC, otherwise available on the CDC website for no charge. Their use here does not imply endorsement by CDC, HHS or the United States Government of this app or of way1ong.",
+      "note": "cdc",
+      "series": null
+    },
+    {
+      "id": "nws-lightning-tips",
+      "title": "Lightning Tips",
+      "publisher": "National Weather Service, NOAA (U.S. Department of Commerce)",
+      "url": "https://www.weather.gov/safety/lightning-tips",
+      "lang": "en",
+      "version": "No date on the page; created 19 April 2018 (the page’s DC.date.created)",
+      "read": "2026-11-28",
+      "licence": {
+        "kind": "us-government-work",
+        "url": "https://www.weather.gov/disclaimer",
+        "quote": "The information on National Weather Service (NWS) Web pages are in the public domain, unless specifically noted otherwise, and may be used without charge for any lawful purpose so long as you do not: 1) claim it is your own (e.g., by claiming copyright for NWS information -- see below), 2) use it in a manner that implies an endorsement or affiliation with NOAA/NWS, or 3) modify its content and then present it as official government material."
+      },
+      "attribution": "No claim to original U.S. Government works.",
+      "note": null,
+      "series": null
+    },
+    {
+      "id": "govuk-hfu-urgent-help",
+      "title": "Get urgent help and report a crime: Homes for Ukraine",
+      "publisher": "Ministry of Housing, Communities and Local Government and Department for Levelling Up, Housing and Communities (GOV.UK)",
+      "url": "https://www.gov.uk/guidance/get-urgent-help-and-report-a-crime-homes-for-ukraine",
+      "lang": "en",
+      "version": "Published: 16 January 2023",
+      "read": "2026-11-28",
+      "licence": {
+        "kind": "ogl-3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "quote": "All content is available under the Open Government Licence v3.0, except where otherwise stated"
+      },
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
       "note": null,
       "series": null
     },

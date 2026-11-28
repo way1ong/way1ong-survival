@@ -8,6 +8,14 @@ import { isLicenceKind, LICENCE_KINDS, type LicenceKind } from './licences.ts';
 export const SOURCE_LANGS = ['uk', 'hu', 'en'] as const;
 export type SourceLang = (typeof SOURCE_LANGS)[number];
 
+/**
+ * Notes a source asks every card after it to show: "usArmy" — after a U.S. Army manual; "cdc" — the words CDC's
+ * terms ask for (https://www.cdc.gov/other/agencymaterials.html): the source is CDC, CDC does not endorse the
+ * app, the material is free on CDC's website.
+ */
+export const SOURCE_NOTES = ['usArmy', 'cdc'] as const;
+export type SourceNote = (typeof SOURCE_NOTES)[number];
+
 export interface Source {
   id: string;
   /** The source's own title, in its own language. */
@@ -23,8 +31,8 @@ export interface Source {
   licence: { kind: LicenceKind; url: string; quote: string };
   /** The credit the licence asks for; null — none asked. */
   attribution: string | null;
-  /** A note every card after this source shows ("usArmy": "after a U.S. Army manual"). */
-  note: 'usArmy' | null;
+  /** A note every card after this source shows (SOURCE_NOTES); null — none. */
+  note: SourceNote | null;
   /** The series of pages it belongs to (shown once in "About"); null — none. */
   series: string | null;
 }
@@ -65,7 +73,7 @@ export function sourceProblems(sources: readonly Source[], series: Readonly<Reco
       if (!s.licence.quote?.trim()) out.push(`${at}: the licence's own words are missing`);
       if (LICENCE_KINDS[s.licence.kind].credit && !s.attribution?.trim()) out.push(`${at}: the licence asks for credit, and there is none`);
     }
-    if (s.note !== null && s.note !== 'usArmy') out.push(`${at}: unknown note ${String(s.note)}`);
+    if (s.note !== null && !(SOURCE_NOTES as readonly string[]).includes(s.note)) out.push(`${at}: unknown note ${String(s.note)}`);
     if (s.series !== null && !Object.hasOwn(series, s.series)) out.push(`${at}: unknown series ${String(s.series)}`);
   }
   return out;
