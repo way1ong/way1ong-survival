@@ -1,9 +1,11 @@
 // The window of a card: its title, the notes over it, the steps, when the method works, how reliable it is,
 // where people go wrong — and its source, with the licence and the credit the licence asks for.
 import { cardNotices, cardText, EXTRA_WORDS, type Card, type CardText } from '../core/cards.ts';
+import { figureById } from '../core/figures.ts';
 import { sourceById } from '../core/sources.ts';
 import { dialogCross } from './dialog-cross.ts';
 import { h } from './dom.ts';
+import { figureView } from './figure-view.ts';
 import { dict, fmt, type Dict } from './i18n.ts';
 import { dateOf } from './names.ts';
 
@@ -43,6 +45,8 @@ export function createCardDialog(): {
         for (const item of step.items) points?.append(h('li', {}, item));
         steps.append(h('li', {}, step.text, points));
       }
+      // The pictures of the source go under the steps they show.
+      const figures = (card.figures ?? []).map((id) => figureById(id)).map((figure) => (figure ? figureView(d, lang, figure, source.lang) : null));
       const part = (title: string, text: string) => [h('h3', {}, title), h('p', {}, text)];
       const close = h('button', { class: 'btn', type: 'button' }, d.actions.close);
       close.addEventListener('click', () => el.close());
@@ -57,6 +61,7 @@ export function createCardDialog(): {
           notes,
           h('h3', {}, d.card.steps),
           steps,
+          ...figures,
           ...part(d.card.works, words.works),
           ...part(d.card.reliability, words.reliability),
           ...part(d.card.mistakes, words.mistakes),

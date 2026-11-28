@@ -1,0 +1,31 @@
+{
+  "figures": [
+    {
+      "id": "atp-water-machine",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-3-2.png",
+      "caption": "Figure 3-2. Water machine",
+      "labels": ["Porous material (such as cotton or parachute nylon)", "Snow"],
+      "width": 527,
+      "height": 412
+    },
+    {
+      "id": "atp-sub-surface-water",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-3-11.png",
+      "caption": "Figure 3-11. Sub-surface Water",
+      "labels": ["Dig Here", "Green(er) Vegetation", "Bend", "Dig", "Concave Bank", "Soil", "Clay", "Water-soaked Sand"],
+      "width": 650,
+      "height": 395
+    },
+    {
+      "id": "atp-water-filters",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-3-12.png",
+      "caption": "Figure 3-12. Water filtering systems",
+      "labels": ["Grass", "Sand", "Charcoal", "Plastic bag", "Water", "Rocks"],
+      "width": 630,
+      "height": 513
+    }
+  ]
+}

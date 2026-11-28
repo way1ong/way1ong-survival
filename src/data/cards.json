@@ -133,6 +133,44 @@
       "id": "lightning",
       "section": "dangers",
       "source": "nws-lightning-tips"
+    },
+    {
+      "id": "water-safe",
+      "section": "water",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ]
+    },
+    {
+      "id": "water-rain-snow-dew",
+      "section": "water",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-water-machine"
+      ]
+    },
+    {
+      "id": "water-seepage",
+      "section": "water",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-sub-surface-water"
+      ]
+    },
+    {
+      "id": "water-purify",
+      "section": "water",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-water-filters"
+      ]
     }
   ]
 }

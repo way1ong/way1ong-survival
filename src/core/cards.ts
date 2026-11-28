@@ -19,10 +19,16 @@ export interface Card {
    * substitute for a doctor, shows the emergency numbers, and its steps are word for word in its source's language.
    */
   medical?: true;
+  /** Pictures of its source shown under its steps (src/data/figures.json). */
+  figures?: string[];
 }
 
-/** "usNumber": the source gives the U.S. emergency number (911); the card refers to the numbers of the person's country. */
-export const CARD_NOTES = ['usNumber'] as const;
+/**
+ * "usNumber": the source gives the U.S. emergency number (911); the card refers to the numbers of the person's
+ * country. "metric": the source gives U.S. units; the metric ones in brackets are our conversion after NIST
+ * (decision of 28.11; src/core/units.ts).
+ */
+export const CARD_NOTES = ['usNumber', 'metric'] as const;
 export type CardNote = (typeof CARD_NOTES)[number];
 
 export const CARDS: readonly Card[] = [...(file.cards as Card[]), ...(extra.cards as Card[])];

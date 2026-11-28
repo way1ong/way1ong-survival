@@ -52,14 +52,16 @@
     "source": "Source",
     "read": "Read on {date}",
     "licence": "Licence",
-    "sample": "SAMPLE"
+    "sample": "SAMPLE",
+    "figureWords": "Words on the picture:"
   },
   "notices": {
     "notDoctor": "This is not a substitute for a doctor.",
     "translation": "Translation. Original language: {language}.",
     "usArmy": "Based on a U.S. Army manual.",
     "usNumber": "The source gives the U.S. emergency number (911); here the numbers of your country stand in its place.",
-    "cdc": "Source: CDC, the U.S. Centers for Disease Control and Prevention. This does not imply endorsement of this app by CDC, the U.S. Department of Health and Human Services or the U.S. Government. The material is otherwise available on the CDC website for no charge."
+    "cdc": "Source: CDC, the U.S. Centers for Disease Control and Prevention. This does not imply endorsement of this app by CDC, the U.S. Department of Health and Human Services or the U.S. Government. The material is otherwise available on the CDC website for no charge.",
+    "metric": "The metres, litres and degrees Celsius in brackets are our conversion, after the units guide of NIST (U.S.)."
   },
   "emergency": {
     "title": "Emergency help",
@@ -841,6 +843,102 @@
       "works": "If you hear thunder, lightning is close enough to strike you.",
       "reliability": "NO PLACE outside is safe when thunderstorms are in the area. The actions for when you are caught outside with no safe shelter anywhere nearby only “may reduce your risk”. If someone has been struck by lightning: the card “Electric shock or lightning strike” in “First aid”.",
       "mistakes": "Staying outside: no place outside is safe when thunderstorms are in the area. Leaving shelter too soon: stay in safe shelter at least 30 minutes after you hear the last sound of thunder. Lying flat on the ground; sheltering under an isolated tree, a cliff or a rocky overhang."
+    },
+    "water-safe": {
+      "title": "Which water to drink, and which not",
+      "steps": {
+        "1": "If you have to choose between running water and stagnant water, choose running water — but make sure it is also treated.",
+        "2": "Consider all surface water to be contaminated with human and animal waste, with the possible exception of very high mountain streams or springs in uninhabited areas.",
+        "3": "Springs are typically the safest open source to drink from, but purify their water too whenever you have the means, as a precaution.",
+        "4": "Water from lakes, streams, ponds and swamps — especially any water near human settlements or in the tropics — needs to be purified.",
+        "5": "Avoid water that has a foul odor, and water that may be contaminated with toxins.",
+        "6": "Do not drink water found in natural depressions: it is stagnant and often heavily contaminated with pesticides, garbage and other debris.",
+        "7": "Do not drink saltwater, even a small amount. Do not drink urine or alcoholic beverages.",
+        "8": "Do not eat snow or ice without melting it: eating snow or ice can reduce body temperature and lead to more dehydration."
+      },
+      "works": "Water is one of your most urgent needs. At a temperature of 68 °F (20 °C) with limited physical activity, a person normally needs 2 to 3 quarts (1.9–2.8 l) of water a day. Water loss increases with heat; in cold weather the thirst response decreases, which favors dehydration.",
+      "reliability": "Drinking water that is not safe can make you ill from harmful organisms that can cause diarrhea and lead to death. When possible, purify all water by boiling, chemical disinfectants or commercial filters (card “How to make water safe”).",
+      "mistakes": "Choosing stagnant water when running water is there. Drinking from natural depressions. Trusting water near human settlements without purifying it. Eating snow: the body has to heat the water and melt the snow, a foolish expenditure of calories that are already in short supply."
+    },
+    "water-rain-snow-dew": {
+      "title": "Rain, snow and dew: where to get water",
+      "steps": {
+        "1": "First get a container that can hold water and can be sealed. You can improvise one from plastic bags, tarps, sheets of plastic, or birch bark and pitch.",
+        "2": "Rain: put out improvised nonporous items to catch the rain as it falls from the sky.",
+        "3": "Fresh rainwater collected straight into containers does not need purification. Rain that runs down leaves on its way to the container can contaminate the water and should be purified — unless you first let the rain wash the leaves for at least 15 min.",
+        "4": "Snow: use fresh, clean snow. Put containers filled with snow near a fire or between the layers of your clothing, so that body heat melts it. Adding water to snow helps it melt faster.",
+        "5": "A water machine: put snow on porous material (such as cotton or parachute nylon), gather up the edges and hang this “bag” near a fire, with a container under it (see the picture). Fill it with snow as needed and empty the container when it is full.",
+        "6": "Ice gives more water than snow and needs less heat. Snow or ice melts with little effort on a dark piece of material in sunlight.",
+        "7": "Dew: tie fine grasses, a sponge or cloth around your lower legs and ankles and walk through tall grass, then wring the dew out into a container — up to 1 quart (0.95 l) of water or more.",
+        "8": "In cold weather keep water containers upside down: water freezes from the top, so the water that is not frozen stays at the bottom, by the opening."
+      },
+      "works": "Almost any environment has water present to some degree. Fresh rainwater collected straight into a container can be drunk without purifying it.",
+      "reliability": "Snow and ice are no purer than the water they come from: melt them and purify the water (card “How to make water safe”).",
+      "mistakes": "Eating snow or ice instead of melting it: it lowers the body’s core temperature and uses more of its energy reserves than melting it outside the body. Drinking rain that ran down leaves without purifying it."
+    },
+    "water-seepage": {
+      "title": "Water from the ground: a seepage well",
+      "steps": {
+        "1": "A seepage well is a hole dug into the ground to reach the water that pools or moves below the surface. If there is water, it pools in the hole and can be collected.",
+        "2": "Where to dig: at the outside bend of a dry riverbed, at the foot of cliffs or rocks, in low areas protected from the sun, or where the sand below the surface is damp (see the picture).",
+        "3": "Beside a lake, stream or pond, dig a hole next to the water: the water flows through the surrounding soil, which filters it, and pools in the hole, ready for purification.",
+        "4": "Purify the water before you drink it (card “How to make water safe”)."
+      },
+      "works": "This technique can be used in most environments.",
+      "reliability": "There is not always water below the surface: only if it is there does it pool in the well. The soil filters the water, but it still needs purifying.",
+      "mistakes": "Drinking the water of the hole without purifying it: filtering only makes water more pleasant to drink; it still requires purification."
+    },
+    "water-purify": {
+      "title": "How to make water safe",
+      "steps": {
+        "1": "Muddy, stagnant or foul-smelling water: let it stand in a container for several hours so the sediment settles to the bottom. Pour it between two containers: this improves the taste.",
+        "2": "A filter: build layers of natural materials — sand, crushed rock or gravel, and charcoal — in a container or in pieces of cloth (see the picture). It removes large and small particles from the water and improves its taste.",
+        "3": "Charcoal from a fire, added to the water and left for 45 minutes, helps remove odor and absorbs agricultural and industrial chemicals.",
+        "4": "Filtering does not make water safe: after it, the water still needs purifying.",
+        "5": "Boil the water: bring it to a rolling boil for 1 minute at sea level. Above 8,000 feet (2,438 m), boil it for 3 minutes.",
+        "6": "Purification tablets: always follow the manufacturer’s instructions, and check that the tablets are within their date.",
+        "7": "After a chemical: let the water stand for the prescribed time, then open the cap and let the purified water rinse the threads of the container before you touch it to your mouth.",
+        "8": "Add a drink mix only after the purification is complete."
+      },
+      "works": "Boiling is the safest method for purifying water: a rolling boil for 1 minute at sea level kills all waterborne pathogens.",
+      "reliability": "Two pathogens found in most water sources are Giardia and Cryptosporidium. The only effective means against Cryptosporidium is boiling, or a commercial micro filter or reverse-osmosis filter: chemical disinfectants, such as iodine tablets or bleach, have not been shown to be 100 percent effective against it. Most commercial filters do not remove viruses. These boiling times are not the time needed to sterilize water for medical use.",
+      "mistakes": "Drinking water that was only filtered. Touching your mouth to threads wet with water that was not purified. Adding a drink mix before the purification is complete."
+    }
+  },
+  "figures": {
+    "atp-water-machine": {
+      "title": "Figure 3-2. Water machine",
+      "alt": "A bag of porous cloth filled with snow hangs from three crossed poles beside a fire; water drips from it into a can below.",
+      "labels": {
+        "1": "Porous material (such as cotton or parachute nylon)",
+        "2": "Snow"
+      }
+    },
+    "atp-sub-surface-water": {
+      "title": "Figure 3-11. Sub-surface water",
+      "alt": "A dry riverbed winding between hills. Arrows show where to dig: at the outside bend and the concave bank of the riverbed, and at the foot of a cliff where the plants are greener. A cut through the ground shows soil, a layer of clay and water-soaked sand below.",
+      "labels": {
+        "1": "Dig Here",
+        "2": "Green(er) Vegetation",
+        "3": "Bend",
+        "4": "Dig",
+        "5": "Concave Bank",
+        "6": "Soil",
+        "7": "Clay",
+        "8": "Water-soaked Sand"
+      }
+    },
+    "atp-water-filters": {
+      "title": "Figure 3-12. Water filtering systems",
+      "alt": "Two filters. Left: three cloths hung one above the other on a tripod of poles hold grass, sand and charcoal; water drips through them into a box. Right: a plastic bag hung from a branch is filled with layers of rocks, sand and charcoal; water drips out of its bottom.",
+      "labels": {
+        "1": "Grass",
+        "2": "Sand",
+        "3": "Charcoal",
+        "4": "Plastic bag",
+        "5": "Water",
+        "6": "Rocks"
+      }
     }
   }
 }

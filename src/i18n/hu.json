@@ -52,14 +52,16 @@
     "source": "Forrás",
     "read": "Olvasva: {date}",
     "licence": "Licenc",
-    "sample": "MINTA"
+    "sample": "MINTA",
+    "figureWords": "A rajzon szereplő szavak:"
   },
   "notices": {
     "notDoctor": "Ez nem helyettesíti az orvost.",
     "translation": "Fordítás. Az eredeti nyelve: {language}.",
     "usArmy": "Az amerikai hadsereg kézikönyve alapján.",
     "usNumber": "A forrásban az Egyesült Államok segélyhívószáma (911) szerepel; itt helyette az Ön országának számai állnak.",
-    "cdc": "Forrás: CDC, az Egyesült Államok Betegségellenőrzési és Megelőzési Központjai. Ez nem jelenti, hogy a CDC, az Egyesült Államok Egészségügyi és Humán Szolgáltatások Minisztériuma vagy az Egyesült Államok kormánya támogatná ezt az alkalmazást. Az anyag a CDC honlapján is ingyenesen elérhető."
+    "cdc": "Forrás: CDC, az Egyesült Államok Betegségellenőrzési és Megelőzési Központjai. Ez nem jelenti, hogy a CDC, az Egyesült Államok Egészségügyi és Humán Szolgáltatások Minisztériuma vagy az Egyesült Államok kormánya támogatná ezt az alkalmazást. Az anyag a CDC honlapján is ingyenesen elérhető.",
+    "metric": "A zárójelben álló métert, litert és Celsius-fokot mi számítottuk át a NIST (USA) mértékegység-útmutatója alapján."
   },
   "emergency": {
     "title": "Sürgősségi segítség",
@@ -841,6 +843,102 @@
       "works": "Ha mennydörgést hall, a villám már elég közel van ahhoz, hogy Önbe csapjon.",
       "reliability": "Ha zivatar van a környéken, a szabadban SEHOL sincs biztonságos hely. Azok a lépések, amelyek arra az esetre szólnak, ha a szabadban éri a zivatar, és nincs a közelben biztonságos menedék, csak „csökkenthetik a kockázatot”. Ha valakibe villám csapott: „Áramütés vagy villámcsapás” kártya az „Elsősegély” fejezetben.",
       "mistakes": "A szabadban maradni: ha zivatar van a környéken, a szabadban sehol sincs biztonságos hely. Túl korán elhagyni a menedéket: maradjon ott legalább 30 percig az utolsó mennydörgés után. A földre feküdni; magányos fa, szikla vagy sziklaperem alá húzódni."
+    },
+    "water-safe": {
+      "title": "Milyen vizet igyon, és milyet ne",
+      "steps": {
+        "1": "Ha folyó és állóvíz közül kell választania, a folyóvizet válassza – de azt is mindenképp tegye ihatóvá.",
+        "2": "Minden felszíni vizet tekintsen emberi és állati ürülékkel szennyezettnek; kivétel legfeljebb a nagyon magasan fekvő hegyi patak vagy a lakatlan vidéken fakadó forrás lehet.",
+        "3": "A források általában a legbiztonságosabb nyílt vízforrások, de a vizüket is tegye ihatóvá, ha van rá módja, az óvatosság kedvéért.",
+        "4": "A tavak, patakok, kis tavak és mocsarak vizét – különösen a lakott helyek közelében vagy a trópusokon – ihatóvá kell tenni.",
+        "5": "Kerülje a kellemetlen szagú vizet és azt, amely mérgező anyagokkal szennyeződhetett.",
+        "6": "Ne igyon a természetes mélyedésekben álló vízből: állóvíz, és gyakran erősen szennyezik a növényvédő szerek, a szemét és más hulladék.",
+        "7": "Ne igyon sós vizet, még keveset sem. Ne igyon vizeletet és alkoholt.",
+        "8": "Ne egyen havat vagy jeget olvasztás nélkül: a hó vagy jég evése csökkentheti a testhőmérsékletet, és fokozhatja a kiszáradást."
+      },
+      "works": "A víz az egyik legsürgetőbb szükséglet. 68 °F (20 °C) hőmérsékleten, kevés fizikai munka mellett egy embernek általában napi 2–3 quart (1,9–2,8 l) vízre van szüksége. Melegben nő a vízveszteség; hidegben gyengébb a szomjúságérzet, ami kedvez a kiszáradásnak.",
+      "reliability": "A nem ihatóvá tett víztől megbetegedhet: a káros élőlények hasmenést okoznak, és halálhoz is vezethetnek. Ha lehet, minden vizet tegyen ihatóvá forralással, vegyszerrel vagy gyári szűrővel („Hogyan tegye ihatóvá a vizet” kártya).",
+      "mistakes": "Állóvizet választani, amikor folyóvíz is van. Természetes mélyedésből inni. Megbízni a lakott hely közelében lévő vízben, és nem tenni ihatóvá. Havat enni: a szervezetnek fel kell melegítenie és meg kell olvasztania – ez fölösleges kalóriaveszteség, amikor amúgy is kevés a kalória."
+    },
+    "water-rain-snow-dew": {
+      "title": "Eső, hó és harmat: honnan szerezzen vizet",
+      "steps": {
+        "1": "Először szerezzen olyan edényt, amely megtartja a vizet, és jól lezárható. Rögtönözhet ilyet nejlonzacskóból, ponyvából, fóliából, vagy nyírfakéregből és gyantából.",
+        "2": "Eső: tegyen ki rögtönzött, vizet át nem eresztő tárgyakat, hogy egyenesen az égből fogják fel az esőt.",
+        "3": "A közvetlenül edénybe gyűjtött friss esővizet nem kell ihatóvá tenni. Ha az eső leveleken folyik le az edénybe, szennyezheti a vizet, ezért azt ihatóvá kell tenni – kivéve, ha előbb legalább 15 percig hagyta, hogy az eső lemossa a leveleket.",
+        "4": "Hó: friss, tiszta havat használjon. A hóval teli edényt tegye a tűz mellé vagy a ruharétegei közé, hogy a testmelege megolvassza. Ha egy kevés vizet önt a hóhoz, gyorsabban olvad.",
+        "5": "„Vízgép”: tegye a havat likacsos anyagra (például pamutra vagy ejtőernyő-nejlonra), fogja össze a széleit, akassza ezt a „zsákot” a tűz közelébe, alá pedig tegyen edényt (lásd a rajzot). Töltsön bele havat, amikor kell, és ürítse ki az edényt, amikor megtelt.",
+        "6": "A jég több vizet ad, mint a hó, és kevesebb hő kell hozzá. A hó vagy jég kevés fáradsággal megolvad egy sötét anyagdarabon a napon.",
+        "7": "Harmat: kössön finom füvet, szivacsot vagy rongyot a lábszárára és bokájára, menjen végig a magas fűben, majd facsarja ki a harmatot egy edénybe – így akár 1 quart (0,95 l) vizet vagy többet is gyűjthet.",
+        "8": "Hidegben tartsa a vizes edényeket fejjel lefelé: a víz felülről fagy meg, így a meg nem fagyott víz alul, a nyílásnál marad."
+      },
+      "works": "Szinte minden környezetben van valamennyi víz. A közvetlenül edénybe gyűjtött friss esővíz ihatóvá tétel nélkül is iható.",
+      "reliability": "A hó és a jég nem tisztább annál a víznél, amelyből lett: olvassza meg, és tegye ihatóvá a vizet („Hogyan tegye ihatóvá a vizet” kártya).",
+      "mistakes": "Havat vagy jeget enni olvasztás helyett: csökkenti a test maghőmérsékletét, és több energiatartalékot használ fel, mint ha a testen kívül olvasztaná meg. Leveleken lefolyt esővizet ihatóvá tétel nélkül inni."
+    },
+    "water-seepage": {
+      "title": "Víz a föld alól: szivárgókút",
+      "steps": {
+        "1": "A szivárgókút a földbe ásott gödör, amely eléri a felszín alatt álló vagy mozgó vizet. Ha van ott víz, összegyűlik a gödörben, és kimerhető.",
+        "2": "Hol ásson: a kiszáradt meder külső kanyarulatánál, sziklák vagy kövek tövében, napfénytől védett mélyedésekben, vagy ahol a homok a felszín alatt nedves (lásd a rajzot).",
+        "3": "Tó, patak vagy kis tó mellett ásson gödröt a víz szélén: a víz átszivárog a környező talajon, amely megszűri, és összegyűlik a gödörben, ihatóvá tételre készen.",
+        "4": "Mielőtt inna, tegye ihatóvá a vizet („Hogyan tegye ihatóvá a vizet” kártya)."
+      },
+      "works": "Ez a módszer a legtöbb környezetben használható.",
+      "reliability": "A felszín alatt nem mindig van víz: csak ha van, akkor gyűlik össze a kútban. A talaj megszűri a vizet, de így is ihatóvá kell tenni.",
+      "mistakes": "A gödör vizét ihatóvá tétel nélkül inni: a szűrés csak kellemesebbé teszi a vizet, ihatóvá tenni így is kell."
+    },
+    "water-purify": {
+      "title": "Hogyan tegye ihatóvá a vizet",
+      "steps": {
+        "1": "Zavaros, poshadt vagy rossz szagú víz: hagyja néhány órán át állni egy edényben, hogy az üledék leülepedjen. Öntögesse át egyik edényből a másikba: ettől jobb lesz az íze.",
+        "2": "Szűrő: rétegezzen természetes anyagokat – homokot, zúzott követ vagy kavicsot és faszenet – egy edénybe vagy rongydarabokra (lásd a rajzot). Kiszűri a nagy és apró részecskéket, és javítja a víz ízét.",
+        "3": "A tűzből származó faszén, ha a vízbe teszi, és 45 percig benne hagyja, segít eltüntetni a szagot, és megköti a mezőgazdasági és ipari vegyszereket.",
+        "4": "A szűrés nem teszi ihatóvá a vizet: utána is ihatóvá kell tenni.",
+        "5": "Forralja fel a vizet: hozza erős forrásba, és tengerszinten 1 percig forralja. 8000 láb (2438 m) fölött 3 percig forralja.",
+        "6": "Víztisztító tabletta: mindig kövesse a gyártó utasítását, és ellenőrizze, nem járt-e le a tabletta szavatossága.",
+        "7": "Vegyszer után: hagyja állni a vizet az előírt ideig, majd nyissa ki a kupakot, és hagyja, hogy az ihatóvá tett víz leöblítse az edény menetét, mielőtt a szájához érinti.",
+        "8": "Italport csak akkor tegyen a vízbe, ha az ihatóvá tétel befejeződött."
+      },
+      "works": "A forralás a legbiztonságosabb módja a víz ihatóvá tételének: tengerszinten 1 percig tartó erős forrás minden, vízzel terjedő kórokozót elpusztít.",
+      "reliability": "A legtöbb vízforrásban előforduló két kórokozó a Giardia és a Cryptosporidium. A Cryptosporidium ellen csak a forralás, illetve a gyári mikroszűrő vagy fordított ozmózisos szűrő hatásos: a vegyszerek, például a jódtabletta vagy a hipó, nem bizonyultak 100 százalékosan hatásosnak ellene. A legtöbb gyári szűrő nem szűri ki a vírusokat. Ezek a forralási idők nem azonosak a víz orvosi célú sterilizálásához szükséges idővel.",
+      "mistakes": "Csak megszűrt vizet inni. Szájjal hozzáérni a nem ihatóvá tett víztől nedves menethez. Italport tenni a vízbe, mielőtt az ihatóvá tétel befejeződött."
+    }
+  },
+  "figures": {
+    "atp-water-machine": {
+      "title": "3-2. ábra. „Vízgép”",
+      "alt": "Hóval teli, likacsos anyagból készült zsák lóg három összekötött rúdon a tűz mellett; víz csöpög belőle az alatta álló dobozba.",
+      "labels": {
+        "1": "likacsos anyag (például pamut vagy ejtőernyő-nejlon)",
+        "2": "hó"
+      }
+    },
+    "atp-sub-surface-water": {
+      "title": "3-11. ábra. Víz a felszín alatt",
+      "alt": "Kiszáradt meder kanyarog a dombok között. Nyilak mutatják, hol kell ásni: a meder külső kanyarulatánál és homorú partjánál, valamint egy szikla tövében, ahol zöldebbek a növények. A föld metszete talajt, agyagréteget és alul vízzel átitatott homokot mutat.",
+      "labels": {
+        "1": "itt ásson",
+        "2": "zöldebb növényzet",
+        "3": "kanyar",
+        "4": "ásson",
+        "5": "homorú part",
+        "6": "talaj",
+        "7": "agyag",
+        "8": "vízzel átitatott homok"
+      }
+    },
+    "atp-water-filters": {
+      "title": "3-12. ábra. Víztisztító szűrők",
+      "alt": "Két szűrő. Balra: rudakból álló háromlábon egymás fölött három rongy lóg, bennük fű, homok és faszén; a víz rajtuk át egy ládába csöpög. Jobbra: egy ágon lógó nejlonzacskó, benne kövek, homok és faszén rétegei; a víz az aljából csöpög.",
+      "labels": {
+        "1": "fű",
+        "2": "homok",
+        "3": "faszén",
+        "4": "nejlonzacskó",
+        "5": "víz",
+        "6": "kövek"
+      }
     }
   }
 }
