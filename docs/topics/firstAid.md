@@ -239,6 +239,12 @@
 > наявність декількох ран в області грудної клітки, що знаходяться в одній проекції.
 > оцінити стан постраждалого та за умови його різкого погіршення, пов’язку слід зняти
 > якщо в рані грудної клітки знаходиться сторонній предмет, його слід залишити на місці та за можливості надійно зафіксувати
+> накласти на рану грудної клітки оклюзійну пов’язку
+Джерело: orvhet-2026-erc-review
+> Az irányelv szerint a nyílt mellkasi sebet szabadon kell hagyni, hogy az akadálytalanul közlekedhessen a külső környezettel, így kötés alkalmazását sem javasolja.
+> Ugyanakkor már léteznek olyan „szelepes” kötések (vented chest seal), amelyek biztosítják a levegő szabad kiáramlását kilégzéskor.
+> Ezt csak megfelelő képzettséggel és felszereléssel rendelkező képzett elsősegélynyújtók számára ajánlják.
+> Az ellátás során azonban itt is szempont a sérült általános állapotának megítélése és a megfelelő, félig ülő helyzet (kényelmes) pozíció biztosítása.
 
 ## chest-blunt
 Джерело: moz-441

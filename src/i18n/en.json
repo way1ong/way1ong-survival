@@ -50,6 +50,8 @@
     "reliability": "How reliable",
     "mistakes": "Where people go wrong",
     "source": "Source",
+    "stepSource": "This step follows another source:",
+    "stepSourceTitle": "Source of step {step}",
     "read": "Read on {date}",
     "licence": "Licence",
     "sample": "SAMPLE",
@@ -1262,11 +1264,10 @@
         "3": "Call emergency medical help and follow the instructions of the dispatcher.",
         "4": "Help the person into the position most comfortable for them.",
         "5": {
-          "text": "Put an occlusive (airtight) dressing on the chest wound:",
+          "text": "According to the guideline, an open chest wound should be left uncovered, so that it is in free contact with the outside environment; so the guideline does not recommend a dressing either.",
           "items": {
-            "1": "ask the person to breathe out as far as they can and put an occlusive dressing on the wound. If you have none, put on an improvised occlusive dressing made of a material that does not let air through and fix it on all sides with adhesive tape. If that is not possible either, consider pressing on the wound with your palm in a rubber glove;",
-            "2": "check the person’s condition, and if it suddenly gets much worse, take the dressing off;",
-            "3": "if there are several wounds, put an occlusive dressing on all of them."
+            "1": "There are, however, “vented” dressings (vented chest seals) that let air out freely when breathing out. They are recommended only for trained first aiders with the right training and equipment.",
+            "2": "While giving help, here too it matters to assess the person’s general condition and to give them a suitable half-sitting (comfortable) position."
           }
         },
         "6": "If there is a foreign object in the chest wound, leave it in place and, if possible, fix it securely. The foreign object may be removed from the chest wound only if it gets in the way of cardiopulmonary resuscitation.",
@@ -1277,7 +1278,7 @@
         "11": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
       },
       "works": "A “penetrating chest injury” is a wound of the chest with signs that it goes into the pleural cavity, whatever caused the injury. Signs of a penetrating chest injury: a wound in the chest from which bright, frothy blood flows; a wound in the chest through which air can be heard moving, including a sucking sound with every breath in; several wounds in the chest lying in the same projection (one behind the other).",
-      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are. About the occlusive dressing the order says: “check the person’s condition, and if it suddenly gets much worse, take the dressing off”.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are. Step 5 follows the European ERC 2025 guidelines, not the order. The order advises otherwise: “put an occlusive (airtight) dressing on the chest wound” and, if the person’s condition suddenly gets much worse, take it off.",
       "mistakes": "Taking a foreign object out of the wound. The order: “if there is a foreign object in the chest wound, leave it in place and, if possible, fix it securely”."
     },
     "chest-blunt": {

@@ -4,7 +4,7 @@ import { describe, expect, it } from 'vitest';
 import en from '../i18n/en.json';
 import hu from '../i18n/hu.json';
 import uk from '../i18n/uk.json';
-import { CARDS, cardNotices, cardProblems, cardText, isMedical, type Card } from './cards.ts';
+import { CARDS, cardNotices, cardProblems, cardText, isMedical, stepSourceOf, type Card } from './cards.ts';
 import { SOURCES, sourceById, type Source } from './sources.ts';
 import { verbatimIn } from './topics.ts';
 
@@ -44,15 +44,21 @@ describe('first aid, other health advice and CDC in the language of the source',
   });
   for (const card of checked) {
     it(`${card.id}: every step and point is word for word in its source`, () => {
-      const source = sourceById(card.source) as Source;
-      const kept = readFileSync(fileURLToPath(new URL(`../../docs/sources/${source.id}.txt`, import.meta.url)), 'utf8');
-      const words = cardText(dictionaries[source.lang], card.id);
-      expect(typeof words, card.id).toBe('object');
-      if (typeof words === 'string') return;
-      for (const step of words.steps) {
+      // A step after another source than the card's (stepSources) is checked in that source's language.
+      const own = cardText(dictionaries[(sourceById(card.source) as Source).lang], card.id);
+      expect(typeof own, card.id).toBe('object');
+      if (typeof own === 'string') return;
+      own.steps.forEach((_, i) => {
+        const source = sourceById(stepSourceOf(card, i + 1)) as Source;
+        const kept = readFileSync(fileURLToPath(new URL(`../../docs/sources/${source.id}.txt`, import.meta.url)), 'utf8');
+        const words = cardText(dictionaries[source.lang], card.id);
+        expect(typeof words, `${card.id} (${source.lang})`).toBe('object');
+        if (typeof words === 'string') return;
+        const step = words.steps[i];
+        if (!step) return;
         expect(verbatimIn(step.text, kept), step.text).toBe(true);
         for (const item of step.items) expect(verbatimIn(item, kept), item).toBe(true);
-      }
+      });
     });
   }
 });
@@ -111,8 +117,25 @@ describe('the check of cards', () => {
     expect(cardProblems([{ ...card, medical: false } as unknown as Card], sources, { en: words({ '1': 'A' }) }).join()).toMatch(/"medical" is true or left out/);
   });
 
+  it('takes a step after another source only from a known source other than the card\'s, and only for a step there is', () => {
+    const two = [source('en'), source('hu')];
+    expect(cardProblems([{ ...card, stepSources: { '1': 'sample-hu' } }], two, { en: words({ '1': 'A' }) })).toEqual([]);
+    expect(cardProblems([{ ...card, stepSources: { '1': 'none' } }], two, { en: words({ '1': 'A' }) }).join()).toMatch(/step 1: unknown source none/);
+    expect(cardProblems([{ ...card, stepSources: { '1': 'sample-en' } }], two, { en: words({ '1': 'A' }) }).join()).toMatch(/step 1: its own source is the card's/);
+    expect(cardProblems([{ ...card, stepSources: { '2': 'sample-hu' } }], two, { en: words({ '1': 'A' }) }).join()).toMatch(/step 2 has a source of its own but no words/);
+    expect(cardProblems([{ ...card, stepSources: { '0': 'sample-hu' } }], two, { en: words({ '1': 'A' }) }).join()).toMatch(/step 0 has a source of its own but no words/);
+  });
+
   it('finds texts of a card that does not exist', () => {
     expect(cardProblems([], sources, { en: words({ '1': 'A' }) }).join()).toMatch(/unknown card sample-card/);
+  });
+});
+
+describe('the source of a step', () => {
+  it('is the step\'s own, if it has one, else the card\'s', () => {
+    const mixed: Card = { ...card, stepSources: { '2': 'sample-hu' } };
+    expect([1, 2, 3].map((n) => stepSourceOf(mixed, n))).toEqual(['sample-en', 'sample-hu', 'sample-en']);
+    expect(stepSourceOf(card, 2)).toBe('sample-en');
   });
 });
 

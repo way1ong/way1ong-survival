@@ -50,6 +50,8 @@
     "reliability": "Mennyire megbízható",
     "mistakes": "Hol szoktak hibázni",
     "source": "Forrás",
+    "stepSource": "Ez a lépés más forrást követ:",
+    "stepSourceTitle": "Forrás – {step}. lépés",
     "read": "Olvasva: {date}",
     "licence": "Licenc",
     "sample": "MINTA",
@@ -1262,11 +1264,10 @@
         "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
         "4": "Segítse a sérültet a számára legkényelmesebb helyzetbe.",
         "5": {
-          "text": "Tegyen légzáró (okkluzív) kötést a mellkasi sebre:",
+          "text": "Az irányelv szerint a nyílt mellkasi sebet szabadon kell hagyni, hogy az akadálytalanul közlekedhessen a külső környezettel, így kötés alkalmazását sem javasolja.",
           "items": {
-            "1": "kérje meg a sérültet, hogy fújja ki a levegőt, amennyire csak tudja, és tegye fel a sebre a légzáró kötést. Ha nincs ilyen, tegyen fel rögtönzött légzáró kötést levegőt át nem eresztő anyagból, és ragtapasszal rögzítse minden oldalán. Ha erre sincs lehetőség, fontolja meg, hogy gumikesztyűs tenyerével nyomja a sebet;",
-            "2": "figyelje a sérült állapotát, és ha hirtelen súlyosan romlik, vegye le a kötést;",
-            "3": "ha több seb van, mindegyikre tegyen légzáró kötést."
+            "1": "Ugyanakkor már léteznek olyan „szelepes” kötések (vented chest seal), amelyek biztosítják a levegő szabad kiáramlását kilégzéskor. Ezt csak megfelelő képzettséggel és felszereléssel rendelkező képzett elsősegélynyújtók számára ajánlják.",
+            "2": "Az ellátás során azonban itt is szempont a sérült általános állapotának megítélése és a megfelelő, félig ülő helyzet (kényelmes) pozíció biztosítása."
           }
         },
         "6": "Ha a mellkasi sebben idegen tárgy van, hagyja a helyén, és ha lehet, rögzítse biztonságosan. Az idegen tárgyat csak akkor szabad eltávolítani a mellkasi sebből, ha akadályozza a szív-tüdő újraélesztést.",
@@ -1277,7 +1278,7 @@
         "11": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
       },
       "works": "A „nyílt (áthatoló) mellkasi sérülés” a mellkas sebe, amely a mellhártyaüregbe hatol, bármi okozta is a sérülést. Jelei: a mellkason lévő sebből élénkpiros, habos vér folyik; a mellkason lévő sebből hallani, ahogy a levegő mozog benne, például minden belégzéskor beszívja a levegőt; a mellkason több seb van egy vetületben (egymás mögött).",
-      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések. A légzáró kötésről a rendelet ezt mondja: „figyelje a sérült állapotát, és ha hirtelen súlyosan romlik, vegye le a kötést”.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések. Az 5. lépés az európai ERC 2025 irányelveket követi, nem a rendeletet. A rendelet mást javasol: „tegyen légzáró (okkluzív) kötést a mellkasi sebre”, és ha a sérült állapota hirtelen súlyosan romlik, vegye le.",
       "mistakes": "Az idegen tárgy kihúzása a sebből. A rendelet: „ha a mellkasi sebben idegen tárgy van, hagyja a helyén, és ha lehet, rögzítse biztonságosan”."
     },
     "chest-blunt": {

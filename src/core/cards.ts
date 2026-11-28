@@ -21,7 +21,17 @@ export interface Card {
   medical?: true;
   /** Pictures of its source shown under its steps (src/data/figures.json). */
   figures?: string[];
+  /**
+   * Steps written after another source than the card's: step number ("1", "2", …) → source id (decision of
+   * 28.11: the open chest wound after the ERC 2025 guidelines, not after order No 441). Such a step names its
+   * source under it, the source is shown under the card too, and the step's words are word for word in that
+   * source's language.
+   */
+  stepSources?: Record<string, string>;
 }
+
+/** The source of step `n` (1, 2, …) of a card: the step's own, if it has one, else the card's. */
+export const stepSourceOf = (card: Card, n: number): string => card.stepSources?.[String(n)] ?? card.source;
 
 /**
  * "usNumber": the source gives the U.S. emergency number (911); the card refers to the numbers of the person's
@@ -130,13 +140,22 @@ export function cardProblems(cards: readonly Card[], sources: readonly Source[],
     if (!sources.some((s) => s.id === card.source)) out.push(`${at}: unknown source ${card.source}`);
     for (const note of card.notes ?? []) if (!(CARD_NOTES as readonly string[]).includes(note)) out.push(`${at}: unknown note ${note}`);
     if (card.medical !== undefined && card.medical !== true) out.push(`${at}: "medical" is true or left out`);
+    for (const [step, id] of Object.entries(card.stepSources ?? {})) {
+      if (!sources.some((s) => s.id === id)) out.push(`${at}: step ${step}: unknown source ${id}`);
+      if (id === card.source) out.push(`${at}: step ${step}: its own source is the card's`);
+    }
     const shapes = new Set<string>();
+    let steps = 0;
     for (const [lang, dictionary] of Object.entries(dictionaries)) {
       const words = cardText(dictionary, card.id);
       if (typeof words === 'string') out.push(`${at} (${lang}): ${words}`);
-      else shapes.add(words.steps.map((step) => step.items.length).join(','));
+      else {
+        shapes.add(words.steps.map((step) => step.items.length).join(','));
+        steps = words.steps.length;
+      }
     }
     if (shapes.size > 1) out.push(`${at}: the languages have different numbers of steps or points`);
+    for (const step of Object.keys(card.stepSources ?? {})) if (!/^[1-9]\d*$/.test(step) || Number(step) > steps) out.push(`${at}: step ${step} has a source of its own but no words`);
   }
   // Texts of cards that do not exist would never be shown, nor checked.
   for (const [lang, dictionary] of Object.entries(dictionaries)) {

@@ -104,7 +104,10 @@
     {
       "id": "chest-penetrating",
       "section": "firstAid",
-      "source": "moz-441"
+      "source": "moz-441",
+      "stepSources": {
+        "5": "orvhet-2026-erc-review"
+      }
     },
     {
       "id": "chest-blunt",
