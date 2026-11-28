@@ -227,6 +227,15 @@ try {
               if (words !== expected) note(at, `picture ${f + 1}: ${words} translated words, not ${expected}`);
               checks++;
             }
+            // A step after another source than the card's names it with a link, and the source is under the card too
+            // (decision of 28.11: the open chest wound after the ERC 2025 guidelines).
+            const stepSources = card.locator('.step-source');
+            const stepCount = await stepSources.count();
+            for (let s = 0; s < stepCount; s++) if (!(await stepSources.nth(s).locator('a[href]').count())) note(at, `the source of step ${s + 1} after another source has no link`);
+            const sourceTitles = await card.locator('.source h3').count();
+            if (sourceTitles !== 1 + stepCount) note(at, `${stepCount} steps after other sources, but ${sourceTitles} sources under the card`);
+            if (id === 'chest-penetrating' && stepCount !== 1) note(at, `the open chest wound step names ${stepCount} sources of its own, not 1`);
+            checks++;
             if (id === 'sample-first-aid') {
               if (!(await card.locator('.note--strong').count())) note(at, 'no "not a substitute for a doctor"');
               if (!(await card.locator('.sos .call').count())) note(at, 'no emergency numbers over a first-aid card');

@@ -4,7 +4,7 @@
 
 Джерело — посібник армії США ATP 3-50.21 «Survival» (2018), розділ 6 «Shelter and Clothing» (рішення 27.11 і 28.11); у кожній картці позначка «За посібником армії США». Англійською картки близькі до речень посібника («isolated person» — «ви»). Числа посібника лишаються, у дужках — метри й сантиметри за NIST (`src/core/units.ts`, тест). У збереженому тексті подекуди злито слова, які PDF переносив з рядка на рядок («fireto-shelter», «largediameter»): речення нижче наведено так, як у збереженому тексті.
 
-Що не взято: сніжні укриття (сніжна печера, яма біля дерева) і пустеля, болото, піднятий настил — не для першої версії; укриття з парашута («A-frame» з парашутної тканини) і поради, як сховатися від противника (п. 6-16, крок 9; «concealment», «escape routes»); «poisonous plants» серед вимог до місця — їх треба розпізнавати (правило 3). Одяг (принцип «COLDER», п. 6-7) — поки не взято: у погодженому плані порції його немає.
+Що не взято: сніжні укриття (сніжна печера, яма біля дерева) і пустеля, болото, піднятий настил — не для першої версії; укриття з парашута («A-frame» з парашутної тканини) і поради, як сховатися від противника (п. 6-16, крок 9; «concealment», «escape routes»); «poisonous plants» серед вимог до місця — їх треба розпізнавати (правило 3). Одяг (п. 6-1–6-7, принцип «COLDER») — окрема картка `shelter-clothing` (рішення 28.11, «Починай одяг»); не взято поради про шкарпетки для пустелі, засоби від поту ніг і саморобні голки з кісток і колючок.
 
 ## shelter-site
 Джерело: atp-3-50-21
@@ -81,3 +81,25 @@
 > All openings except ventilation holes should be sealed to avoid heat loss. Leaving vent holes open is especially important if heat-producing devices are used (see figure 6-14, page 6-16). Candles, fuel gel, or small oil lamps produce carbon monoxide.
 > If a fire is placed outside the shelter, the opening of the shelter should be placed 90 degrees to the prevailing wind. This reduces the chances of sparks and smoke being blown into the shelter if the wind reverses direction in the morning and evening, which frequently occurs in mountainous areas. The best fireto-shelter distance is about 3 feet.
 > When at rest, isolated persons lose as much as 80 percent of their body heat to the ground.
+
+## shelter-clothing
+Джерело: atp-3-50-21
+> Your primary shelter in a survival situation will be your uniform.
+> For your uniform to protect you, it must be in as good a condition as possible and be worn properly.
+> Clothing needs to keep the isolated person dry, warm or cool, out of the sun, and away from bugs.
+> Wool is hard to dry out but retains its insulating properties when wet.
+> Cotton socks keep the foot cool and wick moisture away from the foot; once wet, cotton will lose about ninety percent of its insulation value and is very difficult to dry out.
+> This fabric also retains body odor and has a low melting point, so caution should be used when drying it around a fire. Personnel should carry extra socks and rotate them as needed to keep their feet dry.
+> Polypropylene makes an excellent base layer.
+> Clean. Keep clothing clean.
+> Clothes matted with dirt and grease lose much of their insulation value. Heat can escape more easily from the body through the clothing’s crushed or filled up air pockets.
+> Overheating. Avoid overheating. When personnel get too hot, they sweat and their clothing absorbs moisture. This affects their warmth in the following ways: dampness decreases the insulation quality of clothing and as sweat evaporates, the body cools. Adjust your clothing so that you do not sweat. Do this by partially opening your parka or jacket, by removing an inner layer of clothing, by removing heavy outer mittens, or by throwing back your parka hood or changing to lighter headgear.
+> Loose layers. Wear clothing loose and in layers. Tight clothing and footgear restrict blood circulation and invite cold injuries.
+> Several layers of lightweight clothing are better than a single, equally thick layer of clothing, because the layers have dead airspaces between them. This dead airspace provides extra insulation. In addition, layers of clothing allow personnel to take off or add layers to prevent excessive sweating or to increase warmth.
+> Dry. Keep clothing dry. This is important since wet clothing can conduct heat away from the body up to 25 times faster than dry clothing, depending on the type of fabric.
+> Wear water repellant clothing as an outer layer if available.
+> As isolated persons move about, they can place wet clothing on their rucksack exposing the wet clothing to the sun and wind; this will dry them. They can also put damp clothing near their body’s core and body heat will began to dry the clothing. If at a stationary location, construct drying racks or a clothesline to hang clothes up to dry.
+> Placing clothing near a fire will dry it quickly. Isolated persons should make sure to use the three-second rule so they do not put clothing too close to the fire and damage it. The threesecond rule involves being able to hold a hand in front of the fire at a distance that, if the back of the hand is exposed to the flame, it is still comfortable to keep it there for three or more seconds. Also, monitor the clothing to ensure that it does not fall into the flame or that the fire does not flame up and destroy the items.
+> Dry leather items slowly.
+> Examine. Periodically examine clothing for worn areas, tears, and cleanliness.
+> Repair. Repair any damaged clothing before tears and holes become too large to patch or sew. Patches can be made from cloth, tape, and other materials.

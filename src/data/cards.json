@@ -67,7 +67,22 @@
       "source": "moz-441"
     },
     {
-      "id": "fracture",
+      "id": "seizures",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "hypoglycemia",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "poisoning",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "trauma",
       "section": "firstAid",
       "source": "moz-441"
     },
@@ -77,7 +92,50 @@
       "source": "moz-441"
     },
     {
+      "id": "eye-injury",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
       "id": "spine",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "chest-penetrating",
+      "section": "firstAid",
+      "source": "moz-441",
+      "stepSources": {
+        "5": "orvhet-2026-erc-review"
+      }
+    },
+    {
+      "id": "chest-blunt",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "abdomen-penetrating",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "abdomen-blunt",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "fracture",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "amputation",
+      "section": "firstAid",
+      "source": "moz-441"
+    },
+    {
+      "id": "crush",
       "section": "firstAid",
       "source": "moz-441"
     },
@@ -251,6 +309,11 @@
       "notes": [
         "metric"
       ]
+    },
+    {
+      "id": "shelter-clothing",
+      "section": "shelter",
+      "source": "atp-3-50-21"
     },
     {
       "id": "direction-shadow",
