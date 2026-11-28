@@ -56,6 +56,8 @@ describe('the check of conversions', () => {
     expect(conversionProblems('above 8,000 feet (2,438 m)', '')).toEqual([]);
     expect(conversionProblems('2 to 3 quarts (1.9–2.8 l) a day at 68 °F (20 °C)', '')).toEqual([]);
     expect(conversionProblems('a stick 3/4 inch (1.9 cm) thick and 10 to 12 inches (25–30 cm) long', '')).toEqual([]);
+    expect(conversionProblems('stakes 1 foot (30 cm) long, 3 feet (0.9 m) away', '')).toEqual([]);
+    expect(conversionProblems('7 to 10 feet (2.1\u2060–\u20603.0 m)', '')).toEqual([]);
     expect(conversionProblems('3/4 inch (3 cm)', '').join()).toMatch(/not NIST's conversion/);
   });
 

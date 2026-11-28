@@ -856,7 +856,7 @@
         "7": "Do not drink saltwater, even a small amount. Do not drink urine or alcoholic beverages.",
         "8": "Do not eat snow or ice without melting it: eating snow or ice can reduce body temperature and lead to more dehydration."
       },
-      "works": "Water is one of your most urgent needs. At a temperature of 68 °F (20 °C) with limited physical activity, a person normally needs 2 to 3 quarts (1.9–2.8 l) of water a day. Water loss increases with heat; in cold weather the thirst response decreases, which favors dehydration.",
+      "works": "Water is one of your most urgent needs. At a temperature of 68 °F (20 °C) with limited physical activity, a person normally needs 2 to 3 quarts (1.9⁠–⁠2.8 l) of water a day. Water loss increases with heat; in cold weather the thirst response decreases, which favors dehydration.",
       "reliability": "Drinking water that is not safe can make you ill from harmful organisms that can cause diarrhea and lead to death. When possible, purify all water by boiling, chemical disinfectants or commercial filters (card “How to make water safe”).",
       "mistakes": "Choosing stagnant water when running water is there. Drinking from natural depressions. Trusting water near human settlements without purifying it. Eating snow: the body has to heat the water and melt the snow, a foolish expenditure of calories that are already in short supply."
     },
@@ -980,7 +980,7 @@
           "text": "A bow drill (see the picture) has five parts:",
           "items": {
             "1": "a socket — a stone or a piece of hard wood with a slight dent, to hold the top of the drill;",
-            "2": "a drill — a straight, dry hardwood stick about 3/4 inch (1.9 cm) thick and 10 to 12 inches (25–30 cm) long, rounded at the top and blunt at the bottom;",
+            "2": "a drill — a straight, dry hardwood stick about 3/4 inch (1.9 cm) thick and 10 to 12 inches (25⁠–⁠30 cm) long, rounded at the top and blunt at the bottom;",
             "3": "a fireboard — dry softwood about 1 inch (2.5 cm) thick and 4 inches (10 cm) wide, with a dent near one edge and a V-shaped cut from the edge to the dent;",
             "4": "a fire pan — thin bark, leather or a flat piece of wood under the fireboard, to catch the wood dust and the coal;",
             "5": "a bow — a strong green stick about 3/4 inch (1.9 cm) thick and about 3 feet (0.9 m) long, from your fingertips to your shoulder, with a cord tied from end to end without slack."
@@ -994,6 +994,76 @@
       "works": "These ways use what you find around you, so they help when you have no matches or lighter. Flint and steel is the easiest of them.",
       "reliability": "They take time to make and need more energy, patience and skill than modern fire-starters; people who practised them before are much more likely to succeed. The bow drill needs much preparation; the hand drill needs less, but is harder to use for some people.",
       "mistakes": "Using stainless steel instead of carbon steel. Using resinous wood for the drill or the fireboard: it glazes over and hinders the process. Not having enough dry tinder ready when the coal appears."
+    },
+    "shelter-site": {
+      "title": "Where to put a shelter",
+      "steps": {
+        "1": "When you know you need shelter, start looking for a site as soon as possible. A good site has enough material for the shelter you need and is large enough and level enough for you to lie down and keep your things.",
+        "2": {
+          "text": "Choose a site that:",
+          "items": {
+            "1": "protects you from sun, wind, rain and snow;",
+            "2": "is free of dead trees that may fall;",
+            "3": "is away from avalanches, rockslides and mudslides, and from places that flash floods or high water reach;",
+            "4": "is free of insects and reptiles;",
+            "5": "is not a low spot where cold air collects;",
+            "6": "lets you signal and be found."
+          }
+        },
+        "3": "Ask yourself: how much time and effort will the shelter need; will it protect you from the weather; do you have the tools and materials; how long will you stay here?",
+        "4": "Prepare the site: brush away rocks and twigs from where you will sleep, cut back overhanging plants, and look for loose rocks and dead branches that could fall on the shelter. Check the site for snakes, ticks and stinging ants.",
+        "5": "When you have little time, material or tools, use what is already there (see the picture): caves, rocky crevices, small depressions, large rocks on the side of a hill away from the wind, clumps of bushes, large trees with low-hanging branches, fallen trees with thick branches, the roots of an uprooted tree.",
+        "6": "A quick shelter can also be a wall or a building, a vehicle, a tarp, a poncho, a piece of plastic or a space blanket — anything that gives cover from above."
+      },
+      "works": "A shelter protects you from sun, insects, wind, rain, snow, heat and cold. In some areas your need for shelter may come before your need for food, and possibly even your need for water: long exposure to cold can cause great fatigue and weakness.",
+      "reliability": "Using what is already there saves time, energy and materials; but whatever its kind, a shelter must give the protection you need. Shelters of natural materials usually take the most time and energy to build.",
+      "mistakes": "Settling under dead trees, or where avalanches, rockslides or floods can reach you. Choosing thick, brushy, low ground: it harbours more insects. Making a fire in or near a vehicle used as a shelter: spilled fuel or oil can catch fire."
+    },
+    "shelter-tarp": {
+      "title": "A shelter from a poncho or tarp",
+      "steps": {
+        "1": "You need: a poncho or tarp, 7 to 10 feet (2.1⁠–⁠3.0 m) of rope or cord, three stakes about 1 foot (30 cm) long, and two trees or two poles 7 to 10 feet (2.1⁠–⁠3.0 m) apart.",
+        "2": "Check the wind direction: the back of the lean-to must face into the wind (see the picture).",
+        "3": "If the poncho has a hood, pull its drawstring tight, roll the hood up, fold it and tie it off with the drawstring. Cut the rope in half and tie one half to each corner grommet of one long side.",
+        "4": "Tie a short stick — a drip stick, about 4 inches (10 cm) long — to each rope about 1 inch (2.5 cm) from the grommet: rainwater then does not run down the ropes into the shelter.",
+        "5": "Tie the ropes to the trees about waist high, with a round turn and two half hitches with a quick-release knot.",
+        "6": "Spread the poncho and anchor it to the ground with sharpened sticks through the grommets.",
+        "7": "If you will stay more than one night or rain is expected, support the middle: a line from the hood to an overhanging branch, without slack — or a stick upright under the middle, though it takes up space.",
+        "8": "Put brush or your rucksack at the sides against wind and rain, and leaves or pine needles inside against the cold of the ground.",
+        "9": "Material without grommets, such as plastic: put a small “button” — a pinch of dirt, an acorn or the like — behind the material, gather the material around it and put a line with a slip loop over the bulge. Then stake the material out and pull out the wrinkles.",
+        "10": "Stakes: sharpen sticks about 1 inch (2.5 cm) thick and 12 inches (30 cm) long and drive them in at about a 45-degree angle, slanted away from the pull. On rocky or frozen ground, tie the cover to a heavy branch or rock lying on the ground; in loose sand or soil, tie it to a piece of wood or a rock and bury it."
+      },
+      "works": "It takes only a short time and little equipment to build. Material stretched tight at a pitch of 40 to 60 degrees sheds rain and snow.",
+      "reliability": "Porous material, such as parachute cloth, sheds water only when stretched tight at a steep enough angle. At rest, you can lose as much as 80 percent of your body heat to the ground: put insulation under you (card “Bedding and warmth in a shelter”).",
+      "mistakes": "Touching the material while water runs over it: water then drips in at that spot. Leaving it slack or wrinkled: water pools in the wrinkles and leaks in. Turning the open side of the lean-to into the wind."
+    },
+    "shelter-debris-hut": {
+      "title": "A hut of branches and leaves",
+      "steps": {
+        "1": "Make a frame: a tripod of two short stakes and a long ridgepole — or rest one end of the long ridgepole on a sturdy base, or tie it to a tree at about waist height.",
+        "2": "Prop large sticks along both sides of the ridgepole, like ribs, in a wedge shape: wide enough for your body and steep enough to shed water.",
+        "3": "Lay finer sticks and brush crosswise on the ribs: a lattice that keeps the insulating material from falling through into the sleeping space.",
+        "4": "Pile light, dry, soft debris — grass, pine needles, leaves — over the ribs until it is at least 3 feet (0.9 m) thick: the thicker the better.",
+        "5": "Put a layer of insulating material 2 feet (0.6 m) thick inside the shelter.",
+        "6": "At the entrance, pile insulating material that you can pull into the entrance from inside to close it — or build a door.",
+        "7": "Finally, lay branches or other material on top of the debris, so that a storm does not blow it away."
+      },
+      "works": "For warmth and ease of building, the debris hut is one of the best shelters: when shelter is essential to survival, build this one.",
+      "reliability": "At least 6 to 12 inches (15⁠–⁠30 cm) of insulation above you is needed to keep the heat in. Natural shelters usually take the most time and energy to build: gather all the materials first, and choose a site that saves effort.",
+      "mistakes": "Too thin a layer of debris: the thicker, the better. Starting to build before all the materials — frame, covering, bedding and cord — have been gathered."
+    },
+    "shelter-bedding": {
+      "title": "Bedding and warmth in a shelter",
+      "steps": {
+        "1": "Put a layer of insulation between you and the cold ground: a sleeping pad, seat cushions or extra clothing; if these are scarce, ferns and grass; in a conifer forest, boughs.",
+        "2": "Make natural bedding at least 12 inches (30 cm) thick, so that it still insulates when pressed down. Fluff it up between uses and add material.",
+        "3": "Pine boughs, moss and grasses can also insulate the shelter itself.",
+        "4": "Seal all the openings of the shelter except the ventilation holes. Keep the vents open, especially if you use candles, fuel gel or small oil lamps: they produce carbon monoxide.",
+        "5": "A fire outside the shelter: put the opening of the shelter at 90 degrees to the prevailing wind, so sparks and smoke are not blown in if the wind turns, as often happens in the mountains in the morning and evening. The best distance from fire to shelter is about 3 feet (0.9 m)."
+      },
+      "works": "At rest, you can lose as much as 80 percent of your body heat to the ground; a layer of insulation between you and the ground reduces this loss.",
+      "reliability": "Insulation only “somewhat” controls the loss of heat to the ground, and bedding that has been pressed down insulates less: fluff it up and add to it.",
+      "mistakes": "Lying straight on the ground. Closing every opening while a candle or lamp burns: carbon monoxide. Making the fire too close to the shelter, or in front of an opening that faces the wind."
     }
   },
   "figures": {
@@ -1069,6 +1139,23 @@
         "4": "Bow",
         "5": "Fire board"
       }
+    },
+    "atp-natural-shelters": {
+      "title": "Figure 6-1. Types of naturally occurring shelters",
+      "alt": "Shelters that are already there: a clump of bushes; a hollow under a large rock; a fallen tree with thick branches; pieces of wood leaning against a fallen trunk; a pit dug in the snow around a tree.",
+      "labels": {}
+    },
+    "atp-poncho-lean-to": {
+      "title": "Figure 6-2. Poncho lean-to",
+      "alt": "A poncho tied by its corners between two trees at about waist height and pegged to the ground behind, as a sloping roof; an arrow shows the wind blowing against its back.",
+      "labels": {
+        "1": "Wind"
+      }
+    },
+    "atp-debris-hut": {
+      "title": "Figure 6-13. Debris hut",
+      "alt": "Top: the frame — a long ridgepole resting on a stump, with sticks propped along both sides like ribs. Bottom: the same frame covered with a thick layer of leaves, its entrance by the stump.",
+      "labels": {}
     }
   }
 }

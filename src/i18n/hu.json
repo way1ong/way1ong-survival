@@ -856,7 +856,7 @@
         "7": "Ne igyon sós vizet, még keveset sem. Ne igyon vizeletet és alkoholt.",
         "8": "Ne egyen havat vagy jeget olvasztás nélkül: a hó vagy jég evése csökkentheti a testhőmérsékletet, és fokozhatja a kiszáradást."
       },
-      "works": "A víz az egyik legsürgetőbb szükséglet. 68 °F (20 °C) hőmérsékleten, kevés fizikai munka mellett egy embernek általában napi 2–3 quart (1,9–2,8 l) vízre van szüksége. Melegben nő a vízveszteség; hidegben gyengébb a szomjúságérzet, ami kedvez a kiszáradásnak.",
+      "works": "A víz az egyik legsürgetőbb szükséglet. 68 °F (20 °C) hőmérsékleten, kevés fizikai munka mellett egy embernek általában napi 2⁠–⁠3 quart (1,9⁠–⁠2,8 l) vízre van szüksége. Melegben nő a vízveszteség; hidegben gyengébb a szomjúságérzet, ami kedvez a kiszáradásnak.",
       "reliability": "A nem ihatóvá tett víztől megbetegedhet: a káros élőlények hasmenést okoznak, és halálhoz is vezethetnek. Ha lehet, minden vizet tegyen ihatóvá forralással, vegyszerrel vagy gyári szűrővel („Hogyan tegye ihatóvá a vizet” kártya).",
       "mistakes": "Állóvizet választani, amikor folyóvíz is van. Természetes mélyedésből inni. Megbízni a lakott hely közelében lévő vízben, és nem tenni ihatóvá. Havat enni: a szervezetnek fel kell melegítenie és meg kell olvasztania – ez fölösleges kalóriaveszteség, amikor amúgy is kevés a kalória."
     },
@@ -980,7 +980,7 @@
           "text": "Az íjas fúró (lásd a rajzot) öt részből áll:",
           "items": {
             "1": "fogó: kő vagy keményfa darab egy kis mélyedéssel, amely a fúró felső végét tartja;",
-            "2": "fúró: egyenes, száraz keményfa bot, körülbelül 3/4 hüvelyk (1,9 cm) vastag és 10–12 hüvelyk (25–30 cm) hosszú, felül lekerekített, alul tompa;",
+            "2": "fúró: egyenes, száraz keményfa bot, körülbelül 3/4 hüvelyk (1,9 cm) vastag és 10⁠–⁠12 hüvelyk (25⁠–⁠30 cm) hosszú, felül lekerekített, alul tompa;",
             "3": "tűzdeszka: száraz puhafa, körülbelül 1 hüvelyk (2,5 cm) vastag és 4 hüvelyk (10 cm) széles, az egyik széle közelében mélyedéssel, és a széltől a mélyedésig V alakú bevágással;",
             "4": "tűztálca: vékony kéreg, bőr vagy lapos fadarab a tűzdeszka alatt, amely felfogja a fapor és a parazsat;",
             "5": "íj: erős, nyers bot, körülbelül 3/4 hüvelyk (1,9 cm) vastag és körülbelül 3 láb (0,9 m) hosszú – az ujjhegytől a vállig ér –, végétől végéig lazaság nélkül kifeszített zsinórral."
@@ -994,6 +994,76 @@
       "works": "Ezek a módszerek azt használják, ami a környezetében van, így akkor is segítenek, ha nincs gyufája vagy öngyújtója. Közülük a kova és acél a legkönnyebb.",
       "reliability": "Elkészítésük időbe telik, és több erő, türelem és ügyesség kell hozzájuk, mint a modern eszközökhöz; akik előre gyakorolták, sokkal nagyobb eséllyel járnak sikerrel. Az íjas fúró sok előkészítést kíván; a kézi fúró kevesebbet, de van, akinek nehezebb vele bánni.",
       "mistakes": "Rozsdamentes acélt használni szénacél helyett. Gyantás fát használni a fúróhoz vagy a tűzdeszkához: kifényesedik, és akadályozza a munkát. Nem készíteni elő elég száraz gyújtóst, mire a parázs megjelenik."
+    },
+    "shelter-site": {
+      "title": "Hol legyen a menedék",
+      "steps": {
+        "1": "Amint tudja, hogy menedékre van szüksége, minél előbb keressen neki helyet. A jó helyen van elég anyag a szükséges menedékhez, és elég tágas és sík ahhoz, hogy lefeküdhessen, és a holmiját is megóvja.",
+        "2": {
+          "text": "Olyan helyet válasszon, amely:",
+          "items": {
+            "1": "véd a nap, a szél, az eső és a hó ellen;",
+            "2": "mentes a kidőlhető, elhalt fáktól;",
+            "3": "távol van a lavináktól, kőomlásoktól és földcsuszamlásoktól, valamint azoktól a helyektől, ahová a villámárvíz vagy a magas víz elér;",
+            "4": "mentes a rovaroktól és a hüllőktől;",
+            "5": "nem olyan mélyedés, ahol összegyűlik a hideg levegő;",
+            "6": "lehetővé teszi, hogy jelezzen, és megtalálják."
+          }
+        },
+        "3": "Kérdezze meg magától: mennyi időt és erőt kíván a menedék; megvédi-e az időjárástól; megvannak-e a szerszámai és anyagai; mennyi ideig marad itt?",
+        "4": "Készítse elő a helyet: söpörje el a köveket és a gallyakat onnan, ahol aludni fog, vágja vissza a lelógó növényeket, és keresse meg a laza köveket és elhalt ágakat, amelyek a menedékre eshetnek. Nézze meg, nincsenek-e a helyen kígyók, kullancsok és csípő hangyák.",
+        "5": "Ha kevés az ideje, anyaga vagy szerszáma, használja azt, ami már ott van (lásd a rajzot): barlangok, sziklahasadékok, kis mélyedések, nagy kövek a domb szélárnyékos oldalán, bokorcsoportok, alacsonyan lógó ágú nagy fák, sűrű ágú kidőlt fák, kifordult fák gyökerei.",
+        "6": "Gyors menedék lehet egy fal vagy épület, egy jármű, egy ponyva, esőköpeny, fóliadarab vagy mentőfólia is – bármi, ami felülről fedezéket ad."
+      },
+      "works": "A menedék véd a nap, a rovarok, a szél, az eső, a hó, a hőség és a hideg ellen. Egyes helyeken a menedék fontosabb lehet az élelemnél, sőt talán még a víznél is: a hosszan tartó hideg nagy fáradtságot és gyengeséget okozhat.",
+      "reliability": "Ami már ott van, az időt, erőt és anyagot takarít meg; de bármilyen is a menedék, meg kell adnia a szükséges védelmet. A természetes anyagokból épített menedék általában a legtöbb időt és erőt kívánja.",
+      "mistakes": "Elhalt fák alá telepedni, vagy oda, ahová lavina, kőomlás vagy árvíz elérhet. Sűrű, bozótos mélyedést választani: ott több a rovar. Tüzet rakni a menedékül használt járműben vagy annak közelében: a kifolyt üzemanyag vagy olaj meggyulladhat."
+    },
+    "shelter-tarp": {
+      "title": "Menedék esőköpenyből vagy ponyvából",
+      "steps": {
+        "1": "Szüksége lesz: esőköpenyre vagy ponyvára, 7⁠–⁠10 láb (2,1⁠–⁠3,0 m) kötélre vagy zsinórra, három körülbelül 1 láb (30 cm) hosszú cövekre, és két fára vagy rúdra, egymástól 7⁠–⁠10 láb (2,1⁠–⁠3,0 m) távolságra.",
+        "2": "Nézze meg, honnan fúj a szél: a féltető hátoldala a szél felé nézzen (lásd a rajzot).",
+        "3": "Ha az esőköpenynek van kapucnija, húzza össze a zsinórját, tekerje fel a kapucnit, hajtsa össze, és kösse le a zsinórral. Vágja félbe a kötelet, és az egyik hosszú oldal két sarkán lévő fűzőlyukhoz kösse a két felét.",
+        "4": "Kössön mindkét kötélre egy rövid, körülbelül 4 hüvelyk (10 cm) hosszú pálcát, „csepegtetőt”, körülbelül 1 hüvelyknyire (2,5 cm) a fűzőlyuktól: így az esővíz nem folyik le a köteleken a menedékbe.",
+        "5": "Kösse a köteleket a fákra nagyjából derékmagasságban, egy teljes körrel és két fél csomóval, gyorsan oldható csomóval.",
+        "6": "Terítse ki az esőköpenyt, és rögzítse a földhöz a fűzőlyukakon átszúrt hegyes pálcákkal.",
+        "7": "Ha egy éjszakánál tovább marad, vagy esőre számít, támassza alá a közepét: egy zsinór a kapucnitól egy fölötte lévő ágig, lazaság nélkül – vagy egy függőleges bot a közepe alatt, bár az helyet foglal.",
+        "8": "Tegyen gallyat vagy a hátizsákját az oldalaihoz a szél és az eső ellen, belülre pedig levelet vagy tűlevelet a föld hidege ellen.",
+        "9": "Fűzőlyuk nélküli anyag, például fólia: tegyen az anyag mögé egy kis „gombot” – egy marék földet, egy makkot vagy hasonlót –, fogja össze körülötte az anyagot, és húzzon a dudorra egy hurkos zsinórt. Aztán cövekelje ki az anyagot, és húzza ki a ráncokat.",
+        "10": "Cövekek: hegyezzen ki körülbelül 1 hüvelyk (2,5 cm) vastag és 12 hüvelyk (30 cm) hosszú botokat, és körülbelül 45 fokos szögben verje be őket, a húzással ellentétes irányba döntve. Köves vagy fagyott talajon a ponyvát egy a földön fekvő nehéz ághoz vagy kőhöz kösse; laza homokban vagy földben kösse egy fadarabhoz vagy kőhöz, és ássa el."
+      },
+      "works": "Gyorsan és kevés felszereléssel felállítható. A 40⁠–⁠60 fokos dőlésszögben feszesre húzott anyag lepergeti az esőt és a havat.",
+      "reliability": "A likacsos anyag, például az ejtőernyőselyem, csak akkor nem ereszti át a vizet, ha elég meredeken és feszesen van kihúzva. Pihenés közben testhője akár 80 százalékát is leadhatja a földnek: tegyen maga alá szigetelést („Alom és meleg a menedékben” kártya).",
+      "mistakes": "Megérinteni az anyagot, miközben víz folyik rajta: azon a ponton becsepeg a víz. Lazán vagy ráncosan hagyni: a víz összegyűlik a ráncokban, és beázik. A féltető nyitott oldalát a szél felé fordítani."
+    },
+    "shelter-debris-hut": {
+      "title": "Kunyhó ágakból és avarból",
+      "steps": {
+        "1": "Készítsen vázat: háromlábat két rövid cövekből és egy hosszú gerincrúdból – vagy tegye a hosszú gerincrúd egyik végét egy szilárd alapra, vagy kösse egy fához nagyjából derékmagasságban.",
+        "2": "Támasszon nagy botokat a gerincrúd mindkét oldalához, mint a bordákat, ék alakban: elég szélesen, hogy elférjen benne, és elég meredeken, hogy lepergesse a vizet.",
+        "3": "Tegyen a bordákra keresztben vékonyabb pálcákat és rőzsét: ez a rács nem engedi, hogy a szigetelőanyag beessen oda, ahol aludni fog.",
+        "4": "Halmozzon a bordákra könnyű, száraz, puha anyagot – füvet, tűlevelet, avart –, amíg legalább 3 láb (0,9 m) vastag nem lesz: minél vastagabb, annál jobb.",
+        "5": "Belül tegyen le egy 2 láb (0,6 m) vastag szigetelőréteget.",
+        "6": "A bejáratnál halmozzon fel szigetelőanyagot, amelyet belülről a bejárathoz húzhat, hogy bezárja – vagy készítsen ajtót.",
+        "7": "Végül tegyen ágakat vagy más anyagot az avarréteg tetejére, hogy a vihar ne fújja el."
+      },
+      "works": "Melegség és könnyű építés szempontjából az avarkunyhó az egyik legjobb menedék: ha a túléléshez menedék kell, ezt építse.",
+      "reliability": "Ahhoz, hogy a meleg bent maradjon, legalább 6⁠–⁠12 hüvelyk (15⁠–⁠30 cm) szigetelés kell Ön fölött. A természetes anyagokból épített menedék általában a legtöbb időt és erőt kívánja: előbb gyűjtsön össze minden anyagot, és olyan helyet válasszon, ahol kevesebb a munka.",
+      "mistakes": "Túl vékony avarréteg: minél vastagabb, annál jobb. Hozzáfogni az építéshez, mielőtt minden anyag – a vázhoz, a fedéshez, az alomhoz és a kötözéshez – összegyűlt."
+    },
+    "shelter-bedding": {
+      "title": "Alom és meleg a menedékben",
+      "steps": {
+        "1": "Tegyen szigetelőréteget maga és a hideg föld közé: matracot, járműülés-párnát vagy tartalék ruhát; ha ezekből kevés van, páfrányt és füvet; tűlevelű erdőben fenyőágakat.",
+        "2": "A természetes alom legalább 12 hüvelyk (30 cm) vastag legyen, hogy összenyomva is szigeteljen. Két használat között lazítsa fel, és tegyen hozzá anyagot.",
+        "3": "Fenyőágakkal, mohával és fűvel magát a menedéket is szigetelheti.",
+        "4": "Zárja el a menedék minden nyílását a szellőzőnyílások kivételével. A szellőzőket hagyja nyitva, különösen, ha gyertyát, gélüzemanyagot vagy kis olajlámpát használ: ezek szén-monoxidot termelnek.",
+        "5": "Tűz a menedéken kívül: a menedék bejárata 90 fokos szöget zárjon be az uralkodó széliránnyal, hogy a szikrákat és a füstöt ne fújja be a szél, ha megfordul – hegyekben reggel és este ez gyakran megesik. A tűz és a menedék között a legjobb távolság körülbelül 3 láb (0,9 m)."
+      },
+      "works": "Pihenés közben testhője akár 80 százalékát is leadhatja a földnek; a közé és a föld közé tett szigetelőréteg csökkenti ezt a veszteséget.",
+      "reliability": "A szigetelés csak „bizonyos mértékig” fékezi a föld felé irányuló hőveszteséget, és az összenyomódott alom kevésbé szigetel: lazítsa fel, és tegyen hozzá.",
+      "mistakes": "Közvetlenül a földre feküdni. Minden nyílást elzárni, miközben gyertya vagy lámpa ég: szén-monoxid. Túl közel rakni a tüzet a menedékhez, vagy a szél felé néző bejárat elé."
     }
   },
   "figures": {
@@ -1069,6 +1139,23 @@
         "4": "íj",
         "5": "tűzdeszka"
       }
+    },
+    "atp-natural-shelters": {
+      "title": "6-1. ábra. Természetes menedékek",
+      "alt": "Már meglévő menedékek: bokorcsoport; üreg egy nagy kő alatt; sűrű ágú kidőlt fa; kidőlt törzsnek támasztott fadarabok; a hóba ásott gödör egy fa körül.",
+      "labels": {}
+    },
+    "atp-poncho-lean-to": {
+      "title": "6-2. ábra. Féltető esőköpenyből",
+      "alt": "Két fa közé, nagyjából derékmagasságban, a sarkainál kikötött és hátul a földhöz rögzített esőköpeny, ferde tetőként; egy nyíl mutatja, hogy a szél a hátoldalának fúj.",
+      "labels": {
+        "1": "szél"
+      }
+    },
+    "atp-debris-hut": {
+      "title": "6-13. ábra. Avarkunyhó",
+      "alt": "Fent: a váz – egy tuskón nyugvó hosszú gerincrúd, mindkét oldalán bordaként odatámasztott botokkal. Lent: ugyanez a váz vastag avarréteggel borítva, a bejárat a tuskónál.",
+      "labels": {}
     }
   }
 }

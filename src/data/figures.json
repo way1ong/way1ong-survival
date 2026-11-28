@@ -104,6 +104,35 @@
       ],
       "width": 692,
       "height": 539
+    },
+    {
+      "id": "atp-natural-shelters",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-6-1.png",
+      "caption": "Figure 6-1. Types of naturally occurring shelters",
+      "labels": [],
+      "width": 732,
+      "height": 426
+    },
+    {
+      "id": "atp-poncho-lean-to",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-6-2.png",
+      "caption": "Figure 6-2. Poncho lean-to",
+      "labels": [
+        "Wind"
+      ],
+      "width": 689,
+      "height": 456
+    },
+    {
+      "id": "atp-debris-hut",
+      "source": "atp-3-50-21",
+      "file": "atp-3-50-21/figure-6-13.png",
+      "caption": "Figure 6-13. Debris hut",
+      "labels": [],
+      "width": 800,
+      "height": 594
     }
   ]
 }

@@ -213,6 +213,44 @@
         "atp-flint-steel",
         "atp-bow-drill"
       ]
+    },
+    {
+      "id": "shelter-site",
+      "section": "shelter",
+      "source": "atp-3-50-21",
+      "figures": [
+        "atp-natural-shelters"
+      ]
+    },
+    {
+      "id": "shelter-tarp",
+      "section": "shelter",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-poncho-lean-to"
+      ]
+    },
+    {
+      "id": "shelter-debris-hut",
+      "section": "shelter",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ],
+      "figures": [
+        "atp-debris-hut"
+      ]
+    },
+    {
+      "id": "shelter-bedding",
+      "section": "shelter",
+      "source": "atp-3-50-21",
+      "notes": [
+        "metric"
+      ]
     }
   ]
 }
