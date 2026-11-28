@@ -14,6 +14,10 @@
 | кислота ацетилсаліцилова | acetilszalicilsav (aszpirin) | aszpirin |
 | серцево-легенева реанімація; натискання на грудну клітку; вдихи | szív-tüdő újraélesztés; mellkaskompresszió; befúvás | szív-tüdő újraélesztés; mellkaskompresszió; befúvás |
 | автоматичний зовнішній дефібрилятор; кровоспинний джгут; пов’язка, що тисне | automata külső defibrillátor; érszorító; nyomókötés | automata külső defibrillátor; érszorító; nyomókötés |
+| проникна травма грудної клітки; тупа травма грудної клітки | nyílt (áthatoló) mellkasi sérülés; zárt (tompa) mellkasi sérülés | nyílt mellkasi sérülés; zárt mellkasi sérülés (bordatörés) |
+| ампутована частина тіла; поліетиленовий пакет; холодна вода / лід | amputált testrész; műanyag zacskó; hideg víz vagy jég | amputált testrész; vízhatlan műanyag zacskó; jég vagy jeges víz |
+| гіпоглікемія; таблетка глюкози або декстрози; кубик цукру; рівень глюкози крові | hypoglykaemia; glükóz- vagy dextróztabletta; kockacukor; vércukorszint | hypoglykaemia; glükóz- vagy dextróztabletta; kockacukor; vércukorszint |
+| судоми | görcsroham | görcsroham |
 
 ## terms-hu
 Джерело: orvhet-2026-erc-review
@@ -31,3 +35,11 @@
 > automata külső defibrillátor
 > érszorító
 > nyomókötés
+> Az irányelv csak a nyílt mellkasi sérülésekkel foglalkozik, jóllehet a zárt mellkasi sérülések (bordatörések) gyakrabban fordulnak elő.
+> az amputált testrész lehető leggyorsabb megkeresésére kell törekedni
+> A becsomagolt testrészt tiszta, vízhatlan műanyag zacskóba, majd ezt egy másik, jeget vagy jeges vizet tartalmazó tasakba kell tenni
+> A hypoglykaemia a leggyakrabban inzulint vagy egyéb vércukorszint-csökkentő készítményeket használó, diabeteses egyéneknél fordul elő
+> mint például glükóz- vagy dextróztabletta
+> esetleg 4–5 kockacukor
+> meg kell mérni a kapilláris vércukorszintet vércukormérővel
+> a görcsrohamokig és az eszméletlenségig terjedhetnek

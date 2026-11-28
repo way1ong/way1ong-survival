@@ -1253,6 +1253,311 @@
       "works": "Your clothing is the shelter you always have with you: it has to keep you dry, warm or cool, out of the sun and away from insects.",
       "reliability": "Clothing protects you only when it is in good condition and worn properly. Polypropylene, a common synthetic base layer, has a low melting point: take care when you dry it near a fire.",
       "mistakes": "Sweating in the cold. Tight clothes or boots. Drying clothes too close to the fire, or without watching them. Leaving tears until they are too large to mend."
+    },
+    "chest-penetrating": {
+      "title": "Penetrating chest injury",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": "Help the person into the position most comfortable for them.",
+        "5": {
+          "text": "Put an occlusive (airtight) dressing on the chest wound:",
+          "items": {
+            "1": "ask the person to breathe out as far as they can and put an occlusive dressing on the wound. If you have none, put on an improvised occlusive dressing made of a material that does not let air through and fix it on all sides with adhesive tape. If that is not possible either, consider pressing on the wound with your palm in a rubber glove;",
+            "2": "check the person’s condition, and if it suddenly gets much worse, take the dressing off;",
+            "3": "if there are several wounds, put an occlusive dressing on all of them."
+          }
+        },
+        "6": "If there is a foreign object in the chest wound, leave it in place and, if possible, fix it securely. The foreign object may be removed from the chest wound only if it gets in the way of cardiopulmonary resuscitation.",
+        "7": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "8": "Cover the person with a thermal blanket or a blanket.",
+        "9": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "10": "If you can, gather as much information as possible from the person about how the injury happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher.",
+        "11": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "A “penetrating chest injury” is a wound of the chest with signs that it goes into the pleural cavity, whatever caused the injury. Signs of a penetrating chest injury: a wound in the chest from which bright, frothy blood flows; a wound in the chest through which air can be heard moving, including a sucking sound with every breath in; several wounds in the chest lying in the same projection (one behind the other).",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are. About the occlusive dressing the order says: “check the person’s condition, and if it suddenly gets much worse, take the dressing off”.",
+      "mistakes": "Taking a foreign object out of the wound. The order: “if there is a foreign object in the chest wound, leave it in place and, if possible, fix it securely”."
+    },
+    "chest-blunt": {
+      "title": "Blunt chest injury",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": "Help the person into the position most comfortable for them.",
+        "5": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "6": "Cover the person with a thermal blanket or a blanket.",
+        "7": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "8": "If you can, gather as much information as possible from the person about how the injury happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher of the emergency medical service.",
+        "9": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "A “blunt chest injury” means signs of a blunt injury to the chest, with signs of broken ribs and/or damage to the organs inside the chest, whatever caused the injury. Signs of a blunt chest injury: bruises or haematomas on the chest; subcutaneous emphysema — a sound like creaking snow when the soft tissues are pressed; broken ribs: pain in the chest, a forced posture; the two sides of the chest are not symmetrical; bleeding into the pleural cavity: fast, shallow breathing, pale, cold, moist skin, general weakness, confusion; torn lung tissue: pain in the chest, fast, shallow breathing, a feeling of not getting enough air, pale, cold, moist skin, general weakness, confusion.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "The order does not name them separately."
+    },
+    "abdomen-penetrating": {
+      "title": "Penetrating abdominal injury",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": "Help the person into the position most comfortable for them.",
+        "5": {
+          "text": "Put a dressing on the wound:",
+          "items": {
+            "1": "put a clean, sterile gauze dressing over the whole wound and fix it carefully with adhesive tape;",
+            "2": "if organs from inside the abdomen are in the wound, do not push them back into the abdomen before putting on the gauze dressing;",
+            "3": "if an object is stuck in the wound, do not take it out; fix it securely in the wound. If the object falls out of the wound by itself while you are giving first aid, carefully put it aside and hand it over to the emergency (ambulance) team."
+          }
+        },
+        "6": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "7": "Cover the person with a thermal blanket or a blanket.",
+        "8": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "9": "If you can, gather as much information as possible from the person about how the injury happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher of the emergency medical service.",
+        "10": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "A “penetrating abdominal injury” is a wound within the set anatomical landmarks with signs that it goes into the abdominal cavity, whatever caused the injury. Signs of a penetrating abdominal injury: organs from inside the abdomen in the wound; several wounds in the abdomen lying in the same projection (one behind the other); an object stuck in the wound; a wound and signs of damage to the organs inside the abdomen with bleeding: fast, shallow breathing; pale, moist, cold skin; impaired consciousness.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "“If organs from inside the abdomen are in the wound, do not push them back into the abdomen before putting on the gauze dressing”; “if an object is stuck in the wound, do not take it out”."
+    },
+    "abdomen-blunt": {
+      "title": "Blunt abdominal injury",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": "Help the person into the position most comfortable for them. If there are signs of shock, put the person in the shock position.",
+        "5": "Cover the person with a thermal blanket or a blanket.",
+        "6": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "7": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "8": "If you can, gather as much information as possible from the person about how the injury happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher.",
+        "9": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "A “blunt abdominal injury” means signs of a blunt injury to the organs in the abdomen, including signs of internal bleeding, whatever caused the injury. Signs of a blunt abdominal injury: bruises and a haematoma on the front and/or side wall of the abdomen; signs of internal bleeding: fast, shallow breathing; pale, moist, cold skin; impaired consciousness; pain in the abdomen.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "The order does not name them separately."
+    },
+    "amputation": {
+      "title": "Traumatic amputation",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger; only when there is none, go on to the next step.",
+        "2": "If there is massive external bleeding, act according to the procedure for massive external bleeding.",
+        "3": "If there is a traumatic amputation above the wrist or above the foot and there is no bleeding, a tourniquet must be applied all the same.",
+        "4": "Calm the person and explain what you are going to do.",
+        "5": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "6": "Put a clean, sterile dressing on the stump.",
+        "7": "Put the person in the shock position.",
+        "8": "Keep the stump still (immobilise it).",
+        "9": "Cover the person with a thermal blanket or a blanket.",
+        "10": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "11": "Find the amputated part of the body.",
+        "12": "Wrap the amputated part of the body in sterile gauze or a clean cloth.",
+        "13": "Put the amputated part in a plastic bag (if possible, press the air out of it).",
+        "14": "Put the bag in a container filled with cold water or ice.",
+        "15": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call the emergency medical dispatcher again.",
+        "16": "If you can, gather as much information as possible from the person about how the injury happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher.",
+        "17": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "A “traumatic amputation” is an emergency in which part or all of a limb (or another part of the body) is cut off or torn off by a mechanical force.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "The order does not name them separately."
+    },
+    "crush": {
+      "title": "Crush syndrome (long compression)",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do.",
+        "3": "If possible, find out exactly when the compression began. If the person is unconscious, assume that more than 10 minutes have passed.",
+        "4": "Call the emergency medical dispatcher at once, give them the information they need clearly, follow their instructions if necessary and answer all their questions.",
+        "5": {
+          "text": "If less than 10 minutes have passed since the compression began, free the crushed part of the body:",
+          "items": {
+            "1": "if there is a wound and massive external bleeding, act according to the procedure for massive external bleeding;",
+            "2": "if there are signs of a fracture, act according to the procedure for a suspected broken limb;",
+            "3": "if there are signs of shock, act according to the procedure for suspected shock."
+          }
+        },
+        "6": "If more than 10 minutes have passed since the compression began, do not free the crushed part of the person’s body.",
+        "7": "If the person has to be moved out urgently but more than 10 minutes have passed since the compression began, apply a tourniquet to the limb before freeing the crushed part.",
+        "8": "Cover the person with a thermal blanket or a blanket.",
+        "9": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "10": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call the emergency medical dispatcher again.",
+        "11": "If you can, gather as much information as possible from the person about how the injury happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher.",
+        "12": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "“Crush syndrome” (long compression) is an emergency in which outside pressure acts on a part of the person’s body, so that its blood supply is disturbed, and as a result the soft tissues suffer from a lack of blood (ischaemia) and are damaged.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "“If more than 10 minutes have passed since the compression began, do not free the crushed part of the person’s body”."
+    },
+    "poisoning": {
+      "title": "Suspected poisoning by an unknown substance",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger to yourself, the people around or the person; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do.",
+        "3": {
+          "text": "When looking over the scene, watch for signs that may point to acute poisoning:",
+          "items": {
+            "1": "an unpleasant, sharp smell;",
+            "2": "open or overturned containers, containers of medicines and of alcoholic drinks;",
+            "3": "an open medicine kit, used syringes and the like."
+          }
+        },
+        "4": "Find out what exactly the person took and how much.",
+        "5": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "6": "If the person is unconscious but breathing normally, put them in the stable (recovery) position.",
+        "7": "If the poison has got into the eyes and/or onto the skin, rinse the affected area with plenty of clean water at room temperature for at least 15–20 minutes. If there are chemical burns, put a sterile dressing on the burn (after rinsing with water).",
+        "8": "Keep any containers, syringes, packaging and the like that you find, and hand them over to the emergency (ambulance) team.",
+        "9": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "10": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "11": "If you can, gather as much information as possible from the person or the people around about how the poisoning happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher.",
+        "12": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child.",
+        "13": "While doing cardiopulmonary resuscitation, keep the toxic substances from acting on the person giving first aid."
+      },
+      "works": "“Acute poisoning by an unknown substance” is an emergency caused by poisonous substances, whatever way they entered the body, with a marked worsening of the person’s condition. Toxic substances can enter the body: through the digestive tract — with food or when poisonous substances touch the lining of the mouth (medicines, caustic substances, detergents, pesticides, mushrooms, plants and many other chemicals); through the airways — by breathing in poisonous gases, vapours and aerosols (carbon monoxide; nitrogen oxide; vapours of chlorine, ammonia, glue, dyes, organic solvents and the like); through the skin and mucous membranes — when poisonous liquids or aerosols get onto the skin or into the eyes (solvents, pesticides and the like); by injection — bites of insects, animals or snakes, and when medicines or drugs are injected. Signs that point to acute poisoning: a feeling of “sand” or a stinging pain in the eyes, discomfort from light; burns on the lips, tongue or skin; pain in the mouth, throat, chest or abdomen that gets worse when swallowing and breathing; more saliva than usual, nausea, vomiting (with a particular smell, remains of the poison, blood), diarrhoea; breathing problems (choking, noisy breathing, a changed voice, cough); sweating, unusual behaviour (agitation, delirium); muscle twitching, seizures, loss of consciousness; an unusual skin colour (pale, crimson, bluish).",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "The order does not name them separately."
+    },
+    "seizures": {
+      "title": "Seizures",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger to yourself, the people around or the person; only when there is none, go on to the next step.",
+        "2": "Call the emergency medical dispatcher at once, give them the information they need clearly, follow their instructions if necessary and answer all their questions.",
+        "3": {
+          "text": "During the seizure:",
+          "items": {
+            "1": "move the person onto a flat surface;",
+            "2": "put a soft blanket under the person’s head;",
+            "3": "hold the person’s head for the whole time of the seizure;",
+            "4": "do not use too much force to hold the person during the seizure;",
+            "5": "do not force the person’s mouth open, including with any improvised tools;",
+            "6": "do not force any liquid into the person or give them any medicines."
+          }
+        },
+        "4": {
+          "text": "After the seizure has ended:",
+          "items": {
+            "1": "if the person is unconscious, put them in the stable (recovery) position;",
+            "2": "if the person is conscious, calm them and explain what you are going to do next."
+          }
+        },
+        "5": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "6": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call the emergency medical dispatcher again.",
+        "7": "If you can, gather as much information as possible from the person or the people around about how the seizures began. Pass all of it on to the emergency (ambulance) team or to the dispatcher of the emergency medical service.",
+        "8": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "“Seizures” are an emergency caused by disturbed brain activity, with involuntary, uncontrolled contractions of the body’s muscles. Seizures can be caused by: a head (brain) injury; disorders of the central nervous system of various origins; poisoning; hypoglycaemia; fever.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "“Do not use too much force to hold the person during the seizure”; “do not force the person’s mouth open, including with any improvised tools”; “do not force any liquid into the person or give them any medicines”."
+    },
+    "eye-injury": {
+      "title": "Eye injuries",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger to yourself, the people around or the person; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do next.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": {
+          "text": "For a traumatic eye injury:",
+          "items": {
+            "1": "put a protective eye shield over the injured eye, or, if there is none, something else that keeps pressure off the eyeball;",
+            "2": "put another clean gauze pad over the shield and fix it carefully, without pressing too hard on the injured eye;",
+            "3": "if there is a foreign object in the wound, do not take it out; fix it securely in the wound;",
+            "4": "do not try to put the eye back if it has come out of its socket."
+          }
+        },
+        "5": {
+          "text": "If chemicals have got into the eye:",
+          "items": {
+            "1": "rinse the affected eye with plenty of clean running water for 10–20 minutes;",
+            "2": "take care not to contaminate the healthy eye while rinsing;",
+            "3": "wear gloves while rinsing if you can, and take them off carefully when you have finished."
+          }
+        },
+        "6": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "7": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "8": "If you can, gather as much information as possible from the person or the people around about how the eyes were injured. Pass all of it on to the emergency (ambulance) team or to the dispatcher.",
+        "9": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "An “eye injury” is an emergency caused by an injury or by chemicals getting into the eyes, which can lead to a partial or complete loss of sight.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are.",
+      "mistakes": "“If there is a foreign object in the wound, do not take it out”; “do not try to put the eye back if it has come out of its socket”; “take care not to contaminate the healthy eye while rinsing”."
+    },
+    "hypoglycemia": {
+      "title": "Hypoglycaemia (low blood sugar)",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger to yourself, the people around or the person; only when there is none, go on to the next step.",
+        "2": "Calm the person and explain what you are going to do next.",
+        "3": "Call emergency medical help and follow the instructions of the dispatcher.",
+        "4": {
+          "text": "If the person is conscious and able to swallow:",
+          "items": {
+            "1": "give a glucose or dextrose tablet (15–20 grams);",
+            "2": "if there are no glucose tablets, give food you have that contains as much glucose: sweets; a sugar cube; half a glass of sweet warm tea or juice and the like;",
+            "3": "if the signs of hypoglycaemia have not gone after 15 minutes, give glucose or food containing glucose again;",
+            "4": "if the person feels better after taking glucose, encourage them to eat;",
+            "5": "if a child has hypoglycaemia and refuses to take glucose or food, consider putting half a teaspoon of sugar under their tongue."
+          }
+        },
+        "5": "If possible, and if the rescuer has had the training for it, measure the blood glucose level before and after the person takes glucose.",
+        "6": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "7": "If you can, gather as much information as possible from the person or the people around about what may have caused the hypoglycaemia. Pass all of it on to the emergency (ambulance) team or to the dispatcher.",
+        "8": "If the person loses consciousness before the emergency (ambulance) team arrives, go to the procedure for sudden cardiac arrest in an adult or in a child."
+      },
+      "works": "“Hypoglycaemia” is an emergency caused by a fall in the level of glucose in the blood, which brings about typical changes in the person. Signs of hypoglycaemia: sudden impaired consciousness: dizziness, fainting; unusual behaviour (mood swings, aggression, confusion, loss of concentration, signs that look like being drunk).",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are. Measure the blood glucose level only “if possible, and if the rescuer has had the training for it”.",
+      "mistakes": "The order does not name them separately. Glucose or food is given only “if the person is conscious and able to swallow”."
+    },
+    "trauma": {
+      "title": "Injured person: primary and secondary survey",
+      "steps": {
+        "1": "Before giving help, make sure there is no danger to yourself, the people around or the person; only when there is none, go on to the next step.",
+        "2": {
+          "text": "Initial impression:",
+          "items": {
+            "1": "as you approach the person, assess their age, sex, weight and position, including in relation to the objects around them;",
+            "2": "assess how active the person is: oriented in time and place, making purposeful movements, agitated and so on;",
+            "3": "look for signs of massive external bleeding;",
+            "4": "speak to the person: “Can you hear me? My name is (say your name). Can I help you?”;",
+            "5": "approach the person from the side where they can see you, so as to limit the movements of their head."
+          }
+        },
+        "3": {
+          "text": "Go on to the primary survey:",
+          "items": {
+            "1": "if the person is conscious and has signs of massive external bleeding, stop the bleeding according to the procedure for massive external bleeding;",
+            "2": "if the person is unconscious, open the airway by pushing the lower jaw forward (jaw thrust) and check whether they are breathing. While opening the airway, limit the movements of the neck (cervical spine);",
+            "3": "if there is no breathing, go to the procedure for sudden cardiac arrest in an adult;",
+            "4": "if the person is unconscious and breathing, keep the airway open all the time with the methods taught on the relevant courses (jaw thrust, inserting airways);",
+            "5": "once the person’s airway is open, check for penetrating chest wounds; if there are any, go to the procedure for a penetrating chest injury;",
+            "6": "check whether the person has wounds with external bleeding; if there are any, go to the procedure for massive external bleeding;",
+            "7": "if the person has signs of shock, go to the procedure for suspected shock."
+          }
+        },
+        "4": {
+          "text": "Go on to the secondary survey — examine the person fully for injuries from head to toe:",
+          "items": {
+            "1": "if there is a head injury, go to the procedure for a suspected head injury;",
+            "2": "if the eyes are injured, go to the procedure for eye injuries;",
+            "3": "if there is a penetrating chest injury, go to the procedure for a penetrating chest injury;",
+            "4": "if there is a blunt chest injury, go to the procedure for a blunt chest injury;",
+            "5": "if a spinal injury is suspected, go to the procedure for a suspected spinal injury;",
+            "6": "if there is a penetrating abdominal injury, go to the procedure for a penetrating abdominal injury;",
+            "7": "if there is a blunt abdominal injury, go to the procedure for a blunt abdominal injury;",
+            "8": "if there are signs of frostbite, go to the procedure for hypothermia and/or frostbite;",
+            "9": "if there are burns from heat, go to the procedure for burns from heat;",
+            "10": "if there are signs of long compression, go to the procedure for crush syndrome;",
+            "11": "if there is a traumatic amputation, go to the procedure for traumatic amputation;",
+            "12": "if limbs are broken, go to the procedure for a suspected broken limb."
+          }
+        },
+        "5": "Watch over the person constantly until the emergency (ambulance) team arrives.",
+        "6": "If the person’s condition gets worse before the emergency (ambulance) team arrives, call emergency medical help again.",
+        "7": "If you can, gather as much information as possible from the person or the people around about how the injury happened. Pass all of it on to the emergency (ambulance) team or to the dispatcher of the emergency medical service."
+      },
+      "works": "The “general impression of the injured person” is the information you get while approaching the person, from which you form a first idea of how and in what circumstances the injury happened and of the person’s condition. The “primary survey” is a quick check of the person’s vital functions and, if needed, dealing with conditions that threaten life. The “secondary survey” is finding and assessing the injuries the person has; it is done only when there are no conditions that threaten their life.",
+      "reliability": "The procedure is written for people “who have no medical education but must give first aid as part of their duties”. The order does not assess how reliable the steps are. Keep the airway open only “with the methods taught on the relevant courses (jaw thrust, inserting airways)”.",
+      "mistakes": "The order does not name them separately."
     }
   },
   "figures": {

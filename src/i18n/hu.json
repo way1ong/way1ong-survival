@@ -1253,6 +1253,311 @@
       "works": "A ruha az a menedék, amely mindig Önnél van: szárazon, melegben vagy hűvösön kell tartania, védenie kell a naptól és a rovaroktól.",
       "reliability": "A ruha csak akkor véd, ha jó állapotban van, és helyesen viseli. A polipropilén – gyakori műszálas alsó réteg – könnyen olvad: óvatosan szárítsa tűz mellett.",
       "mistakes": "Megizzadni a hidegben. Szoros ruha vagy cipő. Túl közel vagy felügyelet nélkül szárítani a ruhát a tűz mellett. Halogatni a javítást, amíg a lyukak túl nagyok nem lesznek."
+    },
+    "chest-penetrating": {
+      "title": "Nyílt (áthatoló) mellkasi sérülés",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": "Segítse a sérültet a számára legkényelmesebb helyzetbe.",
+        "5": {
+          "text": "Tegyen légzáró (okkluzív) kötést a mellkasi sebre:",
+          "items": {
+            "1": "kérje meg a sérültet, hogy fújja ki a levegőt, amennyire csak tudja, és tegye fel a sebre a légzáró kötést. Ha nincs ilyen, tegyen fel rögtönzött légzáró kötést levegőt át nem eresztő anyagból, és ragtapasszal rögzítse minden oldalán. Ha erre sincs lehetőség, fontolja meg, hogy gumikesztyűs tenyerével nyomja a sebet;",
+            "2": "figyelje a sérült állapotát, és ha hirtelen súlyosan romlik, vegye le a kötést;",
+            "3": "ha több seb van, mindegyikre tegyen légzáró kötést."
+          }
+        },
+        "6": "Ha a mellkasi sebben idegen tárgy van, hagyja a helyén, és ha lehet, rögzítse biztonságosan. Az idegen tárgyat csak akkor szabad eltávolítani a mellkasi sebből, ha akadályozza a szív-tüdő újraélesztést.",
+        "7": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "8": "Takarja be a sérültet mentőfóliával vagy takaróval.",
+        "9": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "10": "Ha lehet, gyűjtsön a sérülttől minél több információt a sérülés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "11": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A „nyílt (áthatoló) mellkasi sérülés” a mellkas sebe, amely a mellhártyaüregbe hatol, bármi okozta is a sérülést. Jelei: a mellkason lévő sebből élénkpiros, habos vér folyik; a mellkason lévő sebből hallani, ahogy a levegő mozog benne, például minden belégzéskor beszívja a levegőt; a mellkason több seb van egy vetületben (egymás mögött).",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések. A légzáró kötésről a rendelet ezt mondja: „figyelje a sérült állapotát, és ha hirtelen súlyosan romlik, vegye le a kötést”.",
+      "mistakes": "Az idegen tárgy kihúzása a sebből. A rendelet: „ha a mellkasi sebben idegen tárgy van, hagyja a helyén, és ha lehet, rögzítse biztonságosan”."
+    },
+    "chest-blunt": {
+      "title": "Zárt (tompa) mellkasi sérülés",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": "Segítse a sérültet a számára legkényelmesebb helyzetbe.",
+        "5": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "6": "Takarja be a sérültet mentőfóliával vagy takaróval.",
+        "7": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "8": "Ha lehet, gyűjtsön a sérülttől minél több információt a sérülés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "9": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A „zárt (tompa) mellkasi sérülés” a mellkas tompa sérülésének jelei, bordatörésre és/vagy a mellkasi szervek sérülésére utaló jelekkel, bármi okozta is a sérülést. Jelei: zúzódások, vérömlenyek a mellkason; bőr alatti emfizéma (levegő a bőr alatt) – a lágy részek tapintásakor a hó ropogásához hasonló hang; bordatörés: mellkasi fájdalom, kényszertartás; a mellkas aszimmetriája; vérzés a mellhártyaüregbe: szapora, felületes légzés, sápadt, hideg, nyirkos bőr, általános gyengeség, zavartság; a tüdőszövet szakadása: mellkasi fájdalom, szapora, felületes légzés, levegőhiány érzése, sápadt, hideg, nyirkos bőr, általános gyengeség, zavartság.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "A rendelet ezt külön nem nevezi meg."
+    },
+    "abdomen-penetrating": {
+      "title": "Áthatoló hasi sérülés",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": "Segítse a sérültet a számára legkényelmesebb helyzetbe.",
+        "5": {
+          "text": "Tegyen kötést a sebre:",
+          "items": {
+            "1": "tegyen tiszta, steril gézkötést a seb teljes felületére, és óvatosan rögzítse ragtapasszal;",
+            "2": "ha a sebben hasüregi szervek vannak, ne nyomja vissza őket a hasüregbe, mielőtt a gézkötést felteszi;",
+            "3": "ha a sebben idegen tárgy van beékelődve, ne vegye ki, hanem rögzítse biztonságosan a sebben. Ha a tárgy az elsősegélynyújtás közben magától kiesik a sebből, óvatosan tegye félre, és adja át a mentőknek."
+          }
+        },
+        "6": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "7": "Takarja be a sérültet mentőfóliával vagy takaróval.",
+        "8": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "9": "Ha lehet, gyűjtsön a sérülttől minél több információt a sérülés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "10": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "Az „áthatoló hasi sérülés” seb a meghatározott anatómiai határokon belül, amely a hasüregbe hatol, bármi okozta is a sérülést. Jelei: hasüregi szervek a sebben; több seb a hason egy vetületben (egymás mögött); a sebben beékelődött idegen tárgy; seb és vérzéssel járó hasüregi szervsérülés jelei: szapora, felületes légzés; sápadt, nyirkos, hideg bőr; tudatzavar.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "„Ha a sebben hasüregi szervek vannak, ne nyomja vissza őket a hasüregbe, mielőtt a gézkötést felteszi”; „ha a sebben idegen tárgy van beékelődve, ne vegye ki”."
+    },
+    "abdomen-blunt": {
+      "title": "Tompa hasi sérülés",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": "Segítse a sérültet a számára legkényelmesebb helyzetbe. Ha sokk jelei vannak, fektesse sokkfektetésbe.",
+        "5": "Takarja be a sérültet mentőfóliával vagy takaróval.",
+        "6": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "7": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "8": "Ha lehet, gyűjtsön a sérülttől minél több információt a sérülés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "9": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A „tompa hasi sérülés” a hasüregi szervek tompa sérülésének jelei, köztük a belső vérzés jelei, bármi okozta is a sérülést. Jelei: zúzódások és vérömleny a has elülső és/vagy oldalsó falán; a belső vérzés jelei: szapora, felületes légzés; sápadt, nyirkos, hideg bőr; tudatzavar; hasi fájdalom.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "A rendelet ezt külön nem nevezi meg."
+    },
+    "amputation": {
+      "title": "Baleseti amputáció",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Ha súlyos külső vérzés van, járjon el a súlyos külső vérzésnél követendő eljárás szerint.",
+        "3": "Ha a végtag a csukló vagy a lábfej fölött vált le, és nincs vérzés, akkor is mindenképpen helyezzen fel érszorítót.",
+        "4": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "5": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "6": "Tegyen tiszta, steril kötést a csonkra.",
+        "7": "Fektesse a sérültet sokkfektetésbe.",
+        "8": "Rögzítse (tegye mozdulatlanná) a csonkot.",
+        "9": "Takarja be a sérültet mentőfóliával vagy takaróval.",
+        "10": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "11": "Keresse meg az amputált testrészt.",
+        "12": "Csomagolja az amputált testrészt steril gézbe vagy tiszta textilbe.",
+        "13": "Tegye az amputált testrészt műanyag zacskóba (ha lehet, nyomja ki belőle a levegőt).",
+        "14": "Tegye a zacskót hideg vízzel vagy jéggel töltött edénybe.",
+        "15": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentésirányítót.",
+        "16": "Ha lehet, gyűjtsön a sérülttől minél több információt a sérülés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "17": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A „baleseti amputáció” sürgős állapot, amelyben mechanikai behatás következtében a végtag egy része vagy egésze (vagy más testrész) leválik vagy leszakad.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "A rendelet ezt külön nem nevezi meg."
+    },
+    "crush": {
+      "title": "Tartós összenyomatás (crush-szindróma)",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Ha lehet, tudja meg, pontosan mikor kezdődött az összenyomatás. Ha a sérült eszméletlen, tekintse úgy, hogy több mint 10 perc telt el.",
+        "4": "Azonnal hívja a mentésirányítót, adja meg világosan a szükséges információkat, szükség esetén kövesse az utasításait, és válaszoljon minden kérdésére.",
+        "5": {
+          "text": "Ha az összenyomatás kezdete óta kevesebb mint 10 perc telt el, szabadítsa ki az összenyomott testrészt:",
+          "items": {
+            "1": "ha seb és súlyos külső vérzés van, járjon el a súlyos külső vérzésnél követendő eljárás szerint;",
+            "2": "ha törés jelei vannak, járjon el a végtagtörés gyanújakor követendő eljárás szerint;",
+            "3": "ha sokk jelei vannak, járjon el a sokk gyanújakor követendő eljárás szerint."
+          }
+        },
+        "6": "Ha az összenyomatás kezdete óta több mint 10 perc telt el, ne szabadítsa ki a sérült összenyomott testrészét.",
+        "7": "Ha a sérültet sürgősen ki kell vinni, de az összenyomatás kezdete óta több mint 10 perc telt el, az összenyomott rész kiszabadítása előtt helyezzen érszorítót a végtagra.",
+        "8": "Takarja be a sérültet mentőfóliával vagy takaróval.",
+        "9": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "10": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentésirányítót.",
+        "11": "Ha lehet, gyűjtsön a sérülttől minél több információt a sérülés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "12": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A „tartós összenyomatás (crush-szindróma)” sürgős állapot, amelyben a sérült testének egy részére külső nyomás hat, emiatt zavart szenved a vérellátása, ennek következtében pedig a lágy részek vérellátási zavara (ischaemia) és sérülése alakul ki.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "„Ha az összenyomatás kezdete óta több mint 10 perc telt el, ne szabadítsa ki a sérült összenyomott testrészét”."
+    },
+    "poisoning": {
+      "title": "Ismeretlen anyag okozta mérgezés gyanúja",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély sem Önre, sem a körülállókra, sem a sérültre; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": {
+          "text": "A helyszín szemrevételezésekor figyeljen a heveny mérgezésre utaló jelekre:",
+          "items": {
+            "1": "kellemetlen, szúrós szag;",
+            "2": "nyitott vagy felborult edények, gyógyszeres és szeszes italos üvegek, dobozok;",
+            "3": "nyitott gyógyszeres doboz, használt fecskendők és hasonlók."
+          }
+        },
+        "4": "Tudja meg, pontosan mit és mennyit vett be a sérült.",
+        "5": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "6": "Ha a sérült eszméletlen, de normálisan lélegzik, fektesse stabil oldalfekvő helyzetbe.",
+        "7": "Ha a méreg a szembe és/vagy a bőrre került, öblítse le az érintett területet bő, tiszta, szobahőmérsékletű vízzel legalább 15–20 percig. Ha vegyi égés van, (a vizes öblítés után) tegyen steril kötést az égett területre.",
+        "8": "A talált edényeket, fecskendőket, csomagolásokat és hasonlókat őrizze meg, és adja át a mentőknek.",
+        "9": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "10": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "11": "Ha lehet, gyűjtsön a sérülttől vagy a körülállóktól minél több információt a mérgezés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "12": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra.",
+        "13": "A szív-tüdő újraélesztés közben óvja meg az elsősegélynyújtót a mérgező anyagok hatásától."
+      },
+      "works": "Az „ismeretlen anyag okozta heveny mérgezés” mérgező anyagok okozta sürgős állapot, akárhogyan jutottak is a szervezetbe, és a sérült állapotának jelentős romlásával jár. A mérgező anyagok bejuthatnak a szervezetbe: a tápcsatornán át – étellel, vagy ha a mérgező anyag a száj nyálkahártyájával érintkezik (gyógyszerek, maró anyagok, mosószerek, növényvédő szerek, gombák, növények és sok más vegyi anyag); a légutakon át – mérgező gázok, gőzök és permetek belégzésével (szén-monoxid; nitrogén-oxid; klór, ammónia, ragasztó, festékek, szerves oldószerek gőze és hasonlók); a bőrön és a nyálkahártyákon át – ha folyékony vagy permet formájú mérgező anyag kerül a bőrre és a szembe (oldószerek, növényvédő szerek és hasonlók); befecskendezéssel – rovarok, állatok vagy kígyók csípése, marása, valamint gyógyszerek vagy kábítószerek befecskendezése. A heveny mérgezésre utaló jelek: „homok” érzése vagy szúró fájdalom a szemben, fényérzékenység; égési sérülés az ajkon, a nyelven vagy a bőrön; fájdalom a szájban, a torokban, a mellkasban vagy a hasban, amely nyeléskor és légzéskor erősödik; fokozott nyálelválasztás, hányinger, hányás (jellegzetes szaggal, a méreg maradványaival, vérrel), hasmenés; légzészavar (fulladás, hangos légzés, megváltozott hang, köhögés); verejtékezés, szokatlan viselkedés (izgatottság, félrebeszélés); izomrángások, görcsök, eszméletvesztés; szokatlan bőrszín (sápadt, málnavörös, kékes).",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "A rendelet ezt külön nem nevezi meg."
+    },
+    "seizures": {
+      "title": "Görcsroham",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély sem Önre, sem a körülállókra, sem a sérültre; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Azonnal hívja a mentésirányítót, adja meg világosan a szükséges információkat, szükség esetén kövesse az utasításait, és válaszoljon minden kérdésére.",
+        "3": {
+          "text": "A görcsroham alatt:",
+          "items": {
+            "1": "helyezze a sérültet sík felületre;",
+            "2": "tegyen puha takarót a sérült feje alá;",
+            "3": "tartsa a sérült fejét a görcsroham teljes ideje alatt;",
+            "4": "ne alkalmazzon túlzott erőt, hogy lefogja a sérültet a görcsroham alatt;",
+            "5": "ne feszítse fel erővel a sérült száját, rögtönzött eszközökkel sem;",
+            "6": "ne itasson erővel folyadékot a sérülttel, és ne adjon neki semmilyen gyógyszert."
+          }
+        },
+        "4": {
+          "text": "A görcsroham után:",
+          "items": {
+            "1": "ha a sérült eszméletlen, fektesse stabil oldalfekvő helyzetbe;",
+            "2": "ha a sérült eszméleténél van, nyugtassa meg, és magyarázza el, mit fog tenni."
+          }
+        },
+        "5": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "6": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentésirányítót.",
+        "7": "Ha lehet, gyűjtsön a sérülttől vagy a körülállóktól minél több információt arról, hogyan kezdődtek a görcsök. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "8": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A „görcsroham” az agyműködés zavara okozta sürgős állapot, amely a test izmainak akaratlan, kontrollálatlan összehúzódásával jár. Görcsrohamot okozhat: koponya-agysérülés; a központi idegrendszer különböző eredetű betegsége; mérgezés; hypoglykaemia; láz.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "„Ne alkalmazzon túlzott erőt, hogy lefogja a sérültet a görcsroham alatt”; „ne feszítse fel erővel a sérült száját, rögtönzött eszközökkel sem”; „ne itasson erővel folyadékot a sérülttel, és ne adjon neki semmilyen gyógyszert”."
+    },
+    "eye-injury": {
+      "title": "Szemsérülés",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély sem Önre, sem a körülállókra, sem a sérültre; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": {
+          "text": "Traumás (sérülés okozta) szemsérülésnél:",
+          "items": {
+            "1": "tegyen a sérült szemre szemvédő pajzsot, ha nincs, más eszközt, amely megakadályozza, hogy nyomás érje a szemgolyót;",
+            "2": "a pajzsra tegyen még egy tiszta gézlapot, és óvatosan rögzítse, anélkül hogy túlzottan nyomná a sérült szemet;",
+            "3": "ha a sebben idegen tárgy van, ne vegye ki, hanem rögzítse biztonságosan a sebben;",
+            "4": "ne próbálja visszahelyezni a szemet, ha kiesett a szemüregből."
+          }
+        },
+        "5": {
+          "text": "Ha vegyi anyag került a szembe:",
+          "items": {
+            "1": "öblítse a sérült szemet bő, tiszta folyó vízzel 10–20 percig;",
+            "2": "ügyeljen rá, hogy az öblítés közben ne szennyezze be az ép szemet;",
+            "3": "öblítés közben, ha lehet, viseljen kesztyűt, és az öblítés végén óvatosan vegye le."
+          }
+        },
+        "6": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "7": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "8": "Ha lehet, gyűjtsön a sérülttől vagy a körülállóktól minél több információt a szemsérülés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "9": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A „szemsérülés” sérülés vagy a szembe került vegyi anyagok okozta sürgős állapot, amely részleges vagy teljes látásvesztéshez vezethet.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések.",
+      "mistakes": "„Ha a sebben idegen tárgy van, ne vegye ki”; „ne próbálja visszahelyezni a szemet, ha kiesett a szemüregből”; „ügyeljen rá, hogy az öblítés közben ne szennyezze be az ép szemet”."
+    },
+    "hypoglycemia": {
+      "title": "Hypoglykaemia (alacsony vércukorszint)",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély sem Önre, sem a körülállókra, sem a sérültre; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": "Nyugtassa meg a sérültet, és magyarázza el, mit fog tenni.",
+        "3": "Hívja a mentőket, és kövesse a mentésirányító utasításait.",
+        "4": {
+          "text": "Ha a sérült eszméleténél van, és tud nyelni:",
+          "items": {
+            "1": "adjon neki glükóz- vagy dextróztablettát (15–20 grammot);",
+            "2": "ha nincs glükóztabletta, adjon olyan kéznél lévő élelmiszert, amely ugyanennyi glükózt tartalmaz: cukorkát; kockacukrot; fél pohár édes, meleg teát vagy gyümölcslevet és hasonlókat;",
+            "3": "ha a hypoglykaemia jelei 15 perc múlva sem múltak el, adjon ismét glükózt vagy glükóztartalmú élelmiszert;",
+            "4": "ha a sérült állapota a glükóz bevétele után javult, bátorítsa, hogy egyen;",
+            "5": "ha egy gyermeknek van hypoglykaemiája, és nem hajlandó glükózt vagy ételt elfogadni, fontolja meg, hogy fél teáskanál cukrot tesz a nyelve alá."
+          }
+        },
+        "5": "Ha lehetséges, és a segélynyújtó megkapta a megfelelő képzést, mérje meg a vércukorszintet a glükóz bevétele előtt és után.",
+        "6": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "7": "Ha lehet, gyűjtsön a sérülttől vagy a körülállóktól minél több információt arról, mi okozhatta a hypoglykaemiát. Minden információt adjon át a mentőknek vagy a mentésirányítónak.",
+        "8": "Ha a sérült a mentők érkezése előtt elveszíti az eszméletét, térjen át a felnőtt vagy a gyermek hirtelen keringésmegállásakor követendő eljárásra."
+      },
+      "works": "A „hypoglykaemia” a vér glükózszintjének csökkenése okozta sürgős állapot, amely jellegzetes változásokat idéz elő a sérültnél. Jelei: hirtelen tudatzavar: szédülés, ájulás; szokatlan viselkedés (hangulatingadozás, agresszió, zavartság, a koncentráció elvesztése, ittasságra emlékeztető jelek).",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések. A vércukorszintet csak akkor mérje, „ha lehetséges, és a segélynyújtó megkapta a megfelelő képzést”.",
+      "mistakes": "A rendelet ezt külön nem nevezi meg. Glükózt vagy ételt csak akkor adjon, „ha a sérült eszméleténél van, és tud nyelni”."
+    },
+    "trauma": {
+      "title": "Sérült: elsődleges és másodlagos betegvizsgálat",
+      "steps": {
+        "1": "Mielőtt segítséget nyújt, győződjön meg róla, hogy nincs veszély sem Önre, sem a körülállókra, sem a sérültre; csak ha nincs, lépjen tovább a következő lépésre.",
+        "2": {
+          "text": "Első benyomás:",
+          "items": {
+            "1": "amikor a sérülthöz közeledik, mérje fel a korát, a nemét, a testsúlyát, a helyzetét, a környező tárgyakhoz viszonyítva is;",
+            "2": "mérje fel, mennyire aktív a sérült: időben és térben tájékozott-e, céltudatosan mozog-e, izgatott-e stb.;",
+            "3": "figyeljen a súlyos külső vérzés jeleire;",
+            "4": "szólítsa meg a sérültet: „Hall engem? A nevem (mondja meg a nevét). Segíthetek?”;",
+            "5": "onnan közeledjen a sérülthöz, ahonnan láthatja Önt, hogy korlátozza a fejmozgását."
+          }
+        },
+        "3": {
+          "text": "Térjen át az elsődleges betegvizsgálatra:",
+          "items": {
+            "1": "ha a sérült eszméleténél van, és súlyos külső vérzés jelei vannak, csillapítsa a vérzést a súlyos külső vérzésnél követendő eljárás szerint;",
+            "2": "ha a sérült eszméletlen, tegye szabaddá a légutakat az alsó állkapocs előretolásával, és állapítsa meg, lélegzik-e. A légutak szabaddá tétele közben korlátozza a nyaki gerinc mozgását;",
+            "3": "ha nincs légzés, térjen át a felnőtt hirtelen keringésmegállásakor követendő eljárásra;",
+            "4": "ha a sérült eszméletlen, és lélegzik, tartsa folyamatosan szabadon a légutakat azokkal a módszerekkel, amelyeket a megfelelő tanfolyamon tanítottak (az alsó állkapocs előretolása, légútbiztosító eszközök behelyezése);",
+            "5": "ha a sérült légútja szabad, nézze meg, van-e áthatoló mellkasi sebe; ha van, térjen át a nyílt (áthatoló) mellkasi sérülésnél követendő eljárásra;",
+            "6": "nézze meg, vannak-e a sérültnek külső vérzéssel járó sebei; ha vannak, térjen át a súlyos külső vérzésnél követendő eljárásra;",
+            "7": "ha a sérültnél sokk jelei vannak, térjen át a sokk gyanújakor követendő eljárásra."
+          }
+        },
+        "4": {
+          "text": "Térjen át a másodlagos betegvizsgálatra – vizsgálja meg a sérültet tetőtől talpig, nincs-e sérülése:",
+          "items": {
+            "1": "fejsérülés esetén térjen át a fejsérülés gyanújakor követendő eljárásra;",
+            "2": "szemsérülés esetén térjen át a szemsérülésnél követendő eljárásra;",
+            "3": "nyílt (áthatoló) mellkasi sérülés esetén térjen át a nyílt (áthatoló) mellkasi sérülésnél követendő eljárásra;",
+            "4": "zárt (tompa) mellkasi sérülés esetén térjen át a zárt (tompa) mellkasi sérülésnél követendő eljárásra;",
+            "5": "gerincsérülés gyanújakor térjen át a gerincsérülés gyanújakor követendő eljárásra;",
+            "6": "áthatoló hasi sérülés esetén térjen át az áthatoló hasi sérülésnél követendő eljárásra;",
+            "7": "tompa hasi sérülés esetén térjen át a tompa hasi sérülésnél követendő eljárásra;",
+            "8": "fagyási sérülés jelei esetén térjen át a kihűlésnél és/vagy fagyási sérülésnél követendő eljárásra;",
+            "9": "hő okozta égési sérülés esetén térjen át a hő okozta égési sérülésnél követendő eljárásra;",
+            "10": "tartós összenyomatás jelei esetén térjen át a tartós összenyomatásnál (crush-szindrómánál) követendő eljárásra;",
+            "11": "baleseti amputáció esetén térjen át a baleseti amputációnál követendő eljárásra;",
+            "12": "végtagtörés esetén térjen át a végtagtörés gyanújakor követendő eljárásra."
+          }
+        },
+        "5": "Folyamatosan figyelje a sérültet, amíg a mentők meg nem érkeznek.",
+        "6": "Ha a sérült állapota a mentők érkezése előtt romlik, hívja ismét a mentőket.",
+        "7": "Ha lehet, gyűjtsön a sérülttől vagy a körülállóktól minél több információt a sérülés körülményeiről. Minden információt adjon át a mentőknek vagy a mentésirányítónak."
+      },
+      "works": "Az „általános benyomás a sérültről” a sérülthöz közeledve szerzett információ, amely alapján előzetes következtetést von le a sérülés módjáról és körülményeiről, valamint a sérült állapotáról. Az „elsődleges betegvizsgálat” a sérült létfontosságú funkcióinak gyors felmérése, és szükség esetén az életveszélyes állapotok elhárítása. A „másodlagos betegvizsgálat” a sérült meglévő sérüléseinek felmérése és megállapítása; csak akkor végzik, ha nincs életveszélyes állapot.",
+      "reliability": "Az eljárás olyan személyeknek szól, „akiknek nincs egészségügyi végzettségük, de szolgálati kötelességük elsősegélyt nyújtani”. A rendelet nem értékeli, mennyire megbízhatóak a lépések. A légutakat csak azokkal a módszerekkel tartsa szabadon, „amelyeket a megfelelő tanfolyamon tanítottak (az alsó állkapocs előretolása, légútbiztosító eszközök behelyezése)”.",
+      "mistakes": "A rendelet ezt külön nem nevezi meg."
     }
   },
   "figures": {
