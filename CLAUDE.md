@@ -71,7 +71,7 @@ public/_headers        `no-transform`: Cloudflare не змінює наші с�
 wrangler.jsonc         Cloudflare Workers: віддає dist/ (ім'я воркера = ім'я в панелі) — docs/cloudflare.md
 docs/sources/<id>.txt  збережений текст кожного джерела з реєстру (для звірки цитат)
 docs/topics/           речення джерел дослівно: <розділ>.md — під кожною карткою (help.md, firstAid.md, dangers.md, water.md, fire.md, shelter.md, orientation.md, tools.md), notices.md — під текстами, що кажуть про факти, terms-hu.md — звідки угорські медичні терміни; будова — docs/topics/README.md. Перша допомога, інші поради про здоров'я й картки за CDC мовою джерела: кожен крок і пункт — дослівний уривок джерела (тест у src/core/cards.test.ts)
-docs/                  опис, рішення, стан, джерела; docs/research/ — розвідка (звіт SOURCES.md і збережені сторінки pages-*.tgz)
+docs/                  опис, рішення, стан, джерела; docs/research/ — розвідка (звіт SOURCES.md і збережені сторінки pages-*.tgz); docs/portal.md і docs/portal/ — картка й обкладинка для порталу way1ong.eu
 ```
 
 ## Команди
